@@ -2,10 +2,10 @@ import requests
 from bs4 import BeautifulSoup
 import json
 import os
-from concurrent.futures import ThreadPoolExecutor, as_completed
+from concurrent.futures import ThreadPoolExecutor, as_completed, ProcessPoolExecutor
 import subprocess
 from pymongo import MongoClient, errors
-from tenacity import retry, wait_fixed, stop_after_attempt
+from tenacity import retry, wait_fixed, stop_after_attempt, retry_if_exception_type, RetryError
 from dataclasses import dataclass, field
 from typing import List, Optional, Dict
 
@@ -28,15 +28,29 @@ class Article:
     text: str = ""
     filename: Optional[str] = None  # For storing the JSON filename metadata
 
+# Custom logger for tenacity retries
+def log_retry(retry_state):
+    print(f"Retrying {retry_state.fn.__name__} due to {retry_state.outcome.exception()}. Attempt {retry_state.attempt_number} of {retry_state.retry_state.max_attempt_number}.")
+
 # Function to fetch and parse a sitemap with retry logic
-@retry(wait=wait_fixed(2), stop=stop_after_attempt(5))
+@retry(wait=wait_fixed(2), stop=stop_after_attempt(5), retry=retry_if_exception_type(requests.RequestException), after=log_retry)
 def fetch_sitemap(url):
     response = requests.get(url)
     response.raise_for_status()  # Ensure we raise an error for bad responses
     return BeautifulSoup(response.content, 'xml')
 
+# Function to count articles in a given sitemap URL with retry logic
+def count_articles_in_sitemap(sitemap_url):
+    try:
+        sitemap_soup = fetch_sitemap(sitemap_url)
+        article_urls = [loc.text for loc in sitemap_soup.find_all("loc")]
+        return len(article_urls)
+    except RetryError as e:
+        print(f"Skipping sitemap {sitemap_url} after failed attempts: {e}")
+        return 0
+
 # Function to fetch and parse an article with retry logic
-@retry(wait=wait_fixed(2), stop=stop_after_attempt(5))
+@retry(wait=wait_fixed(2), stop=stop_after_attempt(5), retry=retry_if_exception_type(requests.RequestException), after=log_retry)
 def fetch_article(article_url, filename):
     try:
         article_response = requests.get(article_url)
@@ -74,8 +88,8 @@ def fetch_article(article_url, filename):
 
         return article
 
-    except Exception as e:
-        print(f"Failed to process {article_url}: {e}")
+    except RetryError as e:
+        print(f"Skipping article {article_url} after failed attempts: {e}")
         return None
 
 # Function to get the number of CPU cores
@@ -112,29 +126,58 @@ def extract_year_month(sitemap_url):
 
 # Step 1: Retrieve monthly sitemaps from the main sitemap index
 sitemap_index_url = "https://www.almayadeen.net/sitemaps/all.xml"
-sitemap_soup = fetch_sitemap(sitemap_index_url)
-monthly_sitemaps = [loc.text for loc in sitemap_soup.find_all("loc")]
+try:
+    sitemap_soup = fetch_sitemap(sitemap_index_url)
+    monthly_sitemaps = [loc.text for loc in sitemap_soup.find_all("loc")]
+except Exception as e:
+    print(f"Failed to fetch sitemap index: {e}")
+    monthly_sitemaps = []
 
-# Global counter for total articles
+# Ask the user for the year to process
+year_to_process = input("Enter the year to scrape data for (e.g., 2024): ")
+
+# Global counters
 total_articles_count = 0
-# Limit for total articles to scrape
+total_articles_saved = 0
 total_articles_limit = 10000
 
 # Define batch size for processing articles
-batch_size = 10  # Adjust based on system performance
+batch_size = 50  # Adjust based on system performance
 
-# Step 2: Extract article URLs from each monthly sitemap and scrape the articles
-for sitemap_url in monthly_sitemaps:
-    if total_articles_count >= total_articles_limit:
-        break
-
-    print(f"Processing sitemap {sitemap_url}")
-    monthly_soup = fetch_sitemap(sitemap_url)
-    article_urls = [loc.text for loc in monthly_soup.find_all("loc")]
+# Function to process a single sitemap
+def process_sitemap(sitemap_url):
+    global total_articles_count, total_articles_saved
 
     # Extract the year and month from the sitemap URL for MongoDB document naming
     year, month = extract_year_month(sitemap_url)
+    
+    # Skip if the year does not match the one we're interested in
+    if year != year_to_process:
+        return
+
+    if total_articles_count >= total_articles_limit:
+        return
+
+    # Count articles in the sitemap
+    total_articles_in_sitemap = count_articles_in_sitemap(sitemap_url)
+    if total_articles_in_sitemap == 0:
+        print(f"Skipping sitemap {sitemap_url} due to failure in counting articles.")
+        return
+
+    print(f"Sitemap URL: {sitemap_url}, Number of articles: {total_articles_in_sitemap}")
+
+    print(f"Processing sitemap {sitemap_url}")
+    try:
+        monthly_soup = fetch_sitemap(sitemap_url)
+        article_urls = [loc.text for loc in monthly_soup.find_all("loc")]
+    except RetryError as e:
+        print(f"Skipping sitemap {sitemap_url} after failed attempts: {e}")
+        return
+
     filename = f"articles_{year}_{month}"
+
+    # Initialize the count for remaining articles in this sitemap
+    remaining_articles_in_sitemap = total_articles_in_sitemap
 
     # Process articles in chunks to handle large numbers efficiently
     for i in range(0, len(article_urls), batch_size):
@@ -152,16 +195,32 @@ for sitemap_url in monthly_sitemaps:
                 if article_data:
                     articles_data.append(article_data)
                     total_articles_count += 1
+                    remaining_articles_in_sitemap -= 1
 
         if articles_data:
             print(f"Saving {len(articles_data)} articles to MongoDB.")
             for article_data in articles_data:
                 try:
                     collection.insert_one(article_data.__dict__)
+                    total_articles_saved += 1
                     print(f"Article saved in MongoDB: {article_data.url}")
                 except errors.DuplicateKeyError:
                     print(f"Article already exists in MongoDB: {article_data.url}")
 
+            # Print the remaining articles for the current sitemap
+            print(f"Remaining articles in sitemap {sitemap_url}: {remaining_articles_in_sitemap}")
+
+    print(f"Total articles processed from this sitemap: {total_articles_in_sitemap}")
+    print(f"Total articles saved to MongoDB so far: {total_articles_saved}")
+
+# Step 2: Process all sitemaps in parallel
+with ProcessPoolExecutor(max_workers=num_threads) as executor:
+    executor.map(process_sitemap, monthly_sitemaps)
+
+print(f"Getting year {year_to_process} successful. Data saved to MongoDB.")
+
 # Close the MongoDB connection
 client.close()
 print("MongoDB connection closed.")
+print(f"Total articles processed: {total_articles_count}")
+print(f"Total articles saved to MongoDB: {total_articles_saved}")
