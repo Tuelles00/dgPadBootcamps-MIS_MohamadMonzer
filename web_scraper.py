@@ -13,20 +13,20 @@ from typing import List, Optional, Dict
 @dataclass
 class Article:
     url: str
-    postid: str
-    title: str
-    keywords: str = ""
-    thumbnail: str = ""
+    postid: Optional[str] = None
+    title: Optional[str] = None
+    keywords: List[str] = field(default_factory=list)
+    thumbnail: Optional[str] = None
     video_duration: Optional[str] = None
-    word_count: str = ""
-    lang: str = ""
-    published_time: str = ""
-    last_updated: str = ""
-    description: str = ""
-    author: str = ""
-    classes: List[Dict[str, str]] = field(default_factory=list)
-    text: str = ""
-    filename: Optional[str] = None  # For storing the JSON filename metadata
+    word_count: Optional[str] = None
+    lang: Optional[str] = None
+    published_time: Optional[str] = None
+    last_updated: Optional[str] = None
+    description: Optional[str] = None
+    author: Optional[str] = None
+    classes: List[Dict] = field(default_factory=list)
+    text: Optional[str] = None
+    filename: Optional[str] = None
 
 # Custom logger for tenacity retries
 def log_retry(retry_state):
@@ -54,33 +54,33 @@ def count_articles_in_sitemap(sitemap_url):
 def fetch_article(article_url, filename):
     try:
         article_response = requests.get(article_url)
-        article_response.raise_for_status()  # Ensure we raise an error for bad responses
+        article_response.raise_for_status()
         article_soup = BeautifulSoup(article_response.content, 'html.parser')
 
-        # Extract metadata from a specific <script> tag containing text/tawsiyat
         script_tag = article_soup.find('script', type='text/tawsiyat')
         metadata = {}
         if script_tag:
             metadata = json.loads(script_tag.string.strip())
-        
-        # Extract article text from <p> tags
+
+        # Convert keywords to list if it's a string
+        keywords = metadata.get("keywords", "").split(',') if isinstance(metadata.get("keywords", ""), str) else metadata.get("keywords", [])
+
         paragraphs = article_soup.find_all('p')
         article_text = '\n'.join([p.get_text(strip=True) for p in paragraphs])
 
-        # Create an Article dataclass instance
         article = Article(
             url=metadata.get("url", article_url),
-            postid=metadata.get("postid", ""),
-            title=metadata.get("title", ""),
-            keywords=metadata.get("keywords", ""),
-            thumbnail=metadata.get("thumbnail", ""),
+            postid=metadata.get("postid"),
+            title=metadata.get("title"),
+            keywords=keywords,
+            thumbnail=metadata.get("thumbnail"),
             video_duration=metadata.get("video_duration"),
-            word_count=metadata.get("word_count", ""),
-            lang=metadata.get("lang", ""),
-            published_time=metadata.get("published_time", ""),
-            last_updated=metadata.get("last_updated", ""),
-            description=metadata.get("description", ""),
-            author=metadata.get("author", ""),
+            word_count=metadata.get("word_count"),
+            lang=metadata.get("lang"),
+            published_time=metadata.get("published_time"),
+            last_updated=metadata.get("last_updated"),
+            description=metadata.get("description"),
+            author=metadata.get("author"),
             classes=metadata.get("classes", []),
             text=article_text,
             filename=filename
@@ -102,12 +102,42 @@ def get_cpu_cores():
         print(f"Failed to get number of CPU cores: {e}")
         return 1  # Default to 1 if there is an error
 
+# Function to save all data from MongoDB to a JSON file
+def save_mongodb_to_json():
+    # Reconnect to MongoDB
+    client = MongoClient('mongodb://localhost:27017/')
+    db = client['articles_db_new']
+    collection = db['articles']  # Collection name
+
+    # Retrieve all documents from the collection
+    try:
+        articles = list(collection.find({}))
+    except errors.PyMongoError as e:
+        print(f"Error retrieving documents from MongoDB: {e}")
+        client.close()
+        return
+
+    # Define the output file path
+    output_file = 'articles_db_new_data.json'
+    
+    # Save documents to JSON file with UTF-8 encoding
+    try:
+        with open(output_file, 'w', encoding='utf-8') as f:
+            json.dump(articles, f, ensure_ascii=False, default=str, indent=4)  # Ensure ASCII is not escaped
+        print(f"Data successfully saved to {output_file}")
+    except IOError as e:
+        print(f"Error saving data to JSON file: {e}")
+
+    # Close the MongoDB connection
+    client.close()
+
+
 # Number of threads for concurrent processing
 num_threads = get_cpu_cores()
 
 # MongoDB setup
 client = MongoClient('mongodb://localhost:27017/')  # Update with your MongoDB connection string if needed
-db = client['articles_db']  # Database name
+db = client['articles_db_new']  # Updated database name
 
 # Ensure the unique index is created on the 'url' field
 collection = db['articles']  # Collection name
@@ -197,30 +227,35 @@ def process_sitemap(sitemap_url):
                     total_articles_count += 1
                     remaining_articles_in_sitemap -= 1
 
-        if articles_data:
-            print(f"Saving {len(articles_data)} articles to MongoDB.")
-            for article_data in articles_data:
-                try:
-                    collection.insert_one(article_data.__dict__)
-                    total_articles_saved += 1
-                    print(f"Article saved in MongoDB: {article_data.url}")
-                except errors.DuplicateKeyError:
-                    print(f"Article already exists in MongoDB: {article_data.url}")
+                    # Save to MongoDB
+                    try:
+                        collection.update_one({'url': article_data.url}, {'$set': article_data.__dict__}, upsert=True)
+                        total_articles_saved += 1
+                    except errors.DuplicateKeyError:
+                        # Handle duplicate entries if needed
+                        pass
+                    except errors.PyMongoError as e:
+                        print(f"Error saving article to MongoDB: {e}")
 
-            # Print the remaining articles for the current sitemap
-            print(f"Remaining articles in sitemap {sitemap_url}: {remaining_articles_in_sitemap}")
+                    print(f"Processed article {article_data.url}")
 
-    print(f"Total articles processed from this sitemap: {total_articles_in_sitemap}")
-    print(f"Total articles saved to MongoDB so far: {total_articles_saved}")
+        print(f"Remaining articles in sitemap {sitemap_url}: {remaining_articles_in_sitemap}")
+        print(f"Total articles processed: {total_articles_count}")
 
-# Step 2: Process all sitemaps in parallel
-with ProcessPoolExecutor(max_workers=num_threads) as executor:
-    executor.map(process_sitemap, monthly_sitemaps)
+    print(f"Finished processing sitemap {sitemap_url}. Total articles processed: {total_articles_count}")
 
-print(f"Getting year {year_to_process} successful. Data saved to MongoDB.")
-
-# Close the MongoDB connection
-client.close()
-print("MongoDB connection closed.")
-print(f"Total articles processed: {total_articles_count}")
-print(f"Total articles saved to MongoDB: {total_articles_saved}")
+# Main processing loop
+try:
+    with ProcessPoolExecutor(max_workers=num_threads) as executor:
+        futures = [executor.submit(process_sitemap, url) for url in monthly_sitemaps]
+        for future in as_completed(futures):
+            future.result()  # This will also raise exceptions if any occurred
+    print(f"Getting year {year_to_process} successful. Data saved to MongoDB.")
+except KeyboardInterrupt:
+    print("Interrupted by user. Saving data to JSON file...")
+    save_mongodb_to_json()
+    print("Data successfully saved to JSON file. Exiting.")
+    client.close()
+    print("MongoDB connection closed.")
+    print(f"Total articles processed: {total_articles_count}")
+    print(f"Total articles saved to MongoDB: {total_articles_saved}")
