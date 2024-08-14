@@ -42,4 +42,3 @@ After fetching and processing all articles from Al Mayadin, you can generate JSO
 - **`MongoDB_available_year_month_summary.py`**: This script allows you to check all the years and months that have been crawled and stored in MongoDB. It provides a summary of available data based on year and month.
 
 ```
-
