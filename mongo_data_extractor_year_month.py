@@ -74,17 +74,20 @@ for item in formatted_result:
         if month is None:
             print(f"Skipping year {year} with month None")
             continue
-        
+
+        # Construct regex to match both formats (e.g., 09 and 9)
+        month_pattern = f'{int(month)}'  # Converts '09' to '9' if applicable
+
         # Query for each year and month combination
         query = {
             'filename': {
-                '$regex': f'articles_{year}_{month.zfill(2)}'
+                '$regex': f'articles_{year}_{month_pattern}'
             }
         }
         documents = list(collection.find(query))
         
         # Convert ObjectId fields to strings
-        converted_documents = convert_objectid(documents)
+        converted_documents = [convert_objectid(doc) for doc in documents]
         
         # Define the output file name
         filename = f"articles_{year}_{month.zfill(2)}.json"
@@ -93,7 +96,7 @@ for item in formatted_result:
         if not os.path.exists('allJson_files'):
             os.makedirs('allJson_files')
         
-        # Save documents to JSON file
+        # Save documents to JSON file, ensuring keywords remain as a list
         with open(os.path.join('allJson_files', filename), 'w', encoding='utf-8') as file:
             json.dump(converted_documents, file, indent=4, ensure_ascii=False)
         
