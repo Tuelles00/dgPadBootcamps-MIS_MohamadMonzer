@@ -1,5 +1,3 @@
-Here’s the updated README with the additional information included:
-
 ```markdown
 # Article Scraper
 
