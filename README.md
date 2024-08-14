@@ -1,3 +1,6 @@
+Here’s the updated README with the additional information included:
+
+```markdown
 # Article Scraper
 
 This Python project is designed to scrape articles from a website, parse their content, and store the data in a MongoDB database. It uses several libraries for web scraping, data processing, and concurrency.
@@ -26,3 +29,17 @@ You can install these libraries using `pip`. Run the following command:
 
 ```bash
 pip install requests beautifulsoup4 pymongo tenacity
+```
+
+## Generating JSON Files
+
+After fetching and processing all articles from Al Mayadin, you can generate JSON files from MongoDB based on year and month. To do this, use the script `mongo_data_extractor_year_month.py`. This script will generate a directory called `allJson_files` containing all available JSON files for each year and month.
+
+## Additional Scripts
+
+- **`count_check_debugg`**: Use this script to count the number of available articles for each year and month at Al Mayadin. It works in conjunction with the `MongoDB_available_year_month_summary.py` script.
+
+- **`MongoDB_available_year_month_summary.py`**: This script allows you to check all the years and months that have been crawled and stored in MongoDB. It provides a summary of available data based on year and month.
+
+```
+
