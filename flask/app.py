@@ -1,61 +1,36 @@
-from flask import Flask, jsonify
-import requests
-from bs4 import BeautifulSoup
-from concurrent.futures import ThreadPoolExecutor, as_completed
-from tenacity import retry, wait_fixed, stop_after_attempt
+from flask import Flask, render_template, redirect, url_for, send_from_directory
 import subprocess
+import os
 
 app = Flask(__name__)
 
-# Function to fetch and parse a sitemap with retry logic
-@retry(wait=wait_fixed(2), stop=stop_after_attempt(5))
-def fetch_sitemap(url):
-    response = requests.get(url)
-    response.raise_for_status()
-    return BeautifulSoup(response.content, 'xml')
+# Path to the count_check_debugg directory
+script_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'count_check_debugg'))
+txt_file_path = os.path.join(script_dir, 'article_counts.txt')
+script_path = os.path.join(script_dir, 'count_the_nb_of_articles_at_ALMayadin.py')
 
-# Function to count articles in a given sitemap URL
-@retry(wait=wait_fixed(2), stop=stop_after_attempt(5))
-def count_articles_in_sitemap(sitemap_url):
-    sitemap_soup = fetch_sitemap(sitemap_url)
-    article_urls = [loc.text for loc in sitemap_soup.find_all("loc")]
-    return len(article_urls)
+@app.route('/')
+def index():
+    return render_template('index.html')
 
-# Number of threads for concurrent processing
-def get_cpu_cores():
-    try:
-        result = subprocess.run(['nproc'], stdout=subprocess.PIPE, text=True)
-        return int(result.stdout.strip())
-    except Exception:
-        return 1
+@app.route('/article_counts.txt')
+def serve_article_counts():
+    return send_from_directory('../count_check_debugg', 'article_counts.txt')
 
-num_threads = get_cpu_cores()
+@app.route('/graph')
+def graph():
+    return render_template('graph.html')
 
-@app.route('/count_articles', methods=['GET'])
-def count_articles():
-    sitemap_index_url = "https://www.almayadeen.net/sitemaps/all.xml"
-    sitemap_soup = fetch_sitemap(sitemap_index_url)
-    monthly_sitemaps = [loc.text for loc in sitemap_soup.find_all("loc")]
+@app.route('/refresh_counts')
+def refresh_counts():
+    # Run the script to refresh counts
+    subprocess.run(['python3', script_path])
+    return redirect(url_for('graph'))
 
-    sitemap_article_counts = {}
+@app.route('/run_script', methods=['POST'])
+def run_script():
+    subprocess.run(['python3', script_path])
+    return {'status': 'success'}
 
-    with ThreadPoolExecutor(max_workers=num_threads) as executor:
-        futures = {executor.submit(count_articles_in_sitemap, url): url for url in monthly_sitemaps}
-        
-        for future in as_completed(futures):
-            sitemap_url = futures[future]
-            try:
-                article_count = future.result()
-                sitemap_article_counts[sitemap_url] = article_count
-            except Exception as e:
-                print(f"Failed to count articles for {sitemap_url}: {e}")
-
-    total_articles = sum(sitemap_article_counts.values())
-
-    return jsonify({
-        "sitemap_article_counts": sitemap_article_counts,
-        "total_articles": total_articles
-    })
-
-if __name__ == "__main__":
-    app.run(debug=True)
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5000, debug=True)

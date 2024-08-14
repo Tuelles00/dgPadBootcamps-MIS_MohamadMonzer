@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from tenacity import retry, wait_fixed, stop_after_attempt
 import multiprocessing
-import subprocess
+import os
 
 # Function to fetch and parse a sitemap with retry logic
 @retry(wait=wait_fixed(2), stop=stop_after_attempt(5))
@@ -32,7 +32,7 @@ def get_cpu_cores():
 # Set the number of threads to the number of CPU cores
 num_threads = get_cpu_cores()
 
-# Main script to count articles in all sitemaps
+# Main script to count articles in all sitemaps and save results to a file
 def main():
     sitemap_index_url = "https://www.almayadeen.net/sitemaps/all.xml"
     sitemap_soup = fetch_sitemap(sitemap_index_url)
@@ -53,10 +53,19 @@ def main():
                 print(f"Failed to count articles for {sitemap_url}: {e}")
 
     total_articles = sum(sitemap_article_counts.values())
-    print("\nSummary:")
-    for url, count in sitemap_article_counts.items():
-        print(f"Sitemap URL = {url}, Articles in each = {count}")
-    print(f"Total articles count = {total_articles}")
+
+    # Get the directory of the script
+    script_dir = os.path.dirname(os.path.realpath(__file__))
+
+    # This will save the output file in the same directory as the script
+    output_file = os.path.join(script_dir, 'article_counts.txt')
+    with open(output_file, 'w') as file:
+        file.write("Summary:\n")
+        for url, count in sitemap_article_counts.items():
+            file.write(f"Sitemap URL = {url}, Articles in each = {count}\n")
+        file.write(f"Total articles count = {total_articles}\n")
+    
+    print(f"\nResults saved to {output_file}")
 
 if __name__ == "__main__":
     main()
