@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyword Counter</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container mt-4">
+        <h1>Keyword Counter</h1>
+        
+        <!-- Top Keywords Table -->
+        <div class="mt-4">
+            <h2>Top Keywords</h2>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">Keyword</th>
+                        <th scope="col">Count</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for item in top_keywords_data %}
+                    <tr>
+                        <td>{{ item.keyword }}</td>
+                        <td>{{ item.count }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Chart Containers -->
+        <div class="mt-5">
+            <h2>Top Keywords by Document</h2>
+            <canvas id="topKeywordsChart"></canvas>
+        </div>
+
+        <div class="mt-5">
+            <h2>Total Occurrences by Month</h2>
+            <canvas id="totalOccurrencesChart"></canvas>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Get the data passed from Flask
+            const topKeywordsData = {{ top_keywords_data|tojson }};
+            const topKeywordsByMonthData = {{ top_keywords_by_month_data|tojson }};
+
+            // Prepare data for Top Keywords Chart
+            const labelsTop = topKeywordsData.map(item => item.keyword);
+            const countsTop = topKeywordsData.map(item => item.count);
+
+            // Create Top Keywords Chart
+            const ctxTop = document.getElementById('topKeywordsChart').getContext('2d');
+            new Chart(ctxTop, {
+                type: 'bar',
+                data: {
+                    labels: labelsTop,
+                    datasets: [{
+                        label: 'Top Keywords Count',
+                        data: countsTop,
+                        backgroundColor: 'rgba(54, 162, 235, 0.6)',
+                        borderColor: 'rgba(54, 162, 235, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        x: {
+                            beginAtZero: true
+                        }
+                    },
+                    plugins: {
+                        legend: {
+                            display: false
+                        }
+                    }
+                }
+            });
+
+            // Prepare data for Total Occurrences Chart
+            const labelsTotal = [];
+            const countsTotal = [];
+            topKeywordsByMonthData.forEach(monthData => {
+                monthData.keywords.forEach(keywordData => {
+                    labelsTotal.push(`${monthData.month} - ${keywordData.keyword}`);
+                    countsTotal.push(keywordData.count);
+                });
+            });
+
+            // Create Total Occurrences Chart
+            const ctxTotal = document.getElementById('totalOccurrencesChart').getContext('2d');
+            new Chart(ctxTotal, {
+                type: 'bar',
+                data: {
+                    labels: labelsTotal,
+                    datasets: [{
+                        label: 'Total Occurrences Count',
+                        data: countsTotal,
+                        backgroundColor: 'rgba(75, 192, 192, 0.4)',
+                        borderColor: 'rgba(75, 192, 192, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        x: {
+                            beginAtZero: true
+                        },
+                        y: {
+                            beginAtZero: true
+                        }
+                    },
+                    plugins: {
+                        legend: {
+                            display: false
+                        }
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>
