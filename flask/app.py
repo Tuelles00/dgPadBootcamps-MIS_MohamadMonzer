@@ -1,4 +1,4 @@
-from flask import Flask, render_template, redirect, url_for, send_from_directory, Response, jsonify
+from flask import Flask, render_template, redirect, url_for, send_from_directory, jsonify
 import subprocess
 import os
 import logging
@@ -63,28 +63,27 @@ def counter_page():
         logging.error(f"Error loading JSON file: {e}")
         return {'status': 'error', 'message': str(e)}, 500
 
-@app.route('/refresh_counts')
-def refresh_counts():
-    logging.debug(f"Running script: {script_path_count}")
-    subprocess.run(['python3', script_path_count], check=True)
-    return redirect(url_for('graph'))
-
-@app.route('/run_script', methods=['POST'])
-def run_script():
+@app.route('/refresh_top_keywords_chart', methods=['POST'])
+def refresh_top_keywords_chart():
     logging.debug(f"Running script: {script_path}")
-    subprocess.run(['python3', script_path], check=True)
-    return {'status': 'success'}
+    try:
+        subprocess.run(['python3', script_path], check=True)
+        logging.info("Top keywords script executed successfully")
+        return jsonify({'status': 'success'})
+    except subprocess.CalledProcessError as e:
+        logging.error(f"Top keywords script failed with error: {e}")
+        return jsonify({'status': 'error', 'message': str(e)}), 500
 
-@app.route('/run_monthly_script', methods=['POST'])
-def run_monthly_script():
+@app.route('/refresh_total_occurrences_chart', methods=['POST'])
+def refresh_total_occurrences_chart():
     logging.debug(f"Running monthly script: {monthly_script_path}")
     try:
         subprocess.run(['python3', monthly_script_path], check=True)
         logging.info("Monthly script executed successfully")
-        return {'status': 'success'}
+        return jsonify({'status': 'success'})
     except subprocess.CalledProcessError as e:
         logging.error(f"Monthly script failed with error: {e}")
-        return {'status': 'error', 'message': str(e)}, 500
+        return jsonify({'status': 'error', 'message': str(e)}), 500
 
 @app.route('/run_detect_patterns', methods=['POST'])
 def run_detect_patterns():
@@ -92,10 +91,24 @@ def run_detect_patterns():
     try:
         subprocess.run(['python3', detect_script_path], check=True)
         logging.info("Detection script executed successfully")
-        return {'status': 'success'}
+        return jsonify({'status': 'success'})
     except subprocess.CalledProcessError as e:
         logging.error(f"Detection script failed with error: {e}")
-        return {'status': 'error', 'message': str(e)}, 500
+        return jsonify({'status': 'error', 'message': str(e)}), 500
+
+def run_initial_scripts():
+    """Run initial scripts on startup."""
+    logging.debug(f"Running initial scripts: {script_path} and {monthly_script_path}")
+    try:
+        subprocess.run(['python3', script_path], check=True)
+        logging.info("Initial keywords script executed successfully")
+        
+        subprocess.run(['python3', monthly_script_path], check=True)
+        logging.info("Initial monthly occurrences script executed successfully")
+        
+    except subprocess.CalledProcessError as e:
+        logging.error(f"Initial scripts failed with error: {e}")
 
 if __name__ == '__main__':
+    run_initial_scripts()  # Run the initial scripts
     app.run(host='0.0.0.0', port=5000, debug=True)

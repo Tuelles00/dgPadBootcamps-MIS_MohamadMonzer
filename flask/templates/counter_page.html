@@ -36,27 +36,29 @@
         <div class="mt-5">
             <h2>Top Keywords by Document</h2>
             <canvas id="topKeywordsChart"></canvas>
+            <button class="btn btn-primary mt-2" onclick="refreshTopKeywordsChart()">Refresh Top Keywords Chart</button>
         </div>
 
         <div class="mt-5">
             <h2>Total Occurrences by Month</h2>
             <canvas id="totalOccurrencesChart"></canvas>
+            <button class="btn btn-primary mt-2" onclick="refreshTotalOccurrencesChart()">Refresh Total Occurrences Chart</button>
         </div>
     </div>
 
     <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            // Get the data passed from Flask
+        // Initialize charts
+        let topKeywordsChart, totalOccurrencesChart;
+
+        function initializeCharts() {
             const topKeywordsData = {{ top_keywords_data|tojson }};
             const topKeywordsByMonthData = {{ top_keywords_by_month_data|tojson }};
 
-            // Prepare data for Top Keywords Chart
             const labelsTop = topKeywordsData.map(item => item.keyword);
             const countsTop = topKeywordsData.map(item => item.count);
 
-            // Create Top Keywords Chart
             const ctxTop = document.getElementById('topKeywordsChart').getContext('2d');
-            new Chart(ctxTop, {
+            topKeywordsChart = new Chart(ctxTop, {
                 type: 'bar',
                 data: {
                     labels: labelsTop,
@@ -83,7 +85,6 @@
                 }
             });
 
-            // Prepare data for Total Occurrences Chart
             const labelsTotal = [];
             const countsTotal = [];
             topKeywordsByMonthData.forEach(monthData => {
@@ -93,9 +94,8 @@
                 });
             });
 
-            // Create Total Occurrences Chart
             const ctxTotal = document.getElementById('totalOccurrencesChart').getContext('2d');
-            new Chart(ctxTotal, {
+            totalOccurrencesChart = new Chart(ctxTotal, {
                 type: 'bar',
                 data: {
                     labels: labelsTotal,
@@ -124,7 +124,38 @@
                     }
                 }
             });
-        });
+        }
+
+        function refreshTopKeywordsChart() {
+            fetch('/run_script')
+                .then(response => {
+                    if (response.ok) {
+                        return response.json();
+                    }
+                    throw new Error('Network response was not ok.');
+                })
+                .then(() => {
+                    location.reload();
+                })
+                .catch(error => console.error('Error:', error));
+        }
+
+        function refreshTotalOccurrencesChart() {
+            fetch('/run_script_total_occurrences')
+                .then(response => {
+                    if (response.ok) {
+                        return response.json();
+                    }
+                    throw new Error('Network response was not ok.');
+                })
+                .then(() => {
+                    location.reload();
+                })
+                .catch(error => console.error('Error:', error));
+        }
+
+        // Initialize charts on page load
+        document.addEventListener('DOMContentLoaded', initializeCharts);
     </script>
 </body>
 </html>
