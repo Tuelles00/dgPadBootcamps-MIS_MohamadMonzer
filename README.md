@@ -1,7 +1,6 @@
-```markdown
 # Article Scraper
 
-This Python project is designed to scrape articles from a website, parse their content, and store the data in a MongoDB database. It uses several libraries for web scraping, data processing, and concurrency.
+This Python project is designed to scrape articles from the Al Mayadin website, parse their content, and store the data in a MongoDB database. It uses several libraries for web scraping, data processing, and concurrency.
 
 ## Features
 
@@ -27,16 +26,25 @@ You can install these libraries using `pip`. Run the following command:
 
 ```bash
 pip install requests beautifulsoup4 pymongo tenacity
-```
 
-## Generating JSON Files
+Usage Instructions
+Scrape Data from Al Mayadin
 
-After fetching and processing all articles from Al Mayadin, you can generate JSON files from MongoDB based on year and month. To do this, use the script `mongo_data_extractor_year_month.py`. This script will generate a directory called `allJson_files` containing all available JSON files for each year and month.
+First, use the web_scraper.py script to fetch and parse article data from the Al Mayadin website. This script will scrape the articles and store the data in a MongoDB database.
 
-## Additional Scripts
+Generate JSON Files
 
-- **`count_check_debugg`**: Use this script to count the number of available articles for each year and month at Al Mayadin. It works in conjunction with the `MongoDB_available_year_month_summary.py` script.
+After you have collected data, use the mongo_data_extractor_year_month.py script to convert the MongoDB data into JSON files. This script will create a directory named allJson_files containing JSON files for each year and month based on the collected data.
 
-- **`MongoDB_available_year_month_summary.py`**: This script allows you to check all the years and months that have been crawled and stored in MongoDB. It provides a summary of available data based on year and month.
+Run the Flask Application
 
-```
+Navigate to the flask directory where the Flask application is located. Run the app.py script to start the Flask server:
+
+cd path/to/flask
+python app.py
+
+
+Additional Scripts
+count_check_debugg: Use this script to count the number of available articles for each year and month at Al Mayadin. It works in conjunction with the MongoDB_available_year_month_summary.py script.
+
+MongoDB_available_year_month_summary.py: This script allows you to check all the years and months that have been crawled and stored in MongoDB. It provides a summary of available data based on year and month.
