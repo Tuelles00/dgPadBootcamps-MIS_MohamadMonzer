@@ -1,0 +1,10 @@
+[
+    {
+        "feature_name": "text_length_per_day",
+        "description": "Length of text divided by the day of the month from published_timestamp"
+    },
+    {
+        "feature_name": "keywords_count_per_day",
+        "description": "Number of keywords divided by the day of the month from published_timestamp"
+    }
+]

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hidden Patterns Visualization</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        #jsonData {
+            white-space: pre-wrap; /* Preserve formatting */
+            background-color: #f4f4f4;
+            padding: 15px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            max-height: 500px;
+            overflow-y: auto;
+        }
+        #chartContainer {
+            margin-top: 20px;
+        }
+        canvas {
+            width: 100%;
+            height: 500px;
+        }
+        #interpretation {
+            margin-top: 20px;
+            font-size: 1.2em;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hidden Patterns Visualization</h1>
+    <button onclick="refreshPatterns()">Refresh Patterns</button>
+    <pre id="jsonData">Loading data...</pre>
+
+    <div id="chartContainer">
+        <canvas id="bubbleChart"></canvas>
+    </div>
+
+    <div id="interpretation">
+        <h2>Use Case:</h2>
+        <p>This visualization helps in understanding the distribution of text length and keyword counts over time, with bubble size providing an additional dimension of analysis. If many data points have zero <code>keywords_count_per_day</code>, you'll see them clustered at the bottom of the Y-axis. If there's significant variance in <code>text_length</code>, you'll see a range of bubble sizes.</p>
+    </div>
+
+    <!-- Include Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <script>
+        let bubbleChart;
+
+        async function refreshPatterns() {
+            try {
+                // Trigger the script to update the data
+                const response = await fetch('/run_detect_patterns', { method: 'POST' });
+                if (!response.ok) throw new Error('Network response was not ok');
+                
+                // Fetch the updated data
+                fetchData();
+            } catch (error) {
+                console.error('Error refreshing patterns:', error);
+                document.getElementById('jsonData').textContent = 'Error refreshing patterns';
+            }
+        }
+
+        async function fetchData() {
+            try {
+                const response = await fetch('/detailed_patterns.json');
+                if (!response.ok) throw new Error('Network response was not ok');
+                const data = await response.json();
+                
+                // Display the data in the <pre> tag
+                document.getElementById('jsonData').textContent = JSON.stringify(data, null, 2);
+
+                // Process and display the bubble chart
+                updateBubbleChart(data);
+
+            } catch (error) {
+                console.error('Error fetching data:', error);
+                document.getElementById('jsonData').textContent = 'Error fetching data';
+            }
+        }
+
+        function updateBubbleChart(data) {
+            // Prepare data for the bubble chart
+            const chartData = {
+                datasets: [{
+                    label: 'Hidden Patterns',
+                    data: data.map(item => ({
+                        x: item.text_length_per_day,
+                        y: item.keywords_count_per_day,
+                        r: item.text_length / 500 // Adjust bubble size based on text_length
+                    })),
+                    backgroundColor: 'rgba(75, 192, 192, 0.5)',
+                    borderColor: 'rgba(75, 192, 192, 1)',
+                    borderWidth: 1
+                }]
+            };
+
+            // Initialize or update the bubble chart
+            const ctx = document.getElementById('bubbleChart').getContext('2d');
+            if (bubbleChart) {
+                bubbleChart.destroy();
+            }
+            bubbleChart = new Chart(ctx, {
+                type: 'bubble',
+                data: chartData,
+                options: {
+                    scales: {
+                        x: {
+                            title: {
+                                display: true,
+                                text: 'Text Length per Day'
+                            },
+                            min: 0
+                        },
+                        y: {
+                            title: {
+                                display: true,
+                                text: 'Keywords Count per Day'
+                            },
+                            min: 0
+                        }
+                    },
+                    plugins: {
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    return `Text Length: ${context.raw.x}, Keywords Count: ${context.raw.y}, Size: ${context.raw.r}`;
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        // Fetch data when the page loads
+        fetchData();
+    </script>
+</body>
+</html>

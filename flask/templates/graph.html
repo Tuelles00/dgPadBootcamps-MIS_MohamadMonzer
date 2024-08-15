@@ -12,24 +12,30 @@
     <canvas id="articleChart" width="600" height="400"></canvas>
     <script>
         async function fetchData() {
-            const response = await fetch('article_counts.txt');
-            const text = await response.text();
-            const lines = text.trim().split('\n');
-            
-            const labels = [];
-            const data = [];
-            
-            lines.forEach(line => {
-                const match = line.match(/sitemap-(\d{4})-(\d+)\.xml, Articles in each = (\d+)/);
-                if (match) {
-                    const yearMonth = `${match[1]}-${match[2]}`;
-                    const count = parseInt(match[3], 10);
-                    labels.push(yearMonth);
-                    data.push(count);
-                }
-            });
-            
-            return { labels, data };
+            try {
+                const response = await fetch('article_counts.txt');
+                if (!response.ok) throw new Error('Network response was not ok');
+                const text = await response.text();
+                const lines = text.trim().split('\n');
+                
+                const labels = [];
+                const data = [];
+                
+                lines.forEach(line => {
+                    const match = line.match(/sitemap-(\d{4})-(\d+)\.xml, Articles in each = (\d+)/);
+                    if (match) {
+                        const yearMonth = `${match[1]}-${match[2]}`;
+                        const count = parseInt(match[3], 10);
+                        labels.push(yearMonth);
+                        data.push(count);
+                    }
+                });
+                
+                return { labels, data };
+            } catch (error) {
+                console.error('Error fetching data:', error);
+                return { labels: [], data: [] };
+            }
         }
 
         async function renderChart() {
@@ -65,9 +71,13 @@
         }
 
         async function refreshCounts() {
-            await fetch('/run_script', { method: 'POST' });
-            // Optionally, you could also refresh the chart here
-            location.reload(); // Reload the page to see updated data
+            try {
+                await fetch('/run_script', { method: 'POST' });
+                // Optionally, you could also refresh the chart here
+                renderChart(); // Refresh the chart without reloading the page
+            } catch (error) {
+                console.error('Error refreshing counts:', error);
+            }
         }
 
         document.getElementById('refreshButton').addEventListener('click', refreshCounts);
