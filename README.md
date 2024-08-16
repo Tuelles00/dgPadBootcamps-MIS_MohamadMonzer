@@ -1,8 +1,8 @@
-#Article Scraper
+# Article Scraper
 
 This Python project is designed to scrape articles from a website, parse their content, and store the data in a MongoDB database. It uses several libraries for web scraping, data processing, and concurrency.
 
-##Features
+## Features
 
 - Fetch and parse sitemaps.
 - Extract article metadata and content.
