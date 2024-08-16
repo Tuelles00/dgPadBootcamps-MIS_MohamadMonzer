@@ -41,40 +41,26 @@ After fetching and processing all articles from Al Mayadin, you can generate JSO
 
 ## Screenshots
 
+### Application Overview
+![Application Screenshot](screenshots/screenshot1.png)
+*The screenshot above shows the application interface with key features highlighted.*
 
-```
+### Detailed View
+![Detailed View Screenshot](screenshots/screenshot3.png)
+*The screenshot above shows a detailed view of article counts.*
 
-### screenshots
+### Detailed View
+![Detailed View Screenshot](screenshots/screenshot4.png)
+*The screenshot above shows a detailed view of article counts.*
 
-If you want to automate the process of updating the README with screenshots, you’d need a script that:
+### Detailed View
+![Detailed View Screenshot](screenshots/screenshot5.png)
+*The screenshot above shows a detailed view of article counts.*
 
-1. **Scans the Screenshots Directory**: Lists all images in the directory.
-2. **Updates the README File**: Inserts Markdown image links into the README file.
+### Detailed View
+![Detailed View Screenshot](screenshots/screenshot6.png)
+*The screenshot above shows a detailed view of article counts.*
 
-Here’s a basic example using Python:
 
-```python
-import os
 
-# Path to the screenshots directory
-screenshots_dir = 'screenshots'
-readme_path = 'README.md'
-
-# Get a list of all images in the screenshots directory
-images = [f for f in os.listdir(screenshots_dir) if f.endswith(('png', 'jpg', 'jpeg'))]
-
-# Read the existing README content
-with open(readme_path, 'r') as file:
-    readme_content = file.readlines()
-
-# Add images to the README
-with open(readme_path, 'w') as file:
-    for line in readme_content:
-        file.write(line)
-    
-    file.write('\n## Screenshots\n\n')
-    for image in images:
-        file.write(f'### {image}\n')
-        file.write(f'![{image}]({screenshots_dir}/{image})\n')
-        file.write('*Description of the screenshot.*\n\n')
 ```
