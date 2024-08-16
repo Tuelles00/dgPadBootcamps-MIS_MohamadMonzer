@@ -1,4 +1,3 @@
-
 ```markdown
 # Article Scraper
 
@@ -17,17 +16,17 @@ This project requires the following Python libraries:
 
 - `requests`: For making HTTP requests to fetch web pages.
 - `beautifulsoup4`: For parsing HTML and XML content.
+- `json`: For handling JSON data.
 - `pymongo`: For interacting with MongoDB.
 - `tenacity`: For retrying operations with exponential backoff.
 - `concurrent.futures`: For managing concurrent tasks.
+- `subprocess`: For executing system commands.
 - `dataclasses`: For defining simple data structures.
-- `pandas`: For data manipulation and analysis.
-- `dateutil`: For parsing and handling dates.
 
 You can install these libraries using `pip`. Run the following command:
 
 ```bash
-pip install requests beautifulsoup4 pymongo tenacity pandas python-dateutil
+pip install requests beautifulsoup4 pymongo tenacity
 ```
 
 ## Generating JSON Files
@@ -40,16 +39,42 @@ After fetching and processing all articles from Al Mayadin, you can generate JSO
 
 - **`MongoDB_available_year_month_summary.py`**: This script allows you to check all the years and months that have been crawled and stored in MongoDB. It provides a summary of available data based on year and month.
 
-## Running the Flask Application
+## Screenshots
 
-The project includes a Flask application located in the `flask` directory. To run the application, navigate to this directory and start the Flask server:
 
-```bash
-cd flask
-python app.py
 ```
 
-Ensure that all required libraries are installed in your environment before running the Flask application.
-```
+### screenshots
 
-This README provides a comprehensive overview of the project, including library dependencies and installation instructions.
+If you want to automate the process of updating the README with screenshots, you’d need a script that:
+
+1. **Scans the Screenshots Directory**: Lists all images in the directory.
+2. **Updates the README File**: Inserts Markdown image links into the README file.
+
+Here’s a basic example using Python:
+
+```python
+import os
+
+# Path to the screenshots directory
+screenshots_dir = 'screenshots'
+readme_path = 'README.md'
+
+# Get a list of all images in the screenshots directory
+images = [f for f in os.listdir(screenshots_dir) if f.endswith(('png', 'jpg', 'jpeg'))]
+
+# Read the existing README content
+with open(readme_path, 'r') as file:
+    readme_content = file.readlines()
+
+# Add images to the README
+with open(readme_path, 'w') as file:
+    for line in readme_content:
+        file.write(line)
+    
+    file.write('\n## Screenshots\n\n')
+    for image in images:
+        file.write(f'### {image}\n')
+        file.write(f'![{image}]({screenshots_dir}/{image})\n')
+        file.write('*Description of the screenshot.*\n\n')
+```
