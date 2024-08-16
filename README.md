@@ -45,22 +45,23 @@ After fetching and processing all articles from Al Mayadin, you can generate JSO
 ![Application Screenshot](screenshots/screenshot1.png)
 *The screenshot above shows the application interface with key features highlighted.*
 
+
+### Detailed View
+![Detailed View Screenshot](screenshots/screenshot2.png)
+*screenshot2*
+
 ### Detailed View
 ![Detailed View Screenshot](screenshots/screenshot3.png)
-*The screenshot above shows a detailed view of article counts.*
+*screenshot3*
 
 ### Detailed View
 ![Detailed View Screenshot](screenshots/screenshot4.png)
-*The screenshot above shows a detailed view of article counts.*
+*screenshot4*
 
 ### Detailed View
 ![Detailed View Screenshot](screenshots/screenshot5.png)
-*The screenshot above shows a detailed view of article counts.*
+*screenshot5*
 
 ### Detailed View
 ![Detailed View Screenshot](screenshots/screenshot6.png)
-*The screenshot above shows a detailed view of article counts.*
-
-
-
-```
+*screenshot6*
