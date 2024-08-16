@@ -1,7 +1,7 @@
+from flask import Flask, render_template, redirect, url_for, send_from_directory, jsonify
 import subprocess
 import os
 import logging
-from flask import Flask, render_template, redirect, url_for, send_from_directory, jsonify
 import json
 
 app = Flask(__name__)
@@ -9,51 +9,26 @@ app = Flask(__name__)
 # Set up logging
 logging.basicConfig(level=logging.DEBUG)
 
-# Path to the main script to run at startup
-main_script_path = os.path.abspath(os.path.join(os.path.dirname(__file__), 'main_scripts_forAll.py'))
-
-# Paths to various directories and scripts
+# Path to the frequent_keywords directory
 script_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'frequent_keywords'))
 top_keywords_json_path = os.path.join(script_dir, 'top_keywords.json')
 top_keywords_by_month_json_path = os.path.join(script_dir, 'top_keywords_by_month.json')
 script_path = os.path.join(script_dir, 'frequent_keywords_counts_the_total_occurrences_of_each_keyword_across_all_documents.py')
 monthly_script_path = os.path.join(script_dir, 'frequent_keywords_counts_the_total_occurrences_of_each_keyword_across_all_documents_each_month_year.py')
 
+# Path to the count_check_debugg directory
 count_check_debugg_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'count_check_debugg'))
 txt_file_path = os.path.join(count_check_debugg_dir, 'article_counts.txt')
 script_path_count = os.path.join(count_check_debugg_dir, 'count_the_nb_of_articles_at_ALMayadin.py')
 
+# Path to the Hidden_patterns directory
 hidden_patterns_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'Hidden_patterns'))
 detect_script_path = os.path.join(hidden_patterns_dir, 'detect_hidden_patterns.py')
 detailed_patterns_path = os.path.join(hidden_patterns_dir, 'detailed_patterns.json')
 
-# Define the path to the JSON file
-video_available_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'video_available'))
-json_file_path = os.path.join(video_available_dir, 'categorized_videos_v2.json')
-json_file_path2 = os.path.join(video_available_dir, 'categorized_videos_null_duration.json')
-
-
 @app.route('/')
 def index():
     return render_template('index.html')
-
-@app.route('/video')
-def video():
-    # Load the categorized videos data
-    with open(json_file_path, 'r', encoding='utf-8') as file:
-        categorized_videos = json.load(file)
-
-    # Load the categorized videos null duration data
-    with open(json_file_path2, 'r', encoding='utf-8') as file:
-        categorized_videos_null_duration = json.load(file)
-    
-    # Render the HTML template with both datasets
-    return render_template('video.html',
-                            categorized_videos=categorized_videos,
-                            categorized_videos_null_duration=categorized_videos_null_duration)
-
-
-
 
 @app.route('/article_counts.txt')
 def serve_article_counts():
@@ -75,6 +50,7 @@ def hidden_patterns():
 
 @app.route('/counter_page')
 def counter_page():
+    # Load the JSON file content
     try:
         with open(top_keywords_json_path, 'r', encoding='utf-8') as json_file:
             top_keywords_data = json.load(json_file)
@@ -120,15 +96,19 @@ def run_detect_patterns():
         logging.error(f"Detection script failed with error: {e}")
         return jsonify({'status': 'error', 'message': str(e)}), 500
 
-def run_initial_script():
-    """Run the main script on startup in the background."""
-    logging.debug(f"Running initial script in the background: {main_script_path}")
+def run_initial_scripts():
+    """Run initial scripts on startup."""
+    logging.debug(f"Running initial scripts: {script_path} and {monthly_script_path}")
     try:
-        subprocess.Popen(['python3', main_script_path])  # Run in the background
-        logging.info("Initial main script started successfully in the background")
-    except Exception as e:
-        logging.error(f"Failed to start initial script: {e}")
+        subprocess.run(['python3', script_path], check=True)
+        logging.info("Initial keywords script executed successfully")
+        
+        subprocess.run(['python3', monthly_script_path], check=True)
+        logging.info("Initial monthly occurrences script executed successfully")
+        
+    except subprocess.CalledProcessError as e:
+        logging.error(f"Initial scripts failed with error: {e}")
 
 if __name__ == '__main__':
-    run_initial_script()  # Run the main script at startup in the background
+    run_initial_scripts()  # Run the initial scripts
     app.run(host='0.0.0.0', port=5000, debug=True)

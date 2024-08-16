@@ -1,6 +1,8 @@
+
+```markdown
 # Article Scraper
 
-This Python project is designed to scrape articles from the Al Mayadin website, parse their content, and store the data in a MongoDB database. It uses several libraries for web scraping, data processing, and concurrency.
+This Python project is designed to scrape articles from a website, parse their content, and store the data in a MongoDB database. It uses several libraries for web scraping, data processing, and concurrency.
 
 ## Features
 
@@ -15,36 +17,39 @@ This project requires the following Python libraries:
 
 - `requests`: For making HTTP requests to fetch web pages.
 - `beautifulsoup4`: For parsing HTML and XML content.
-- `json`: For handling JSON data.
 - `pymongo`: For interacting with MongoDB.
 - `tenacity`: For retrying operations with exponential backoff.
 - `concurrent.futures`: For managing concurrent tasks.
-- `subprocess`: For executing system commands.
 - `dataclasses`: For defining simple data structures.
+- `pandas`: For data manipulation and analysis.
+- `dateutil`: For parsing and handling dates.
 
 You can install these libraries using `pip`. Run the following command:
 
 ```bash
-pip install requests beautifulsoup4 pymongo tenacity
+pip install requests beautifulsoup4 pymongo tenacity pandas python-dateutil
+```
 
-Usage Instructions
-Scrape Data from Al Mayadin
+## Generating JSON Files
 
-First, use the web_scraper.py script to fetch and parse article data from the Al Mayadin website. This script will scrape the articles and store the data in a MongoDB database.
+After fetching and processing all articles from Al Mayadin, you can generate JSON files from MongoDB based on year and month. To do this, use the script `mongo_data_extractor_year_month.py`. This script will generate a directory called `allJson_files` containing all available JSON files for each year and month.
 
-Generate JSON Files
+## Additional Scripts
 
-After you have collected data, use the mongo_data_extractor_year_month.py script to convert the MongoDB data into JSON files. This script will create a directory named allJson_files containing JSON files for each year and month based on the collected data.
+- **`count_check_debugg`**: Use this script to count the number of available articles for each year and month at Al Mayadin. It works in conjunction with the `MongoDB_available_year_month_summary.py` script.
 
-Run the Flask Application
+- **`MongoDB_available_year_month_summary.py`**: This script allows you to check all the years and months that have been crawled and stored in MongoDB. It provides a summary of available data based on year and month.
 
-Navigate to the flask directory where the Flask application is located. Run the app.py script to start the Flask server:
+## Running the Flask Application
 
-cd path/to/flask
+The project includes a Flask application located in the `flask` directory. To run the application, navigate to this directory and start the Flask server:
+
+```bash
+cd flask
 python app.py
+```
 
+Ensure that all required libraries are installed in your environment before running the Flask application.
+```
 
-Additional Scripts
-count_check_debugg: Use this script to count the number of available articles for each year and month at Al Mayadin. It works in conjunction with the MongoDB_available_year_month_summary.py script.
-
-MongoDB_available_year_month_summary.py: This script allows you to check all the years and months that have been crawled and stored in MongoDB. It provides a summary of available data based on year and month.
+This README provides a comprehensive overview of the project, including library dependencies and installation instructions.

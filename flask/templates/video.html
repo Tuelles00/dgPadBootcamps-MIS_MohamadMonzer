@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Data Visualization</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+        }
+        .chart-container {
+            display: flex;
+            justify-content: space-around; /* Distribute space between charts */
+            gap: 20px; /* Space between charts */
+            margin: 0 auto; /* Center the container */
+            width: 90%; /* Adjust width as needed */
+        }
+        .chart-wrapper {
+            width: 45%; /* Adjust width as needed for each chart */
+            height: 50vh; /* Adjust height as needed for charts */
+        }
+        canvas {
+            width: 100% !important; /* Ensure canvas takes full container width */
+            height: 100% !important; /* Ensure canvas takes full container height */
+        }
+        h2 {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Video Data Visualization</h1>
+    <div class="chart-container">
+        <div class="chart-wrapper">
+            <h2>Articles with Videos</h2>
+            <canvas id="radarChart"></canvas>
+        </div>
+        <div class="chart-wrapper">
+            <h2>Articles without Videos</h2>
+            <canvas id="barChart"></canvas>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Load categorized videos data from the server
+            const categorizedVideos = {{ categorized_videos | tojson | safe }};
+            const categorizedVideosNullDuration = {{ categorized_videos_null_duration | tojson | safe }};
+
+            // Debug output to check data
+            console.log("Categorized Videos:", categorizedVideos);
+            console.log("Categorized Videos Null Duration:", categorizedVideosNullDuration);
+
+            // Prepare data for radar chart
+            const radarLabels = categorizedVideos.map(cat => cat.category);
+            const radarData = {
+                labels: radarLabels,
+                datasets: [{
+                    label: 'Video Count',
+                    data: categorizedVideos.map(cat => cat.videos.length),
+                    backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                    borderColor: 'rgba(54, 162, 235, 1)',
+                    borderWidth: 1
+                }]
+            };
+
+            // Create radar chart
+            const radarCtx = document.getElementById('radarChart').getContext('2d');
+            new Chart(radarCtx, {
+                type: 'radar',
+                data: radarData,
+                options: {
+                    scales: {
+                        r: {
+                            angleLines: { display: false },
+                            suggestedMin: 0
+                        }
+                    },
+                    responsive: true,
+                    maintainAspectRatio: false
+                }
+            });
+
+            // Prepare data for bar chart
+            // Collect all category_class values
+            const categoryClasses = categorizedVideosNullDuration.flatMap(cat => 
+                cat.videos.map(video => video.category_class)
+            );
+
+            // Count occurrences of each category_class
+            const categoryClassCounts = categoryClasses.reduce((acc, categoryClass) => {
+                if (categoryClass) {
+                    acc[categoryClass] = (acc[categoryClass] || 0) + 1;
+                }
+                return acc;
+            }, {});
+
+            // Debug output to check category counts
+            console.log("Category Class Counts:", categoryClassCounts);
+
+            const barLabels = Object.keys(categoryClassCounts);
+            const barData = {
+                labels: barLabels,
+                datasets: [{
+                    label: 'Category Class Frequency',
+                    data: barLabels.map(label => categoryClassCounts[label]),
+                    backgroundColor: barLabels.map((_, index) => {
+                        // Generate a color based on index
+                        const color = `hsl(${Math.floor((index / barLabels.length) * 360)}, 70%, 50%)`;
+                        return color;
+                    }),
+                    borderColor: 'rgba(0, 0, 0, 0.1)',
+                    borderWidth: 1
+                }]
+            };
+
+            // Create bar chart
+            const barCtx = document.getElementById('barChart').getContext('2d');
+            new Chart(barCtx, {
+                type: 'bar',
+                data: barData,
+                options: {
+                    indexAxis: 'y',
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        x: {
+                            beginAtZero: true
+                        },
+                        y: {
+                            ticks: {
+                                autoSkip: false // Prevent label skipping
+                            }
+                        }
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>
