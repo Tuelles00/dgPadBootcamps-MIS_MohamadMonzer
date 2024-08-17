@@ -1,0 +1,3462 @@
+[
+    {
+        "coverage": "أخبار",
+        "count": 9535
+    },
+    {
+        "coverage": "الميادين نت",
+        "count": 7763
+    },
+    {
+        "coverage": "شبكة الميادين",
+        "count": 6662
+    },
+    {
+        "coverage": "سياسة",
+        "count": 6471
+    },
+    {
+        "coverage": "طوفان الأقصى",
+        "count": 5365
+    },
+    {
+        "coverage": "فلسطين المحتلة",
+        "count": 2388
+    },
+    {
+        "coverage": "نشرة الأخبار",
+        "count": 1686
+    },
+    {
+        "coverage": "تقارير إخبارية",
+        "count": 1537
+    },
+    {
+        "coverage": "فيديو",
+        "count": 1174
+    },
+    {
+        "coverage": "رياضة",
+        "count": 963
+    },
+    {
+        "coverage": "حلقات تلفزيون",
+        "count": 901
+    },
+    {
+        "coverage": "الميادين Go",
+        "count": 872
+    },
+    {
+        "coverage": "الميادين",
+        "count": 790
+    },
+    {
+        "coverage": "الولايات المتحدة الأميركية",
+        "count": 769
+    },
+    {
+        "coverage": "لبنان",
+        "count": 596
+    },
+    {
+        "coverage": "برنامج شاشة",
+        "count": 500
+    },
+    {
+        "coverage": "إيران",
+        "count": 494
+    },
+    {
+        "coverage": "اقتصاد",
+        "count": 478
+    },
+    {
+        "coverage": "مقالات",
+        "count": 474
+    },
+    {
+        "coverage": "منوعات",
+        "count": 407
+    },
+    {
+        "coverage": "سوريا",
+        "count": 368
+    },
+    {
+        "coverage": "اليمن",
+        "count": 349
+    },
+    {
+        "coverage": "روسيا والأطلسي",
+        "count": 346
+    },
+    {
+        "coverage": "صحافة",
+        "count": 345
+    },
+    {
+        "coverage": "روسيا",
+        "count": 320
+    },
+    {
+        "coverage": " أخبار منوعة",
+        "count": 283
+    },
+    {
+        "coverage": "ثقافة وفنون",
+        "count": 216
+    },
+    {
+        "coverage": "العراق",
+        "count": 209
+    },
+    {
+        "coverage": "المملكة المتحدة",
+        "count": 196
+    },
+    {
+        "coverage": "فلسطين",
+        "count": 178
+    },
+    {
+        "coverage": "العالم يواجه كورونا",
+        "count": 172
+    },
+    {
+        "coverage": "فرنسا",
+        "count": 146
+    },
+    {
+        "coverage": "ومضات",
+        "count": 139
+    },
+    {
+        "coverage": "تركيا",
+        "count": 127
+    },
+    {
+        "coverage": "متابعات",
+        "count": 122
+    },
+    {
+        "coverage": "اسبانيا",
+        "count": 113
+    },
+    {
+        "coverage": "تونس",
+        "count": 112
+    },
+    {
+        "coverage": "مصر",
+        "count": 104
+    },
+    {
+        "coverage": "فنزويلا",
+        "count": 102
+    },
+    {
+        "coverage": "الإقتصادية",
+        "count": 101
+    },
+    {
+        "coverage": "السودان",
+        "count": 100
+    },
+    {
+        "coverage": "الصين",
+        "count": 97
+    },
+    {
+        "coverage": "ألمانيا",
+        "count": 96
+    },
+    {
+        "coverage": "آخر طبعة",
+        "count": 92
+    },
+    {
+        "coverage": "ثقافة",
+        "count": 90
+    },
+    {
+        "coverage": "الجزائر",
+        "count": 87
+    },
+    {
+        "coverage": "الماضي الحاضر",
+        "count": 80
+    },
+    {
+        "coverage": "الرياضية",
+        "count": 74
+    },
+    {
+        "coverage": "استشهاد القائد إسماعيل هنية",
+        "count": 65
+    },
+    {
+        "coverage": "الكتّاب",
+        "count": 65
+    },
+    {
+        "coverage": "صحة",
+        "count": 63
+    },
+    {
+        "coverage": "الانتخابات الرئاسية الإيرانية 2024",
+        "count": 63
+    },
+    {
+        "coverage": "برنامج أونلاين ",
+        "count": 62
+    },
+    {
+        "coverage": "الصحة والأسرة",
+        "count": 59
+    },
+    {
+        "coverage": "إنفوغراف",
+        "count": 56
+    },
+    {
+        "coverage": "تغطية خاصة",
+        "count": 53
+    },
+    {
+        "coverage": "تقارير أونلاين",
+        "count": 49
+    },
+    {
+        "coverage": "الصومال",
+        "count": 48
+    },
+    {
+        "coverage": "إيطاليا",
+        "count": 48
+    },
+    {
+        "coverage": "المملكة العربية السعودية",
+        "count": 47
+    },
+    {
+        "coverage": "المدونة",
+        "count": 47
+    },
+    {
+        "coverage": "إيران تكشف الأقنعة",
+        "count": 41
+    },
+    {
+        "coverage": "حوار الساعة",
+        "count": 39
+    },
+    {
+        "coverage": "أوكرانيا",
+        "count": 38
+    },
+    {
+        "coverage": "لهيب السودان",
+        "count": 37
+    },
+    {
+        "coverage": "البرازيل",
+        "count": 36
+    },
+    {
+        "coverage": "النيجر",
+        "count": 36
+    },
+    {
+        "coverage": "الميادين.نت",
+        "count": 35
+    },
+    {
+        "coverage": "باكستان",
+        "count": 35
+    },
+    {
+        "coverage": "تحليل",
+        "count": 34
+    },
+    {
+        "coverage": "أميركا.. نريد أن نتنفس",
+        "count": 34
+    },
+    {
+        "coverage": "حسني محلي",
+        "count": 33
+    },
+    {
+        "coverage": "سويسرا",
+        "count": 33
+    },
+    {
+        "coverage": "بيت القصيد",
+        "count": 31
+    },
+    {
+        "coverage": "الأردن",
+        "count": 31
+    },
+    {
+        "coverage": "كوبا",
+        "count": 30
+    },
+    {
+        "coverage": "التطبيع مع \"إسرائيل\"",
+        "count": 29
+    },
+    {
+        "coverage": "محاولة اغتيال ترامب",
+        "count": 29
+    },
+    {
+        "coverage": "ليبيا",
+        "count": 29
+    },
+    {
+        "coverage": "ذكرى اغتيال الشهيدين سليماني والمهندس",
+        "count": 28
+    },
+    {
+        "coverage": "لعبة الأمم",
+        "count": 28
+    },
+    {
+        "coverage": "ليلى نقولا",
+        "count": 27
+    },
+    {
+        "coverage": "برامج تلفزيون",
+        "count": 26
+    },
+    {
+        "coverage": "بودكاست",
+        "count": 26
+    },
+    {
+        "coverage": "إيران تكسر الحصار",
+        "count": 26
+    },
+    {
+        "coverage": "أنتم أونلاين",
+        "count": 26
+    },
+    {
+        "coverage": "كوريا الشمالية",
+        "count": 26
+    },
+    {
+        "coverage": "المغرب",
+        "count": 26
+    },
+    {
+        "coverage": "أ ل م",
+        "count": 25
+    },
+    {
+        "coverage": "حديث تونس",
+        "count": 25
+    },
+    {
+        "coverage": "خلف الجدار",
+        "count": 25
+    },
+    {
+        "coverage": "أحمد الدرزي",
+        "count": 24
+    },
+    {
+        "coverage": "أحمد عبد الرحمن",
+        "count": 24
+    },
+    {
+        "coverage": "كينيا",
+        "count": 24
+    },
+    {
+        "coverage": "جنوب أفريقيا",
+        "count": 23
+    },
+    {
+        "coverage": "جو غانم",
+        "count": 23
+    },
+    {
+        "coverage": "عبدالله ذبيان",
+        "count": 23
+    },
+    {
+        "coverage": "محمد كريم",
+        "count": 23
+    },
+    {
+        "coverage": "الانتخابات المحلية التركية",
+        "count": 23
+    },
+    {
+        "coverage": "الهند",
+        "count": 23
+    },
+    {
+        "coverage": "ندوة خاصة",
+        "count": 22
+    },
+    {
+        "coverage": "هدى رزق",
+        "count": 22
+    },
+    {
+        "coverage": "نيجيريا",
+        "count": 22
+    },
+    {
+        "coverage": "عبد الله ذبيان",
+        "count": 22
+    },
+    {
+        "coverage": "أجراس المشرق",
+        "count": 22
+    },
+    {
+        "coverage": "أستراليا",
+        "count": 22
+    },
+    {
+        "coverage": "كأس العالم - قطر 2022",
+        "count": 22
+    },
+    {
+        "coverage": "إثيوبيا",
+        "count": 21
+    },
+    {
+        "coverage": "السنغال",
+        "count": 21
+    },
+    {
+        "coverage": "القمة العربية في الجزائر",
+        "count": 21
+    },
+    {
+        "coverage": "زياد غصن",
+        "count": 20
+    },
+    {
+        "coverage": "اليابان",
+        "count": 20
+    },
+    {
+        "coverage": "محمد جرادات",
+        "count": 20
+    },
+    {
+        "coverage": "حديث الوطن",
+        "count": 20
+    },
+    {
+        "coverage": "نقولا طعمة",
+        "count": 20
+    },
+    {
+        "coverage": "شاهر الشاهر",
+        "count": 20
+    },
+    {
+        "coverage": "بوركينا فاسو",
+        "count": 20
+    },
+    {
+        "coverage": "حسن لافي",
+        "count": 20
+    },
+    {
+        "coverage": "ميدان المونديال (2014 - 2018)",
+        "count": 19
+    },
+    {
+        "coverage": "ثابت العمور",
+        "count": 19
+    },
+    {
+        "coverage": "السيد شبل",
+        "count": 19
+    },
+    {
+        "coverage": "منال إسماعيل",
+        "count": 19
+    },
+    {
+        "coverage": "حصاد 2020",
+        "count": 19
+    },
+    {
+        "coverage": "حلقات أونلاين",
+        "count": 18
+    },
+    {
+        "coverage": "محمد حجازي",
+        "count": 18
+    },
+    {
+        "coverage": "تكنولوجيا",
+        "count": 18
+    },
+    {
+        "coverage": "قاسم عزالدين",
+        "count": 18
+    },
+    {
+        "coverage": "علي خليفة",
+        "count": 18
+    },
+    {
+        "coverage": "عماد الحطبة",
+        "count": 18
+    },
+    {
+        "coverage": "تمارا برو",
+        "count": 17
+    },
+    {
+        "coverage": "قطر",
+        "count": 17
+    },
+    {
+        "coverage": "إبراهيم علوش",
+        "count": 17
+    },
+    {
+        "coverage": "طاقم العمل",
+        "count": 17
+    },
+    {
+        "coverage": "شرحبيل الغريب",
+        "count": 17
+    },
+    {
+        "coverage": "محمد الخضر",
+        "count": 17
+    },
+    {
+        "coverage": "الإمارات العربية المتحدة",
+        "count": 17
+    },
+    {
+        "coverage": "انتخابات مجلس الشعب السوري 2024",
+        "count": 17
+    },
+    {
+        "coverage": "الانتخابات الأميركية 2020",
+        "count": 17
+    },
+    {
+        "coverage": "العد العكسي",
+        "count": 16
+    },
+    {
+        "coverage": "الكونغو",
+        "count": 16
+    },
+    {
+        "coverage": "من الداخل",
+        "count": 16
+    },
+    {
+        "coverage": "سارة الحاف",
+        "count": 16
+    },
+    {
+        "coverage": "عبدالله بدران",
+        "count": 16
+    },
+    {
+        "coverage": "أرمينيا",
+        "count": 15
+    },
+    {
+        "coverage": "عمر كايد",
+        "count": 15
+    },
+    {
+        "coverage": "محمد منصور",
+        "count": 15
+    },
+    {
+        "coverage": "وسام إسماعيل",
+        "count": 15
+    },
+    {
+        "coverage": "قاسم عز الدين",
+        "count": 15
+    },
+    {
+        "coverage": "بثينة عليق",
+        "count": 15
+    },
+    {
+        "coverage": "محمد حسب الرسول",
+        "count": 15
+    },
+    {
+        "coverage": "المشهديّة",
+        "count": 14
+    },
+    {
+        "coverage": "حوار خاص",
+        "count": 14
+    },
+    {
+        "coverage": "نزار عبود",
+        "count": 14
+    },
+    {
+        "coverage": "حسن حجازي",
+        "count": 14
+    },
+    {
+        "coverage": "بلجيكا",
+        "count": 13
+    },
+    {
+        "coverage": "\"إسرائيل\" تتآكل",
+        "count": 13
+    },
+    {
+        "coverage": "كندا",
+        "count": 13
+    },
+    {
+        "coverage": "كلمة حرة",
+        "count": 13
+    },
+    {
+        "coverage": "أفغانستان",
+        "count": 13
+    },
+    {
+        "coverage": "سلام العبيدي",
+        "count": 13
+    },
+    {
+        "coverage": "مراد الدلنسي",
+        "count": 13
+    },
+    {
+        "coverage": "وسام أبو شمالة",
+        "count": 13
+    },
+    {
+        "coverage": "سامي كليب",
+        "count": 13
+    },
+    {
+        "coverage": "عريب الرنتاوي",
+        "count": 13
+    },
+    {
+        "coverage": "كأس أوروبا - كوبا أميركا 2024",
+        "count": 12
+    },
+    {
+        "coverage": "عباس الصباغ",
+        "count": 12
+    },
+    {
+        "coverage": "وثائقي الميادين",
+        "count": 12
+    },
+    {
+        "coverage": "مالي",
+        "count": 12
+    },
+    {
+        "coverage": "ديمة ناصيف",
+        "count": 11
+    },
+    {
+        "coverage": "ميدان الرياضة",
+        "count": 11
+    },
+    {
+        "coverage": "بلال مبروك",
+        "count": 11
+    },
+    {
+        "coverage": "علي السقا",
+        "count": 11
+    },
+    {
+        "coverage": "رشاد أبو شاور",
+        "count": 11
+    },
+    {
+        "coverage": "تغطيات",
+        "count": 11
+    },
+    {
+        "coverage": "كوريا الجنوبية",
+        "count": 11
+    },
+    {
+        "coverage": "البحرين",
+        "count": 11
+    },
+    {
+        "coverage": "هولندا",
+        "count": 11
+    },
+    {
+        "coverage": "ملاك خالد",
+        "count": 11
+    },
+    {
+        "coverage": "جمال واكيم",
+        "count": 11
+    },
+    {
+        "coverage": "غراسيا بيطار",
+        "count": 11
+    },
+    {
+        "coverage": "هلا بطرس",
+        "count": 11
+    },
+    {
+        "coverage": "الصحية",
+        "count": 11
+    },
+    {
+        "coverage": "حازم كلاس",
+        "count": 11
+    },
+    {
+        "coverage": "هناء محاميد",
+        "count": 10
+    },
+    {
+        "coverage": "مازن النجار",
+        "count": 10
+    },
+    {
+        "coverage": "وانغ مو يي",
+        "count": 10
+    },
+    {
+        "coverage": "موسى عاصي",
+        "count": 10
+    },
+    {
+        "coverage": "المكسيك",
+        "count": 10
+    },
+    {
+        "coverage": "محمد هلسة",
+        "count": 10
+    },
+    {
+        "coverage": "محمد فرج",
+        "count": 10
+    },
+    {
+        "coverage": "دلولة حديدان",
+        "count": 10
+    },
+    {
+        "coverage": "بولندا",
+        "count": 10
+    },
+    {
+        "coverage": "النمسا",
+        "count": 10
+    },
+    {
+        "coverage": "بيئة",
+        "count": 10
+    },
+    {
+        "coverage": "أحمد عبدالله",
+        "count": 10
+    },
+    {
+        "coverage": "من الأرض",
+        "count": 9
+    },
+    {
+        "coverage": "الميادين ",
+        "count": 9
+    },
+    {
+        "coverage": "بنغلاديش",
+        "count": 9
+    },
+    {
+        "coverage": "حسن عبد الله",
+        "count": 9
+    },
+    {
+        "coverage": "أهل مصر",
+        "count": 9
+    },
+    {
+        "coverage": "علي فواز",
+        "count": 9
+    },
+    {
+        "coverage": "ملحم ريا",
+        "count": 9
+    },
+    {
+        "coverage": "زهراء الديراني",
+        "count": 9
+    },
+    {
+        "coverage": "جنوب السودان",
+        "count": 9
+    },
+    {
+        "coverage": "نسرين سلمي",
+        "count": 9
+    },
+    {
+        "coverage": "أولمبياد باريس 2024",
+        "count": 9
+    },
+    {
+        "coverage": "عبد الخالق فاروق",
+        "count": 9
+    },
+    {
+        "coverage": "رواندا",
+        "count": 9
+    },
+    {
+        "coverage": "أيهم مرعي",
+        "count": 9
+    },
+    {
+        "coverage": "ديما ناصيف",
+        "count": 9
+    },
+    {
+        "coverage": "سميحة البوغانمي",
+        "count": 8
+    },
+    {
+        "coverage": "أيمن الرفاتي",
+        "count": 8
+    },
+    {
+        "coverage": "الأرجنتين",
+        "count": 8
+    },
+    {
+        "coverage": "الكويت",
+        "count": 8
+    },
+    {
+        "coverage": "هبة الله بيطار",
+        "count": 8
+    },
+    {
+        "coverage": "إسلاميون...وبعد",
+        "count": 8
+    },
+    {
+        "coverage": "معتز القيسية",
+        "count": 8
+    },
+    {
+        "coverage": "عماد شطارة",
+        "count": 8
+    },
+    {
+        "coverage": "بوليفيا",
+        "count": 8
+    },
+    {
+        "coverage": "محمد سيف الدين",
+        "count": 8
+    },
+    {
+        "coverage": "كولومبيا",
+        "count": 8
+    },
+    {
+        "coverage": "حديث دمشق",
+        "count": 8
+    },
+    {
+        "coverage": "موسى سرور",
+        "count": 8
+    },
+    {
+        "coverage": "أيهم مرعي - الحسكة",
+        "count": 8
+    },
+    {
+        "coverage": "مين لمصر؟",
+        "count": 8
+    },
+    {
+        "coverage": "إلهامي المليجي",
+        "count": 8
+    },
+    {
+        "coverage": "بيسان طراف",
+        "count": 8
+    },
+    {
+        "coverage": "مكتب واشنطن",
+        "count": 8
+    },
+    {
+        "coverage": "مكتب واشنطن بالتعاون مع مركز الدراسات الأميركية والعربية",
+        "count": 7
+    },
+    {
+        "coverage": "المجر",
+        "count": 7
+    },
+    {
+        "coverage": "الدنمارك",
+        "count": 7
+    },
+    {
+        "coverage": "النرويج",
+        "count": 7
+    },
+    {
+        "coverage": "محي الدين جبريل",
+        "count": 7
+    },
+    {
+        "coverage": "حسام حمزة",
+        "count": 7
+    },
+    {
+        "coverage": "زياد ناصر الدين",
+        "count": 7
+    },
+    {
+        "coverage": "زهراء ديراني",
+        "count": 7
+    },
+    {
+        "coverage": "نور الدين اسكندر",
+        "count": 7
+    },
+    {
+        "coverage": "روسيا والأطلسي.. عامٌ على المواجهة",
+        "count": 7
+    },
+    {
+        "coverage": "ايرلندا",
+        "count": 7
+    },
+    {
+        "coverage": "السويد",
+        "count": 7
+    },
+    {
+        "coverage": "تيما روماني",
+        "count": 7
+    },
+    {
+        "coverage": "الميادين نت ",
+        "count": 7
+    },
+    {
+        "coverage": "ماليزيا",
+        "count": 7
+    },
+    {
+        "coverage": "ميساء شديد",
+        "count": 7
+    },
+    {
+        "coverage": "أوقفوا الحرب على اليمن",
+        "count": 7
+    },
+    {
+        "coverage": "حسن زين الدين",
+        "count": 7
+    },
+    {
+        "coverage": "تقليد وعادة",
+        "count": 7
+    },
+    {
+        "coverage": "أذربيجان",
+        "count": 7
+    },
+    {
+        "coverage": "حكاية أديب",
+        "count": 6
+    },
+    {
+        "coverage": "مكتب واشنطن - بالتعاون مع مركز الدراسات الأميركية والعربية",
+        "count": 6
+    },
+    {
+        "coverage": "منال اسماعيل",
+        "count": 6
+    },
+    {
+        "coverage": "اليونان",
+        "count": 6
+    },
+    {
+        "coverage": "أبي زيدان",
+        "count": 6
+    },
+    {
+        "coverage": "زهرة فضلي",
+        "count": 6
+    },
+    {
+        "coverage": "علي هاشم",
+        "count": 6
+    },
+    {
+        "coverage": "فورمولا 1",
+        "count": 6
+    },
+    {
+        "coverage": "أوغندا",
+        "count": 6
+    },
+    {
+        "coverage": "بين عواصم القرار",
+        "count": 6
+    },
+    {
+        "coverage": "مايك شلهوب",
+        "count": 6
+    },
+    {
+        "coverage": "حسن عبدالله",
+        "count": 6
+    },
+    {
+        "coverage": "علي ظافر",
+        "count": 6
+    },
+    {
+        "coverage": "قبرص",
+        "count": 6
+    },
+    {
+        "coverage": "البرتغال",
+        "count": 6
+    },
+    {
+        "coverage": "أحمد شلدان",
+        "count": 6
+    },
+    {
+        "coverage": "عبد الله بدران",
+        "count": 5
+    },
+    {
+        "coverage": "خارج القيد",
+        "count": 5
+    },
+    {
+        "coverage": "عمرو علان",
+        "count": 5
+    },
+    {
+        "coverage": "صالح الأشمر",
+        "count": 5
+    },
+    {
+        "coverage": "سلوفاكيا",
+        "count": 5
+    },
+    {
+        "coverage": "رضا الباشا",
+        "count": 5
+    },
+    {
+        "coverage": "محمد عبده",
+        "count": 5
+    },
+    {
+        "coverage": "هيئة تحرير الصحيفة",
+        "count": 5
+    },
+    {
+        "coverage": "ما بعد العرض - منتدى الوثائقيات",
+        "count": 5
+    },
+    {
+        "coverage": "روسيا البيضاء",
+        "count": 5
+    },
+    {
+        "coverage": "تشاد",
+        "count": 5
+    },
+    {
+        "coverage": "نضر فارس",
+        "count": 5
+    },
+    {
+        "coverage": "أوزبكستان",
+        "count": 5
+    },
+    {
+        "coverage": "صربيا",
+        "count": 5
+    },
+    {
+        "coverage": "ملفات",
+        "count": 5
+    },
+    {
+        "coverage": "أحمد شكر",
+        "count": 5
+    },
+    {
+        "coverage": "حديث العراق",
+        "count": 5
+    },
+    {
+        "coverage": "غدي غنطوس",
+        "count": 5
+    },
+    {
+        "coverage": "رأي",
+        "count": 5
+    },
+    {
+        "coverage": "عمان",
+        "count": 5
+    },
+    {
+        "coverage": "قسم الشؤون الإسرائيلية في الميادين",
+        "count": 5
+    },
+    {
+        "coverage": "انتخابات خلف الجدار  \"2020\"",
+        "count": 5
+    },
+    {
+        "coverage": "ولاد البلاد",
+        "count": 5
+    },
+    {
+        "coverage": "رضا زيدان",
+        "count": 5
+    },
+    {
+        "coverage": "خالد سكيف",
+        "count": 5
+    },
+    {
+        "coverage": "محمد محسن",
+        "count": 5
+    },
+    {
+        "coverage": "تايوان",
+        "count": 5
+    },
+    {
+        "coverage": "لنا شاهين",
+        "count": 4
+    },
+    {
+        "coverage": "تشيلي",
+        "count": 4
+    },
+    {
+        "coverage": "مخاض أميركا 2022",
+        "count": 4
+    },
+    {
+        "coverage": "الانتخابات العامة التركية 2023",
+        "count": 4
+    },
+    {
+        "coverage": "بثينة شعبان",
+        "count": 4
+    },
+    {
+        "coverage": "سلوفينيا",
+        "count": 4
+    },
+    {
+        "coverage": "سمية الشناوي",
+        "count": 4
+    },
+    {
+        "coverage": "عباس محمد الزين",
+        "count": 4
+    },
+    {
+        "coverage": "وليد القططي",
+        "count": 4
+    },
+    {
+        "coverage": "حنان صندوق",
+        "count": 4
+    },
+    {
+        "coverage": "رأفت الخطيب",
+        "count": 4
+    },
+    {
+        "coverage": "شافعي محمد",
+        "count": 4
+    },
+    {
+        "coverage": "ريما فرح",
+        "count": 4
+    },
+    {
+        "coverage": "كرواتيا",
+        "count": 4
+    },
+    {
+        "coverage": "الجمهورية 2014",
+        "count": 4
+    },
+    {
+        "coverage": "زينب طفيلي",
+        "count": 4
+    },
+    {
+        "coverage": "حصاد العام 2019",
+        "count": 4
+    },
+    {
+        "coverage": "نسرين مالك",
+        "count": 4
+    },
+    {
+        "coverage": "ترجمة الميادين نت",
+        "count": 4
+    },
+    {
+        "coverage": "فاطمة قاسم",
+        "count": 4
+    },
+    {
+        "coverage": "طارق علي",
+        "count": 4
+    },
+    {
+        "coverage": "أحمد غانم",
+        "count": 4
+    },
+    {
+        "coverage": "ندين عباس",
+        "count": 4
+    },
+    {
+        "coverage": "موريتانيا",
+        "count": 4
+    },
+    {
+        "coverage": "أسامة عبد النور",
+        "count": 3
+    },
+    {
+        "coverage": "زينب الطفيلي",
+        "count": 3
+    },
+    {
+        "coverage": "سائر اسليم",
+        "count": 3
+    },
+    {
+        "coverage": "هادي حطيط",
+        "count": 3
+    },
+    {
+        "coverage": "الميادين الثقافية",
+        "count": 3
+    },
+    {
+        "coverage": "شارل أبي نادر",
+        "count": 3
+    },
+    {
+        "coverage": "عبد الرحمن نصار",
+        "count": 3
+    },
+    {
+        "coverage": "رانا أبي جمعة",
+        "count": 3
+    },
+    {
+        "coverage": "زلزال سوريا وتركيا",
+        "count": 3
+    },
+    {
+        "coverage": "حديث القاهرة",
+        "count": 3
+    },
+    {
+        "coverage": "العراق تحت العدوان",
+        "count": 3
+    },
+    {
+        "coverage": "حسين نور الدين",
+        "count": 3
+    },
+    {
+        "coverage": "صورة ومعلومة",
+        "count": 3
+    },
+    {
+        "coverage": "قصص تفاعلية",
+        "count": 3
+    },
+    {
+        "coverage": "نور الدين إسكندر",
+        "count": 3
+    },
+    {
+        "coverage": "غراسيا بيطار ",
+        "count": 3
+    },
+    {
+        "coverage": "#فلسطين_تقاوم",
+        "count": 3
+    },
+    {
+        "coverage": "منذر سليمان",
+        "count": 3
+    },
+    {
+        "coverage": "ندوة الأسبوع",
+        "count": 3
+    },
+    {
+        "coverage": "محسن ساسي",
+        "count": 3
+    },
+    {
+        "coverage": "علي دربج",
+        "count": 3
+    },
+    {
+        "coverage": "حيان نيوف",
+        "count": 3
+    },
+    {
+        "coverage": "خالد اسكيف",
+        "count": 3
+    },
+    {
+        "coverage": "فوزي بن حديد",
+        "count": 3
+    },
+    {
+        "coverage": "جمهورية أفريقيا الوسطى",
+        "count": 3
+    },
+    {
+        "coverage": "حسن عطية",
+        "count": 3
+    },
+    {
+        "coverage": "مجد ليلى",
+        "count": 3
+    },
+    {
+        "coverage": "تنزانيا",
+        "count": 3
+    },
+    {
+        "coverage": "عاموس هرئيل",
+        "count": 3
+    },
+    {
+        "coverage": "عبدالله الفرح",
+        "count": 3
+    },
+    {
+        "coverage": "علي شهاب",
+        "count": 3
+    },
+    {
+        "coverage": "سنغافورة",
+        "count": 3
+    },
+    {
+        "coverage": "محمد العارف",
+        "count": 3
+    },
+    {
+        "coverage": "عباس صباغ",
+        "count": 3
+    },
+    {
+        "coverage": "محمد عاصي",
+        "count": 3
+    },
+    {
+        "coverage": "عاموس هرئل",
+        "count": 3
+    },
+    {
+        "coverage": "مكتب الميادين في واشنطن",
+        "count": 3
+    },
+    {
+        "coverage": "جمال الغربي",
+        "count": 3
+    },
+    {
+        "coverage": "عبد الرحمن عز الدين",
+        "count": 3
+    },
+    {
+        "coverage": "فنلندا",
+        "count": 3
+    },
+    {
+        "coverage": "سجى مرتضى",
+        "count": 3
+    },
+    {
+        "coverage": "الفلبين",
+        "count": 3
+    },
+    {
+        "coverage": "نقطة تحوّل",
+        "count": 3
+    },
+    {
+        "coverage": "إبراهيم يونس",
+        "count": 3
+    },
+    {
+        "coverage": "الإكوادور",
+        "count": 3
+    },
+    {
+        "coverage": "أمان الله المنصوري",
+        "count": 3
+    },
+    {
+        "coverage": "الرد الحتمي",
+        "count": 2
+    },
+    {
+        "coverage": "ملاك أبو زينب",
+        "count": 2
+    },
+    {
+        "coverage": "حميد لشهب",
+        "count": 2
+    },
+    {
+        "coverage": "قسم الشؤون الإسرائيلية في قناة الميادين",
+        "count": 2
+    },
+    {
+        "coverage": "زهراء ديراني ",
+        "count": 2
+    },
+    {
+        "coverage": "جمهورية التشيك",
+        "count": 2
+    },
+    {
+        "coverage": "مخاض أميركا",
+        "count": 2
+    },
+    {
+        "coverage": "سميحة البوغانمي/ تونس",
+        "count": 2
+    },
+    {
+        "coverage": "حفيظة هرتان",
+        "count": 2
+    },
+    {
+        "coverage": "غابرييل إليفتريو",
+        "count": 2
+    },
+    {
+        "coverage": "بريت ستيفنز",
+        "count": 2
+    },
+    {
+        "coverage": "حسين قطايا",
+        "count": 2
+    },
+    {
+        "coverage": "ملفان غودمان",
+        "count": 2
+    },
+    {
+        "coverage": "والدن بيلو",
+        "count": 2
+    },
+    {
+        "coverage": "كوت ديفوار",
+        "count": 2
+    },
+    {
+        "coverage": "ما القصة؟",
+        "count": 2
+    },
+    {
+        "coverage": "غفران مصطفى",
+        "count": 2
+    },
+    {
+        "coverage": "عاموس هرئِل",
+        "count": 2
+    },
+    {
+        "coverage": "وفاء العم",
+        "count": 2
+    },
+    {
+        "coverage": "عادل الجبوري",
+        "count": 2
+    },
+    {
+        "coverage": "جاكي خوري",
+        "count": 2
+    },
+    {
+        "coverage": "اندونيسيا",
+        "count": 2
+    },
+    {
+        "coverage": "مراد دلنسي",
+        "count": 2
+    },
+    {
+        "coverage": "حمزة أبو شنب",
+        "count": 2
+    },
+    {
+        "coverage": "بتول دياب",
+        "count": 2
+    },
+    {
+        "coverage": "رمضان بين الشعوب",
+        "count": 2
+    },
+    {
+        "coverage": "عباس إسماعيل",
+        "count": 2
+    },
+    {
+        "coverage": "سمية رقة",
+        "count": 2
+    },
+    {
+        "coverage": "أمان الله المنصوري ",
+        "count": 2
+    },
+    {
+        "coverage": "جنيف – موسى عاصي",
+        "count": 2
+    },
+    {
+        "coverage": "موسي عاصي",
+        "count": 2
+    },
+    {
+        "coverage": "أيهم مرعي - سوريا",
+        "count": 2
+    },
+    {
+        "coverage": "احمد شلدان",
+        "count": 2
+    },
+    {
+        "coverage": "محمود واثق",
+        "count": 2
+    },
+    {
+        "coverage": "الانسحاب الأميركي من أفغانستان",
+        "count": 2
+    },
+    {
+        "coverage": "مهرجانات",
+        "count": 2
+    },
+    {
+        "coverage": "جون فيفر",
+        "count": 2
+    },
+    {
+        "coverage": "ديما ناصيف ",
+        "count": 2
+    },
+    {
+        "coverage": "أحمد علوي",
+        "count": 2
+    },
+    {
+        "coverage": "بلغاريا",
+        "count": 2
+    },
+    {
+        "coverage": "مجلة \"ذي إيكونوميست\" البريطانية",
+        "count": 2
+    },
+    {
+        "coverage": "حياة الحويك عطية",
+        "count": 2
+    },
+    {
+        "coverage": "زمن غزة",
+        "count": 2
+    },
+    {
+        "coverage": "محمد عبد الرحمن عريف",
+        "count": 2
+    },
+    {
+        "coverage": "حسن شرف الدين",
+        "count": 2
+    },
+    {
+        "coverage": "موسى عاصي - جنيف",
+        "count": 2
+    },
+    {
+        "coverage": "أوروغواي",
+        "count": 2
+    },
+    {
+        "coverage": "زيمبابوي",
+        "count": 2
+    },
+    {
+        "coverage": "بيرو",
+        "count": 2
+    },
+    {
+        "coverage": "الميادين نت- نقولا طعمة",
+        "count": 2
+    },
+    {
+        "coverage": "أيمن عمر",
+        "count": 2
+    },
+    {
+        "coverage": "انفجار مرفأ بيروت",
+        "count": 2
+    },
+    {
+        "coverage": "باتريك مارتن",
+        "count": 2
+    },
+    {
+        "coverage": "المصطفى المعتصم",
+        "count": 2
+    },
+    {
+        "coverage": "عامٌ على كورونا",
+        "count": 2
+    },
+    {
+        "coverage": "تايلاند",
+        "count": 2
+    },
+    {
+        "coverage": "محمد خضر",
+        "count": 2
+    },
+    {
+        "coverage": "هبة محمود",
+        "count": 2
+    },
+    {
+        "coverage": "ناتاشا لينارد",
+        "count": 2
+    },
+    {
+        "coverage": "عبدالله محمد",
+        "count": 2
+    },
+    {
+        "coverage": "عباس المساوي",
+        "count": 2
+    },
+    {
+        "coverage": "كازاخستان",
+        "count": 2
+    },
+    {
+        "coverage": "عباس الجمري",
+        "count": 2
+    },
+    {
+        "coverage": "مصطفى أوزون",
+        "count": 2
+    },
+    {
+        "coverage": "رماح إسماعيل",
+        "count": 2
+    },
+    {
+        "coverage": "مكتب واشنطن ",
+        "count": 2
+    },
+    {
+        "coverage": "بتول رحّال",
+        "count": 2
+    },
+    {
+        "coverage": "غير مألوف",
+        "count": 2
+    },
+    {
+        "coverage": "أماني مهنا",
+        "count": 2
+    },
+    {
+        "coverage": "ابي زيدان",
+        "count": 2
+    },
+    {
+        "coverage": "جورجيو كافييرو",
+        "count": 2
+    },
+    {
+        "coverage": "إميل بارودي",
+        "count": 2
+    },
+    {
+        "coverage": "غدي غنطوس ",
+        "count": 2
+    },
+    {
+        "coverage": "حقيبة التاريخ",
+        "count": 2
+    },
+    {
+        "coverage": "تقارير",
+        "count": 2
+    },
+    {
+        "coverage": "صفقة القرن/سرقة القرن",
+        "count": 2
+    },
+    {
+        "coverage": "حراء طارق",
+        "count": 1
+    },
+    {
+        "coverage": "عباس الصباغ ",
+        "count": 1
+    },
+    {
+        "coverage": "فاديمة أوزقان",
+        "count": 1
+    },
+    {
+        "coverage": "نقولا طعمه",
+        "count": 1
+    },
+    {
+        "coverage": "هانّا ميرفي",
+        "count": 1
+    },
+    {
+        "coverage": "تقرير موسى عاصي",
+        "count": 1
+    },
+    {
+        "coverage": "جنيف-الميادين نت",
+        "count": 1
+    },
+    {
+        "coverage": "ترجمة الميادين نت ",
+        "count": 1
+    },
+    {
+        "coverage": "ميدييا بنيامين",
+        "count": 1
+    },
+    {
+        "coverage": "عبد العزيز بن حبتور",
+        "count": 1
+    },
+    {
+        "coverage": "إيشان ثارور",
+        "count": 1
+    },
+    {
+        "coverage": "كيرين سيتون",
+        "count": 1
+    },
+    {
+        "coverage": "ليزا ليرر",
+        "count": 1
+    },
+    {
+        "coverage": "عبدالله ضاهر",
+        "count": 1
+    },
+    {
+        "coverage": "عبد الرحيم نور الدين",
+        "count": 1
+    },
+    {
+        "coverage": " قاسم عزالدين",
+        "count": 1
+    },
+    {
+        "coverage": "كوثر توفيق شقير",
+        "count": 1
+    },
+    {
+        "coverage": "إدوارد هانت",
+        "count": 1
+    },
+    {
+        "coverage": "صلاح الداودي",
+        "count": 1
+    },
+    {
+        "coverage": "مولدوفا",
+        "count": 1
+    },
+    {
+        "coverage": "سلام العبيدي - من حدود القرم وخيرسون",
+        "count": 1
+    },
+    {
+        "coverage": "دوج باندو",
+        "count": 1
+    },
+    {
+        "coverage": "إيهود أولمرت",
+        "count": 1
+    },
+    {
+        "coverage": "زهراء رمال",
+        "count": 1
+    },
+    {
+        "coverage": "لانا شاهين",
+        "count": 1
+    },
+    {
+        "coverage": "هالة بطرس",
+        "count": 1
+    },
+    {
+        "coverage": "تقرير عبدالله بدران",
+        "count": 1
+    },
+    {
+        "coverage": " أبي زيدان",
+        "count": 1
+    },
+    {
+        "coverage": "سليم الحاج قاسم",
+        "count": 1
+    },
+    {
+        "coverage": "مارك إيه ميلي وإريك شميت",
+        "count": 1
+    },
+    {
+        "coverage": "جوشوا كورلانتزيك",
+        "count": 1
+    },
+    {
+        "coverage": "إيتامار آيخنر- تسيبي شميلوفيتس - دانييل باتيني",
+        "count": 1
+    },
+    {
+        "coverage": "مقدونيا",
+        "count": 1
+    },
+    {
+        "coverage": "مهدي ديراني - الصين",
+        "count": 1
+    },
+    {
+        "coverage": "لي سيغل",
+        "count": 1
+    },
+    {
+        "coverage": "تشو وينتينغ",
+        "count": 1
+    },
+    {
+        "coverage": "جعفر البراك",
+        "count": 1
+    },
+    {
+        "coverage": "سارة فلوندرز",
+        "count": 1
+    },
+    {
+        "coverage": "حتى القدس",
+        "count": 1
+    },
+    {
+        "coverage": "عماد شطارة ",
+        "count": 1
+    },
+    {
+        "coverage": "تقرير منال اسماعيل",
+        "count": 1
+    },
+    {
+        "coverage": "سيرج حليمي وبيار ريمبرت",
+        "count": 1
+    },
+    {
+        "coverage": "إليان بلتييه",
+        "count": 1
+    },
+    {
+        "coverage": "هبة الله البيطار",
+        "count": 1
+    },
+    {
+        "coverage": "قاسم عز الدين ",
+        "count": 1
+    },
+    {
+        "coverage": "ميدييا ​​بنيامين",
+        "count": 1
+    },
+    {
+        "coverage": "روث بنغيت",
+        "count": 1
+    },
+    {
+        "coverage": "باتريك سان بول",
+        "count": 1
+    },
+    {
+        "coverage": "حميد مير",
+        "count": 1
+    },
+    {
+        "coverage": "أحمد عبدالرحمن",
+        "count": 1
+    },
+    {
+        "coverage": "مجلة \"فورين أفيرز\" الأميركية",
+        "count": 1
+    },
+    {
+        "coverage": "محمد علي صنوبري *",
+        "count": 1
+    },
+    {
+        "coverage": "لي فانغ وجاك بولسون",
+        "count": 1
+    },
+    {
+        "coverage": "بن آريس",
+        "count": 1
+    },
+    {
+        "coverage": "كومفورت إيرو",
+        "count": 1
+    },
+    {
+        "coverage": "ناصر اللحام",
+        "count": 1
+    },
+    {
+        "coverage": "ميس أبو غوش",
+        "count": 1
+    },
+    {
+        "coverage": "عزالدين بن عطية",
+        "count": 1
+    },
+    {
+        "coverage": "ألفريد دبليو مكوي",
+        "count": 1
+    },
+    {
+        "coverage": "معهد \"هدسون\"",
+        "count": 1
+    },
+    {
+        "coverage": "الجبل الأسود",
+        "count": 1
+    },
+    {
+        "coverage": "ويليام روبنسون",
+        "count": 1
+    },
+    {
+        "coverage": "رون جاكوبس",
+        "count": 1
+    },
+    {
+        "coverage": "مايكل كراولي",
+        "count": 1
+    },
+    {
+        "coverage": "باتريك كينغسلي وبلال شبير",
+        "count": 1
+    },
+    {
+        "coverage": "ليزا حسين اسحق",
+        "count": 1
+    },
+    {
+        "coverage": "خلف علي المفتاح",
+        "count": 1
+    },
+    {
+        "coverage": "أليكس فيشمان",
+        "count": 1
+    },
+    {
+        "coverage": "محمد شاهين",
+        "count": 1
+    },
+    {
+        "coverage": "سودارسان راغافان",
+        "count": 1
+    },
+    {
+        "coverage": "أسامة عبدالنور",
+        "count": 1
+    },
+    {
+        "coverage": "تنس",
+        "count": 1
+    },
+    {
+        "coverage": "حروب الجيل الخامس",
+        "count": 1
+    },
+    {
+        "coverage": "؟",
+        "count": 1
+    },
+    {
+        "coverage": "طه آقيول",
+        "count": 1
+    },
+    {
+        "coverage": "صحيفة \"وول ستريت جورنال\" الأميركية",
+        "count": 1
+    },
+    {
+        "coverage": "كورينا جي بارنارد",
+        "count": 1
+    },
+    {
+        "coverage": "محمد لواتي",
+        "count": 1
+    },
+    {
+        "coverage": "المؤرخ إسرائيلي بيني موريس",
+        "count": 1
+    },
+    {
+        "coverage": "خاص الميادين",
+        "count": 1
+    },
+    {
+        "coverage": "بيلين فرنانديز",
+        "count": 1
+    },
+    {
+        "coverage": "جيفري كلير",
+        "count": 1
+    },
+    {
+        "coverage": "نورالدين اسكندر",
+        "count": 1
+    },
+    {
+        "coverage": "جيف شتاين وفيديريكا كوكو",
+        "count": 1
+    },
+    {
+        "coverage": "جون أوثرز",
+        "count": 1
+    },
+    {
+        "coverage": "جيمس هولمز",
+        "count": 1
+    },
+    {
+        "coverage": "أسامة أبو دراز",
+        "count": 1
+    },
+    {
+        "coverage": "بن كسبيت",
+        "count": 1
+    },
+    {
+        "coverage": "الكاميرون",
+        "count": 1
+    },
+    {
+        "coverage": "عماد الدين رائف",
+        "count": 1
+    },
+    {
+        "coverage": "آفي أشكينازي",
+        "count": 1
+    },
+    {
+        "coverage": "ميخال يعري",
+        "count": 1
+    },
+    {
+        "coverage": "عبد الرحيم سويسة",
+        "count": 1
+    },
+    {
+        "coverage": "منطقة البحر الكاريبي هولندا",
+        "count": 1
+    },
+    {
+        "coverage": "فيرجيني مالينجر",
+        "count": 1
+    },
+    {
+        "coverage": "أكثم سليمان",
+        "count": 1
+    },
+    {
+        "coverage": "حسام عبد الكريم",
+        "count": 1
+    },
+    {
+        "coverage": "هوارد فرانش",
+        "count": 1
+    },
+    {
+        "coverage": "موقع \"Responsible Statecraft\"",
+        "count": 1
+    },
+    {
+        "coverage": "نور الدين دغير",
+        "count": 1
+    },
+    {
+        "coverage": "جاريد ملسي، فاطمة عبد الكريم، أنات بيلد",
+        "count": 1
+    },
+    {
+        "coverage": "أليف صباغ",
+        "count": 1
+    },
+    {
+        "coverage": "نزار عبود ",
+        "count": 1
+    },
+    {
+        "coverage": "الميادين - مكتب واشنطن",
+        "count": 1
+    },
+    {
+        "coverage": "د. فيصل المقداد",
+        "count": 1
+    },
+    {
+        "coverage": "الثلاثاء الكبير",
+        "count": 1
+    },
+    {
+        "coverage": "صحيفة \"العرب اليوم\" الأردنية",
+        "count": 1
+    },
+    {
+        "coverage": "زاين سوانسون",
+        "count": 1
+    },
+    {
+        "coverage": "شون رايمنت",
+        "count": 1
+    },
+    {
+        "coverage": "نور الهدى صالح",
+        "count": 1
+    },
+    {
+        "coverage": "محمد علي فقيه",
+        "count": 1
+    },
+    {
+        "coverage": "محمد الواوي",
+        "count": 1
+    },
+    {
+        "coverage": "دوف زاخيم",
+        "count": 1
+    },
+    {
+        "coverage": "أيهم مرعي- الحسكة",
+        "count": 1
+    },
+    {
+        "coverage": "فقرات",
+        "count": 1
+    },
+    {
+        "coverage": "خولة بوكريم",
+        "count": 1
+    },
+    {
+        "coverage": "جوناثان ميلير",
+        "count": 1
+    },
+    {
+        "coverage": "اليسار كرم",
+        "count": 1
+    },
+    {
+        "coverage": "والتر دورن",
+        "count": 1
+    },
+    {
+        "coverage": "حسن عبد الله - باريس",
+        "count": 1
+    },
+    {
+        "coverage": "لي هوكستادر",
+        "count": 1
+    },
+    {
+        "coverage": "فاطمة خليفة",
+        "count": 1
+    },
+    {
+        "coverage": "جنا سرحال",
+        "count": 1
+    },
+    {
+        "coverage": "محمد عارف",
+        "count": 1
+    },
+    {
+        "coverage": "معتز القيسية ",
+        "count": 1
+    },
+    {
+        "coverage": "حسين نورالدين",
+        "count": 1
+    },
+    {
+        "coverage": "ميانمار",
+        "count": 1
+    },
+    {
+        "coverage": "طال ليف رام",
+        "count": 1
+    },
+    {
+        "coverage": "صحيفة \"ذا هيل\" الأميركية",
+        "count": 1
+    },
+    {
+        "coverage": "غادة الشيخ",
+        "count": 1
+    },
+    {
+        "coverage": "عبد القادر سلوي",
+        "count": 1
+    },
+    {
+        "coverage": "الميادين نت - أيهم مرعي",
+        "count": 1
+    },
+    {
+        "coverage": "إبراهيم الأمين",
+        "count": 1
+    },
+    {
+        "coverage": "نيكولاي بترو",
+        "count": 1
+    },
+    {
+        "coverage": "آلاء حمود",
+        "count": 1
+    },
+    {
+        "coverage": "عيدان بنيامين",
+        "count": 1
+    },
+    {
+        "coverage": "محمد مجسن",
+        "count": 1
+    },
+    {
+        "coverage": "هيئة التحرير",
+        "count": 1
+    },
+    {
+        "coverage": "داميان كايف",
+        "count": 1
+    },
+    {
+        "coverage": "مريم محمد",
+        "count": 1
+    },
+    {
+        "coverage": "أورين زيف",
+        "count": 1
+    },
+    {
+        "coverage": "سائر إسليم",
+        "count": 1
+    },
+    {
+        "coverage": "ملفن غودمان",
+        "count": 1
+    },
+    {
+        "coverage": "وجيه ريان",
+        "count": 1
+    },
+    {
+        "coverage": "باراك ديفيد",
+        "count": 1
+    },
+    {
+        "coverage": "مارك ترايسي",
+        "count": 1
+    },
+    {
+        "coverage": "إيلان ز. بارون وإيلاي ز. سالتزمان",
+        "count": 1
+    },
+    {
+        "coverage": "جيرالد سيب",
+        "count": 1
+    },
+    {
+        "coverage": "شافي محمد",
+        "count": 1
+    },
+    {
+        "coverage": "حغاي إلعاد",
+        "count": 1
+    },
+    {
+        "coverage": "عباس صياغ",
+        "count": 1
+    },
+    {
+        "coverage": "تقرير حازم كلاس",
+        "count": 1
+    },
+    {
+        "coverage": "ماثيو دوس ونانسي أوكيل",
+        "count": 1
+    },
+    {
+        "coverage": "ساجدة شاهين",
+        "count": 1
+    },
+    {
+        "coverage": "هاشتاغ",
+        "count": 1
+    },
+    {
+        "coverage": "دانييل لاريسون",
+        "count": 1
+    },
+    {
+        "coverage": "سعيد شاه - وقار جيلاني",
+        "count": 1
+    },
+    {
+        "coverage": "سمية العبيدي",
+        "count": 1
+    },
+    {
+        "coverage": "ماثيو بي",
+        "count": 1
+    },
+    {
+        "coverage": "فاطمة كرنيب",
+        "count": 1
+    },
+    {
+        "coverage": "جيمس شوتر",
+        "count": 1
+    },
+    {
+        "coverage": "ستيفن بيفر",
+        "count": 1
+    },
+    {
+        "coverage": "اليمن ينتصر",
+        "count": 1
+    },
+    {
+        "coverage": "سارة لحاف",
+        "count": 1
+    },
+    {
+        "coverage": "يوفال أزولاي وعديئيل إيتان موستاكي",
+        "count": 1
+    },
+    {
+        "coverage": "منغوليا",
+        "count": 1
+    },
+    {
+        "coverage": "محمد فقيه",
+        "count": 1
+    },
+    {
+        "coverage": "ملحم ريّا",
+        "count": 1
+    },
+    {
+        "coverage": "مصطفى مسلماني",
+        "count": 1
+    },
+    {
+        "coverage": "بلال مبروك ",
+        "count": 1
+    },
+    {
+        "coverage": "آلان بياتي",
+        "count": 1
+    },
+    {
+        "coverage": "حازم كلاس ",
+        "count": 1
+    },
+    {
+        "coverage": "جيمي ديتمر",
+        "count": 1
+    },
+    {
+        "coverage": "صحيفة \"فايننشال تايمز\" البريطانية",
+        "count": 1
+    },
+    {
+        "coverage": "شبكة \"بلومبرغ\" الأميركية",
+        "count": 1
+    },
+    {
+        "coverage": "أحمد زبيبة",
+        "count": 1
+    },
+    {
+        "coverage": "رونين بيرغمان",
+        "count": 1
+    },
+    {
+        "coverage": "مكرم خوري -مخول",
+        "count": 1
+    },
+    {
+        "coverage": "يوآف ليمور",
+        "count": 1
+    },
+    {
+        "coverage": "ريكاردو فاز",
+        "count": 1
+    },
+    {
+        "coverage": "ندوة زمن غزة",
+        "count": 1
+    },
+    {
+        "coverage": "مقابلة مع",
+        "count": 1
+    },
+    {
+        "coverage": "يوجين دويل",
+        "count": 1
+    },
+    {
+        "coverage": "مايكل هاغر",
+        "count": 1
+    },
+    {
+        "coverage": "رولا أبو شقرا",
+        "count": 1
+    },
+    {
+        "coverage": "أنشل بفيفر",
+        "count": 1
+    },
+    {
+        "coverage": "محمد علي صنوبري",
+        "count": 1
+    },
+    {
+        "coverage": "عبد الله محمد",
+        "count": 1
+    },
+    {
+        "coverage": "يوآف زيتون",
+        "count": 1
+    },
+    {
+        "coverage": "جارد مالسن وغوردون لوبولد",
+        "count": 1
+    },
+    {
+        "coverage": "كاتلين جونستون",
+        "count": 1
+    },
+    {
+        "coverage": "عبد الخالق الحود",
+        "count": 1
+    },
+    {
+        "coverage": "كول ستانغلر",
+        "count": 1
+    },
+    {
+        "coverage": "محمد عجمي",
+        "count": 1
+    },
+    {
+        "coverage": "علي دريج",
+        "count": 1
+    },
+    {
+        "coverage": "مايكل شوالبي",
+        "count": 1
+    },
+    {
+        "coverage": "الغابون",
+        "count": 1
+    },
+    {
+        "coverage": "حوراء شريف",
+        "count": 1
+    },
+    {
+        "coverage": "سارة ارشيد",
+        "count": 1
+    },
+    {
+        "coverage": "صحيفة \"نيويورك تايمز\" الأميركية",
+        "count": 1
+    },
+    {
+        "coverage": "سياووش فلاح بور",
+        "count": 1
+    },
+    {
+        "coverage": "نيك كوربيشلي",
+        "count": 1
+    },
+    {
+        "coverage": " سميحة البوغانمي",
+        "count": 1
+    },
+    {
+        "coverage": "الميادي نت",
+        "count": 1
+    },
+    {
+        "coverage": "سينما و مسرح",
+        "count": 1
+    },
+    {
+        "coverage": "نور الدين برحيلة",
+        "count": 1
+    },
+    {
+        "coverage": "آنشيل بفيفير",
+        "count": 1
+    },
+    {
+        "coverage": "سارة الحاف ",
+        "count": 1
+    },
+    {
+        "coverage": "ميداني",
+        "count": 1
+    },
+    {
+        "coverage": "غدعون ليفي",
+        "count": 1
+    },
+    {
+        "coverage": "صالحة بيرق",
+        "count": 1
+    },
+    {
+        "coverage": "احمد عبد الرحمن",
+        "count": 1
+    },
+    {
+        "coverage": "رومان ديكرت",
+        "count": 1
+    },
+    {
+        "coverage": "سوزانا خليل",
+        "count": 1
+    },
+    {
+        "coverage": "راما ياد",
+        "count": 1
+    },
+    {
+        "coverage": "بيتر بيكر",
+        "count": 1
+    },
+    {
+        "coverage": "سمير زقوت",
+        "count": 1
+    },
+    {
+        "coverage": "محمد السواد",
+        "count": 1
+    },
+    {
+        "coverage": "\"الإيكونوميست\"",
+        "count": 1
+    },
+    {
+        "coverage": "موسى عاصي-جنيف",
+        "count": 1
+    },
+    {
+        "coverage": "وثائقيات",
+        "count": 1
+    },
+    {
+        "coverage": "ديريك غروسمان",
+        "count": 1
+    },
+    {
+        "coverage": "ايهود غونين",
+        "count": 1
+    },
+    {
+        "coverage": "أبو ناصر الفارابي",
+        "count": 1
+    },
+    {
+        "coverage": "حسن صباز",
+        "count": 1
+    },
+    {
+        "coverage": "مايا رزق",
+        "count": 1
+    },
+    {
+        "coverage": "كاليدونيا الجديدة",
+        "count": 1
+    },
+    {
+        "coverage": "فيجاي براشاد",
+        "count": 1
+    },
+    {
+        "coverage": "طاجيكستان",
+        "count": 1
+    },
+    {
+        "coverage": "حبيب شحادة",
+        "count": 1
+    },
+    {
+        "coverage": "عبد الجليل الزبيدي",
+        "count": 1
+    },
+    {
+        "coverage": "دانيال ديبيتريس",
+        "count": 1
+    },
+    {
+        "coverage": "دافني ريتشموند باراك",
+        "count": 1
+    },
+    {
+        "coverage": "فيولا مخزوم",
+        "count": 1
+    },
+    {
+        "coverage": "يسرائيل شماي",
+        "count": 1
+    },
+    {
+        "coverage": "كلوثيلد غوجارد، إليسا براون،مارك سكوت",
+        "count": 1
+    },
+    {
+        "coverage": " ملحم ريا ",
+        "count": 1
+    },
+    {
+        "coverage": "الغنوة الحلوة",
+        "count": 1
+    },
+    {
+        "coverage": "عالم كرة القدم",
+        "count": 1
+    },
+    {
+        "coverage": "فاطمة خليفة - الدوحة",
+        "count": 1
+    },
+    {
+        "coverage": "سبينسر أكيرمان",
+        "count": 1
+    },
+    {
+        "coverage": "فؤاد ابراهيم",
+        "count": 1
+    },
+    {
+        "coverage": "أليكس لانتير",
+        "count": 1
+    },
+    {
+        "coverage": "صحيفة \"كالكاليست\" الإسرائيلية",
+        "count": 1
+    },
+    {
+        "coverage": "مايكل مور",
+        "count": 1
+    },
+    {
+        "coverage": "موقع consortium news",
+        "count": 1
+    },
+    {
+        "coverage": "دان دي لوس، كير سيمونز وأبيغايل ويليامز",
+        "count": 1
+    },
+    {
+        "coverage": "سام دانينغ",
+        "count": 1
+    },
+    {
+        "coverage": "حيدر الجعفري",
+        "count": 1
+    },
+    {
+        "coverage": "روجر ويكر",
+        "count": 1
+    },
+    {
+        "coverage": "عبدالله ذبيان ",
+        "count": 1
+    },
+    {
+        "coverage": "عباس الصبّاغ",
+        "count": 1
+    },
+    {
+        "coverage": "الفاتيكان",
+        "count": 1
+    },
+    {
+        "coverage": "يانيف كوبوفيتس",
+        "count": 1
+    },
+    {
+        "coverage": "آلان غريش",
+        "count": 1
+    },
+    {
+        "coverage": "الميادين نت - ترجمة البوابة العربية للأخبار التقنية",
+        "count": 1
+    },
+    {
+        "coverage": "ميغان ستاك",
+        "count": 1
+    },
+    {
+        "coverage": "عماد البشتاوي",
+        "count": 1
+    },
+    {
+        "coverage": "نيبال",
+        "count": 1
+    },
+    {
+        "coverage": "يوسي ميلمان",
+        "count": 1
+    },
+    {
+        "coverage": "الميادين  ",
+        "count": 1
+    },
+    {
+        "coverage": "جيمس جاي كارافانو",
+        "count": 1
+    },
+    {
+        "coverage": "جون كينيث وايت",
+        "count": 1
+    },
+    {
+        "coverage": "موسى  سرور",
+        "count": 1
+    },
+    {
+        "coverage": "جيريمي سكاهيل",
+        "count": 1
+    },
+    {
+        "coverage": "جون كورييل - جاك ويليامز",
+        "count": 1
+    },
+    {
+        "coverage": "ياروسلاف كويسز",
+        "count": 1
+    },
+    {
+        "coverage": "بي ميخائيل",
+        "count": 1
+    },
+    {
+        "coverage": "دان بالز",
+        "count": 1
+    },
+    {
+        "coverage": "صادق النابلسي",
+        "count": 1
+    },
+    {
+        "coverage": "أندريا سيمان",
+        "count": 1
+    },
+    {
+        "coverage": "سامي أبو سالم",
+        "count": 1
+    },
+    {
+        "coverage": "يوسي يهوشع",
+        "count": 1
+    },
+    {
+        "coverage": "نور الدين الدغير",
+        "count": 1
+    },
+    {
+        "coverage": "يفغيني سميرنوف",
+        "count": 1
+    },
+    {
+        "coverage": "نداف هاعتسني",
+        "count": 1
+    },
+    {
+        "coverage": "محمد الفهد",
+        "count": 1
+    },
+    {
+        "coverage": "بيار أبي صعب",
+        "count": 1
+    },
+    {
+        "coverage": "هال براندز",
+        "count": 1
+    },
+    {
+        "coverage": "وكالة \"أسوشييتد برس\"",
+        "count": 1
+    },
+    {
+        "coverage": "برنامج أونلاين",
+        "count": 1
+    },
+    {
+        "coverage": "هانية البيومي",
+        "count": 1
+    },
+    {
+        "coverage": "بنديكت فيغرز وزاك ريتر",
+        "count": 1
+    },
+    {
+        "coverage": "دافور دالتو",
+        "count": 1
+    },
+    {
+        "coverage": "أحمد حاج علي",
+        "count": 1
+    },
+    {
+        "coverage": "هناء محاميد ",
+        "count": 1
+    },
+    {
+        "coverage": "إسراء الفاس",
+        "count": 1
+    },
+    {
+        "coverage": "جيوفاني روسونيلو",
+        "count": 1
+    },
+    {
+        "coverage": "نسرين سلمي ",
+        "count": 1
+    },
+    {
+        "coverage": "نيكولاس كريستوف",
+        "count": 1
+    },
+    {
+        "coverage": "غسان الاستانبولي",
+        "count": 1
+    },
+    {
+        "coverage": "رونين بيرجمان ومارك مازيتي",
+        "count": 1
+    },
+    {
+        "coverage": "ويليام روجر وتوماس سافيدج",
+        "count": 1
+    },
+    {
+        "coverage": "حسن صعب",
+        "count": 1
+    },
+    {
+        "coverage": "سعيد ماركوس تينوريو",
+        "count": 1
+    },
+    {
+        "coverage": " عبد الله بدران",
+        "count": 1
+    },
+    {
+        "coverage": "علي عبداللطيف اللافي",
+        "count": 1
+    },
+    {
+        "coverage": "شالوم ليبنر",
+        "count": 1
+    },
+    {
+        "coverage": "حسين شكرون",
+        "count": 1
+    },
+    {
+        "coverage": "صحيفة \"هآرتس\" الإسرائيلية",
+        "count": 1
+    },
+    {
+        "coverage": "ترجمة الميادين",
+        "count": 1
+    },
+    {
+        "coverage": "إبراهيم أبو عواد",
+        "count": 1
+    },
+    {
+        "coverage": "أرجان طوطار",
+        "count": 1
+    },
+    {
+        "coverage": "مكتب الميادين في واشنطن بالتعاون مع مركز الدراسات الاميركية والعربية",
+        "count": 1
+    },
+    {
+        "coverage": "سنيجديندو بهاتاشاريا",
+        "count": 1
+    },
+    {
+        "coverage": "صحيفة \"الغارديان\" البريطانية",
+        "count": 1
+    },
+    {
+        "coverage": "ماريا بافلوفا",
+        "count": 1
+    },
+    {
+        "coverage": "رويري كيسي",
+        "count": 1
+    },
+    {
+        "coverage": "آية فاعور",
+        "count": 1
+    },
+    {
+        "coverage": "مئير تورجمان",
+        "count": 1
+    },
+    {
+        "coverage": "جيكوب ماغيد",
+        "count": 1
+    },
+    {
+        "coverage": "محمد الساحلي",
+        "count": 1
+    },
+    {
+        "coverage": "حسن حصاري",
+        "count": 1
+    },
+    {
+        "coverage": "إيفان رودين",
+        "count": 1
+    },
+    {
+        "coverage": "رامون ماركس",
+        "count": 1
+    },
+    {
+        "coverage": "محيي الدين جبريل ",
+        "count": 1
+    },
+    {
+        "coverage": "المباريات الدولية الودية",
+        "count": 1
+    },
+    {
+        "coverage": "غراسيا بيطار الرستم",
+        "count": 1
+    },
+    {
+        "coverage": " غدي غنطوس ",
+        "count": 1
+    },
+    {
+        "coverage": "أليسار كرم",
+        "count": 1
+    },
+    {
+        "coverage": "صحيفة هآرتس",
+        "count": 1
+    },
+    {
+        "coverage": "مصطفى خليفة",
+        "count": 1
+    },
+    {
+        "coverage": "عبد العزيز قريش",
+        "count": 1
+    },
+    {
+        "coverage": "برير دودلي",
+        "count": 1
+    },
+    {
+        "coverage": "احمد عبدالله",
+        "count": 1
+    },
+    {
+        "coverage": "جون إيمونت",
+        "count": 1
+    },
+    {
+        "coverage": "بن كاسبيت",
+        "count": 1
+    },
+    {
+        "coverage": "أندرياس كلوث",
+        "count": 1
+    },
+    {
+        "coverage": "دي فريدمان",
+        "count": 1
+    },
+    {
+        "coverage": "محمد محمد السادة",
+        "count": 1
+    },
+    {
+        "coverage": "صحيفة \"واشنطن بوست\" الأميركية",
+        "count": 1
+    },
+    {
+        "coverage": "نورالدين إسكندر",
+        "count": 1
+    },
+    {
+        "coverage": "إسحاق بريك",
+        "count": 1
+    },
+    {
+        "coverage": "معتز القيسية + الميادين. نت",
+        "count": 1
+    },
+    {
+        "coverage": "أكرم جلال كريم",
+        "count": 1
+    },
+    {
+        "coverage": "ستيفن شيبرد",
+        "count": 1
+    },
+    {
+        "coverage": "دبليو جي هينيجان",
+        "count": 1
+    },
+    {
+        "coverage": "أحمد الحاج علي - موسكو",
+        "count": 1
+    },
+    {
+        "coverage": "هادي أحمد",
+        "count": 1
+    },
+    {
+        "coverage": "نجاح حمود",
+        "count": 1
+    },
+    {
+        "coverage": "ألكسندر وارد",
+        "count": 1
+    },
+    {
+        "coverage": "زينب طفيلي ",
+        "count": 1
+    },
+    {
+        "coverage": "رفيف دروكر",
+        "count": 1
+    },
+    {
+        "coverage": "عقبة مصباحي",
+        "count": 1
+    },
+    {
+        "coverage": "فاطمة فتوني",
+        "count": 1
+    },
+    {
+        "coverage": "عماد خياط",
+        "count": 1
+    },
+    {
+        "coverage": "أخبار الميادين",
+        "count": 1
+    },
+    {
+        "coverage": "ستيفن سيملر",
+        "count": 1
+    },
+    {
+        "coverage": "جاستن لوجان وجوشوا شيفرينسون",
+        "count": 1
+    },
+    {
+        "coverage": "مهدي الديراني",
+        "count": 1
+    },
+    {
+        "coverage": "توم مورينهاوت",
+        "count": 1
+    },
+    {
+        "coverage": "صحيفة التايمز البريطانية",
+        "count": 1
+    },
+    {
+        "coverage": "خلف جابر",
+        "count": 1
+    },
+    {
+        "coverage": "روني كارين رابين",
+        "count": 1
+    },
+    {
+        "coverage": "الميادينت نت",
+        "count": 1
+    },
+    {
+        "coverage": "أليكس ثيرستون",
+        "count": 1
+    },
+    {
+        "coverage": "علي رباح",
+        "count": 1
+    },
+    {
+        "coverage": "عبدالله السلمان",
+        "count": 1
+    },
+    {
+        "coverage": "ألكسندرا بوتري",
+        "count": 1
+    },
+    {
+        "coverage": "توماس فازي",
+        "count": 1
+    },
+    {
+        "coverage": "ميس أبو غوش - فلسطين المحتلة",
+        "count": 1
+    },
+    {
+        "coverage": "ساجدة طراف",
+        "count": 1
+    },
+    {
+        "coverage": "أليكس فيرشينين",
+        "count": 1
+    },
+    {
+        "coverage": "غينيا الاستوائية",
+        "count": 1
+    },
+    {
+        "coverage": "إيفون ريدلي",
+        "count": 1
+    },
+    {
+        "coverage": "محمّد نادر العمري",
+        "count": 1
+    },
+    {
+        "coverage": "ديريك وايت",
+        "count": 1
+    },
+    {
+        "coverage": "سائر اسليم - سوريا",
+        "count": 1
+    },
+    {
+        "coverage": "ستيفن فيرتهايم",
+        "count": 1
+    },
+    {
+        "coverage": "د. منذر سليمان",
+        "count": 1
+    },
+    {
+        "coverage": "ملفين غودمان",
+        "count": 1
+    },
+    {
+        "coverage": "رمزي بارود",
+        "count": 1
+    },
+    {
+        "coverage": "أندريه كورتونوف",
+        "count": 1
+    },
+    {
+        "coverage": "باراغواي",
+        "count": 1
+    },
+    {
+        "coverage": "هالا بطرس",
+        "count": 1
+    },
+    {
+        "coverage": "إيلان بابيه",
+        "count": 1
+    },
+    {
+        "coverage": "سراج عاصي",
+        "count": 1
+    },
+    {
+        "coverage": "ليوناردو فلوريس",
+        "count": 1
+    },
+    {
+        "coverage": "وكالة \"بلومبرغ\"",
+        "count": 1
+    },
+    {
+        "coverage": "توم إنغلهارت",
+        "count": 1
+    },
+    {
+        "coverage": "هيرب كاينون",
+        "count": 1
+    },
+    {
+        "coverage": "محمد السواد ",
+        "count": 1
+    },
+    {
+        "coverage": "كريستوفر ماكاليون وبنجامين فريدمان",
+        "count": 1
+    },
+    {
+        "coverage": "دانيال بومونت",
+        "count": 1
+    },
+    {
+        "coverage": "جوستين هوج",
+        "count": 1
+    },
+    {
+        "coverage": "جوليا كونلي",
+        "count": 1
+    },
+    {
+        "coverage": "آنشل فيفر",
+        "count": 1
+    },
+    {
+        "coverage": "شاكر طاريم",
+        "count": 1
+    },
+    {
+        "coverage": "ريم بن خليفة",
+        "count": 1
+    },
+    {
+        "coverage": "ديفيد فاين وتيريزا أريولا",
+        "count": 1
+    },
+    {
+        "coverage": "تيموثي غارتن آش",
+        "count": 1
+    },
+    {
+        "coverage": "بتول رحال",
+        "count": 1
+    },
+    {
+        "coverage": "بنجامين بارت",
+        "count": 1
+    },
+    {
+        "coverage": "أحمد محيي الدين",
+        "count": 1
+    },
+    {
+        "coverage": "تانيا كاوسي",
+        "count": 1
+    },
+    {
+        "coverage": "ماكور ريشون",
+        "count": 1
+    },
+    {
+        "coverage": "آرون ديفيد ميلر",
+        "count": 1
+    },
+    {
+        "coverage": "علي جزيني",
+        "count": 1
+    },
+    {
+        "coverage": "تيمة روماني",
+        "count": 1
+    },
+    {
+        "coverage": "نيك براينت",
+        "count": 1
+    },
+    {
+        "coverage": "بولنت أرانداتش",
+        "count": 1
+    },
+    {
+        "coverage": "خالد الدخيل",
+        "count": 1
+    },
+    {
+        "coverage": "أنشال فوهرا",
+        "count": 1
+    },
+    {
+        "coverage": "روبرت زاريتسكي",
+        "count": 1
+    },
+    {
+        "coverage": "مزال مُعلّم",
+        "count": 1
+    },
+    {
+        "coverage": "كينيث سورين",
+        "count": 1
+    },
+    {
+        "coverage": "مدغشقر",
+        "count": 1
+    },
+    {
+        "coverage": "غافين إيسلر",
+        "count": 1
+    },
+    {
+        "coverage": "آية محي الدين",
+        "count": 1
+    },
+    {
+        "coverage": "رماح اسماعيل",
+        "count": 1
+    },
+    {
+        "coverage": "دانيال لاريسون",
+        "count": 1
+    },
+    {
+        "coverage": "جعفر الجعفري",
+        "count": 1
+    },
+    {
+        "coverage": "عبد عبيد",
+        "count": 1
+    },
+    {
+        "coverage": "تشارلز بيرسون",
+        "count": 1
+    },
+    {
+        "coverage": "ماكس بوت",
+        "count": 1
+    },
+    {
+        "coverage": "عبد الكريم الفصال",
+        "count": 1
+    },
+    {
+        "coverage": "موقع \"TomDispatch\" الأميركي",
+        "count": 1
+    },
+    {
+        "coverage": "زمن القدس",
+        "count": 1
+    },
+    {
+        "coverage": "أيهم مرعي_ الحسكة",
+        "count": 1
+    },
+    {
+        "coverage": "هالة راريت وأنيل شلني",
+        "count": 1
+    },
+    {
+        "coverage": "سلام الربضي",
+        "count": 1
+    },
+    {
+        "coverage": "روجر هاريس",
+        "count": 1
+    },
+    {
+        "coverage": "حكيم ألادي نجم الدين",
+        "count": 1
+    },
+    {
+        "coverage": "سليم عواضة",
+        "count": 1
+    },
+    {
+        "coverage": "أيمن فاضل",
+        "count": 1
+    },
+    {
+        "coverage": "هونغ كونغ",
+        "count": 1
+    },
+    {
+        "coverage": "هناء المحاميد",
+        "count": 1
+    },
+    {
+        "coverage": "الميادين نت: ميساء شديد",
+        "count": 1
+    }
+]
