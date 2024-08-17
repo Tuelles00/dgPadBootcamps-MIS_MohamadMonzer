@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aggregation Charts</title>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    <style>
+        #container1, #container2, #container3, #container4, #container5 {
+            width: 48%;
+            height: 500px;
+            display: inline-block;
+            vertical-align: top;
+            margin: 1%;
+        }
+        .chart-container {
+            margin-bottom: 40px; /* Space between charts */
+        }
+        .chart-title {
+            text-align: center;
+            font-weight: bold;
+            margin-top: 10px; /* Margin top for chart title */
+        }
+        .no-data {
+            text-align: center;
+            font-size: 16px;
+            color: #666;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Aggregation Charts</h1>
+
+    <!-- Chart for articles_in_2024_08_10 -->
+    <div class="chart-container">
+        <div class="chart-title">Articles on 2024-08-10</div>
+        <div id="container1"></div>
+    </div>
+
+    <!-- Chart for articles_published_last_hour -->
+    <div class="chart-container">
+        <div class="chart-title">Articles Published in the Last Hour</div>
+        <div id="container2"></div>
+    </div>
+
+    <!-- Chart for articles_with_more_than_500_and_more_than_600_words -->
+    <div class="chart-container">
+        <div class="chart-title">Articles with More Than 500 and More Than 600 Words</div>
+        <div id="container3"></div>
+        <div id="no-data-msg3" class="no-data" style="display: none;">No data available for articles with more than 500 and 600 words.</div>
+    </div>
+
+    <!-- Chart for count_Israel_hamas_word -->
+    <div class="chart-container">
+        <div class="chart-title">Count of Israel and Hamas Words</div>
+        <div id="container4"></div>
+    </div>
+
+    <!-- Chart for top_10_most_updated_by_title -->
+    <div class="chart-container">
+        <div class="chart-title">Top 10 Most Updated by Title</div>
+        <div id="container5"></div>
+    </div>
+
+    <script>
+        // Get the data passed from Flask
+        var articles_in_2024_08_10 = {{ articles_in_2024_08_10|tojson|safe }};
+        var articles_published_last_hour = {{ articles_published_last_hour|tojson|safe }};
+        var articles_with_more_than_500_and_more_than_600_words = {{ articles_with_more_than_500_and_more_than_600_words|tojson|safe }};
+        var count_Israel_hamas_word = {{ count_Israel_hamas_word|tojson|safe }};
+        var top_10_most_updated_by_title = {{ top_10_most_updated_by_title|tojson|safe }};
+
+        // Chart for articles_in_2024_08_10
+        Highcharts.chart('container1', {
+            chart: {
+                type: 'bar'
+            },
+            title: {
+                text: 'Articles on 2024-08-10'
+            },
+            xAxis: {
+                categories: articles_in_2024_08_10.map(item => item.date),
+                title: {
+                    text: 'Date'
+                }
+            },
+            yAxis: {
+                min: 0,
+                title: {
+                    text: 'Number of Articles'
+                }
+            },
+            series: [{
+                name: 'Articles',
+                data: articles_in_2024_08_10.map(item => item.count)
+            }]
+        });
+
+        // Chart for articles_published_last_hour
+        Highcharts.chart('container2', {
+            chart: {
+                type: 'pie'
+            },
+            title: {
+                text: 'Articles Published in the Last Hour'
+            },
+            series: [{
+                name: 'Articles',
+                colorByPoint: true,
+                data: articles_published_last_hour.length > 0 ? articles_published_last_hour.map(item => ({
+                    name: item.title || 'No Title',
+                    y: item.count || 0
+                })) : [{ name: 'No Data', y: 1 }]
+            }]
+        });
+
+        // Check if data is available for articles_with_more_than_500_and_more_than_600_words
+        if (articles_with_more_than_500_and_more_than_600_words.length === 0) {
+            document.getElementById('container3').style.display = 'none';
+            document.getElementById('no-data-msg3').style.display = 'block';
+        } else {
+            // Chart for articles_with_more_than_500_and_more_than_600_words
+            Highcharts.chart('container3', {
+                chart: {
+                    type: 'pie'
+                },
+                title: {
+                    text: 'Articles with More Than 500 and More Than 600 Words'
+                },
+                series: [{
+                    name: 'Articles',
+                    colorByPoint: true,
+                    data: [
+                        {
+                            name: 'More than 500 words',
+                            y: articles_with_more_than_500_and_more_than_600_words[0].more_than_500_words
+                        },
+                        {
+                            name: 'More than 600 words',
+                            y: articles_with_more_than_500_and_more_than_600_words[0].more_than_600_words
+                        }
+                    ]
+                }]
+            });
+        }
+
+        // Chart for count_Israel_hamas_word
+        Highcharts.chart('container4', {
+            chart: {
+                type: 'pie'
+            },
+            title: {
+                text: 'Count of Israel and Hamas Words'
+            },
+            series: [{
+                name: 'Words',
+                colorByPoint: true,
+                data: Object.entries(count_Israel_hamas_word[0].keyword_counts).map(([keyword, count]) => ({
+                    name: keyword,
+                    y: count
+                }))
+            }]
+        });
+
+        // Chart for top_10_most_updated_by_title
+        Highcharts.chart('container5', {
+            chart: {
+                type: 'bar'
+            },
+            title: {
+                text: 'Top 10 Most Updated by Title'
+            },
+            xAxis: {
+                categories: top_10_most_updated_by_title.map(item => item.title),
+                title: {
+                    text: 'Title'
+                }
+            },
+            yAxis: {
+                min: 0,
+                title: {
+                    text: 'Update Count'
+                }
+            },
+            series: [{
+                name: 'Updates',
+                data: top_10_most_updated_by_title.map(item => item.update_count)
+            }]
+        });
+    </script>
+</body>
+</html>

@@ -46,6 +46,16 @@ def main():
             script_path_task2 = os.path.join(task2_dir, filename)
             run_script(script_path_task2)
 
+  # Path to the task22 directory
+    task22_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'task22'))
+
+    # Run all Python scripts in the task22 directory
+    for filename in os.listdir(task22_dir):
+        if filename.endswith('.py'):
+            script_path_task22 = os.path.join(task22_dir, filename)
+            run_script(script_path_task22)
+
+
 
 
     # Run specific scripts

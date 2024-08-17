@@ -48,17 +48,49 @@ def load_json(filename):
 # Define the path to the directory containing JSON files for task2  part 2 
 JSON_DIR2 =  os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'task22'))
 
-# To store the process handle
-process = None
-
 def load_json2(filename):
     with open(os.path.join(JSON_DIR2, filename), 'r', encoding='utf-8') as file:
         return json.load(file)
 
-
 @app.route('/')
 def index():
     return render_template('index.html')
+
+@app.route('/aggregation3')
+def aggregation3():
+    # Load JSON files based on the script names
+    articles_100_200_specific = load_json2('articles_100_200_specific.json')
+    articles_by_count_range_min_max = load_json2('articles_by_count_range_min_max.json')
+    articles_by_length_of_titles = load_json2('articles_by_length_of_titles.json')
+    articles_by_month = load_json2('articles_by_month.json')
+    articles_grouped_by_Coverage = load_json2('articles_grouped_by_Coverage.json')
+
+    # Pass the data to the template
+    return render_template('aggregation3.html',
+                           articles_100_200_specific=articles_100_200_specific,
+                           articles_by_count_range_min_max=articles_by_count_range_min_max,
+                           articles_by_length_of_titles=articles_by_length_of_titles,
+                           articles_by_month=articles_by_month,
+                           articles_grouped_by_Coverage=articles_grouped_by_Coverage)
+
+@app.route('/aggregation4')
+def aggregation4():
+    # Load JSON files based on the script names
+    articles_in_2024_08_10 = load_json2('articles_in_2024_08_10.json')
+    articles_published_last_hour = load_json2('articles_published_last_hour.json')
+    articles_with_more_than_500_and_more_than_600_words = load_json2('articles_with_more_than_500_and_more_than_600_words.json')
+    count_Israel_hamas_word = load_json2('count_Israel_hamas_word.json')
+    top_10_most_updated_by_title = load_json2('top_10_most_updated_by_title.json')
+
+    # Pass the data to the template
+    return render_template('aggregation4.html',
+                           articles_in_2024_08_10=articles_in_2024_08_10,
+                           articles_published_last_hour=articles_published_last_hour,
+                           articles_with_more_than_500_and_more_than_600_words=articles_with_more_than_500_and_more_than_600_words,
+                           count_Israel_hamas_word=count_Israel_hamas_word,
+                           top_10_most_updated_by_title=top_10_most_updated_by_title)
+
+
 
 @app.route('/aggregation2')
 def aggregation2():

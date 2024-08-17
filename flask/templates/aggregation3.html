@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aggregation</title>
+    <script src="//cdn.amcharts.com/lib/4/core.js"></script>
+    <script src="//cdn.amcharts.com/lib/4/charts.js"></script>
+    <script src="//cdn.amcharts.com/lib/4/maps.js"></script>
+    <script src="//cdn.amcharts.com/lib/4/themes/Animated.js"></script>
+    <style>
+        #chartdiv, #chartdiv2, #chartdiv3, #chartdiv4, #chartdiv5, #chartdiv6, #chartdiv7, #chartdiv8, #chartdiv9, #chartdiv10 {
+            width: 48%;
+            height: 500px;
+            display: inline-block;
+            vertical-align: top;
+            margin: 1%;
+        }
+        .chart-container {
+            margin-bottom: 40px; /* Space between charts */
+        }
+        .chart-title {
+            text-align: center;
+            font-weight: bold;
+            margin-top: 10px; /* Margin top for chart title */
+        }
+    </style>
+</head>
+<body>
+    <h1>Aggregation Charts</h1>
+
+    <div class="chart-container">
+        <div class="chart-title">Articles with Word Count 100 and 200</div>
+        <div id="chartdiv"></div>
+    </div>
+
+    <div class="chart-container">
+        <div class="chart-title">Articles Count by Range</div>
+        <div id="chartdiv2"></div>
+    </div>
+
+    <div class="chart-container">
+        <div class="chart-title">Articles by Length of Titles</div>
+        <div id="chartdiv3"></div>
+    </div>
+
+    <div class="chart-container">
+        <div class="chart-title">Articles by Month</div>
+        <div id="chartdiv4"></div>
+    </div>
+
+    <div class="chart-container">
+        <div class="chart-title">Articles Grouped by Coverage</div>
+        <div id="chartdiv5"></div>
+    </div>
+
+    <div class="chart-container">
+        <div class="chart-title">Articles on 2024-08-10</div>
+        <div id="chartdiv6"></div>
+    </div>
+
+    <div class="chart-container">
+        <div class="chart-title">Articles Published in the Last Hour</div>
+        <div id="chartdiv7"></div>
+    </div>
+
+    <div class="chart-container">
+        <div class="chart-title">Articles with More than 500 and More than 600 Words</div>
+        <div id="chartdiv8"></div>
+    </div>
+
+    <div class="chart-container">
+        <div class="chart-title">Keyword Counts: Israel and Hamas</div>
+        <div id="chartdiv9"></div>
+    </div>
+
+    <div class="chart-container">
+        <div class="chart-title">Top 10 Most Updated Articles by Title</div>
+        <div id="chartdiv10"></div>
+    </div>
+
+    <script>
+        // Get the data passed from Flask
+        var chartData1 = {{ articles_100_200_specific|tojson|safe }};
+        var chartData2 = {{ articles_by_count_range_min_max|tojson|safe }};
+        var chartData3 = {{ articles_by_length_of_titles|tojson|safe }};
+        var chartData4 = {{ articles_by_month|tojson|safe }};
+        var chartData5 = {{ articles_grouped_by_Coverage|tojson|safe }};
+        var chartData6 = {{ articles_in_2024_08_10|tojson|safe }};
+        var chartData7 = {{ articles_published_last_hour|tojson|safe }};
+        var chartData8 = {{ articles_with_more_than_500_and_more_than_600_words|tojson|safe }};
+        var chartData9 = {{ count_Israel_hamas_word|tojson|safe }};
+        var top10UpdatedByTitleData = {{ top_10_most_updated_by_title|tojson|safe }};
+
+        // Create chart instance for articles_100_200_specific
+        var chart1 = am4core.create("chartdiv", am4charts.XYChart);
+        chart1.data = chartData1;
+
+        var categoryAxis1 = chart1.xAxes.push(new am4charts.CategoryAxis());
+        categoryAxis1.dataFields.category = "word_count";
+        categoryAxis1.title.text = "Word Count";
+
+        var valueAxis1 = chart1.yAxes.push(new am4charts.ValueAxis());
+        valueAxis1.title.text = "Count";
+
+        var series1 = chart1.series.push(new am4charts.ColumnSeries());
+        series1.dataFields.valueY = "count";
+        series1.dataFields.categoryX = "word_count";
+        series1.name = "Count";
+        series1.columns.template.tooltipText = "{categoryX}: [bold]{valueY}[/]";
+        series1.columns.template.fillOpacity = 0.8;
+        series1.columns.template.strokeOpacity = 0;
+
+        chart1.cursor = new am4charts.XYCursor();
+        chart1.legend = new am4charts.Legend();
+
+        // Create chart instance for articles_by_count_range_min_max
+        var chart2 = am4core.create("chartdiv2", am4charts.XYChart);
+        chart2.data = chartData2[0];
+
+        var categoryAxis2 = chart2.yAxes.push(new am4charts.CategoryAxis());
+        categoryAxis2.dataFields.category = "range";
+        categoryAxis2.title.text = "Count Range";
+
+        var valueAxis2 = chart2.xAxes.push(new am4charts.ValueAxis());
+        valueAxis2.title.text = "Count";
+
+        var series2 = chart2.series.push(new am4charts.ColumnSeries());
+        series2.dataFields.valueX = "count";
+        series2.dataFields.categoryY = "range";
+        series2.name = "Count";
+        series2.columns.template.tooltipText = "{categoryY}: [bold]{valueX}[/]";
+        series2.columns.template.fillOpacity = 0.8;
+        series2.columns.template.strokeOpacity = 0;
+        series2.columns.template.column.cornerRadiusTopLeft = 5;
+        series2.columns.template.column.cornerRadiusTopRight = 5;
+
+        chart2.cursor = new am4charts.XYCursor();
+        chart2.legend = new am4charts.Legend();
+
+        // Prepare data for articles_by_length_of_titles
+        var lengthOfTitlesData = chartData3.map(item => ({
+            length: item.articles[0].title_length,
+            count: item.count
+        }));
+
+        var chart3 = am4core.create("chartdiv3", am4charts.XYChart);
+        chart3.data = lengthOfTitlesData;
+
+        var categoryAxis3 = chart3.xAxes.push(new am4charts.CategoryAxis());
+        categoryAxis3.dataFields.category = "length";
+        categoryAxis3.title.text = "Title Length";
+
+        var valueAxis3 = chart3.yAxes.push(new am4charts.ValueAxis());
+        valueAxis3.title.text = "Count";
+
+        var series3 = chart3.series.push(new am4charts.ColumnSeries());
+        series3.dataFields.valueY = "count";
+        series3.dataFields.categoryX = "length";
+        series3.name = "Count";
+        series3.columns.template.tooltipText = "{categoryX}: [bold]{valueY}[/]";
+        series3.columns.template.fillOpacity = 0.8;
+        series3.columns.template.strokeOpacity = 0;
+
+        chart3.cursor = new am4charts.XYCursor();
+        chart3.legend = new am4charts.Legend();
+
+        // Prepare data for articles_by_month
+        var formattedData = chartData4.map(item => ({
+            date: ${item.year}/${item.month.toString().padStart(2, '0')},
+            count: item.count
+        }));
+
+        // Create the chart instance for articles_by_month
+        var chart4 = am4core.create("chartdiv4", am4charts.XYChart);
+        chart4.data = formattedData;
+
+        // Create and configure the x-axis
+        var categoryAxis4 = chart4.xAxes.push(new am4charts.CategoryAxis());
+        categoryAxis4.dataFields.category = "date";
+        categoryAxis4.title.text = "Year/Month";
+        categoryAxis4.renderer.labels.template.rotation = -45; // Rotate labels for better readability
+        categoryAxis4.renderer.labels.template.horizontalCenter = "right";
+        categoryAxis4.renderer.labels.template.verticalCenter = "middle";
+        categoryAxis4.renderer.labels.template.dy = 10; // Adjust vertical position
+
+        // Create and configure the y-axis
+        var valueAxis4 = chart4.yAxes.push(new am4charts.ValueAxis());
+        valueAxis4.title.text = "Count";
+
+        // Create and configure the series
+        var series4 = chart4.series.push(new am4charts.ColumnSeries());
+        series4.dataFields.valueY = "count";
+        series4.dataFields.categoryX = "date";
+        series4.name = "Count";
+        series4.columns.template.tooltipText = "{categoryX}: [bold]{valueY}[/]";
+        series4.columns.template.fillOpacity = 0.8;
+        series4.columns.template.strokeOpacity = 0;
+
+        // Add a cursor
+        chart4.cursor = new am4charts.XYCursor();
+        chart4.legend = new am4charts.Legend();
+
+        // Create chart instance for articles_grouped_by_Coverage
+        var chart5 = am4core.create("chartdiv5", am4charts.PieChart);
+        chart5.data = chartData5;
+
+        var pieSeries = chart5.series.push(new am4charts.PieSeries());
+        pieSeries.dataFields.value = "count";
+        pieSeries.dataFields.category = "coverage";
+        pieSeries.slices.template.tooltipText = "{category}: [bold]{value}[/]";
+        pieSeries.slices.template.fillOpacity = 0.8;
+
+        chart5.legend = new am4charts.Legend();
+
+        // Create chart instance for articles_in_2024_08_10
+        var chart6 = am4core.create("chartdiv6", am4charts.XYChart);
+        chart6.data = chartData6;
+
+        var categoryAxis6 = chart6.xAxes.push(new am4charts.CategoryAxis());
+        categoryAxis6.dataFields.category = "title";
+        categoryAxis6.title.text = "Article Title";
+
+        var valueAxis6 = chart6.yAxes.push(new am4charts.ValueAxis());
+        valueAxis6.title.text = "Count";
+
+        var series6 = chart6.series.push(new am4charts.ColumnSeries());
+        series6.dataFields.valueY = "count";
+        series6.dataFields.categoryX = "title";
+        series6.name = "Count";
+        series6.columns.template.tooltipText = "{categoryX}: [bold]{valueY}[/]";
+        series6.columns.template.fillOpacity = 0.8;
+        series6.columns.template.strokeOpacity = 0;
+
+        chart6.cursor = new am4charts.XYCursor();
+        chart6.legend = new am4charts.Legend();
+
+        // Create chart instance for articles_published_last_hour
+        var chart7 = am4core.create("chartdiv7", am4charts.XYChart);
+        chart7.data = chartData7;
+
+        var categoryAxis7 = chart7.xAxes.push(new am4charts.CategoryAxis());
+        categoryAxis7.dataFields.category = "title";
+        categoryAxis7.title.text = "Article Title";
+
+        var valueAxis7 = chart7.yAxes.push(new am4charts.ValueAxis());
+        valueAxis7.title.text = "Count";
+
+        var series7 = chart7.series.push(new am4charts.ColumnSeries());
+        series7.dataFields.valueY = "count";
+        series7.dataFields.categoryX = "title";
+        series7.name = "Count";
+        series7.columns.template.tooltipText = "{categoryX}: [bold]{valueY}[/]";
+        series7.columns.template.fillOpacity = 0.8;
+        series7.columns.template.strokeOpacity = 0;
+
+        chart7.cursor = new am4charts.XYCursor();
+        chart7.legend = new am4charts.Legend();
+
+        // Create chart instance for articles_with_more_than_500_and_more_than_600_words
+        var chart8 = am4core.create("chartdiv8", am4charts.XYChart);
+        chart8.data = chartData8;
+
+        var categoryAxis8 = chart8.xAxes.push(new am4charts.CategoryAxis());
+        categoryAxis8.dataFields.category = "word_count";
+        categoryAxis8.title.text = "Word Count";
+
+        var valueAxis8 = chart8.yAxes.push(new am4charts.ValueAxis());
+        valueAxis8.title.text = "Count";
+
+        var series8 = chart8.series.push(new am4charts.ColumnSeries());
+        series8.dataFields.valueY = "count";
+        series8.dataFields.categoryX = "word_count";
+        series8.name = "Count";
+        series8.columns.template.tooltipText = "{categoryX}: [bold]{valueY}[/]";
+        series8.columns.template.fillOpacity = 0.8;
+        series8.columns.template.strokeOpacity = 0;
+
+        chart8.cursor = new am4charts.XYCursor();
+        chart8.legend = new am4charts.Legend();
+
+        // Create chart instance for count_Israel_hamas_word
+        var chart9 = am4core.create("chartdiv9", am4charts.XYChart);
+        chart9.data = chartData9;
+
+        var categoryAxis9 = chart9.xAxes.push(new am4charts.CategoryAxis());
+        categoryAxis9.dataFields.category = "keyword";
+        categoryAxis9.title.text = "Keyword";
+
+        var valueAxis9 = chart9.yAxes.push(new am4charts.ValueAxis());
+        valueAxis9.title.text = "Count";
+
+        var series9 = chart9.series.push(new am4charts.ColumnSeries());
+        series9.dataFields.valueY = "count";
+        series9.dataFields.categoryX = "keyword";
+        series9.name = "Count";
+        series9.columns.template.tooltipText = "{categoryX}: [bold]{valueY}[/]";
+        series9.columns.template.fillOpacity = 0.8;
+        series9.columns.template.strokeOpacity = 0;
+
+        chart9.cursor = new am4charts.XYCursor();
+        chart9.legend = new am4charts.Legend();
+
+        // Create chart instance for top_10_most_updated_by_title
+        var chart10 = am4core.create("chartdiv10", am4charts.XYChart);
+        chart10.data = top10UpdatedByTitleData;
+
+        var categoryAxis10 = chart10.xAxes.push(new am4charts.CategoryAxis());
+        categoryAxis10.dataFields.category = "title";
+        categoryAxis10.title.text = "Article Title";
+
+        var valueAxis10 = chart10.yAxes.push(new am4charts.ValueAxis());
+        valueAxis10.title.text = "Update Count";
+
+        var series10 = chart10.series.push(new am4charts.ColumnSeries());
+        series10.dataFields.valueY = "count";
+        series10.dataFields.categoryX = "title";
+        series10.name = "Count";
+        series10.columns.template.tooltipText = "{categoryX}: [bold]{valueY}[/]";
+        series10.columns.template.fillOpacity = 0.8;
+        series10.columns.template.strokeOpacity = 0;
+
+        chart10.cursor = new am4charts.XYCursor();
+        chart10.legend = new am4charts.Legend();
+    </script>
+</body>
+</html>
