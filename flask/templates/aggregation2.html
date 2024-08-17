@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aggregation Results 2</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 20px;
+        background-color: #f8f9fa;
+    }
+    h1 {
+        color: #343a40;
+    }
+    a {
+        display: inline-block;
+        margin: 10px;
+        padding: 10px 20px;
+        text-decoration: none;
+        background-color: #007bff;
+        color: white;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+    a:hover {
+        background-color: #0056b3;
+    }
+    .charts-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px; /* Adds space between rows and columns of charts */
+    }
+    .chart-container {
+        flex: 1 1 calc(50% - 20px);
+        max-width: calc(50% - 20px);
+        margin: 30px 0; /* Increased space above and below each chart */
+        position: relative;
+        height: 400px;
+    }
+    .recent-posts-container,
+    .top-posts-container,
+    .top-posts-by-word-count-container {
+        margin: 20px;
+        text-align: left;
+    }
+    .recent-posts-container h2,
+    .top-posts-container h2,
+    .top-posts-by-word-count-container h2 {
+        color: #343a40;
+    }
+    .recent-post,
+    .top-post,
+    .top-post-by-word-count {
+        margin-bottom: 20px;
+        padding: 10px;
+        border: 1px solid #dee2e6;
+        border-radius: 5px;
+        background-color: #ffffff;
+    }
+    .recent-post a,
+    .top-post a,
+    .top-post-by-word-count a {
+        color: #007bff;
+        text-decoration: none;
+    }
+    .recent-post a:hover,
+    .top-post a:hover,
+    .top-post-by-word-count a:hover {
+        text-decoration: underline;
+    }
+</style>
+    <!-- Include Highcharts library -->
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+</head>
+<body>
+    <h1>Aggregation Results 2</h1>
+    <p>Here you can view various charts summarizing the data (Second Set of Tasks).</p>
+
+    <div class="charts-container">
+        <div class="chart-container">
+            <h2>Article Coverage</h2>
+            <div id="coverageChart"></div>
+        </div>
+        <div class="chart-container">
+            <h2>Thumbnail Presence</h2>
+            <div id="thumbnailChart"></div>
+        </div>
+        <div class="chart-container">
+            <h2>Popular Keywords (Last 7 Days)</h2>
+            <div id="popularKeywordsChart"></div>
+        </div>
+        <div class="chart-container">
+            <h2>Word Count Range</h2>
+            <div id="wordCountRangeChart"></div>
+        </div>
+        <div class="chart-container">
+            <h2>Articles Updated After Publication</h2>
+            <div id="updatedAfterPublicationChart"></div>
+        </div>
+        <div class="chart-container">
+            <h2>Article Count by Year</h2>
+            <div id="articleCountByYearChart"></div>
+        </div>
+    </div>
+
+    <div class="recent-posts-container">
+        <h2>Recent Posts</h2>
+        <div id="recentPosts"></div>
+    </div>
+
+    <div class="top-posts-container">
+        <h2>Top 10 Posts by Lowest Word Count</h2>
+        <div id="topPosts"></div>
+    </div>
+
+    <div class="top-posts-by-word-count-container">
+        <h2>Top 10 Posts by Highest Word Count</h2>
+        <div id="topPostsByWordCount"></div>
+    </div>
+
+    <a href="{{ url_for('index') }}">Back to Home</a>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Log data variables to console
+            const articlesByCoverage = {{ articles_by_coverage | tojson }};
+            console.log('Articles by Coverage:', articlesByCoverage);
+
+            const articlesByThumbnailPresence = {{ articles_grouped_by_thumbnail_presence | tojson }};
+            console.log('Articles by Thumbnail Presence:', articlesByThumbnailPresence);
+
+            const mostPopularKeywordsLast7Days = {{ most_popular_keywords_last_7_days | tojson }};
+            console.log('Most Popular Keywords (Last 7 Days):', mostPopularKeywordsLast7Days);
+
+            const articlesGroupedByWordCount = {{ articles_grouped_by_word_count | tojson }};
+            console.log('Articles Grouped by Word Count:', articlesGroupedByWordCount);
+
+            const articlesUpdatedAfterPublication = {{ articles_updated_after_publication | tojson }};
+            console.log('Articles Updated After Publication:', articlesUpdatedAfterPublication);
+
+            const articleCountByYear = {{ article_count_by_year | tojson }};
+            console.log('Article Count by Year:', articleCountByYear);
+
+            const recentPostData = {{ recent_post_data | tojson }};
+            console.log('Recent Post Data:', recentPostData);
+
+            const top10PostIdsByLowestWordCount = {{ top_10_post_ids_by_lowest_word_count | tojson }};
+            console.log('Top 10 Post IDs by Lowest Word Count:', top10PostIdsByLowestWordCount);
+
+            const top10PostIdsByWordCount = {{ top_10_post_ids_by_word_count | tojson }};
+            console.log('Top 10 Post IDs by Highest Word Count:', top10PostIdsByWordCount);
+
+            // Initialize Highcharts
+            // Article Coverage Chart
+            Highcharts.chart('coverageChart', {
+                chart: {
+                    type: 'pie'
+                },
+                title: {
+                    text: 'Article Coverage'
+                },
+                series: [{
+                    name: 'Coverage',
+                    colorByPoint: true,
+                    data: articlesByCoverage.map(item => ({
+                        name: item.coverage || 'Unknown',
+                        y: item.count
+                    }))
+                }]
+            });
+
+            // Thumbnail Presence Chart
+            Highcharts.chart('thumbnailChart', {
+                chart: {
+                    type: 'pie'
+                },
+                title: {
+                    text: 'Thumbnail Presence'
+                },
+                series: [{
+                    name: 'Presence',
+                    colorByPoint: true,
+                    data: articlesByThumbnailPresence.map(item => ({
+                        name: item.thumbnail_presence,
+                        y: item.count
+                    }))
+                }]
+            });
+
+            // Popular Keywords Chart
+            Highcharts.chart('popularKeywordsChart', {
+                chart: {
+                    type: 'column'
+                },
+                title: {
+                    text: 'Popular Keywords (Last 7 Days)'
+                },
+                xAxis: {
+                    type: 'category',
+                    title: {
+                        text: 'Keywords'
+                    }
+                },
+                yAxis: {
+                    title: {
+                        text: 'Occurrences'
+                    }
+                },
+                series: mostPopularKeywordsLast7Days.map(day => ({
+                    name: day.date,
+                    data: day.keyword_counts.map(keyword => ({
+                        name: keyword.keyword,
+                        y: keyword.count
+                    }))
+                }))
+            });
+
+            // Word Count Range Chart
+            Highcharts.chart('wordCountRangeChart', {
+                chart: {
+                    type: 'bar'
+                },
+                title: {
+                    text: 'Word Count Range'
+                },
+                xAxis: {
+                    type: 'category',
+                    title: {
+                        text: 'Word Count'
+                    }
+                },
+                yAxis: {
+                    title: {
+                        text: 'Number of Articles'
+                    }
+                },
+                series: [{
+                    name: 'Articles',
+                    data: articlesGroupedByWordCount.map(item => ({
+                        name: item.word_count,
+                        y: item.count
+                    }))
+                }]
+            });
+
+            // Articles Updated After Publication Chart
+            Highcharts.chart('updatedAfterPublicationChart', {
+                chart: {
+                    type: 'pie'
+                },
+                title: {
+                    text: 'Articles Updated After Publication'
+                },
+                series: [{
+                    name: 'Articles',
+                    colorByPoint: true,
+                    data: [{
+                        name: 'Updated',
+                        y: articlesUpdatedAfterPublication[0].count
+                    }]
+                }]
+            });
+
+            // Article Count by Year Chart
+            Highcharts.chart('articleCountByYearChart', {
+                chart: {
+                    type: 'line'
+                },
+                title: {
+                    text: 'Article Count by Year'
+                },
+                xAxis: {
+                    categories: articleCountByYear.map(item => item.year),
+                    title: {
+                        text: 'Year'
+                    }
+                },
+                yAxis: {
+                    title: {
+                        text: 'Number of Articles'
+                    }
+                },
+                series: [{
+                    name: 'Articles',
+                    data: articleCountByYear.map(item => item.count)
+                }]
+            });
+
+            // Recent Posts Display
+            const recentPostsContainer = document.getElementById('recentPosts');
+            recentPostData.forEach(post => {
+                const postElement = document.createElement('div');
+                postElement.className = 'recent-post';
+                postElement.innerHTML = `
+                    <p><strong>Post ID:</strong> ${post.postid}</p>
+                    <p><strong>Title:</strong> <a href="${post.url}" target="_blank">${post.title}</a></p>
+                    <p><strong>Keywords:</strong> ${post.keywords.join(', ')}</p>
+                `;
+                recentPostsContainer.appendChild(postElement);
+            });
+
+            // Top 10 Posts by Lowest Word Count
+            const topPostsContainer = document.getElementById('topPosts');
+            top10PostIdsByLowestWordCount.forEach(post => {
+                const postElement = document.createElement('div');
+                postElement.className = 'top-post';
+                postElement.innerHTML = `
+                    <p><strong>Post ID:</strong> ${post.postid}</p>
+                `;
+                topPostsContainer.appendChild(postElement);
+            });
+
+            // Top 10 Posts by Highest Word Count
+            const topPostsByWordCountContainer = document.getElementById('topPostsByWordCount');
+            top10PostIdsByWordCount.forEach(post => {
+                const postElement = document.createElement('div');
+                postElement.className = 'top-post-by-word-count';
+                postElement.innerHTML = `
+                    <p><strong>Post ID:</strong> ${post.postid}</p>
+                `;
+                topPostsByWordCountContainer.appendChild(postElement);
+            });
+        });
+    </script>
+</body>
+</html>

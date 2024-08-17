@@ -44,7 +44,9 @@ def main():
     for filename in os.listdir(task2_dir):
         if filename.endswith('.py'):
             script_path_task2 = os.path.join(task2_dir, filename)
-            #run_script(script_path_task2)
+            run_script(script_path_task2)
+
+
 
     # Run specific scripts
     #run_script(script_path)

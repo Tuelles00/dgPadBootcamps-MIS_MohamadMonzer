@@ -35,7 +35,7 @@ video_available_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '.
 json_file_path = os.path.join(video_available_dir, 'categorized_videos_v2.json')
 json_file_path2 = os.path.join(video_available_dir, 'categorized_videos_null_duration.json')
 
-# Define the path to the directory containing JSON files
+# Define the path to the directory containing JSON files for task2 
 JSON_DIR =  os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'task2'))
 
 # To store the process handle
@@ -45,10 +45,49 @@ def load_json(filename):
     with open(os.path.join(JSON_DIR, filename), 'r', encoding='utf-8') as file:
         return json.load(file)
 
+# Define the path to the directory containing JSON files for task2  part 2 
+JSON_DIR2 =  os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'task22'))
+
+# To store the process handle
+process = None
+
+def load_json2(filename):
+    with open(os.path.join(JSON_DIR2, filename), 'r', encoding='utf-8') as file:
+        return json.load(file)
+
 
 @app.route('/')
 def index():
     return render_template('index.html')
+
+@app.route('/aggregation2')
+def aggregation2():
+    # Load JSON files specific to aggregation2
+    articles_by_coverage = load_json('articles_by_coverage.json')
+    articles_grouped_by_thumbnail_presence = load_json('articles_grouped_by_thumbnail_presence.json')
+    articles_grouped_by_word_count = load_json('articles_grouped_by_word_count.json')
+    articles_updated_after_publication = load_json('articles_updated_after_publication.json')
+    article_count_by_year = load_json('article_count_by_year.json')
+    most_popular_keywords_last_7_days = load_json('most_popular_keywords_last_7_days.json')
+    recent_post_data = load_json('recent_post_data.json')
+    top_10_post_ids_by_lowest_word_count = load_json('top_10_post_ids_by_lowest_word_count.json')
+    top_10_post_ids_by_word_count = load_json('top_10_post_ids_by_word_count.json')
+    video_duration_count = load_json('video_duration_count.json')
+
+    # Pass the data to the template
+    return render_template('aggregation2.html',
+                           articles_by_coverage=articles_by_coverage,
+                           articles_grouped_by_thumbnail_presence=articles_grouped_by_thumbnail_presence,
+                           articles_grouped_by_word_count=articles_grouped_by_word_count,
+                           articles_updated_after_publication=articles_updated_after_publication,
+                           article_count_by_year=article_count_by_year,
+                           most_popular_keywords_last_7_days=most_popular_keywords_last_7_days,
+                           recent_post_data=recent_post_data,
+                           top_10_post_ids_by_lowest_word_count=top_10_post_ids_by_lowest_word_count,
+                           top_10_post_ids_by_word_count=top_10_post_ids_by_word_count,
+                           video_duration_count=video_duration_count)
+
+
 
 @app.route('/aggregation')
 def aggregation():
