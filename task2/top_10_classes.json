@@ -1,0 +1,52 @@
+[
+    {
+        "value": "أخبار",
+        "mapping": "posttype",
+        "count": 9535
+    },
+    {
+        "value": "الميادين نت",
+        "mapping": "author",
+        "count": 7763
+    },
+    {
+        "value": "شبكة الميادين",
+        "mapping": "author",
+        "count": 6662
+    },
+    {
+        "value": "سياسة",
+        "mapping": "category",
+        "count": 6471
+    },
+    {
+        "value": "طوفان الأقصى",
+        "mapping": "coverage",
+        "count": 5365
+    },
+    {
+        "value": "فلسطين المحتلة",
+        "mapping": "country",
+        "count": 2388
+    },
+    {
+        "value": "نشرة الأخبار",
+        "mapping": "posttype",
+        "count": 1686
+    },
+    {
+        "value": "تقارير إخبارية",
+        "mapping": "posttype",
+        "count": 1537
+    },
+    {
+        "value": "فيديو",
+        "mapping": "posttype",
+        "count": 1174
+    },
+    {
+        "value": "حلقات تلفزيون",
+        "mapping": "posttype",
+        "count": 901
+    }
+]
