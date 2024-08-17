@@ -64,3 +64,15 @@ After fetching and processing all articles from Al Mayadin, you can generate JSO
 ### Detailed View
 ![Detailed View Screenshot](screenshots/screenshot6.png)
 *screenshot6*
+
+### Task2 
+![Detailed View Screenshot](screenshots/screenshot6.png)
+*screenshot7*
+
+### Task2 
+![Detailed View Screenshot](screenshots/screenshot6.png)
+*screenshot8*
+
+### Task2 
+![Detailed View Screenshot](screenshots/screenshot6.png)
+*screenshot9*

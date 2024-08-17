@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aggregation Results</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+        h1 {
+            color: #343a40;
+        }
+        a {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            text-decoration: none;
+            background-color: #007bff;
+            color: white;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        a:hover {
+            background-color: #0056b3;
+        }
+        .charts-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .chart-container {
+            flex: 1 1 calc(33.33% - 20px);
+            max-width: calc(33.33% - 20px);
+            margin: 10px;
+            position: relative;
+            height: 400px;
+        }
+        canvas {
+            width: 100%;
+            height: 100%;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            background-color: #ffffff;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #e9ecef;
+        }
+        thead {
+            background-color: #f1f3f5;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.29.4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-moment@1.0.0"></script>
+</head>
+<body>
+    <h1>Aggregation Results</h1>
+    <p>Here you can view various charts summarizing the data (First 10 tasks).</p>
+
+
+
+    <div class="charts-container">
+        <div class="chart-container">
+            <h2>Author Counts</h2>
+            <canvas id="authorChart"></canvas>
+        </div>
+        <div class="chart-container">
+            <h2>Category Counts</h2>
+            <canvas id="categoryChart"></canvas>
+        </div>
+        <div class="chart-container">
+            <h2>Keyword Counts</h2>
+            <canvas id="keywordChart"></canvas>
+        </div>
+        <div class="chart-container">
+            <h2>Language Counts</h2>
+            <canvas id="languageChart"></canvas>
+        </div>
+        <div class="chart-container">
+            <h2>Word Count Summary</h2>
+            <canvas id="wordCountChart"></canvas>
+        </div>
+        <div class="chart-container">
+            <h2>Top Authors</h2>
+            <canvas id="topAuthorChart"></canvas>
+        </div>
+        <div class="chart-container">
+            <h2>Top Keywords</h2>
+            <canvas id="topKeywordsChart"></canvas>
+        </div>
+        <div class="chart-container">
+            <h2>Articles Counts by Date</h2>
+            <canvas id="articlesCountsChart"></canvas>
+        </div>
+    </div>
+
+    <h2>Top 10 Classes</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Value</th>
+                <th>Mapping</th>
+                <th>Count</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for item in top_10_classes %}
+                <tr>
+                    <td>{{ item.value }}</td>
+                    <td>{{ item.mapping }}</td>
+                    <td>{{ item.count }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <h2>Recent Articles</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Post ID</th>
+                <th>Published Time</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for article in recent_articles %}
+                <tr>
+                    <td>{{ article.title }}</td>
+                    <td>{{ article.postid }}</td>
+                    <td>{{ article.published_time }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <a href="{{ url_for('index') }}">Back to Home</a>
+
+    <script>
+        const authorCounts = {{ author_counts | tojson }};
+        const categoryCounts = {{ category_counts | tojson }};
+        const keywordCounts = {{ keyword_counts | tojson }};
+        const languageCounts = {{ language_counts | tojson }};
+        const wordCountSummary = {{ word_count_summary | tojson }};
+        const topAuthor = {{ top_author | tojson }};
+        const topKeywords = {{ top_keywords | tojson }};
+        const articlesCountsByDate = {{ articles_counts_by_date | tojson }};
+
+        // Function to create a bar chart
+        function createBarChart(ctx, labels, data, title) {
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: title,
+                        data: data,
+                        backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                        borderColor: 'rgba(75, 192, 192, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        x: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        }
+
+        // Function to create a pie chart
+        function createPieChart(ctx, labels, data, title) {
+            new Chart(ctx, {
+                type: 'pie',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: title,
+                        data: data,
+                        backgroundColor: [
+                            'rgba(75, 192, 192, 0.2)',
+                            'rgba(255, 99, 132, 0.2)',
+                            'rgba(255, 159, 64, 0.2)',
+                            'rgba(153, 102, 255, 0.2)',
+                            'rgba(255, 205, 86, 0.2)'
+                        ],
+                        borderColor: [
+                            'rgba(75, 192, 192, 1)',
+                            'rgba(255, 99, 132, 1)',
+                            'rgba(255, 159, 64, 1)',
+                            'rgba(153, 102, 255, 1)',
+                            'rgba(255, 205, 86, 1)'
+                        ],
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true
+                }
+            });
+        }
+
+        // Function to create a line chart
+        function createLineChart(ctx, labels, data, title) {
+            new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: title,
+                        data: data,
+                        backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                        borderColor: 'rgba(75, 192, 192, 1)',
+                        borderWidth: 1,
+                        fill: true
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        x: {
+                            type: 'time',
+                            time: {
+                                unit: 'day',
+                                tooltipFormat: 'll'
+                            },
+                            title: {
+                                display: true,
+                                text: 'Date'
+                            }
+                        },
+                        y: {
+                            title: {
+                                display: true,
+                                text: 'Count'
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        // Create charts
+        createPieChart(document.getElementById('authorChart').getContext('2d'),
+                       authorCounts.map(item => item.author),
+                       authorCounts.map(item => item.count),
+                       'Author Counts');
+
+        createPieChart(document.getElementById('languageChart').getContext('2d'),
+                       languageCounts.map(item => item.lang),
+                       languageCounts.map(item => item.count),
+                       'Language Counts');
+
+        createBarChart(document.getElementById('categoryChart').getContext('2d'),
+                       categoryCounts.map(item => item.category),
+                       categoryCounts.map(item => item.count),
+                       'Category Counts');
+
+        createBarChart(document.getElementById('topAuthorChart').getContext('2d'),
+                       topAuthor.map(item => item.author),
+                       topAuthor.map(item => item.count),
+                       'Top Authors');
+
+        createBarChart(document.getElementById('topKeywordsChart').getContext('2d'),
+                       topKeywords.map(item => item.keyword),
+                       topKeywords.map(item => item.count),
+                       'Top Keywords');
+
+        createLineChart(document.getElementById('articlesCountsChart').getContext('2d'),
+                        articlesCountsByDate.map(item => item.date),
+                        articlesCountsByDate.map(item => item.count),
+                        'Articles Counts by Date');
+
+        createBarChart(document.getElementById('keywordChart').getContext('2d'),
+                       keywordCounts.map(item => item.keyword),
+                       keywordCounts.map(item => item.count),
+                       'Keyword Counts');
+
+        createBarChart(document.getElementById('wordCountChart').getContext('2d'),
+                       wordCountSummary.map(item => item.word),
+                       wordCountSummary.map(item => item.count),
+                       'Word Count Summary');
+
+
+    </script>
+</body>
+</html>

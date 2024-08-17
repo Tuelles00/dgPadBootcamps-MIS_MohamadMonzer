@@ -5,11 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Article Count Graph</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        #chart-container {
+            width: 80%;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        canvas {
+            width: 100% !important; /* Ensure canvas takes full width */
+            height: auto !important; /* Maintain aspect ratio */
+        }
+
+        button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
     <h1>Article Counts by Sitemap</h1>
     <button id="refreshButton">Refresh Article Counts</button>
-    <canvas id="articleChart" width="600" height="400"></canvas>
+    <div id="chart-container">
+        <canvas id="articleChart"></canvas>
+    </div>
     <script>
         async function fetchData() {
             try {
@@ -73,7 +115,6 @@
         async function refreshCounts() {
             try {
                 await fetch('/run_script', { method: 'POST' });
-                // Optionally, you could also refresh the chart here
                 renderChart(); // Refresh the chart without reloading the page
             } catch (error) {
                 console.error('Error refreshing counts:', error);
