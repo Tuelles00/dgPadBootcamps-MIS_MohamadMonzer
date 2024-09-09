@@ -1,0 +1,36 @@
+   #container1, #container2, #container3, #container4, #container5 {
+            width: 48%;
+            height: 500px;
+            display: inline-block;
+            vertical-align: top;
+            margin: 1%;
+        }
+        .chart-container {
+            margin-bottom: 40px; /* Space between charts */
+        }
+        .chart-title {
+            text-align: center;
+            font-weight: bold;
+            margin-top: 10px; /* Margin top for chart title */
+        }
+        .no-data {
+            text-align: center;
+            font-size: 16px;
+            color: #666;
+            margin-top: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }

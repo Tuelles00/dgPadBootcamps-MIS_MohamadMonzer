@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results</title>
+    <!-- Include Chart.js for Bubble Chart -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>Search Results for "{{ keyword }}"</h1>
+    <a href="/search">Back to Search</a>
+    {% if articles %}
+
+
+    <!-- Bubble Chart for Keyword Count -->
+    <canvas id="bubbleChart" width="400" height="400"></canvas>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Post ID</th>
+                <th>Keywords</th>
+                <th>Keyword Count</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for article in articles %}
+            <tr>
+                <td>{{ article.postid }}</td>
+                <td>{{ article.keywords }}</td>
+                <td>{{ article.keyword_count }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <script>
+        var ctx = document.getElementById('bubbleChart').getContext('2d');
+        var bubbleData = {
+            datasets: [
+                {% for article in articles %}
+                {
+                    label: 'Post ID: {{ article.postid }}',
+                    data: [{x: {{ loop.index }}, y: {{ article.keyword_count }}, r: {{ article.keyword_count * 5 }} }], // Radius of bubble scaled by keyword count
+                    backgroundColor: 'rgba(54, 162, 235, 0.5)'
+                },
+                {% endfor %}
+            ]
+        };
+
+        var bubbleChart = new Chart(ctx, {
+            type: 'bubble',
+            data: bubbleData,
+            options: {
+                scales: {
+                    x: { title: { display: true, text: 'Post Index' } },
+                    y: { title: { display: true, text: 'Keyword Count' } }
+                }
+            }
+        });
+    </script>
+
+    {% else %}
+    <p>No articles found matching the keyword "{{ keyword }}".</p>
+    {% endif %}
+</body>
+</html>

@@ -1,0 +1,10542 @@
+[
+    {
+        "keyword": "ا",
+        "count": 348034
+    },
+    {
+        "keyword": "ل",
+        "count": 245668
+    },
+    {
+        "keyword": "و",
+        "count": 76495
+    },
+    {
+        "keyword": "ي",
+        "count": 168552
+    },
+    {
+        "keyword": "ت",
+        "count": 56300
+    },
+    {
+        "keyword": " ",
+        "count": 171172
+    },
+    {
+        "keyword": "م",
+        "count": 99997
+    },
+    {
+        "keyword": "ح",
+        "count": 39673
+    },
+    {
+        "keyword": "د",
+        "count": 47259
+    },
+    {
+        "keyword": "ة",
+        "count": 86013
+    },
+    {
+        "keyword": "أ",
+        "count": 32429
+    },
+    {
+        "keyword": "ر",
+        "count": 87602
+    },
+    {
+        "keyword": "ك",
+        "count": 28607
+    },
+    {
+        "keyword": ",",
+        "count": 151545
+    },
+    {
+        "keyword": "ن",
+        "count": 96028
+    },
+    {
+        "keyword": "خ",
+        "count": 7914
+    },
+    {
+        "keyword": "G",
+        "count": 1724
+    },
+    {
+        "keyword": "O",
+        "count": 1426
+    },
+    {
+        "keyword": "ف",
+        "count": 51111
+    },
+    {
+        "keyword": "ج",
+        "count": 20833
+    },
+    {
+        "keyword": "ع",
+        "count": 31267
+    },
+    {
+        "keyword": "ب",
+        "count": 45446
+    },
+    {
+        "keyword": "ط",
+        "count": 33030
+    },
+    {
+        "keyword": "ص",
+        "count": 23250
+    },
+    {
+        "keyword": "إ",
+        "count": 19180
+    },
+    {
+        "keyword": "س",
+        "count": 78169
+    },
+    {
+        "keyword": "ئ",
+        "count": 23354
+    },
+    {
+        "keyword": "ش",
+        "count": 11692
+    },
+    {
+        "keyword": "ض",
+        "count": 5212
+    },
+    {
+        "keyword": "ق",
+        "count": 48164
+    },
+    {
+        "keyword": "ز",
+        "count": 30216
+    },
+    {
+        "keyword": "ء",
+        "count": 2726
+    },
+    {
+        "keyword": "ث",
+        "count": 2010
+    },
+    {
+        "keyword": "A",
+        "count": 646
+    },
+    {
+        "keyword": "l",
+        "count": 728
+    },
+    {
+        "keyword": "m",
+        "count": 667
+    },
+    {
+        "keyword": "a",
+        "count": 1428
+    },
+    {
+        "keyword": "y",
+        "count": 691
+    },
+    {
+        "keyword": "d",
+        "count": 693
+    },
+    {
+        "keyword": "e",
+        "count": 1511
+    },
+    {
+        "keyword": "n",
+        "count": 824
+    },
+    {
+        "keyword": "o",
+        "count": 416
+    },
+    {
+        "keyword": "ى",
+        "count": 20246
+    },
+    {
+        "keyword": "ه",
+        "count": 13993
+    },
+    {
+        "keyword": "غ",
+        "count": 31054
+    },
+    {
+        "keyword": "آ",
+        "count": 837
+    },
+    {
+        "keyword": "2",
+        "count": 1096
+    },
+    {
+        "keyword": "0",
+        "count": 599
+    },
+    {
+        "keyword": "َ",
+        "count": 25
+    },
+    {
+        "keyword": "ذ",
+        "count": 1019
+    },
+    {
+        "keyword": "B",
+        "count": 23
+    },
+    {
+        "keyword": "u",
+        "count": 41
+    },
+    {
+        "keyword": "f",
+        "count": 14
+    },
+    {
+        "keyword": "N",
+        "count": 18
+    },
+    {
+        "keyword": "w",
+        "count": 105
+    },
+    {
+        "keyword": "Y",
+        "count": 5
+    },
+    {
+        "keyword": "r",
+        "count": 113
+    },
+    {
+        "keyword": "k",
+        "count": 15
+    },
+    {
+        "keyword": "p",
+        "count": 47
+    },
+    {
+        "keyword": "1",
+        "count": 132
+    },
+    {
+        "keyword": "6",
+        "count": 48
+    },
+    {
+        "keyword": "ظ",
+        "count": 1700
+    },
+    {
+        "keyword": "s",
+        "count": 179
+    },
+    {
+        "keyword": "i",
+        "count": 147
+    },
+    {
+        "keyword": "ؤ",
+        "count": 439
+    },
+    {
+        "keyword": "ّ",
+        "count": 314
+    },
+    {
+        "keyword": "+",
+        "count": 23
+    },
+    {
+        "keyword": "-",
+        "count": 65
+    },
+    {
+        "keyword": "ـ",
+        "count": 211
+    },
+    {
+        "keyword": "ً",
+        "count": 374
+    },
+    {
+        "keyword": "3",
+        "count": 182
+    },
+    {
+        "keyword": "h",
+        "count": 43
+    },
+    {
+        "keyword": "t",
+        "count": 76
+    },
+    {
+        "keyword": "R",
+        "count": 15
+    },
+    {
+        "keyword": "U",
+        "count": 11
+    },
+    {
+        "keyword": "4",
+        "count": 198
+    },
+    {
+        "keyword": "c",
+        "count": 44
+    },
+    {
+        "keyword": "9",
+        "count": 46
+    },
+    {
+        "keyword": "\"",
+        "count": 737
+    },
+    {
+        "keyword": "ُ",
+        "count": 51
+    },
+    {
+        "keyword": "ْ",
+        "count": 11
+    },
+    {
+        "keyword": "7",
+        "count": 84
+    },
+    {
+        "keyword": "ِ",
+        "count": 11
+    },
+    {
+        "keyword": "5",
+        "count": 51
+    },
+    {
+        "keyword": "ٍ",
+        "count": 19
+    },
+    {
+        "keyword": "(",
+        "count": 7
+    },
+    {
+        "keyword": "I",
+        "count": 17
+    },
+    {
+        "keyword": "q",
+        "count": 9
+    },
+    {
+        "keyword": "“",
+        "count": 6
+    },
+    {
+        "keyword": "M",
+        "count": 36
+    },
+    {
+        "keyword": "”",
+        "count": 7
+    },
+    {
+        "keyword": ".",
+        "count": 405
+    },
+    {
+        "keyword": "b",
+        "count": 31
+    },
+    {
+        "keyword": "Z",
+        "count": 2
+    },
+    {
+        "keyword": "T",
+        "count": 18
+    },
+    {
+        "keyword": "E",
+        "count": 6
+    },
+    {
+        "keyword": "8",
+        "count": 32
+    },
+    {
+        "keyword": "P",
+        "count": 18
+    },
+    {
+        "keyword": "H",
+        "count": 13
+    },
+    {
+        "keyword": "C",
+        "count": 44
+    },
+    {
+        "keyword": "F",
+        "count": 11
+    },
+    {
+        "keyword": "_",
+        "count": 5
+    },
+    {
+        "keyword": "S",
+        "count": 34
+    },
+    {
+        "keyword": "W",
+        "count": 3
+    },
+    {
+        "keyword": "J",
+        "count": 4
+    },
+    {
+        "keyword": "Q",
+        "count": 8
+    },
+    {
+        "keyword": "،",
+        "count": 23
+    },
+    {
+        "keyword": "g",
+        "count": 48
+    },
+    {
+        "keyword": "v",
+        "count": 11
+    },
+    {
+        "keyword": "V",
+        "count": 6
+    },
+    {
+        "keyword": " ",
+        "count": 12
+    },
+    {
+        "keyword": "D",
+        "count": 8
+    },
+    {
+        "keyword": "ٌ",
+        "count": 4
+    },
+    {
+        "keyword": "/",
+        "count": 21
+    },
+    {
+        "keyword": "؟",
+        "count": 9
+    },
+    {
+        "keyword": ":",
+        "count": 18
+    },
+    {
+        "keyword": "٤",
+        "count": 1
+    },
+    {
+        "keyword": "٥",
+        "count": 1
+    },
+    {
+        "keyword": "٠",
+        "count": 5
+    },
+    {
+        "keyword": "–",
+        "count": 4
+    },
+    {
+        "keyword": "!",
+        "count": 9
+    },
+    {
+        "keyword": "‏",
+        "count": 16
+    },
+    {
+        "keyword": "K",
+        "count": 4
+    },
+    {
+        "keyword": "%",
+        "count": 2
+    },
+    {
+        "keyword": "L",
+        "count": 8
+    },
+    {
+        "keyword": "ی",
+        "count": 5
+    },
+    {
+        "keyword": "ڤ",
+        "count": 1
+    },
+    {
+        "keyword": ")",
+        "count": 3
+    },
+    {
+        "keyword": "'",
+        "count": 2
+    },
+    {
+        "keyword": "\\",
+        "count": 1
+    },
+    {
+        "keyword": "z",
+        "count": 7
+    },
+    {
+        "keyword": "​",
+        "count": 6
+    },
+    {
+        "keyword": "X",
+        "count": 11
+    },
+    {
+        "keyword": "x",
+        "count": 1
+    },
+    {
+        "keyword": "٢",
+        "count": 8
+    },
+    {
+        "keyword": "٣",
+        "count": 4
+    },
+    {
+        "keyword": "#",
+        "count": 1
+    },
+    {
+        "keyword": "″",
+        "count": 1
+    },
+    {
+        "keyword": ";",
+        "count": 1
+    },
+    {
+        "keyword": "گ",
+        "count": 1
+    },
+    {
+        "keyword": "چ",
+        "count": 1
+    },
+    {
+        "keyword": "‌",
+        "count": 2
+    },
+    {
+        "keyword": "الاحتلال الإسرائيلي",
+        "count": 279
+    },
+    {
+        "keyword": "غزة",
+        "count": 815
+    },
+    {
+        "keyword": "طوفان الأقصى",
+        "count": 994
+    },
+    {
+        "keyword": "المقاومة الفلسطينية",
+        "count": 747
+    },
+    {
+        "keyword": "مصر",
+        "count": 36
+    },
+    {
+        "keyword": "كتائب القسام",
+        "count": 641
+    },
+    {
+        "keyword": "حماس",
+        "count": 682
+    },
+    {
+        "keyword": "المسجد الأقصى",
+        "count": 632
+    },
+    {
+        "keyword": "غلاف غزة",
+        "count": 619
+    },
+    {
+        "keyword": "معبر رفح",
+        "count": 4
+    },
+    {
+        "keyword": "محور فيلادلفيا",
+        "count": 14
+    },
+    {
+        "keyword": "لبنان",
+        "count": 150
+    },
+    {
+        "keyword": "القضية الفلسطينية",
+        "count": 19
+    },
+    {
+        "keyword": "سياسة",
+        "count": 3
+    },
+    {
+        "keyword": "بيروت",
+        "count": 6
+    },
+    {
+        "keyword": "المقاومة في لبنان",
+        "count": 13
+    },
+    {
+        "keyword": "سليم الحص",
+        "count": 2
+    },
+    {
+        "keyword": "مجلس الوزراء اللبناني",
+        "count": 2
+    },
+    {
+        "keyword": "وفاة",
+        "count": 2
+    },
+    {
+        "keyword": "الرئيس سليم الحص",
+        "count": 2
+    },
+    {
+        "keyword": "حكومة لبنان",
+        "count": 2
+    },
+    {
+        "keyword": "ضمير لبنان",
+        "count": 2
+    },
+    {
+        "keyword": "تكريم الرئيس سليم الحص",
+        "count": 2
+    },
+    {
+        "keyword": "رئاسة الوزراء اللبنانية",
+        "count": 2
+    },
+    {
+        "keyword": "رحيل سليم الحص",
+        "count": 2
+    },
+    {
+        "keyword": "حكومة سليم الحص",
+        "count": 2
+    },
+    {
+        "keyword": "الرئيس الحص",
+        "count": 2
+    },
+    {
+        "keyword": "بروفايل سليم الحص",
+        "count": 2
+    },
+    {
+        "keyword": "ابرز سياسيين",
+        "count": 2
+    },
+    {
+        "keyword": "وفاة سليم الحص",
+        "count": 2
+    },
+    {
+        "keyword": "الميادين",
+        "count": 166
+    },
+    {
+        "keyword": "العدوان الإسرائيلي على غزة",
+        "count": 145
+    },
+    {
+        "keyword": "برامج الميادين",
+        "count": 5
+    },
+    {
+        "keyword": "المجازر الإسرائيلية",
+        "count": 79
+    },
+    {
+        "keyword": "نتنياهو",
+        "count": 39
+    },
+    {
+        "keyword": "اخبار الميادين",
+        "count": 7
+    },
+    {
+        "keyword": "خان يونس",
+        "count": 25
+    },
+    {
+        "keyword": "الشعب الفلسطيني",
+        "count": 5
+    },
+    {
+        "keyword": "اخر الاخبار",
+        "count": 4
+    },
+    {
+        "keyword": "المجازر الإسرائيلية في غزة",
+        "count": 3
+    },
+    {
+        "keyword": "قصف إسرائيلي",
+        "count": 9
+    },
+    {
+        "keyword": "اخبار",
+        "count": 7
+    },
+    {
+        "keyword": "جرائم الإحتلال الإسرائيلي",
+        "count": 3
+    },
+    {
+        "keyword": "استهداف",
+        "count": 11
+    },
+    {
+        "keyword": "تطورات",
+        "count": 8
+    },
+    {
+        "keyword": "حرب الإبادة",
+        "count": 2
+    },
+    {
+        "keyword": "مقاومة",
+        "count": 2
+    },
+    {
+        "keyword": "مجازر",
+        "count": 9
+    },
+    {
+        "keyword": "الميادين لايف",
+        "count": 5
+    },
+    {
+        "keyword": "مجازر الاحتلال في غزة",
+        "count": 1
+    },
+    {
+        "keyword": "جرائم",
+        "count": 3
+    },
+    {
+        "keyword": "عملية",
+        "count": 8
+    },
+    {
+        "keyword": "احداث",
+        "count": 6
+    },
+    {
+        "keyword": "الميادين بث مباشر",
+        "count": 4
+    },
+    {
+        "keyword": "صمود",
+        "count": 2
+    },
+    {
+        "keyword": "إبادة",
+        "count": 2
+    },
+    {
+        "keyword": "اهالي غزة",
+        "count": 1
+    },
+    {
+        "keyword": "المدنيين في غزة",
+        "count": 1
+    },
+    {
+        "keyword": "ثبات",
+        "count": 1
+    },
+    {
+        "keyword": "شعب غزة",
+        "count": 1
+    },
+    {
+        "keyword": "إسرائيل",
+        "count": 182
+    },
+    {
+        "keyword": "الولايات المتحدة",
+        "count": 18
+    },
+    {
+        "keyword": "المسائية",
+        "count": 14
+    },
+    {
+        "keyword": "سرايا القدس",
+        "count": 28
+    },
+    {
+        "keyword": "القسام",
+        "count": 27
+    },
+    {
+        "keyword": "وقف إطلاق النار",
+        "count": 23
+    },
+    {
+        "keyword": "المقاومة في غزة",
+        "count": 1
+    },
+    {
+        "keyword": "المسائية الميادين",
+        "count": 12
+    },
+    {
+        "keyword": "عمليات المقاومة",
+        "count": 9
+    },
+    {
+        "keyword": "بلينكن",
+        "count": 9
+    },
+    {
+        "keyword": "كيان الاحتلال",
+        "count": 3
+    },
+    {
+        "keyword": "العمليات الفدائية",
+        "count": 2
+    },
+    {
+        "keyword": "الداخل الإسرائيلي",
+        "count": 1
+    },
+    {
+        "keyword": "مفاوضات الدوحة",
+        "count": 7
+    },
+    {
+        "keyword": "عملية تل أبيب",
+        "count": 7
+    },
+    {
+        "keyword": "مواجهة",
+        "count": 4
+    },
+    {
+        "keyword": "الداخل المحتل",
+        "count": 4
+    },
+    {
+        "keyword": "انسحاب",
+        "count": 5
+    },
+    {
+        "keyword": "مفاوضات غزة",
+        "count": 9
+    },
+    {
+        "keyword": "المقترح الأميركي",
+        "count": 5
+    },
+    {
+        "keyword": "العمليات الاستشهادية",
+        "count": 12
+    },
+    {
+        "keyword": "إطلاق النار",
+        "count": 5
+    },
+    {
+        "keyword": "عمق الكيان",
+        "count": 1
+    },
+    {
+        "keyword": "مرحلة",
+        "count": 1
+    },
+    {
+        "keyword": "مطالب نتنياهو",
+        "count": 1
+    },
+    {
+        "keyword": "حزب الله",
+        "count": 199
+    },
+    {
+        "keyword": "اسرائيل",
+        "count": 72
+    },
+    {
+        "keyword": "محور المقاومة",
+        "count": 31
+    },
+    {
+        "keyword": "المقاومة",
+        "count": 25
+    },
+    {
+        "keyword": "السيد حسن نصرالله",
+        "count": 3
+    },
+    {
+        "keyword": "السيد حسن نصر الله",
+        "count": 3
+    },
+    {
+        "keyword": "حرب غزة",
+        "count": 38
+    },
+    {
+        "keyword": "المقاومة الاسلامية في لبنان",
+        "count": 8
+    },
+    {
+        "keyword": "السيد نصر الله",
+        "count": 5
+    },
+    {
+        "keyword": "فؤاد شكر",
+        "count": 13
+    },
+    {
+        "keyword": "اغتيال",
+        "count": 3
+    },
+    {
+        "keyword": "بث مباشر",
+        "count": 2
+    },
+    {
+        "keyword": "السيد فؤاد شكر",
+        "count": 1
+    },
+    {
+        "keyword": "القائد فؤاد شكر",
+        "count": 2
+    },
+    {
+        "keyword": "قادة",
+        "count": 1
+    },
+    {
+        "keyword": "مدنيين",
+        "count": 3
+    },
+    {
+        "keyword": "السيد محسن",
+        "count": 1
+    },
+    {
+        "keyword": "قائد",
+        "count": 3
+    },
+    {
+        "keyword": "قاعدة",
+        "count": 4
+    },
+    {
+        "keyword": "اغتيال قائد",
+        "count": 1
+    },
+    {
+        "keyword": "شعبة أمان",
+        "count": 4
+    },
+    {
+        "keyword": "قاعدة غليلوت",
+        "count": 3
+    },
+    {
+        "keyword": "الامين العام",
+        "count": 3
+    },
+    {
+        "keyword": "يوم الأربعين",
+        "count": 3
+    },
+    {
+        "keyword": "مخابرات أمان",
+        "count": 3
+    },
+    {
+        "keyword": "وحدة 8200",
+        "count": 3
+    },
+    {
+        "keyword": "عناوين الرد",
+        "count": 2
+    },
+    {
+        "keyword": "عين شيمر",
+        "count": 3
+    },
+    {
+        "keyword": "جهادي",
+        "count": 3
+    },
+    {
+        "keyword": "تنياهو",
+        "count": 1
+    },
+    {
+        "keyword": "روسيا",
+        "count": 75
+    },
+    {
+        "keyword": "الولايات المتحدة الأميركية",
+        "count": 127
+    },
+    {
+        "keyword": "أوكرانيا",
+        "count": 65
+    },
+    {
+        "keyword": "أميركا",
+        "count": 45
+    },
+    {
+        "keyword": "روسيا والأطلسي",
+        "count": 18
+    },
+    {
+        "keyword": "أوروبا",
+        "count": 6
+    },
+    {
+        "keyword": "البيت الأبيض",
+        "count": 5
+    },
+    {
+        "keyword": "حلف الناتو",
+        "count": 26
+    },
+    {
+        "keyword": "دونباس",
+        "count": 24
+    },
+    {
+        "keyword": "أرسين أفاكوف",
+        "count": 1
+    },
+    {
+        "keyword": "جهاز الاستخبارات الخارجية الروسي",
+        "count": 1
+    },
+    {
+        "keyword": "فنزويلا",
+        "count": 33
+    },
+    {
+        "keyword": "نيكولاس مادورو",
+        "count": 11
+    },
+    {
+        "keyword": "أميركا اللاتينية",
+        "count": 5
+    },
+    {
+        "keyword": "مادورو",
+        "count": 5
+    },
+    {
+        "keyword": "المعارضة الفنزويلية",
+        "count": 3
+    },
+    {
+        "keyword": "الرئيس الفنزويلي",
+        "count": 3
+    },
+    {
+        "keyword": "العقوبات على فنزويلا",
+        "count": 2
+    },
+    {
+        "keyword": "الانقلاب في فنزويلا",
+        "count": 1
+    },
+    {
+        "keyword": "أميركا وفنزويلا",
+        "count": 1
+    },
+    {
+        "keyword": "العلاقات الأميركية الفنزويلية",
+        "count": 1
+    },
+    {
+        "keyword": "ماتشادو",
+        "count": 1
+    },
+    {
+        "keyword": "الأزمة الأميركية الفنزويلية",
+        "count": 1
+    },
+    {
+        "keyword": "الحرب على غزة",
+        "count": 175
+    },
+    {
+        "keyword": "وسائل التواصل الاجتماعي",
+        "count": 3
+    },
+    {
+        "keyword": "بنيامين نتنياهو",
+        "count": 42
+    },
+    {
+        "keyword": "أنتوني بلينكن",
+        "count": 9
+    },
+    {
+        "keyword": "المفاوضات الفلسطينية الإسرائيلية",
+        "count": 4
+    },
+    {
+        "keyword": "داعش",
+        "count": 3
+    },
+    {
+        "keyword": "تل ابيب",
+        "count": 5
+    },
+    {
+        "keyword": "التحليلية الميادين",
+        "count": 12
+    },
+    {
+        "keyword": "المفاوضات",
+        "count": 17
+    },
+    {
+        "keyword": "عمليات",
+        "count": 8
+    },
+    {
+        "keyword": "وقف اطلاق النار",
+        "count": 7
+    },
+    {
+        "keyword": "قضية اليوم",
+        "count": 2
+    },
+    {
+        "keyword": "الاسرى",
+        "count": 1
+    },
+    {
+        "keyword": "طوفان الأقصى غزة",
+        "count": 6
+    },
+    {
+        "keyword": "الداخل الفلسطيني",
+        "count": 1
+    },
+    {
+        "keyword": "وثيقة اليوم",
+        "count": 2
+    },
+    {
+        "keyword": "خلايا داعش",
+        "count": 2
+    },
+    {
+        "keyword": "انهيار",
+        "count": 2
+    },
+    {
+        "keyword": "دولة",
+        "count": 1
+    },
+    {
+        "keyword": "اليوم العالمي للعمل الإنساني",
+        "count": 3
+    },
+    {
+        "keyword": "تنظيم",
+        "count": 1
+    },
+    {
+        "keyword": "تفجير تل ابيب",
+        "count": 1
+    },
+    {
+        "keyword": "إيران",
+        "count": 78
+    },
+    {
+        "keyword": "الرد الإيراني",
+        "count": 25
+    },
+    {
+        "keyword": "سوريا",
+        "count": 59
+    },
+    {
+        "keyword": "تركيا",
+        "count": 16
+    },
+    {
+        "keyword": "المصالحة التركية السورية",
+        "count": 1
+    },
+    {
+        "keyword": "المقاومة الإسلامية في لبنان",
+        "count": 78
+    },
+    {
+        "keyword": "محمد باقر قاليباف",
+        "count": 3
+    },
+    {
+        "keyword": "عملية الأربعين",
+        "count": 1
+    },
+    {
+        "keyword": "الجيش السوري",
+        "count": 7
+    },
+    {
+        "keyword": "تنظيم داعش",
+        "count": 3
+    },
+    {
+        "keyword": "بشار الأسد",
+        "count": 3
+    },
+    {
+        "keyword": "الجماعات المسلحة في سوريا",
+        "count": 10
+    },
+    {
+        "keyword": "قسد",
+        "count": 10
+    },
+    {
+        "keyword": "داعش في سوريا",
+        "count": 1
+    },
+    {
+        "keyword": "القوات الأميركية في سوريا",
+        "count": 4
+    },
+    {
+        "keyword": "القواعد الأميركية",
+        "count": 2
+    },
+    {
+        "keyword": "الحرب على داعش",
+        "count": 1
+    },
+    {
+        "keyword": "العشائر السورية",
+        "count": 3
+    },
+    {
+        "keyword": "النظام السوري",
+        "count": 1
+    },
+    {
+        "keyword": "الدولة السورية",
+        "count": 2
+    },
+    {
+        "keyword": "العشائر العربية شرق سوريا",
+        "count": 2
+    },
+    {
+        "keyword": "خلايا إرهابية",
+        "count": 1
+    },
+    {
+        "keyword": "تنظيم داعش في سوريا",
+        "count": 1
+    },
+    {
+        "keyword": "خلايا داعش في البادية",
+        "count": 1
+    },
+    {
+        "keyword": "خلايا داعش الإرهابية",
+        "count": 1
+    },
+    {
+        "keyword": "حركة حماس",
+        "count": 52
+    },
+    {
+        "keyword": "قطر",
+        "count": 12
+    },
+    {
+        "keyword": "كيان الاحتلال الإسرائيلي",
+        "count": 34
+    },
+    {
+        "keyword": "مفاوضات القاهرة",
+        "count": 2
+    },
+    {
+        "keyword": "كتائب شهداء الأقصى",
+        "count": 24
+    },
+    {
+        "keyword": "لجان المقاومة الفلسطينية",
+        "count": 2
+    },
+    {
+        "keyword": "قوات الشهيد عمر القاسم",
+        "count": 6
+    },
+    {
+        "keyword": "ألوية الناصر صلاح الدين",
+        "count": 6
+    },
+    {
+        "keyword": "كتائب الأنصار",
+        "count": 3
+    },
+    {
+        "keyword": "فرنسا",
+        "count": 6
+    },
+    {
+        "keyword": "بريطانيا",
+        "count": 13
+    },
+    {
+        "keyword": "ألمانيا",
+        "count": 8
+    },
+    {
+        "keyword": "السعودية",
+        "count": 6
+    },
+    {
+        "keyword": "فيصل بن فرحان",
+        "count": 1
+    },
+    {
+        "keyword": "العلاقات الإيرانية السعودية",
+        "count": 1
+    },
+    {
+        "keyword": "عباس عراقتشي",
+        "count": 5
+    },
+    {
+        "keyword": "فلسطين المحتلة",
+        "count": 322
+    },
+    {
+        "keyword": "العراق",
+        "count": 33
+    },
+    {
+        "keyword": "قطاع غزة",
+        "count": 194
+    },
+    {
+        "keyword": "الضفة الغربية",
+        "count": 120
+    },
+    {
+        "keyword": "الجبهات المساندة لغزة",
+        "count": 79
+    },
+    {
+        "keyword": "الإبادة الجماعية في غزة",
+        "count": 89
+    },
+    {
+        "keyword": "جبهة الإسناد اللبنانية",
+        "count": 77
+    },
+    {
+        "keyword": "مفاوضات وقف إطلاق النار",
+        "count": 68
+    },
+    {
+        "keyword": "الأسرى الإسرائيليون",
+        "count": 8
+    },
+    {
+        "keyword": "مؤتمر نداء الأقصى الدولي",
+        "count": 7
+    },
+    {
+        "keyword": "اليمن",
+        "count": 60
+    },
+    {
+        "keyword": "القوات المسلحة اليمنية",
+        "count": 20
+    },
+    {
+        "keyword": "حكومة صنعاء",
+        "count": 4
+    },
+    {
+        "keyword": "ميناء الحديدة",
+        "count": 2
+    },
+    {
+        "keyword": "الرد اليمني",
+        "count": 4
+    },
+    {
+        "keyword": "اللواء الركن محمد العاطفي",
+        "count": 1
+    },
+    {
+        "keyword": "السودان",
+        "count": 22
+    },
+    {
+        "keyword": "أفريقيا",
+        "count": 85
+    },
+    {
+        "keyword": "الخرطوم",
+        "count": 2
+    },
+    {
+        "keyword": "جنيف",
+        "count": 5
+    },
+    {
+        "keyword": "الحكومة السودانية",
+        "count": 2
+    },
+    {
+        "keyword": "الاحتلال",
+        "count": 38
+    },
+    {
+        "keyword": "وسائل إعلام إسرائيلية",
+        "count": 1
+    },
+    {
+        "keyword": "مجازر الاحتلال",
+        "count": 5
+    },
+    {
+        "keyword": "عمليات المقاومة الفلسطينية",
+        "count": 1
+    },
+    {
+        "keyword": "الانتفاضة",
+        "count": 4
+    },
+    {
+        "keyword": "المجازر",
+        "count": 4
+    },
+    {
+        "keyword": "الاغتيالات",
+        "count": 2
+    },
+    {
+        "keyword": "القسام تقصف تل أبيب",
+        "count": 1
+    },
+    {
+        "keyword": "غوش دان",
+        "count": 2
+    },
+    {
+        "keyword": "عمليات استشهادية",
+        "count": 2
+    },
+    {
+        "keyword": "عودة",
+        "count": 1
+    },
+    {
+        "keyword": "عملية تل أبيب الاستشهادية",
+        "count": 1
+    },
+    {
+        "keyword": "عمليات تل ابيب",
+        "count": 1
+    },
+    {
+        "keyword": "عمليات المقاومة الاستشهادية",
+        "count": 1
+    },
+    {
+        "keyword": "عمليات استشهادية في تل ابيب",
+        "count": 1
+    },
+    {
+        "keyword": "منفذ عملية تل ابيب",
+        "count": 1
+    },
+    {
+        "keyword": "طوفان الاقصى",
+        "count": 48
+    },
+    {
+        "keyword": "مباحثات القاهرة",
+        "count": 1
+    },
+    {
+        "keyword": "حكومة نتتنياهو",
+        "count": 1
+    },
+    {
+        "keyword": "الجيش الأميركي",
+        "count": 3
+    },
+    {
+        "keyword": "عبد الفتاح السيسي",
+        "count": 3
+    },
+    {
+        "keyword": "فلسطين",
+        "count": 74
+    },
+    {
+        "keyword": "الانتخابات الرئاسية الأميركية",
+        "count": 9
+    },
+    {
+        "keyword": "الحزب الديمقراطي",
+        "count": 7
+    },
+    {
+        "keyword": "الأسلحة الأميركية",
+        "count": 4
+    },
+    {
+        "keyword": "إطلاق النار في غزة",
+        "count": 2
+    },
+    {
+        "keyword": "تضامن",
+        "count": 1
+    },
+    {
+        "keyword": "التظاهرات",
+        "count": 1
+    },
+    {
+        "keyword": "حظر",
+        "count": 1
+    },
+    {
+        "keyword": "تداعيات",
+        "count": 1
+    },
+    {
+        "keyword": "مؤتمر الحزب الديمقراطي",
+        "count": 3
+    },
+    {
+        "keyword": "تسليح",
+        "count": 1
+    },
+    {
+        "keyword": "المرشح الجمهوري",
+        "count": 1
+    },
+    {
+        "keyword": "مدينة شيكاغو",
+        "count": 3
+    },
+    {
+        "keyword": "أعمال",
+        "count": 1
+    },
+    {
+        "keyword": "تسليح الاحتلال الإسرائيلي",
+        "count": 1
+    },
+    {
+        "keyword": "تاثيرات",
+        "count": 1
+    },
+    {
+        "keyword": "موسكو",
+        "count": 9
+    },
+    {
+        "keyword": "الجيش الروسي",
+        "count": 8
+    },
+    {
+        "keyword": "اوروبا",
+        "count": 4
+    },
+    {
+        "keyword": "القوات الروسية",
+        "count": 2
+    },
+    {
+        "keyword": "دونيتسك",
+        "count": 1
+    },
+    {
+        "keyword": "الحرب الروسية الأوكرانية",
+        "count": 5
+    },
+    {
+        "keyword": "القوات الأوكرانية",
+        "count": 3
+    },
+    {
+        "keyword": "الجيش الأوكراني",
+        "count": 5
+    },
+    {
+        "keyword": "لافروف",
+        "count": 1
+    },
+    {
+        "keyword": "الدفاع الروسية",
+        "count": 1
+    },
+    {
+        "keyword": "مفاوضات",
+        "count": 8
+    },
+    {
+        "keyword": "نورد ستريم",
+        "count": 1
+    },
+    {
+        "keyword": "الرئيس الأوكراني",
+        "count": 1
+    },
+    {
+        "keyword": "معارك",
+        "count": 4
+    },
+    {
+        "keyword": "الأطلسي",
+        "count": 1
+    },
+    {
+        "keyword": "هجوم",
+        "count": 6
+    },
+    {
+        "keyword": "زيلنسكي",
+        "count": 1
+    },
+    {
+        "keyword": "صراع",
+        "count": 2
+    },
+    {
+        "keyword": "تفجير نورد ستريم",
+        "count": 1
+    },
+    {
+        "keyword": "مقاطعة كورسك",
+        "count": 6
+    },
+    {
+        "keyword": "هجوم بالمسيرات",
+        "count": 1
+    },
+    {
+        "keyword": "شروط",
+        "count": 2
+    },
+    {
+        "keyword": "كورسك الروسية",
+        "count": 3
+    },
+    {
+        "keyword": "أراضي أوكرانيا",
+        "count": 1
+    },
+    {
+        "keyword": "احداث نورد ستريم",
+        "count": 1
+    },
+    {
+        "keyword": "نشرة الثامنة",
+        "count": 5
+    },
+    {
+        "keyword": "مسيرات",
+        "count": 6
+    },
+    {
+        "keyword": "الضاحية الجنوبية",
+        "count": 2
+    },
+    {
+        "keyword": "نشرة الثامنة مساء",
+        "count": 2
+    },
+    {
+        "keyword": "البقاع اللبناني",
+        "count": 1
+    },
+    {
+        "keyword": "الكاتيوشا",
+        "count": 1
+    },
+    {
+        "keyword": "الأمم المتحدة",
+        "count": 16
+    },
+    {
+        "keyword": "جنوب لبنان",
+        "count": 21
+    },
+    {
+        "keyword": "جبهة جنوب لبنان",
+        "count": 9
+    },
+    {
+        "keyword": "قصف",
+        "count": 8
+    },
+    {
+        "keyword": "جرائم الاحتلال",
+        "count": 2
+    },
+    {
+        "keyword": "اعتداءات",
+        "count": 4
+    },
+    {
+        "keyword": "شهادات طوفان الأقصى",
+        "count": 1
+    },
+    {
+        "keyword": "بلدات جنوب لبنان",
+        "count": 2
+    },
+    {
+        "keyword": "القرى اللبنانية الحدودية",
+        "count": 1
+    },
+    {
+        "keyword": "الفرق الطبية",
+        "count": 1
+    },
+    {
+        "keyword": "الهبارية",
+        "count": 1
+    },
+    {
+        "keyword": "وفد",
+        "count": 1
+    },
+    {
+        "keyword": "وزير البيئة اللبناني",
+        "count": 1
+    },
+    {
+        "keyword": "الهبارية جنوب لبنان",
+        "count": 1
+    },
+    {
+        "keyword": "المسعفين",
+        "count": 1
+    },
+    {
+        "keyword": "الإسعافات اللبنانية",
+        "count": 1
+    },
+    {
+        "keyword": "المسعفين في لبنان",
+        "count": 1
+    },
+    {
+        "keyword": "بلدة الهبارية",
+        "count": 1
+    },
+    {
+        "keyword": "كوبا",
+        "count": 3
+    },
+    {
+        "keyword": "الجيش الإسرائيلي",
+        "count": 38
+    },
+    {
+        "keyword": "تل أبيب",
+        "count": 24
+    },
+    {
+        "keyword": "الإعلام الإسرائيلي",
+        "count": 8
+    },
+    {
+        "keyword": "تظاهرات",
+        "count": 7
+    },
+    {
+        "keyword": "الشاباك",
+        "count": 2
+    },
+    {
+        "keyword": "متظاهرون",
+        "count": 2
+    },
+    {
+        "keyword": "إسناد غزة",
+        "count": 2
+    },
+    {
+        "keyword": "مقتل",
+        "count": 3
+    },
+    {
+        "keyword": "تسليح إسرائيل",
+        "count": 3
+    },
+    {
+        "keyword": "رادار",
+        "count": 2
+    },
+    {
+        "keyword": "مصدر فلسطيني",
+        "count": 3
+    },
+    {
+        "keyword": "سنط جين",
+        "count": 3
+    },
+    {
+        "keyword": "الشروط الإسرائيلية",
+        "count": 2
+    },
+    {
+        "keyword": "مشتركة",
+        "count": 2
+    },
+    {
+        "keyword": "ثكنة يعرا",
+        "count": 2
+    },
+    {
+        "keyword": "عودة العمليات الاستشهادية",
+        "count": 1
+    },
+    {
+        "keyword": "دير الزور",
+        "count": 9
+    },
+    {
+        "keyword": "عشائر دير الزور",
+        "count": 1
+    },
+    {
+        "keyword": "الجيش الأميركي في سوريا",
+        "count": 1
+    },
+    {
+        "keyword": "أبو عبيدة",
+        "count": 3
+    },
+    {
+        "keyword": "الرد على اغتيال شكر",
+        "count": 6
+    },
+    {
+        "keyword": "عملية يوم الأربعين",
+        "count": 2
+    },
+    {
+        "keyword": "اغتيال القائد فؤاد شكر",
+        "count": 1
+    },
+    {
+        "keyword": "هند رجب",
+        "count": 1
+    },
+    {
+        "keyword": "مسيرات حزب الله",
+        "count": 15
+    },
+    {
+        "keyword": "إعلام إسرائيل",
+        "count": 1
+    },
+    {
+        "keyword": "رام الله",
+        "count": 3
+    },
+    {
+        "keyword": "الجبهة الشمالية لفلسطين المحتلة",
+        "count": 3
+    },
+    {
+        "keyword": "ثكنة راميم",
+        "count": 1
+    },
+    {
+        "keyword": "موقع زبدين",
+        "count": 1
+    },
+    {
+        "keyword": "التصنيف الائتماني",
+        "count": 2
+    },
+    {
+        "keyword": "فيتش",
+        "count": 1
+    },
+    {
+        "keyword": "إسماعيل هنية",
+        "count": 23
+    },
+    {
+        "keyword": "الجمهورية الإسلامية الإيرانية",
+        "count": 1
+    },
+    {
+        "keyword": "محمد شياع السوداني",
+        "count": 1
+    },
+    {
+        "keyword": "مسعود بزشكيان",
+        "count": 6
+    },
+    {
+        "keyword": "الجمهورية العراقية",
+        "count": 1
+    },
+    {
+        "keyword": "العلاقات السورية التركية",
+        "count": 1
+    },
+    {
+        "keyword": "الاحتلال التركي في سوريا",
+        "count": 1
+    },
+    {
+        "keyword": "الدعم التركي للمعارضة السورية",
+        "count": 1
+    },
+    {
+        "keyword": "قناة الميادين",
+        "count": 2
+    },
+    {
+        "keyword": "الإعلام العربي",
+        "count": 1
+    },
+    {
+        "keyword": "حظر قناة الميادين",
+        "count": 11
+    },
+    {
+        "keyword": "أفغانستان",
+        "count": 2
+    },
+    {
+        "keyword": "الناتو",
+        "count": 4
+    },
+    {
+        "keyword": "طالبان",
+        "count": 1
+    },
+    {
+        "keyword": "كابول",
+        "count": 1
+    },
+    {
+        "keyword": "أشرف غني",
+        "count": 1
+    },
+    {
+        "keyword": "قندهار",
+        "count": 1
+    },
+    {
+        "keyword": "الاحتلال الأميركي لأفغانستان",
+        "count": 1
+    },
+    {
+        "keyword": "البشتون",
+        "count": 1
+    },
+    {
+        "keyword": "الملا برداد أخوند",
+        "count": 1
+    },
+    {
+        "keyword": "مجلس الأمن",
+        "count": 4
+    },
+    {
+        "keyword": "شهداء",
+        "count": 6
+    },
+    {
+        "keyword": "جرحى",
+        "count": 3
+    },
+    {
+        "keyword": "الطيران الإسرائيلي",
+        "count": 1
+    },
+    {
+        "keyword": "جندي إسرائيلي",
+        "count": 1
+    },
+    {
+        "keyword": "جدار الصوت",
+        "count": 2
+    },
+    {
+        "keyword": "وقف",
+        "count": 2
+    },
+    {
+        "keyword": "نشرة السادسة الميادين",
+        "count": 2
+    },
+    {
+        "keyword": "ثكنة",
+        "count": 1
+    },
+    {
+        "keyword": "يعرا",
+        "count": 1
+    },
+    {
+        "keyword": "إعادة",
+        "count": 1
+    },
+    {
+        "keyword": "اسرى",
+        "count": 1
+    },
+    {
+        "keyword": "رد حزب الله",
+        "count": 21
+    },
+    {
+        "keyword": "جرائم حرب",
+        "count": 2
+    },
+    {
+        "keyword": "العمل الإنساني",
+        "count": 2
+    },
+    {
+        "keyword": "الجيش الوطني التابع لتركيا",
+        "count": 2
+    },
+    {
+        "keyword": "معبر أبو الزندين",
+        "count": 1
+    },
+    {
+        "keyword": "الاحتلال الاسرائيلي",
+        "count": 32
+    },
+    {
+        "keyword": "قوات الاحتلال الاسرائيلي",
+        "count": 19
+    },
+    {
+        "keyword": "التحليلية",
+        "count": 12
+    },
+    {
+        "keyword": "حكومة نتنياهو",
+        "count": 8
+    },
+    {
+        "keyword": "news",
+        "count": 3
+    },
+    {
+        "keyword": "daily news",
+        "count": 4
+    },
+    {
+        "keyword": "حكومة بنيامين نتنياهو",
+        "count": 2
+    },
+    {
+        "keyword": "هلاك اسرائيل",
+        "count": 2
+    },
+    {
+        "keyword": "هلاك إسرائيل",
+        "count": 2
+    },
+    {
+        "keyword": "رعب الشمال",
+        "count": 8
+    },
+    {
+        "keyword": "ثورة الجامعات",
+        "count": 2
+    },
+    {
+        "keyword": "الجيل Z",
+        "count": 1
+    },
+    {
+        "keyword": "الاعتداءات الإسرائيلية على لبنان",
+        "count": 14
+    },
+    {
+        "keyword": "المواقع الإسرائيلية",
+        "count": 5
+    },
+    {
+        "keyword": "الأراضي المحتلة",
+        "count": 4
+    },
+    {
+        "keyword": "اغتيال فؤاد شكر",
+        "count": 6
+    },
+    {
+        "keyword": "العمق الإسرائيلي",
+        "count": 3
+    },
+    {
+        "keyword": "اغتيال الشهيد فؤاد شكر",
+        "count": 3
+    },
+    {
+        "keyword": "الجزائر",
+        "count": 20
+    },
+    {
+        "keyword": "أخبار الميادين",
+        "count": 41
+    },
+    {
+        "keyword": "المقاومة العراقية",
+        "count": 6
+    },
+    {
+        "keyword": "مفاوضات التهدئة",
+        "count": 5
+    },
+    {
+        "keyword": "النجف",
+        "count": 3
+    },
+    {
+        "keyword": "دعم القضية الفلسطينية",
+        "count": 1
+    },
+    {
+        "keyword": "المرجعية الدينية في العراق",
+        "count": 1
+    },
+    {
+        "keyword": "بيان المرجعية الدينية",
+        "count": 1
+    },
+    {
+        "keyword": "المرجعية الدينية في النجف",
+        "count": 1
+    },
+    {
+        "keyword": "مواقف المرجعية الدينية",
+        "count": 1
+    },
+    {
+        "keyword": "المرجعية الدينية",
+        "count": 1
+    },
+    {
+        "keyword": "اميركا",
+        "count": 8
+    },
+    {
+        "keyword": "الجيش الاسرائيلي",
+        "count": 7
+    },
+    {
+        "keyword": "الشرق الاوسط",
+        "count": 2
+    },
+    {
+        "keyword": "تبادل الأسرى",
+        "count": 3
+    },
+    {
+        "keyword": "صفقة التبادل",
+        "count": 2
+    },
+    {
+        "keyword": "البوارج الأميركية",
+        "count": 1
+    },
+    {
+        "keyword": "حشود واشنطن تتزايد",
+        "count": 1
+    },
+    {
+        "keyword": "حرب الإبادة على غزة",
+        "count": 5
+    },
+    {
+        "keyword": "المكتب الإعلامي الحكومي في غزة",
+        "count": 1
+    },
+    {
+        "keyword": "استهداف الصحافيين في غزة",
+        "count": 1
+    },
+    {
+        "keyword": "اغتيال إسماعيل هنية",
+        "count": 5
+    },
+    {
+        "keyword": "الشيخ أحمد ياسين",
+        "count": 1
+    },
+    {
+        "keyword": "رفح",
+        "count": 19
+    },
+    {
+        "keyword": "حي الزيتون",
+        "count": 2
+    },
+    {
+        "keyword": "دير البلح",
+        "count": 13
+    },
+    {
+        "keyword": "المعارك البرية في قطاع غزة",
+        "count": 5
+    },
+    {
+        "keyword": "نتساريم",
+        "count": 10
+    },
+    {
+        "keyword": "جيش الاحتلال",
+        "count": 25
+    },
+    {
+        "keyword": "الخارجية الإيرانية",
+        "count": 3
+    },
+    {
+        "keyword": "ناصر كنعاني",
+        "count": 3
+    },
+    {
+        "keyword": "الصومال",
+        "count": 10
+    },
+    {
+        "keyword": "وزير الخارجية الصومالي",
+        "count": 2
+    },
+    {
+        "keyword": "أحمد معلم فقي أحمد",
+        "count": 2
+    },
+    {
+        "keyword": "أرض الصومال الانفصالية",
+        "count": 1
+    },
+    {
+        "keyword": "السفير البريطاني في الصومال",
+        "count": 1
+    },
+    {
+        "keyword": "وزارة الخارجية في الصومال",
+        "count": 1
+    },
+    {
+        "keyword": "طهران",
+        "count": 3
+    },
+    {
+        "keyword": "ليبيا",
+        "count": 9
+    },
+    {
+        "keyword": "جنوب أفريقيا",
+        "count": 3
+    },
+    {
+        "keyword": "معسكرات التدريب",
+        "count": 1
+    },
+    {
+        "keyword": "مهدي المشاط",
+        "count": 3
+    },
+    {
+        "keyword": "أحمد الرهوي",
+        "count": 2
+    },
+    {
+        "keyword": "حزب الليكود",
+        "count": 3
+    },
+    {
+        "keyword": "الكنيست",
+        "count": 2
+    },
+    {
+        "keyword": "العدوان الإسرائيلي على لبنان",
+        "count": 3
+    },
+    {
+        "keyword": "الموساد الإسرائيلي",
+        "count": 4
+    },
+    {
+        "keyword": "شعبة الاستخبارات العسكرية الإسرائيلية",
+        "count": 1
+    },
+    {
+        "keyword": "شومي بيندر",
+        "count": 1
+    },
+    {
+        "keyword": "الحديدة",
+        "count": 1
+    },
+    {
+        "keyword": "هيومن رايتس ووتش",
+        "count": 1
+    },
+    {
+        "keyword": "العدوان الإسرائيلي على الحديدة",
+        "count": 1
+    },
+    {
+        "keyword": "الجبهة الشمالية",
+        "count": 18
+    },
+    {
+        "keyword": "الحكومة الإسرائيلية",
+        "count": 12
+    },
+    {
+        "keyword": "الأزمة الإسرائيلية",
+        "count": 2
+    },
+    {
+        "keyword": "نشرة الأخبار",
+        "count": 16
+    },
+    {
+        "keyword": "نشرة أخبار الميادين",
+        "count": 17
+    },
+    {
+        "keyword": "طوفان الاقصى اليوم",
+        "count": 4
+    },
+    {
+        "keyword": "وقف الحرب على غزة",
+        "count": 5
+    },
+    {
+        "keyword": "ريف دير الزور",
+        "count": 2
+    },
+    {
+        "keyword": "جنود إسرائيليون",
+        "count": 2
+    },
+    {
+        "keyword": "الوسطاء",
+        "count": 4
+    },
+    {
+        "keyword": "وقف حرب غزة",
+        "count": 4
+    },
+    {
+        "keyword": "مسلحة قسد",
+        "count": 2
+    },
+    {
+        "keyword": "أطفال غزة",
+        "count": 2
+    },
+    {
+        "keyword": "مستشفيات غزة",
+        "count": 3
+    },
+    {
+        "keyword": "اطفال غزة",
+        "count": 1
+    },
+    {
+        "keyword": "الحرب",
+        "count": 5
+    },
+    {
+        "keyword": "طائرات الاحتلال",
+        "count": 1
+    },
+    {
+        "keyword": "نقص الأدوية",
+        "count": 1
+    },
+    {
+        "keyword": "الأدوية في غزة",
+        "count": 1
+    },
+    {
+        "keyword": "العائلات في قطاع غزة",
+        "count": 1
+    },
+    {
+        "keyword": "عدد المصابين",
+        "count": 1
+    },
+    {
+        "keyword": "عشرات الإصابات بحروق شديدة",
+        "count": 1
+    },
+    {
+        "keyword": "قتلى جيش الاحتلال",
+        "count": 2
+    },
+    {
+        "keyword": "بيني غانتس",
+        "count": 2
+    },
+    {
+        "keyword": "رئيس حكومة الاحتلال",
+        "count": 4
+    },
+    {
+        "keyword": "واشنطن",
+        "count": 25
+    },
+    {
+        "keyword": "بايدن",
+        "count": 9
+    },
+    {
+        "keyword": "القاهرة",
+        "count": 6
+    },
+    {
+        "keyword": "محادثات القاهرة",
+        "count": 2
+    },
+    {
+        "keyword": "مخيم النصيرات",
+        "count": 2
+    },
+    {
+        "keyword": "مخيم البريج",
+        "count": 1
+    },
+    {
+        "keyword": "وقف إطلاق النار في غزة",
+        "count": 17
+    },
+    {
+        "keyword": "إسحاق هرتسوغ",
+        "count": 1
+    },
+    {
+        "keyword": "العقوبات على إيران",
+        "count": 2
+    },
+    {
+        "keyword": "أولاف شولتز",
+        "count": 1
+    },
+    {
+        "keyword": "مدينتي الحسكة والقامشلي",
+        "count": 1
+    },
+    {
+        "keyword": "انتفاضة العشائر",
+        "count": 1
+    },
+    {
+        "keyword": "مستوطنات الشمال",
+        "count": 11
+    },
+    {
+        "keyword": "الجليل الغربي",
+        "count": 1
+    },
+    {
+        "keyword": "مستوطنة \"يعرا\"",
+        "count": 1
+    },
+    {
+        "keyword": "مستوطنات الجليل",
+        "count": 1
+    },
+    {
+        "keyword": "فطاع غزة",
+        "count": 3
+    },
+    {
+        "keyword": "وسال إعلام إسرائيلية",
+        "count": 1
+    },
+    {
+        "keyword": "العلاقات الأميركية الإسرائيلية",
+        "count": 1
+    },
+    {
+        "keyword": "العدوان على غزة",
+        "count": 6
+    },
+    {
+        "keyword": "هرتسي هليفي",
+        "count": 3
+    },
+    {
+        "keyword": "رئيس أركان جيش الاحتلال",
+        "count": 1
+    },
+    {
+        "keyword": "أنصار الله",
+        "count": 5
+    },
+    {
+        "keyword": "حكومة الاحتلال الإسرائيلي",
+        "count": 2
+    },
+    {
+        "keyword": "وزير الأمن الإسرائيلي",
+        "count": 2
+    },
+    {
+        "keyword": "غالانت ونتنياهو",
+        "count": 2
+    },
+    {
+        "keyword": "طبول الحرب",
+        "count": 1
+    },
+    {
+        "keyword": "أنطونيو غوتيريش",
+        "count": 2
+    },
+    {
+        "keyword": "الأمين العام للأمم المتحدة",
+        "count": 1
+    },
+    {
+        "keyword": "عبد الحميد الدبيبة",
+        "count": 2
+    },
+    {
+        "keyword": "الأزمة الليبية",
+        "count": 1
+    },
+    {
+        "keyword": "الجيش الوطني الليبي",
+        "count": 1
+    },
+    {
+        "keyword": "الجبهة الداخلية الإسرائيلية",
+        "count": 2
+    },
+    {
+        "keyword": "الرد الإيراني على إسرائيل",
+        "count": 2
+    },
+    {
+        "keyword": "الهند",
+        "count": 2
+    },
+    {
+        "keyword": "الجنوب اللبناني",
+        "count": 1
+    },
+    {
+        "keyword": "تسلق الجبال",
+        "count": 1
+    },
+    {
+        "keyword": "جبل كليمنجارو",
+        "count": 1
+    },
+    {
+        "keyword": "جبل \"ألبروس\"",
+        "count": 1
+    },
+    {
+        "keyword": "جبال أوروبا",
+        "count": 1
+    },
+    {
+        "keyword": "حمادة ملاعب",
+        "count": 1
+    },
+    {
+        "keyword": "سلسلة جبال القوقاز",
+        "count": 1
+    },
+    {
+        "keyword": "شمال غزة",
+        "count": 5
+    },
+    {
+        "keyword": "جنوب غزة",
+        "count": 1
+    },
+    {
+        "keyword": "لقاء القاهرة",
+        "count": 1
+    },
+    {
+        "keyword": "الفاوضات بشأن غزة",
+        "count": 1
+    },
+    {
+        "keyword": "فلاديمير بوتين",
+        "count": 7
+    },
+    {
+        "keyword": "الحرب في أوكرانيا",
+        "count": 6
+    },
+    {
+        "keyword": "كورسك",
+        "count": 9
+    },
+    {
+        "keyword": "غزة تحت القصف",
+        "count": 1
+    },
+    {
+        "keyword": "الابادة الجماعية في غزة",
+        "count": 1
+    },
+    {
+        "keyword": "طلاب الجامعات",
+        "count": 1
+    },
+    {
+        "keyword": "جامعات غزة",
+        "count": 1
+    },
+    {
+        "keyword": "الجامعات الفلسطينية",
+        "count": 1
+    },
+    {
+        "keyword": "الاحتلال يدمر  جامعات غزة",
+        "count": 1
+    },
+    {
+        "keyword": "عبد المجيد تبون",
+        "count": 5
+    },
+    {
+        "keyword": "الاتحاد الأفريقي",
+        "count": 2
+    },
+    {
+        "keyword": "حركة الشباب الصومالية",
+        "count": 2
+    },
+    {
+        "keyword": "مجلة منبر الدفاع",
+        "count": 1
+    },
+    {
+        "keyword": "محادثات جنيف",
+        "count": 3
+    },
+    {
+        "keyword": "أولمبياد باريس 2024",
+        "count": 2
+    },
+    {
+        "keyword": "المقاومة الإسلامية في العراق",
+        "count": 4
+    },
+    {
+        "keyword": "حيفا",
+        "count": 2
+    },
+    {
+        "keyword": "منظمة الصحة العالمية",
+        "count": 1
+    },
+    {
+        "keyword": "القارة الأفريقية",
+        "count": 1
+    },
+    {
+        "keyword": "جدري القرود",
+        "count": 2
+    },
+    {
+        "keyword": "الأوبئة",
+        "count": 1
+    },
+    {
+        "keyword": "لقاح جدري القرود",
+        "count": 1
+    },
+    {
+        "keyword": "وباء جدري القرود",
+        "count": 1
+    },
+    {
+        "keyword": "ام بوكس",
+        "count": 1
+    },
+    {
+        "keyword": "عدوى جدري القرود",
+        "count": 1
+    },
+    {
+        "keyword": "البحر الأحمر",
+        "count": 8
+    },
+    {
+        "keyword": "باب المندب",
+        "count": 1
+    },
+    {
+        "keyword": "حاملات الطائرات الأميركية",
+        "count": 1
+    },
+    {
+        "keyword": "أربعين الإمام الحسين",
+        "count": 1
+    },
+    {
+        "keyword": "اربعين الامام الحسين",
+        "count": 1
+    },
+    {
+        "keyword": "زيارة الأربعين",
+        "count": 1
+    },
+    {
+        "keyword": "زيارة الاربعين",
+        "count": 1
+    },
+    {
+        "keyword": "الأربعين",
+        "count": 1
+    },
+    {
+        "keyword": "طريق المشاية",
+        "count": 1
+    },
+    {
+        "keyword": "بين الحرمين",
+        "count": 1
+    },
+    {
+        "keyword": "زيارة الامام الحسين",
+        "count": 1
+    },
+    {
+        "keyword": "العراق الاربعين",
+        "count": 1
+    },
+    {
+        "keyword": "طريق يا حسين",
+        "count": 1
+    },
+    {
+        "keyword": "مقام الامام الحسين",
+        "count": 1
+    },
+    {
+        "keyword": "مرقد الامام الحسين",
+        "count": 1
+    },
+    {
+        "keyword": "تنزانيا",
+        "count": 2
+    },
+    {
+        "keyword": "الشرطة في تنزانيا",
+        "count": 2
+    },
+    {
+        "keyword": "المعارضة في تنزانيا",
+        "count": 1
+    },
+    {
+        "keyword": "الحسكة",
+        "count": 7
+    },
+    {
+        "keyword": "القامشلي",
+        "count": 4
+    },
+    {
+        "keyword": "الجيش السوداني",
+        "count": 13
+    },
+    {
+        "keyword": "قوات الدعم السريع",
+        "count": 7
+    },
+    {
+        "keyword": "الحرب في السودان",
+        "count": 3
+    },
+    {
+        "keyword": "حرب السودان",
+        "count": 1
+    },
+    {
+        "keyword": "الملف السوداني",
+        "count": 1
+    },
+    {
+        "keyword": "قوات الدعم السريع السودانية",
+        "count": 1
+    },
+    {
+        "keyword": "الحرب الأهلية في السودان",
+        "count": 1
+    },
+    {
+        "keyword": "قوات الدعم السريع والجيش",
+        "count": 1
+    },
+    {
+        "keyword": "مفاوضات السودان",
+        "count": 1
+    },
+    {
+        "keyword": "المظاهرات ضد نتنياهو",
+        "count": 1
+    },
+    {
+        "keyword": "الأسرى الفلسطينيون",
+        "count": 6
+    },
+    {
+        "keyword": "نادي الأسير الفلسطيني",
+        "count": 1
+    },
+    {
+        "keyword": "العدوان على قطاع غزة",
+        "count": 2
+    },
+    {
+        "keyword": "الحركة الأسيرة الفلسطينية",
+        "count": 1
+    },
+    {
+        "keyword": "حكومة الاحتلال",
+        "count": 1
+    },
+    {
+        "keyword": "بن غفير",
+        "count": 3
+    },
+    {
+        "keyword": "إسرائيل الكبرى",
+        "count": 1
+    },
+    {
+        "keyword": "اسرائيل الكبرى",
+        "count": 1
+    },
+    {
+        "keyword": "بتسلئيل سموتريش",
+        "count": 1
+    },
+    {
+        "keyword": "مشاريع التوسع الإسرائيلية",
+        "count": 2
+    },
+    {
+        "keyword": "احتلال جنوب لبنان",
+        "count": 1
+    },
+    {
+        "keyword": "مشاريع التوسع الاسرائيلي",
+        "count": 2
+    },
+    {
+        "keyword": "حلم اسرائيل الكبرى",
+        "count": 1
+    },
+    {
+        "keyword": "التوسع الاسرائيلي",
+        "count": 1
+    },
+    {
+        "keyword": "سدي تيمان",
+        "count": 2
+    },
+    {
+        "keyword": "معتقلات الاحتلال الإسرائيلي",
+        "count": 1
+    },
+    {
+        "keyword": "تونس",
+        "count": 16
+    },
+    {
+        "keyword": "كوريا الشمالية",
+        "count": 5
+    },
+    {
+        "keyword": "الدعم الأميركي لإسرائيل",
+        "count": 15
+    },
+    {
+        "keyword": "جبهة الإسناد العراقية",
+        "count": 6
+    },
+    {
+        "keyword": "أثيوبيا",
+        "count": 1
+    },
+    {
+        "keyword": "الميادين نت",
+        "count": 1
+    },
+    {
+        "keyword": "شبكة الميادين الإعلامية",
+        "count": 2
+    },
+    {
+        "keyword": "اتفاق وقف إطلاق النار",
+        "count": 3
+    },
+    {
+        "keyword": "محادثات وقف إطلاق النار",
+        "count": 1
+    },
+    {
+        "keyword": "الوسطاء القطريون",
+        "count": 1
+    },
+    {
+        "keyword": "الوسطاء المصريين",
+        "count": 1
+    },
+    {
+        "keyword": "حرية الصحافة",
+        "count": 1
+    },
+    {
+        "keyword": "التضامن مع الميادين",
+        "count": 1
+    },
+    {
+        "keyword": "أراضي 48",
+        "count": 1
+    },
+    {
+        "keyword": "الحق الفلسطيني",
+        "count": 1
+    },
+    {
+        "keyword": "الإعلام الحر",
+        "count": 1
+    },
+    {
+        "keyword": "القرار الإسرائيلي بحظر الميادين",
+        "count": 1
+    },
+    {
+        "keyword": "جو بايدن",
+        "count": 8
+    },
+    {
+        "keyword": "شمال فلسطين المحتلة",
+        "count": 5
+    },
+    {
+        "keyword": "برونو رودريغيز",
+        "count": 1
+    },
+    {
+        "keyword": "تآكل إسرائيل",
+        "count": 1
+    },
+    {
+        "keyword": "نشرات الأخبار",
+        "count": 9
+    },
+    {
+        "keyword": "نشرة أخبار",
+        "count": 8
+    },
+    {
+        "keyword": "عمليات حزب الله",
+        "count": 3
+    },
+    {
+        "keyword": "عمليات المقاومة الإسلامية",
+        "count": 9
+    },
+    {
+        "keyword": "إٍسرائيل",
+        "count": 2
+    },
+    {
+        "keyword": "حملات المقاطعة",
+        "count": 1
+    },
+    {
+        "keyword": "شركة كوكاكولا",
+        "count": 1
+    },
+    {
+        "keyword": "الفضاء الخارجي",
+        "count": 1
+    },
+    {
+        "keyword": "الفضاء",
+        "count": 1
+    },
+    {
+        "keyword": "ناسا",
+        "count": 2
+    },
+    {
+        "keyword": "محطة الفضاء الدولية",
+        "count": 1
+    },
+    {
+        "keyword": "وكالة الفضاء الأميركية \"ناسا\"",
+        "count": 1
+    },
+    {
+        "keyword": "استكشاف الفضاء الخارجي",
+        "count": 1
+    },
+    {
+        "keyword": "شركة بوينغ",
+        "count": 1
+    },
+    {
+        "keyword": "مركبة \"ستارلاينر",
+        "count": 1
+    },
+    {
+        "keyword": "افريقيا",
+        "count": 1
+    },
+    {
+        "keyword": "الساحل الأفريقي",
+        "count": 2
+    },
+    {
+        "keyword": "القارة السمراء",
+        "count": 1
+    },
+    {
+        "keyword": "تطورات الساحل الأفريقي",
+        "count": 1
+    },
+    {
+        "keyword": "داعش في أفريقيا",
+        "count": 1
+    },
+    {
+        "keyword": "منطقة الساحل الأفريقي",
+        "count": 1
+    },
+    {
+        "keyword": "تنظيم داعش في أفريقيا",
+        "count": 1
+    },
+    {
+        "keyword": "منطقة الساحل الأفريقي والصحراء",
+        "count": 1
+    },
+    {
+        "keyword": "تزايد نشاط تنظيم داعش",
+        "count": 1
+    },
+    {
+        "keyword": "الأزمة السورية",
+        "count": 2
+    },
+    {
+        "keyword": "قوات سوريا الديمقراطية",
+        "count": 2
+    },
+    {
+        "keyword": "الحرب في سوريا",
+        "count": 2
+    },
+    {
+        "keyword": "قوات قسد",
+        "count": 1
+    },
+    {
+        "keyword": "ريف حلب الشمالي",
+        "count": 1
+    },
+    {
+        "keyword": "الفصائل المسلحة في سوريا",
+        "count": 1
+    },
+    {
+        "keyword": "الحصار على سوريا",
+        "count": 1
+    },
+    {
+        "keyword": "العشائر العربية في سوريا",
+        "count": 2
+    },
+    {
+        "keyword": "الاستيطان الاسرائيلي",
+        "count": 4
+    },
+    {
+        "keyword": "الضفة",
+        "count": 18
+    },
+    {
+        "keyword": "الاستيطان الإسرائيلي",
+        "count": 2
+    },
+    {
+        "keyword": "المؤسسة الأمنية الإسرائيلية",
+        "count": 1
+    },
+    {
+        "keyword": "مشاريع الضم",
+        "count": 1
+    },
+    {
+        "keyword": "نابلس",
+        "count": 10
+    },
+    {
+        "keyword": "قوات الاحتلال",
+        "count": 12
+    },
+    {
+        "keyword": "قطاع غزة المحتل",
+        "count": 3
+    },
+    {
+        "keyword": "قلقيلية",
+        "count": 7
+    },
+    {
+        "keyword": "الدوحة",
+        "count": 7
+    },
+    {
+        "keyword": "الأسرى",
+        "count": 6
+    },
+    {
+        "keyword": "السيسي",
+        "count": 1
+    },
+    {
+        "keyword": "الموساد",
+        "count": 2
+    },
+    {
+        "keyword": "نصرالله",
+        "count": 3
+    },
+    {
+        "keyword": "صفقة الأسرى",
+        "count": 4
+    },
+    {
+        "keyword": "نصر الله",
+        "count": 2
+    },
+    {
+        "keyword": "رد ايران",
+        "count": 2
+    },
+    {
+        "keyword": "التفاوض",
+        "count": 2
+    },
+    {
+        "keyword": "اجتماع في الدوحة",
+        "count": 2
+    },
+    {
+        "keyword": "اجتماع في القاهرة",
+        "count": 1
+    },
+    {
+        "keyword": "محاولة إحياء المفاوضات",
+        "count": 1
+    },
+    {
+        "keyword": "طولكرم",
+        "count": 20
+    },
+    {
+        "keyword": "يوآف غالانت",
+        "count": 9
+    },
+    {
+        "keyword": "كتيبة طولكرم",
+        "count": 5
+    },
+    {
+        "keyword": "أبو شجاع",
+        "count": 8
+    },
+    {
+        "keyword": "وزير الاتصالات الإسرائيلي",
+        "count": 1
+    },
+    {
+        "keyword": "الدولار الأميركي",
+        "count": 1
+    },
+    {
+        "keyword": "الاقتصاد الإسرائيلي",
+        "count": 8
+    },
+    {
+        "keyword": "ميناء أسدود",
+        "count": 2
+    },
+    {
+        "keyword": "الشيكل",
+        "count": 1
+    },
+    {
+        "keyword": "البنك المركزي الإسرائيلي",
+        "count": 1
+    },
+    {
+        "keyword": "السياحة في الأراضي المحتلة",
+        "count": 1
+    },
+    {
+        "keyword": "العجز المالي الإسرائيلي",
+        "count": 1
+    },
+    {
+        "keyword": "الإنفاق الحكومي الإسرائيلي",
+        "count": 1
+    },
+    {
+        "keyword": "قوات الدعم",
+        "count": 1
+    },
+    {
+        "keyword": "الرئيس الجزائري",
+        "count": 1
+    },
+    {
+        "keyword": "الرئيس عبد المجيد تبون",
+        "count": 1
+    },
+    {
+        "keyword": "تبون",
+        "count": 1
+    },
+    {
+        "keyword": "الانتخابات في الجزائر",
+        "count": 1
+    },
+    {
+        "keyword": "انتخابات الجزائر",
+        "count": 1
+    },
+    {
+        "keyword": "الرئيس تبون",
+        "count": 1
+    },
+    {
+        "keyword": "الحملة الانتخابية",
+        "count": 1
+    },
+    {
+        "keyword": "رابع أيام الحملة الانتخابية",
+        "count": 1
+    },
+    {
+        "keyword": "مرشحو الرئاسة",
+        "count": 1
+    },
+    {
+        "keyword": "عملية طوفان الأقصى",
+        "count": 1
+    },
+    {
+        "keyword": "الهجرة",
+        "count": 1
+    },
+    {
+        "keyword": "الهجرة من إسرائيل",
+        "count": 1
+    },
+    {
+        "keyword": "شلومي بيندر",
+        "count": 1
+    },
+    {
+        "keyword": "جيش الاحتلال الإسرائيلي",
+        "count": 6
+    },
+    {
+        "keyword": "كسر الجدار",
+        "count": 8
+    },
+    {
+        "keyword": "التعديلات القضائية",
+        "count": 1
+    },
+    {
+        "keyword": "الأسرى الإسرائيليون في غزة",
+        "count": 9
+    },
+    {
+        "keyword": "الصهيونية",
+        "count": 1
+    },
+    {
+        "keyword": "بن غوريون",
+        "count": 1
+    },
+    {
+        "keyword": "الغيتو",
+        "count": 1
+    },
+    {
+        "keyword": "الكيبوتس",
+        "count": 1
+    },
+    {
+        "keyword": "الشخصية اليهودية",
+        "count": 1
+    },
+    {
+        "keyword": "المقاومة الإسلامية",
+        "count": 20
+    },
+    {
+        "keyword": "صواريخ حزب الله",
+        "count": 12
+    },
+    {
+        "keyword": "مواقع الاحتلال",
+        "count": 7
+    },
+    {
+        "keyword": "الطائرات المسيرة",
+        "count": 5
+    },
+    {
+        "keyword": "منزل نتنياهو",
+        "count": 2
+    },
+    {
+        "keyword": "مستوطنة كدوميم",
+        "count": 2
+    },
+    {
+        "keyword": "تصوير بيت نتنياهو",
+        "count": 2
+    },
+    {
+        "keyword": "بيت نتنياهو",
+        "count": 2
+    },
+    {
+        "keyword": "منزل نتنياهو في قيساريه",
+        "count": 2
+    },
+    {
+        "keyword": "الكونغرس الأميركي",
+        "count": 1
+    },
+    {
+        "keyword": "الحزب الديمقراطي الأميركي",
+        "count": 11
+    },
+    {
+        "keyword": "كامالا هاريس",
+        "count": 11
+    },
+    {
+        "keyword": "الكونغو الديمقراطية",
+        "count": 1
+    },
+    {
+        "keyword": "زامبيا",
+        "count": 2
+    },
+    {
+        "keyword": "حدود الكونغو الديمقراطية وزامبيا",
+        "count": 1
+    },
+    {
+        "keyword": "الدعم اليمني لغزة",
+        "count": 2
+    },
+    {
+        "keyword": "التحالف الأميركي البريطاني",
+        "count": 1
+    },
+    {
+        "keyword": "الحرب في غزة",
+        "count": 2
+    },
+    {
+        "keyword": "نيجيريا",
+        "count": 4
+    },
+    {
+        "keyword": "هجوم مسلح",
+        "count": 1
+    },
+    {
+        "keyword": "ولاية بينو",
+        "count": 1
+    },
+    {
+        "keyword": "قوات الأمن النيجيرية",
+        "count": 1
+    },
+    {
+        "keyword": "كولومبيا",
+        "count": 2
+    },
+    {
+        "keyword": "غوستافو بيترو",
+        "count": 1
+    },
+    {
+        "keyword": "الفحم الكولومبي",
+        "count": 1
+    },
+    {
+        "keyword": "الحركة الأسيرة",
+        "count": 1
+    },
+    {
+        "keyword": "الأسرى الفلسطينيون في سجون الاحتلال",
+        "count": 1
+    },
+    {
+        "keyword": "سجن النقب الصحراوي",
+        "count": 1
+    },
+    {
+        "keyword": "الحدود اللبنانية الفلسطينية",
+        "count": 7
+    },
+    {
+        "keyword": "قوات الرضوان",
+        "count": 1
+    },
+    {
+        "keyword": "الأردن",
+        "count": 14
+    },
+    {
+        "keyword": "التظاهرات الداعمة لغزة",
+        "count": 15
+    },
+    {
+        "keyword": "الجولان السوري المحتل",
+        "count": 3
+    },
+    {
+        "keyword": "نشرة الأخبار الميادين",
+        "count": 3
+    },
+    {
+        "keyword": "كتائب المجاهدين",
+        "count": 7
+    },
+    {
+        "keyword": "كتائب أبو علي مصطفى",
+        "count": 5
+    },
+    {
+        "keyword": "الجبهة الشعبية لتحرير فلسطين",
+        "count": 2
+    },
+    {
+        "keyword": "إثيوبيا",
+        "count": 4
+    },
+    {
+        "keyword": "الاتحاد الافريقي",
+        "count": 2
+    },
+    {
+        "keyword": "أرض الصومال",
+        "count": 2
+    },
+    {
+        "keyword": "وزارة الصحة في غزة",
+        "count": 1
+    },
+    {
+        "keyword": "مالي",
+        "count": 5
+    },
+    {
+        "keyword": "فيضانات",
+        "count": 2
+    },
+    {
+        "keyword": "أسيمي غويتا",
+        "count": 1
+    },
+    {
+        "keyword": "الاقتحامات الإسرائيلية في الضفة",
+        "count": 2
+    },
+    {
+        "keyword": "القدس المحتلة",
+        "count": 6
+    },
+    {
+        "keyword": "المعتقلات الإسرائيلية",
+        "count": 1
+    },
+    {
+        "keyword": "المطلة",
+        "count": 1
+    },
+    {
+        "keyword": "الجرائم الإسرائيلية",
+        "count": 18
+    },
+    {
+        "keyword": "تل الهوا",
+        "count": 1
+    },
+    {
+        "keyword": "الاستخبارات الأميركية",
+        "count": 1
+    },
+    {
+        "keyword": "إيفان خيل بينتو",
+        "count": 1
+    },
+    {
+        "keyword": "الاحتجاجات الأميركية",
+        "count": 1
+    },
+    {
+        "keyword": "المؤتمر الوطني الديمقراطي",
+        "count": 1
+    },
+    {
+        "keyword": "انقسامات إسرائيلية",
+        "count": 1
+    },
+    {
+        "keyword": "المستوطنات الشمالية",
+        "count": 5
+    },
+    {
+        "keyword": "تهديد حزب الله",
+        "count": 3
+    },
+    {
+        "keyword": "السرايا اللبنانية لمقاومة الاحتلال",
+        "count": 1
+    },
+    {
+        "keyword": "الحكومة اللبنانية",
+        "count": 2
+    },
+    {
+        "keyword": "كهرباء لبنان",
+        "count": 1
+    },
+    {
+        "keyword": "عمر ميقاتي",
+        "count": 1
+    },
+    {
+        "keyword": "ازمة كهرباء لبنان",
+        "count": 1
+    },
+    {
+        "keyword": "وول ستريت جورنال",
+        "count": 2
+    },
+    {
+        "keyword": "الشهيد فؤاد شكر",
+        "count": 1
+    },
+    {
+        "keyword": "الدفاع المدني في غزة",
+        "count": 3
+    },
+    {
+        "keyword": "المقاومة في العراق",
+        "count": 1
+    },
+    {
+        "keyword": "تنسيقية المقاومة العراقية",
+        "count": 1
+    },
+    {
+        "keyword": "الحرب النفسية",
+        "count": 7
+    },
+    {
+        "keyword": "الحرب السيبرانية",
+        "count": 1
+    },
+    {
+        "keyword": "الجيش الليبي",
+        "count": 1
+    },
+    {
+        "keyword": "مجلس النواب الليبي",
+        "count": 1
+    },
+    {
+        "keyword": "حكومة الوحدة الوطنية في ليبيا",
+        "count": 2
+    },
+    {
+        "keyword": "الصراع في ليبيا",
+        "count": 1
+    },
+    {
+        "keyword": "التطبيع مع إسرائيل",
+        "count": 2
+    },
+    {
+        "keyword": "سيناء",
+        "count": 1
+    },
+    {
+        "keyword": "كامب ديفيد",
+        "count": 1
+    },
+    {
+        "keyword": "التظاهرات في إسرائيل",
+        "count": 10
+    },
+    {
+        "keyword": "الأزمة الداخلية الإسرائيلية",
+        "count": 5
+    },
+    {
+        "keyword": "مجلس الشورى الإيراني",
+        "count": 6
+    },
+    {
+        "keyword": "",
+        "count": 7
+    },
+    {
+        "keyword": "إدارة بايدن",
+        "count": 3
+    },
+    {
+        "keyword": "الاحتجاجات الطلابية الأميركية",
+        "count": 2
+    },
+    {
+        "keyword": "البنتاغون",
+        "count": 1
+    },
+    {
+        "keyword": "وزارة الدفاع الأميركية",
+        "count": 1
+    },
+    {
+        "keyword": "لويد أوستن",
+        "count": 1
+    },
+    {
+        "keyword": "اغتيال اسماعيل هنية",
+        "count": 4
+    },
+    {
+        "keyword": "وزارة الأمن الإسرائيلية",
+        "count": 1
+    },
+    {
+        "keyword": "الحكومة الإيرانية",
+        "count": 2
+    },
+    {
+        "keyword": "مسيّرات حزب الله الانقضاضية",
+        "count": 2
+    },
+    {
+        "keyword": "التفوق التكنولوجي الإسرائيلي",
+        "count": 1
+    },
+    {
+        "keyword": "مقتل جندي إسرائيلي",
+        "count": 1
+    },
+    {
+        "keyword": "7 أكتوبر",
+        "count": 1
+    },
+    {
+        "keyword": "الفشل الإسرائيلي",
+        "count": 1
+    },
+    {
+        "keyword": "مدرسة التابعين",
+        "count": 5
+    },
+    {
+        "keyword": "مجزرة الفجر فلسطين",
+        "count": 1
+    },
+    {
+        "keyword": "القرى الحدودية اللبنانية",
+        "count": 1
+    },
+    {
+        "keyword": "قوات اليونيفل",
+        "count": 2
+    },
+    {
+        "keyword": "الضهيرة",
+        "count": 1
+    },
+    {
+        "keyword": "أسامة حمدان",
+        "count": 2
+    },
+    {
+        "keyword": "فيلادلفيا",
+        "count": 4
+    },
+    {
+        "keyword": "مراكز الإيواء في غزة",
+        "count": 1
+    },
+    {
+        "keyword": "الدفاع المدني الفلسطيني",
+        "count": 1
+    },
+    {
+        "keyword": "المساحات الآمنة في غزة",
+        "count": 1
+    },
+    {
+        "keyword": "الرد الايراني",
+        "count": 2
+    },
+    {
+        "keyword": "رد محور المقاومة",
+        "count": 5
+    },
+    {
+        "keyword": "التفاوض حول الصفقة",
+        "count": 1
+    },
+    {
+        "keyword": "اتفاق حول غزة",
+        "count": 1
+    },
+    {
+        "keyword": "رد إيران وحزب الله",
+        "count": 1
+    },
+    {
+        "keyword": "صفقة التفاوض",
+        "count": 1
+    },
+    {
+        "keyword": "استقالات بسبب الحرب",
+        "count": 1
+    },
+    {
+        "keyword": "النازحون في غزة",
+        "count": 5
+    },
+    {
+        "keyword": "مراكز إيواء النازحين",
+        "count": 1
+    },
+    {
+        "keyword": "سجن خان يونس",
+        "count": 1
+    },
+    {
+        "keyword": "صواريخ الكاتيوشا",
+        "count": 1
+    },
+    {
+        "keyword": "قاعدة جعتون",
+        "count": 1
+    },
+    {
+        "keyword": "مقترح بايدن",
+        "count": 2
+    },
+    {
+        "keyword": "اقتراح وقف إطلاق النار",
+        "count": 1
+    },
+    {
+        "keyword": "الميادين بودكاست",
+        "count": 4
+    },
+    {
+        "keyword": "بودكاست",
+        "count": 5
+    },
+    {
+        "keyword": "غزة في روايات الحرب",
+        "count": 2
+    },
+    {
+        "keyword": "النرويج",
+        "count": 2
+    },
+    {
+        "keyword": "أموال المقاصة الفلسطينية",
+        "count": 1
+    },
+    {
+        "keyword": "خارجية الاحتلال الاسرائيلي",
+        "count": 1
+    },
+    {
+        "keyword": "القدس",
+        "count": 6
+    },
+    {
+        "keyword": "كربلاء",
+        "count": 5
+    },
+    {
+        "keyword": "الوحدة الإسلامية",
+        "count": 2
+    },
+    {
+        "keyword": "موكب نداء الأقصى",
+        "count": 2
+    },
+    {
+        "keyword": "أربعينية الإمام الحسين",
+        "count": 2
+    },
+    {
+        "keyword": "حقوق الشعب الفلسطيني",
+        "count": 1
+    },
+    {
+        "keyword": "مقام الإمام الحسين",
+        "count": 2
+    },
+    {
+        "keyword": "التضامن العربي والإسلامي",
+        "count": 2
+    },
+    {
+        "keyword": "الغرب",
+        "count": 3
+    },
+    {
+        "keyword": "العالم العربي",
+        "count": 2
+    },
+    {
+        "keyword": "فصائل المقاومة",
+        "count": 8
+    },
+    {
+        "keyword": "الاستيطان",
+        "count": 4
+    },
+    {
+        "keyword": "الدين الإسلامي",
+        "count": 1
+    },
+    {
+        "keyword": "شيخ الأزهر",
+        "count": 1
+    },
+    {
+        "keyword": "المجتمعات العربية",
+        "count": 1
+    },
+    {
+        "keyword": "علماء المسلمين",
+        "count": 1
+    },
+    {
+        "keyword": "الغزو الثقافي",
+        "count": 1
+    },
+    {
+        "keyword": "اختطاف التعليم العربي",
+        "count": 1
+    },
+    {
+        "keyword": "حرب غرة",
+        "count": 1
+    },
+    {
+        "keyword": "الغزو الغربي",
+        "count": 1
+    },
+    {
+        "keyword": "الجبهة اللبنانية",
+        "count": 1
+    },
+    {
+        "keyword": "صواريخ",
+        "count": 11
+    },
+    {
+        "keyword": "القواعد الإسرائيلية",
+        "count": 1
+    },
+    {
+        "keyword": "المسيّرات الانقضاضية",
+        "count": 1
+    },
+    {
+        "keyword": "المقاومة الاسلامية حزب الله",
+        "count": 1
+    },
+    {
+        "keyword": "تطورات المفاوضات في غزة",
+        "count": 1
+    },
+    {
+        "keyword": "غور الأردن",
+        "count": 1
+    },
+    {
+        "keyword": "صنعاء",
+        "count": 14
+    },
+    {
+        "keyword": "الحوثي",
+        "count": 4
+    },
+    {
+        "keyword": "السيد عبد الملك الحوثي",
+        "count": 6
+    },
+    {
+        "keyword": "احمد الرهوي",
+        "count": 2
+    },
+    {
+        "keyword": "حكومة يمنية جديدة",
+        "count": 2
+    },
+    {
+        "keyword": "الحكومة في اليمن",
+        "count": 1
+    },
+    {
+        "keyword": "اصلاحات سياسية في اليمن",
+        "count": 1
+    },
+    {
+        "keyword": "اصلاحات في اليمن",
+        "count": 1
+    },
+    {
+        "keyword": "إصلاحات سياسية في اليمن",
+        "count": 1
+    },
+    {
+        "keyword": "السياسة في اليمن",
+        "count": 1
+    },
+    {
+        "keyword": "الحكومة اليمن",
+        "count": 1
+    },
+    {
+        "keyword": "مجلس الوزراء في اليمن",
+        "count": 1
+    },
+    {
+        "keyword": "إصلاحات في اليمن",
+        "count": 1
+    },
+    {
+        "keyword": "دونالد ترامب",
+        "count": 9
+    },
+    {
+        "keyword": "ترامب",
+        "count": 3
+    },
+    {
+        "keyword": "الحزب الجمهوري الأميركي",
+        "count": 4
+    },
+    {
+        "keyword": "الاقتصاد الأميركي",
+        "count": 2
+    },
+    {
+        "keyword": "هاريس",
+        "count": 8
+    },
+    {
+        "keyword": "ولاية بنسلفانيا",
+        "count": 1
+    },
+    {
+        "keyword": "الانتخابات الرئاسية في أميركا",
+        "count": 2
+    },
+    {
+        "keyword": "اعتداءات الاحتلال",
+        "count": 3
+    },
+    {
+        "keyword": "قيسارية",
+        "count": 1
+    },
+    {
+        "keyword": "قيس سعيد",
+        "count": 2
+    },
+    {
+        "keyword": "الرئيس التونسي",
+        "count": 2
+    },
+    {
+        "keyword": "الانتخابات التونسية",
+        "count": 2
+    },
+    {
+        "keyword": "الرئيس التونسي قيس سعيد",
+        "count": 2
+    },
+    {
+        "keyword": "انتخابات تونس",
+        "count": 1
+    },
+    {
+        "keyword": "الانتخابات في تونس",
+        "count": 1
+    },
+    {
+        "keyword": "هيئة الانتخابات في تونس",
+        "count": 1
+    },
+    {
+        "keyword": "هيئة الانتخابات التونسية",
+        "count": 1
+    },
+    {
+        "keyword": "الانتخابات تونس",
+        "count": 1
+    },
+    {
+        "keyword": "المرشحين في تونس",
+        "count": 1
+    },
+    {
+        "keyword": "العملية الانتخابية في تونس",
+        "count": 1
+    },
+    {
+        "keyword": "الانتخابات الرئاسية الفنزويلية",
+        "count": 4
+    },
+    {
+        "keyword": "محاولة الانقلاب في فنزويلا",
+        "count": 2
+    },
+    {
+        "keyword": "جبهات الإسناد لغزة",
+        "count": 1
+    },
+    {
+        "keyword": "جبهة الشمال",
+        "count": 6
+    },
+    {
+        "keyword": "شمال فلسطين",
+        "count": 1
+    },
+    {
+        "keyword": "التهديدات الإسرائيلية",
+        "count": 2
+    },
+    {
+        "keyword": "تهديد",
+        "count": 2
+    },
+    {
+        "keyword": "حرب مع لبنان",
+        "count": 1
+    },
+    {
+        "keyword": "التخبط الإسرائيلي",
+        "count": 1
+    },
+    {
+        "keyword": "جبهة الشمال مع لبنان",
+        "count": 1
+    },
+    {
+        "keyword": "حرب مع حزب الله",
+        "count": 1
+    },
+    {
+        "keyword": "الشمال يحترق",
+        "count": 1
+    },
+    {
+        "keyword": "الانتظار الإسرائيلي",
+        "count": 1
+    },
+    {
+        "keyword": "حزب الله يوسع دائرة استهدافاته",
+        "count": 1
+    },
+    {
+        "keyword": "الأغوار",
+        "count": 2
+    },
+    {
+        "keyword": "عمليات المقاومة في غزة",
+        "count": 2
+    },
+    {
+        "keyword": "قاعدة محفاة ألون",
+        "count": 2
+    },
+    {
+        "keyword": "محفاة ألون",
+        "count": 2
+    },
+    {
+        "keyword": "أذربيجان",
+        "count": 1
+    },
+    {
+        "keyword": "جنوب القوقاز",
+        "count": 1
+    },
+    {
+        "keyword": "عائلات الأسرى الإسرائيليين",
+        "count": 2
+    },
+    {
+        "keyword": "كراكاس",
+        "count": 3
+    },
+    {
+        "keyword": "الشعب الفنزويلي",
+        "count": 1
+    },
+    {
+        "keyword": "إدموندو غونزاليس",
+        "count": 1
+    },
+    {
+        "keyword": "اليمين المتطرف الفنزويلي",
+        "count": 1
+    },
+    {
+        "keyword": "شرعية الرئيس الفنزويلي",
+        "count": 1
+    },
+    {
+        "keyword": "الشارع الفنزويلي",
+        "count": 1
+    },
+    {
+        "keyword": "سجن عوفر",
+        "count": 1
+    },
+    {
+        "keyword": "هيئة شؤون الأسرى والمحررين",
+        "count": 1
+    },
+    {
+        "keyword": "مجزرة الفجر",
+        "count": 2
+    },
+    {
+        "keyword": "الانتخابات الأميركية",
+        "count": 2
+    },
+    {
+        "keyword": "الأطفال في غزة",
+        "count": 1
+    },
+    {
+        "keyword": "شلل الأطفال",
+        "count": 4
+    },
+    {
+        "keyword": "قصف إسرائيلي على غزة",
+        "count": 1
+    },
+    {
+        "keyword": "مجزرة اسرائيلية",
+        "count": 2
+    },
+    {
+        "keyword": "مجزرة جديدة",
+        "count": 1
+    },
+    {
+        "keyword": "قصف اسرائيل",
+        "count": 1
+    },
+    {
+        "keyword": "البرابجة",
+        "count": 1
+    },
+    {
+        "keyword": "مجزرة جديدة في فلسطين",
+        "count": 1
+    },
+    {
+        "keyword": "مجزرةو",
+        "count": 1
+    },
+    {
+        "keyword": "منطقة البرابجة",
+        "count": 1
+    },
+    {
+        "keyword": "البرابجة في غزة",
+        "count": 1
+    },
+    {
+        "keyword": "منطقة البرابجة في غزة",
+        "count": 1
+    },
+    {
+        "keyword": "إسرائيل ترتكب مجزرة جديدة",
+        "count": 1
+    },
+    {
+        "keyword": "معركة طوفان الأقصى",
+        "count": 1
+    },
+    {
+        "keyword": "صمود أهل غزة",
+        "count": 1
+    },
+    {
+        "keyword": "صمود أهل فلسطين",
+        "count": 1
+    },
+    {
+        "keyword": "حرب البقاء",
+        "count": 1
+    },
+    {
+        "keyword": "حرب البقاء في فلسطين",
+        "count": 1
+    },
+    {
+        "keyword": "شهداء وجرحى في غزة",
+        "count": 1
+    },
+    {
+        "keyword": "النصيرات",
+        "count": 1
+    },
+    {
+        "keyword": "رواندا",
+        "count": 2
+    },
+    {
+        "keyword": "كيغالي",
+        "count": 1
+    },
+    {
+        "keyword": "بول كاغامي",
+        "count": 2
+    },
+    {
+        "keyword": "كمالا هاريس",
+        "count": 1
+    },
+    {
+        "keyword": "روبرت كيندي",
+        "count": 1
+    },
+    {
+        "keyword": "مجدل شمس",
+        "count": 1
+    },
+    {
+        "keyword": "نهاريا",
+        "count": 1
+    },
+    {
+        "keyword": "الولايات المتحدة الاميركية",
+        "count": 1
+    },
+    {
+        "keyword": "القوات الأميركية",
+        "count": 2
+    },
+    {
+        "keyword": "الحدود السورية العراقية",
+        "count": 1
+    },
+    {
+        "keyword": "شرق سوريا",
+        "count": 1
+    },
+    {
+        "keyword": "الوجود الأميركي في سوريا",
+        "count": 2
+    },
+    {
+        "keyword": "معبر البوكمال",
+        "count": 1
+    },
+    {
+        "keyword": "معبر القائم",
+        "count": 1
+    },
+    {
+        "keyword": "الحرب الإقليمية",
+        "count": 1
+    },
+    {
+        "keyword": "معبر البوكمال - القائم",
+        "count": 1
+    },
+    {
+        "keyword": "ابراج اميركية",
+        "count": 1
+    },
+    {
+        "keyword": "الحضور الأميركي في سوريا",
+        "count": 1
+    },
+    {
+        "keyword": "أبراج مراقبة أميركية",
+        "count": 1
+    },
+    {
+        "keyword": "المفاوضات بشأن غزة",
+        "count": 6
+    },
+    {
+        "keyword": "الجليل",
+        "count": 4
+    },
+    {
+        "keyword": "طمرة",
+        "count": 1
+    },
+    {
+        "keyword": "عبلين",
+        "count": 1
+    },
+    {
+        "keyword": "القوات الرديفة",
+        "count": 1
+    },
+    {
+        "keyword": "الساحة الشمالية",
+        "count": 1
+    },
+    {
+        "keyword": "غالانت",
+        "count": 2
+    },
+    {
+        "keyword": "المحكمة الجنائية",
+        "count": 1
+    },
+    {
+        "keyword": "غونزاليس",
+        "count": 1
+    },
+    {
+        "keyword": "وزارة الخارجية الأميركية",
+        "count": 1
+    },
+    {
+        "keyword": "الحزب الجمهوري",
+        "count": 2
+    },
+    {
+        "keyword": "السياسة الخارجية الأميركية",
+        "count": 1
+    },
+    {
+        "keyword": "كاميلا هاريس",
+        "count": 2
+    },
+    {
+        "keyword": "صحيفة بوليتيكو الأميركية",
+        "count": 1
+    },
+    {
+        "keyword": "صحيفة بوليتيكو",
+        "count": 2
+    },
+    {
+        "keyword": "السياسية الأميركية",
+        "count": 1
+    },
+    {
+        "keyword": "الديمقراطيين والجمهوريين",
+        "count": 1
+    },
+    {
+        "keyword": "سياسة الولايات المتحدة",
+        "count": 1
+    },
+    {
+        "keyword": "السياسية الاميركية",
+        "count": 1
+    },
+    {
+        "keyword": "الحزبين الأميركيين",
+        "count": 1
+    },
+    {
+        "keyword": "ماريا زاخاروفا",
+        "count": 1
+    },
+    {
+        "keyword": "جنين",
+        "count": 10
+    },
+    {
+        "keyword": "الاعتداءات الإسرائيلية في الضفة",
+        "count": 11
+    },
+    {
+        "keyword": "أنقرة",
+        "count": 1
+    },
+    {
+        "keyword": "العلاقات الروسية التركية",
+        "count": 1
+    },
+    {
+        "keyword": "التوغل البري في غزة",
+        "count": 2
+    },
+    {
+        "keyword": "مجلس الأمن الدولي",
+        "count": 12
+    },
+    {
+        "keyword": "الدول الغربية",
+        "count": 1
+    },
+    {
+        "keyword": "حي الدرج",
+        "count": 3
+    },
+    {
+        "keyword": "مجزرة مدرسة التابعين",
+        "count": 5
+    },
+    {
+        "keyword": "القانون الإنساني الدولي",
+        "count": 2
+    },
+    {
+        "keyword": "مجزرة المصلين",
+        "count": 3
+    },
+    {
+        "keyword": "استهداف المدارس في غزة",
+        "count": 1
+    },
+    {
+        "keyword": "قصف غزة",
+        "count": 1
+    },
+    {
+        "keyword": "بيت حانون",
+        "count": 1
+    },
+    {
+        "keyword": "صمود غزة",
+        "count": 1
+    },
+    {
+        "keyword": "بحر العرب",
+        "count": 1
+    },
+    {
+        "keyword": "خليج عمان",
+        "count": 1
+    },
+    {
+        "keyword": "الاسلحة الاميركية",
+        "count": 1
+    },
+    {
+        "keyword": "حرب شاملة",
+        "count": 1
+    },
+    {
+        "keyword": "الأسطول الأميركي",
+        "count": 1
+    },
+    {
+        "keyword": "الحرب الشاملة",
+        "count": 2
+    },
+    {
+        "keyword": "الوجود الأميركي في المنطقة",
+        "count": 1
+    },
+    {
+        "keyword": "المدمرة الأميركية",
+        "count": 1
+    },
+    {
+        "keyword": "الحرب الشاملة في المنطقة",
+        "count": 1
+    },
+    {
+        "keyword": "الاسطول الاميركي",
+        "count": 1
+    },
+    {
+        "keyword": "المدمرة الاميركية",
+        "count": 1
+    },
+    {
+        "keyword": "الحكومة البريطانية",
+        "count": 1
+    },
+    {
+        "keyword": "العنصرية",
+        "count": 1
+    },
+    {
+        "keyword": "الإسلاموفوبيا",
+        "count": 1
+    },
+    {
+        "keyword": "أقصى اليمين",
+        "count": 1
+    },
+    {
+        "keyword": "المسلمون في بريطانيا",
+        "count": 1
+    },
+    {
+        "keyword": "التظاهرات في بريطانيا",
+        "count": 1
+    },
+    {
+        "keyword": "الإسلاموفوبيا في بريطانيا",
+        "count": 1
+    },
+    {
+        "keyword": "نايجل فاراج",
+        "count": 1
+    },
+    {
+        "keyword": "حزب الإصلاح اليميني",
+        "count": 1
+    },
+    {
+        "keyword": "التحريض على الكراهية",
+        "count": 1
+    },
+    {
+        "keyword": "التسليح الأميركي",
+        "count": 1
+    },
+    {
+        "keyword": "العلاقات التركية العراقية",
+        "count": 1
+    },
+    {
+        "keyword": "تركيا والعراق",
+        "count": 1
+    },
+    {
+        "keyword": "العلاقات العراقية التركية",
+        "count": 1
+    },
+    {
+        "keyword": "العراق وتركيا",
+        "count": 1
+    },
+    {
+        "keyword": "الربط الكهربائي بين الدولتين",
+        "count": 1
+    },
+    {
+        "keyword": "العدو الإسرائيلي",
+        "count": 1
+    },
+    {
+        "keyword": "العمليات اليمنية",
+        "count": 3
+    },
+    {
+        "keyword": "نصرة للشعب الفلسطيني",
+        "count": 1
+    },
+    {
+        "keyword": "مسيرات شعبية حاشدة لليمنيين",
+        "count": 1
+    },
+    {
+        "keyword": "عماد مغنية",
+        "count": 4
+    },
+    {
+        "keyword": "جبالنا خزائننا",
+        "count": 2
+    },
+    {
+        "keyword": "وزير الخارجية الإيراني",
+        "count": 1
+    },
+    {
+        "keyword": "وزير الخارجية الفرنسي",
+        "count": 1
+    },
+    {
+        "keyword": "وزير الخارجية البريطاني",
+        "count": 1
+    },
+    {
+        "keyword": "ستيفان سيجورنيه",
+        "count": 1
+    },
+    {
+        "keyword": "ديفيد لامي",
+        "count": 1
+    },
+    {
+        "keyword": "الدول العربية",
+        "count": 1
+    },
+    {
+        "keyword": "فصائل المقاومة الفلسطينية",
+        "count": 6
+    },
+    {
+        "keyword": "المقاومة الاسلامية",
+        "count": 7
+    },
+    {
+        "keyword": "مباشر",
+        "count": 2
+    },
+    {
+        "keyword": "المواقع الاسرائيلية",
+        "count": 3
+    },
+    {
+        "keyword": "ملف المفاوضات",
+        "count": 1
+    },
+    {
+        "keyword": "مسار المفاوضات",
+        "count": 1
+    },
+    {
+        "keyword": "حكومة اسرائيل",
+        "count": 1
+    },
+    {
+        "keyword": "الوساطة",
+        "count": 1
+    },
+    {
+        "keyword": "القطب الجنوبي",
+        "count": 1
+    },
+    {
+        "keyword": "القارة القطبية الجنوبية",
+        "count": 1
+    },
+    {
+        "keyword": "الطيران",
+        "count": 1
+    },
+    {
+        "keyword": "الطائرات",
+        "count": 1
+    },
+    {
+        "keyword": "العوامل الجوية",
+        "count": 1
+    },
+    {
+        "keyword": "انتارتيكا",
+        "count": 1
+    },
+    {
+        "keyword": "العوامل المناخية",
+        "count": 1
+    },
+    {
+        "keyword": "وانغ يي",
+        "count": 1
+    },
+    {
+        "keyword": "العلاقات الأميركية الصينية",
+        "count": 1
+    },
+    {
+        "keyword": "صناعة أشباه الموصلات",
+        "count": 1
+    },
+    {
+        "keyword": "سديه تيمان",
+        "count": 1
+    },
+    {
+        "keyword": "الصين",
+        "count": 13
+    },
+    {
+        "keyword": "منتدى التعاون الصيني الأفريقي",
+        "count": 2
+    },
+    {
+        "keyword": "عبد الفتاح البرهان",
+        "count": 2
+    },
+    {
+        "keyword": "حميدتي",
+        "count": 2
+    },
+    {
+        "keyword": "محمد حمدان دقلو",
+        "count": 2
+    },
+    {
+        "keyword": "علي باقري كني",
+        "count": 2
+    },
+    {
+        "keyword": "بدر عبد العاطي",
+        "count": 5
+    },
+    {
+        "keyword": "المملكة المتحدة",
+        "count": 2
+    },
+    {
+        "keyword": "تظاهرات ضد العنصرية",
+        "count": 1
+    },
+    {
+        "keyword": "تظاهرات المملكة المتحدة",
+        "count": 1
+    },
+    {
+        "keyword": "المحافظات اليمنية",
+        "count": 2
+    },
+    {
+        "keyword": "جنوب اليمن",
+        "count": 1
+    },
+    {
+        "keyword": "الجنوب اليمني",
+        "count": 1
+    },
+    {
+        "keyword": "تفجير إرهابي",
+        "count": 2
+    },
+    {
+        "keyword": "جنوبي اليمن",
+        "count": 1
+    },
+    {
+        "keyword": "المحافظات اليمنية الجنوبية والشرقية",
+        "count": 1
+    },
+    {
+        "keyword": "الانفلات الأمني",
+        "count": 1
+    },
+    {
+        "keyword": "انفلات أمني",
+        "count": 1
+    },
+    {
+        "keyword": "نشرات أخبار الميادين",
+        "count": 2
+    },
+    {
+        "keyword": "غارات إسرائيلية",
+        "count": 4
+    },
+    {
+        "keyword": "مواقع الاحتلال الاسرائيلي",
+        "count": 2
+    },
+    {
+        "keyword": "يحيى السنوار",
+        "count": 2
+    },
+    {
+        "keyword": "صحة الإنسان",
+        "count": 1
+    },
+    {
+        "keyword": "الصحة",
+        "count": 1
+    },
+    {
+        "keyword": "صحة",
+        "count": 1
+    },
+    {
+        "keyword": "العظام",
+        "count": 1
+    },
+    {
+        "keyword": "هشاشة العظام",
+        "count": 1
+    },
+    {
+        "keyword": "ترميم العظام",
+        "count": 1
+    },
+    {
+        "keyword": "خطر الإصابة بترقق العظام",
+        "count": 1
+    },
+    {
+        "keyword": "أنسجة العظام",
+        "count": 1
+    },
+    {
+        "keyword": "تقسيم اليمن",
+        "count": 1
+    },
+    {
+        "keyword": "شبكة تجسس أميركية إسرائيلية",
+        "count": 1
+    },
+    {
+        "keyword": "فورين بوليسي",
+        "count": 5
+    },
+    {
+        "keyword": "الحريديم",
+        "count": 8
+    },
+    {
+        "keyword": "تجنيد الحريديم",
+        "count": 4
+    },
+    {
+        "keyword": "حكومة الاحتلال الاسرائيلي",
+        "count": 2
+    },
+    {
+        "keyword": "هزيمة الاحتلال",
+        "count": 2
+    },
+    {
+        "keyword": "الخلافات الاسرائيلية",
+        "count": 3
+    },
+    {
+        "keyword": "الاستراتيجية الإسرائيلية",
+        "count": 2
+    },
+    {
+        "keyword": "الهزيمة الاسرائيلية",
+        "count": 2
+    },
+    {
+        "keyword": "فيديو عماد 4",
+        "count": 4
+    },
+    {
+        "keyword": "الانحدار في الاستراتيجية الإسرائيلية",
+        "count": 2
+    },
+    {
+        "keyword": "هزيمة الاحتلال الاسرائيلي",
+        "count": 2
+    },
+    {
+        "keyword": "وقف النار في غزة",
+        "count": 2
+    },
+    {
+        "keyword": "البيرة",
+        "count": 2
+    },
+    {
+        "keyword": "النيجر",
+        "count": 4
+    },
+    {
+        "keyword": "بترول النيجر",
+        "count": 1
+    },
+    {
+        "keyword": "إعلام إسرائيلي",
+        "count": 1
+    },
+    {
+        "keyword": "مخيم جنين",
+        "count": 7
+    },
+    {
+        "keyword": "يسرائيل كاتس",
+        "count": 1
+    },
+    {
+        "keyword": "شيكاغو",
+        "count": 9
+    },
+    {
+        "keyword": "اغتيال هنية",
+        "count": 1
+    },
+    {
+        "keyword": "جبهة الإسناد اليمنية",
+        "count": 13
+    },
+    {
+        "keyword": "عماد 4",
+        "count": 12
+    },
+    {
+        "keyword": "الشرق الأوسط",
+        "count": 3
+    },
+    {
+        "keyword": "التضامن مع فلسطين",
+        "count": 1
+    },
+    {
+        "keyword": "المسيرات اليمنية",
+        "count": 2
+    },
+    {
+        "keyword": "إيتمار بن غفير",
+        "count": 3
+    },
+    {
+        "keyword": "بتسلئيل سموتريتش",
+        "count": 2
+    },
+    {
+        "keyword": "الإبادة الجماعية",
+        "count": 1
+    },
+    {
+        "keyword": "Al Mayadeen",
+        "count": 1
+    },
+    {
+        "keyword": "المجازر الاسرائيلية",
+        "count": 2
+    },
+    {
+        "keyword": "مجزرة إسرائيلية",
+        "count": 2
+    },
+    {
+        "keyword": "الفجر",
+        "count": 1
+    },
+    {
+        "keyword": "قواعد الاشتباك",
+        "count": 2
+    },
+    {
+        "keyword": "منشأة عماد 4",
+        "count": 6
+    },
+    {
+        "keyword": "المفاوض الفلسطيني",
+        "count": 2
+    },
+    {
+        "keyword": "عماد أربعة",
+        "count": 2
+    },
+    {
+        "keyword": "التظاهرات في شيكاغو",
+        "count": 5
+    },
+    {
+        "keyword": "فايننشال تايمز",
+        "count": 1
+    },
+    {
+        "keyword": "عدوان الاحتلال على غزة",
+        "count": 1
+    },
+    {
+        "keyword": "صفقة وقف إطلاق النار",
+        "count": 2
+    },
+    {
+        "keyword": "خلافات داخلية إسرائيلية",
+        "count": 1
+    },
+    {
+        "keyword": "سموتريتش",
+        "count": 1
+    },
+    {
+        "keyword": "عميت هليفي",
+        "count": 1
+    },
+    {
+        "keyword": "القانون الدولي",
+        "count": 1
+    },
+    {
+        "keyword": "القضايا العربية",
+        "count": 1
+    },
+    {
+        "keyword": "مسار قانوني",
+        "count": 2
+    },
+    {
+        "keyword": "القضايا العالمية",
+        "count": 1
+    },
+    {
+        "keyword": "قرارات مجلس الأمن",
+        "count": 1
+    },
+    {
+        "keyword": "الدمار في غزة",
+        "count": 4
+    },
+    {
+        "keyword": "مدينة حمد",
+        "count": 1
+    },
+    {
+        "keyword": "النبطية",
+        "count": 2
+    },
+    {
+        "keyword": "مجزرة الكفور",
+        "count": 1
+    },
+    {
+        "keyword": "بلدة الكفور",
+        "count": 1
+    },
+    {
+        "keyword": "سد النهضة",
+        "count": 1
+    },
+    {
+        "keyword": "الكهرباء",
+        "count": 2
+    },
+    {
+        "keyword": "هيئة الكهرباء الإثيوبية",
+        "count": 1
+    },
+    {
+        "keyword": "المغرب",
+        "count": 2
+    },
+    {
+        "keyword": "التطبيع المغربي مع إسرائيل",
+        "count": 1
+    },
+    {
+        "keyword": "الحرب الإلكترونية",
+        "count": 1
+    },
+    {
+        "keyword": "عمليات التشويش الإسرائيلي",
+        "count": 1
+    },
+    {
+        "keyword": "التشويش على الـGPS",
+        "count": 1
+    },
+    {
+        "keyword": "قاعدة خراب الجير",
+        "count": 1
+    },
+    {
+        "keyword": "قاعدة رميلان",
+        "count": 1
+    },
+    {
+        "keyword": "إنتاج النفط",
+        "count": 1
+    },
+    {
+        "keyword": "عائدات النفط",
+        "count": 1
+    },
+    {
+        "keyword": "رئيس البرلمان الليبي",
+        "count": 1
+    },
+    {
+        "keyword": "شلل الاطفال",
+        "count": 1
+    },
+    {
+        "keyword": "قمة الدوحة",
+        "count": 1
+    },
+    {
+        "keyword": "كندا",
+        "count": 1
+    },
+    {
+        "keyword": "بوتسوانا",
+        "count": 1
+    },
+    {
+        "keyword": "الألماس",
+        "count": 1
+    },
+    {
+        "keyword": "شركة Lucara Diamond Corp",
+        "count": 1
+    },
+    {
+        "keyword": "منجم Karowe",
+        "count": 1
+    },
+    {
+        "keyword": "الديناصورات",
+        "count": 1
+    },
+    {
+        "keyword": "كوكب المشتري",
+        "count": 1
+    },
+    {
+        "keyword": "عالم الديناصورات",
+        "count": 1
+    },
+    {
+        "keyword": "كويكب",
+        "count": 1
+    },
+    {
+        "keyword": "انقراض الديناصورات",
+        "count": 1
+    },
+    {
+        "keyword": "مجلة \"ساينس\"",
+        "count": 1
+    },
+    {
+        "keyword": "الروثينيوم",
+        "count": 1
+    },
+    {
+        "keyword": "الشاباك الإسرائيلي",
+        "count": 1
+    },
+    {
+        "keyword": "المجتمع الإسرائيلي",
+        "count": 1
+    },
+    {
+        "keyword": "رونين بار",
+        "count": 2
+    },
+    {
+        "keyword": "رئيس الشاباك",
+        "count": 1
+    },
+    {
+        "keyword": "فتية التلال",
+        "count": 1
+    },
+    {
+        "keyword": "الإرهاب اليهودي",
+        "count": 1
+    },
+    {
+        "keyword": "الاعتداءات الإسرائيلية على الفلسطينيين",
+        "count": 1
+    },
+    {
+        "keyword": "ناميبيا",
+        "count": 1
+    },
+    {
+        "keyword": "سفينة شحن إسرائيلية",
+        "count": 1
+    },
+    {
+        "keyword": "الأحصنة",
+        "count": 1
+    },
+    {
+        "keyword": "ذكاء الحصان",
+        "count": 1
+    },
+    {
+        "keyword": "جامعة \"نوتنغهام ترينت\"",
+        "count": 1
+    },
+    {
+        "keyword": "دورية العلوم السلوكية التطبيقية للحيوانات",
+        "count": 1
+    },
+    {
+        "keyword": "عمّان",
+        "count": 1
+    },
+    {
+        "keyword": "دعم المقاومة",
+        "count": 1
+    },
+    {
+        "keyword": "قطع العلاقات مع إسرائيل",
+        "count": 1
+    },
+    {
+        "keyword": "الانتخابات الرئاسية الجزائرية",
+        "count": 3
+    },
+    {
+        "keyword": "الحملات الانتخابية",
+        "count": 1
+    },
+    {
+        "keyword": "المعارضة الجزائرية",
+        "count": 1
+    },
+    {
+        "keyword": "الانتخابات الرئاسية في الجزائر",
+        "count": 1
+    },
+    {
+        "keyword": "الشارع الجزائري",
+        "count": 1
+    },
+    {
+        "keyword": "عبد العالي حساني الشريف",
+        "count": 1
+    },
+    {
+        "keyword": "يوسف أوشيش",
+        "count": 1
+    },
+    {
+        "keyword": "صفقة تبادل الأسرى",
+        "count": 5
+    },
+    {
+        "keyword": "فولوديمير زيلينسكي",
+        "count": 2
+    },
+    {
+        "keyword": "أناتولي أنطونوف",
+        "count": 1
+    },
+    {
+        "keyword": "أدولف هتلر",
+        "count": 1
+    },
+    {
+        "keyword": "قاعدة عسكرية روسية",
+        "count": 1
+    },
+    {
+        "keyword": "بيت لاهيا",
+        "count": 2
+    },
+    {
+        "keyword": "مشروع بيت لاهيا",
+        "count": 1
+    },
+    {
+        "keyword": "وادي الكفور",
+        "count": 1
+    },
+    {
+        "keyword": "عدوان إسرائيلي على لبنان",
+        "count": 1
+    },
+    {
+        "keyword": "غازي حمد",
+        "count": 1
+    },
+    {
+        "keyword": "الوضع الإنساني في غزة",
+        "count": 2
+    },
+    {
+        "keyword": "الإبادة الإسرائيلية في غزة",
+        "count": 1
+    },
+    {
+        "keyword": "محور نتساريم",
+        "count": 7
+    },
+    {
+        "keyword": "الجرب على غزة",
+        "count": 1
+    },
+    {
+        "keyword": "العملية العسكرية الروسية في أوكرانيا",
+        "count": 2
+    },
+    {
+        "keyword": "القنبلة القذرة",
+        "count": 1
+    },
+    {
+        "keyword": "اقتحامات",
+        "count": 2
+    },
+    {
+        "keyword": "الأزمة الاقتصادية في إسرائيل",
+        "count": 1
+    },
+    {
+        "keyword": "اقصاد الاحتلال",
+        "count": 1
+    },
+    {
+        "keyword": "قتلى",
+        "count": 5
+    },
+    {
+        "keyword": "أوغندا",
+        "count": 1
+    },
+    {
+        "keyword": "كمبالا",
+        "count": 1
+    },
+    {
+        "keyword": "مكب نفايات في أوغاندا",
+        "count": 1
+    },
+    {
+        "keyword": "مكب نفايات كيتيزي",
+        "count": 1
+    },
+    {
+        "keyword": "مصطفى مدبولي",
+        "count": 1
+    },
+    {
+        "keyword": "رئيس الأرجنتين",
+        "count": 1
+    },
+    {
+        "keyword": "اسحاق رابين",
+        "count": 1
+    },
+    {
+        "keyword": "جكام اسرائيل",
+        "count": 1
+    },
+    {
+        "keyword": "العدوان الإسرائيلي",
+        "count": 2
+    },
+    {
+        "keyword": "الإعلام الحربي",
+        "count": 3
+    },
+    {
+        "keyword": "الاعلام الحربي",
+        "count": 1
+    },
+    {
+        "keyword": "إطلاق صواريخ",
+        "count": 1
+    },
+    {
+        "keyword": "عماد",
+        "count": 2
+    },
+    {
+        "keyword": "مغنية",
+        "count": 2
+    },
+    {
+        "keyword": "صاروخ عماد مغنية",
+        "count": 2
+    },
+    {
+        "keyword": "عماد ٤",
+        "count": 2
+    },
+    {
+        "keyword": "منشأة صواريخ",
+        "count": 2
+    },
+    {
+        "keyword": "صواريخ تحت الأرض",
+        "count": 2
+    },
+    {
+        "keyword": "الحدود اللبنانية الإسرائيلية",
+        "count": 1
+    },
+    {
+        "keyword": "صواريخ مغنية",
+        "count": 1
+    },
+    {
+        "keyword": "منصة صواريخ",
+        "count": 1
+    },
+    {
+        "keyword": "رسائل الردع",
+        "count": 1
+    },
+    {
+        "keyword": "مدينة الصواريخ",
+        "count": 1
+    },
+    {
+        "keyword": "سجن أبو غريب",
+        "count": 1
+    },
+    {
+        "keyword": "اتفاق وقف اطلاق النار",
+        "count": 2
+    },
+    {
+        "keyword": "رئيس جهاز الشاباك",
+        "count": 1
+    },
+    {
+        "keyword": "وقف الحرب",
+        "count": 1
+    },
+    {
+        "keyword": "منشأة عماد أربعة",
+        "count": 1
+    },
+    {
+        "keyword": "عماد4",
+        "count": 1
+    },
+    {
+        "keyword": "نتيجة المفاوضات",
+        "count": 1
+    },
+    {
+        "keyword": "معبر فيلادلفيا",
+        "count": 1
+    },
+    {
+        "keyword": "قرار مصري",
+        "count": 1
+    },
+    {
+        "keyword": "السيادة في معبر فيلادلفيا",
+        "count": 1
+    },
+    {
+        "keyword": "العميد يحيى سريع",
+        "count": 2
+    },
+    {
+        "keyword": "خليج عدن",
+        "count": 1
+    },
+    {
+        "keyword": "حرب",
+        "count": 5
+    },
+    {
+        "keyword": "عدوان",
+        "count": 3
+    },
+    {
+        "keyword": "قدرات حزب الله",
+        "count": 2
+    },
+    {
+        "keyword": "اسلحة",
+        "count": 2
+    },
+    {
+        "keyword": "قوة حزب الله",
+        "count": 2
+    },
+    {
+        "keyword": "قدرات عسكرية",
+        "count": 3
+    },
+    {
+        "keyword": "حزب الله واسرائيل",
+        "count": 2
+    },
+    {
+        "keyword": "رسائل حزب الله",
+        "count": 2
+    },
+    {
+        "keyword": "اشتباكات حزب الله",
+        "count": 4
+    },
+    {
+        "keyword": "حزب الله للجيش الإسرائيلي",
+        "count": 3
+    },
+    {
+        "keyword": "انفاق حزب الله",
+        "count": 2
+    },
+    {
+        "keyword": "حزب الله اللبناني",
+        "count": 1
+    },
+    {
+        "keyword": "صاورخ عماد",
+        "count": 1
+    },
+    {
+        "keyword": "مدينة صواريخ",
+        "count": 1
+    },
+    {
+        "keyword": "الانقسامات الداخلية",
+        "count": 1
+    },
+    {
+        "keyword": "الوعد الصادق",
+        "count": 1
+    },
+    {
+        "keyword": "الاتحاد الأوروبي",
+        "count": 4
+    },
+    {
+        "keyword": "هنغاريا",
+        "count": 2
+    },
+    {
+        "keyword": "اللاجئون إلى أوروبا",
+        "count": 1
+    },
+    {
+        "keyword": "فيكتور أوربان",
+        "count": 1
+    },
+    {
+        "keyword": "فيديو حزب الله",
+        "count": 2
+    },
+    {
+        "keyword": "قواعد صاروخية",
+        "count": 2
+    },
+    {
+        "keyword": "منشأة حزب الله",
+        "count": 2
+    },
+    {
+        "keyword": "عمليات حزب الله اليوم",
+        "count": 2
+    },
+    {
+        "keyword": "كمين حزب الله",
+        "count": 1
+    },
+    {
+        "keyword": "شاهد عماد 4",
+        "count": 2
+    },
+    {
+        "keyword": "حزب الله عماد ٤",
+        "count": 2
+    },
+    {
+        "keyword": "اشتباكات مع حزب الله",
+        "count": 1
+    },
+    {
+        "keyword": "مصادر المياه",
+        "count": 1
+    },
+    {
+        "keyword": "فنزويلا تحسم",
+        "count": 1
+    },
+    {
+        "keyword": "مخيم طولكرم",
+        "count": 6
+    },
+    {
+        "keyword": "مجازر إسرائيلية في غزة",
+        "count": 2
+    },
+    {
+        "keyword": "مخيمات الضفة الغربية",
+        "count": 2
+    },
+    {
+        "keyword": "الميادين مباشر",
+        "count": 1
+    },
+    {
+        "keyword": "حزب الله عماد4",
+        "count": 1
+    },
+    {
+        "keyword": "اخبار حزب الله",
+        "count": 1
+    },
+    {
+        "keyword": "قاعدة عماد 4",
+        "count": 1
+    },
+    {
+        "keyword": "مستوطنة أفيفيم",
+        "count": 1
+    },
+    {
+        "keyword": "قوات العاصفة",
+        "count": 3
+    },
+    {
+        "keyword": "قوة القدس",
+        "count": 1
+    },
+    {
+        "keyword": "حرس الثورة الإسلامية في إيران",
+        "count": 1
+    },
+    {
+        "keyword": "المناخ",
+        "count": 1
+    },
+    {
+        "keyword": "الصراع في السودان",
+        "count": 1
+    },
+    {
+        "keyword": "اليونيسيف",
+        "count": 1
+    },
+    {
+        "keyword": "الأطفال في السودان",
+        "count": 1
+    },
+    {
+        "keyword": "بكين",
+        "count": 1
+    },
+    {
+        "keyword": "العلاقات الروسية الصينية",
+        "count": 1
+    },
+    {
+        "keyword": "روسيا والصين",
+        "count": 1
+    },
+    {
+        "keyword": "العلاقات الصينية الروسية",
+        "count": 1
+    },
+    {
+        "keyword": "الصين وروسيا",
+        "count": 1
+    },
+    {
+        "keyword": "لي تشيانغ",
+        "count": 1
+    },
+    {
+        "keyword": "موسكو وبكين",
+        "count": 1
+    },
+    {
+        "keyword": "رئيس الوزراء الصيني",
+        "count": 1
+    },
+    {
+        "keyword": "التعاون بين الصين وروسيا",
+        "count": 1
+    },
+    {
+        "keyword": "التعاون بين روسيا والصين",
+        "count": 1
+    },
+    {
+        "keyword": "السلطة الفلسطينية",
+        "count": 3
+    },
+    {
+        "keyword": "البرلمان التركي",
+        "count": 3
+    },
+    {
+        "keyword": "الدولة الفلسطينية",
+        "count": 2
+    },
+    {
+        "keyword": "الرئيس الفلسطيني",
+        "count": 1
+    },
+    {
+        "keyword": "أبو مازن",
+        "count": 1
+    },
+    {
+        "keyword": "مواقع تواصل اجتماعي",
+        "count": 1
+    },
+    {
+        "keyword": "ابو مازن",
+        "count": 1
+    },
+    {
+        "keyword": "قمع السلطة الفلسطينية",
+        "count": 1
+    },
+    {
+        "keyword": "ذاهبون إلى غزة",
+        "count": 1
+    },
+    {
+        "keyword": "الرئيس أبو مازن",
+        "count": 1
+    },
+    {
+        "keyword": "غينيا الاستوائية",
+        "count": 1
+    },
+    {
+        "keyword": "خط أنابيب الغاز",
+        "count": 1
+    },
+    {
+        "keyword": "توقيع اتفاقية",
+        "count": 1
+    },
+    {
+        "keyword": "السفارة الإيرانية في بيروت",
+        "count": 1
+    },
+    {
+        "keyword": "الجهاد الإسلامي",
+        "count": 8
+    },
+    {
+        "keyword": "نشرة العاشرة صباحاً",
+        "count": 2
+    },
+    {
+        "keyword": "كاميرا الميادين",
+        "count": 4
+    },
+    {
+        "keyword": "المستوطنين",
+        "count": 2
+    },
+    {
+        "keyword": "السيد الحوثي",
+        "count": 3
+    },
+    {
+        "keyword": "اعتداء",
+        "count": 2
+    },
+    {
+        "keyword": "رد المقاومة",
+        "count": 2
+    },
+    {
+        "keyword": "الرد",
+        "count": 2
+    },
+    {
+        "keyword": "استشهاد",
+        "count": 2
+    },
+    {
+        "keyword": "إعلان حرب",
+        "count": 2
+    },
+    {
+        "keyword": "إيراني",
+        "count": 2
+    },
+    {
+        "keyword": "ردع الاحتلال",
+        "count": 2
+    },
+    {
+        "keyword": "محادثات غزة",
+        "count": 2
+    },
+    {
+        "keyword": "زيارة هوكستين",
+        "count": 2
+    },
+    {
+        "keyword": "الأخطر",
+        "count": 2
+    },
+    {
+        "keyword": "مستوطنة شامير",
+        "count": 2
+    },
+    {
+        "keyword": "قطري",
+        "count": 2
+    },
+    {
+        "keyword": "الحرب على اليمن",
+        "count": 1
+    },
+    {
+        "keyword": "حرب اليمن",
+        "count": 1
+    },
+    {
+        "keyword": "مطار صنعاء",
+        "count": 1
+    },
+    {
+        "keyword": "مطار صنعاء الدولي",
+        "count": 1
+    },
+    {
+        "keyword": "مرضى السرطان",
+        "count": 1
+    },
+    {
+        "keyword": "السعودية واليمن",
+        "count": 1
+    },
+    {
+        "keyword": "اليمن والسعودية",
+        "count": 1
+    },
+    {
+        "keyword": "المرضى اليمنيين",
+        "count": 1
+    },
+    {
+        "keyword": "حصار مطار صنعاء",
+        "count": 1
+    },
+    {
+        "keyword": "حرب اليمن والسعودية",
+        "count": 1
+    },
+    {
+        "keyword": "معاناة المرضى اليمنيين",
+        "count": 1
+    },
+    {
+        "keyword": "حرب السعودية واليمن",
+        "count": 1
+    },
+    {
+        "keyword": "تشاد",
+        "count": 1
+    },
+    {
+        "keyword": "وزير الخارجية المصري",
+        "count": 3
+    },
+    {
+        "keyword": "إندونيسيا",
+        "count": 1
+    },
+    {
+        "keyword": "ثعبان",
+        "count": 1
+    },
+    {
+        "keyword": "الشرطة الإندونيسية",
+        "count": 1
+    },
+    {
+        "keyword": "بادانغ لامبي",
+        "count": 1
+    },
+    {
+        "keyword": "مجلس الشعب السوري",
+        "count": 2
+    },
+    {
+        "keyword": "الانتخابات التشريعية السورية",
+        "count": 1
+    },
+    {
+        "keyword": "انتخابات مجلس الشعب السوري",
+        "count": 1
+    },
+    {
+        "keyword": "حزب البعث العربي الإشتراكي",
+        "count": 1
+    },
+    {
+        "keyword": "حمودة صباغ",
+        "count": 1
+    },
+    {
+        "keyword": "النزوح",
+        "count": 1
+    },
+    {
+        "keyword": "حالة نزوح كبيرة",
+        "count": 1
+    },
+    {
+        "keyword": "الدعم العسكري",
+        "count": 1
+    },
+    {
+        "keyword": "التضخم الاقتصادي",
+        "count": 2
+    },
+    {
+        "keyword": "اعتداءات المستوطنين",
+        "count": 1
+    },
+    {
+        "keyword": "وزارة الخارجية الفلسطينية",
+        "count": 1
+    },
+    {
+        "keyword": "بوركينا فاسو",
+        "count": 2
+    },
+    {
+        "keyword": "قوات الاحتلال الإسرائيلي",
+        "count": 1
+    },
+    {
+        "keyword": "المقاومة في الضفة الغربية",
+        "count": 3
+    },
+    {
+        "keyword": "الاقتحامات في الضفة الغربية",
+        "count": 2
+    },
+    {
+        "keyword": "تزايد عمليات المقاومة",
+        "count": 1
+    },
+    {
+        "keyword": "معادلة المقاومة",
+        "count": 1
+    },
+    {
+        "keyword": "اقتحامات الضفة",
+        "count": 1
+    },
+    {
+        "keyword": "اعتداءات الضفة الغربية",
+        "count": 1
+    },
+    {
+        "keyword": "الأراضي اللبنانية",
+        "count": 1
+    },
+    {
+        "keyword": "الشعب اللبناني",
+        "count": 1
+    },
+    {
+        "keyword": "جمهور المقاومة",
+        "count": 1
+    },
+    {
+        "keyword": "المناطق اللبنانية",
+        "count": 1
+    },
+    {
+        "keyword": "سماء لبنان",
+        "count": 1
+    },
+    {
+        "keyword": "ظاهرة خرق جدار الصوت",
+        "count": 1
+    },
+    {
+        "keyword": "خرق جدار الصوت",
+        "count": 1
+    },
+    {
+        "keyword": "سماع جدار الصوت",
+        "count": 1
+    },
+    {
+        "keyword": "ترهيب إسرائيلي",
+        "count": 1
+    },
+    {
+        "keyword": "الاراضي اللبنانية",
+        "count": 1
+    },
+    {
+        "keyword": "ماذا يعني جدار الصوت",
+        "count": 1
+    },
+    {
+        "keyword": "ترهيب إسرائيلي على لبنان",
+        "count": 1
+    },
+    {
+        "keyword": "ما هو جدار الصوت",
+        "count": 1
+    },
+    {
+        "keyword": "كلفة جدار الصوت",
+        "count": 1
+    },
+    {
+        "keyword": "الرئاسة الجزائرية",
+        "count": 1
+    },
+    {
+        "keyword": "بروكسل",
+        "count": 1
+    },
+    {
+        "keyword": "سجادة زهور",
+        "count": 1
+    },
+    {
+        "keyword": "ساحة غراند بلاس",
+        "count": 1
+    },
+    {
+        "keyword": "أوسيانّ كورنيّ",
+        "count": 1
+    },
+    {
+        "keyword": "محمود عباس",
+        "count": 6
+    },
+    {
+        "keyword": "حركة فتح",
+        "count": 2
+    },
+    {
+        "keyword": "فاروق القدومي",
+        "count": 1
+    },
+    {
+        "keyword": "أبو اللطف",
+        "count": 1
+    },
+    {
+        "keyword": "نشرة الظهيرة",
+        "count": 2
+    },
+    {
+        "keyword": "اشتباكات",
+        "count": 7
+    },
+    {
+        "keyword": "نشرة الظهيرة الميادين",
+        "count": 2
+    },
+    {
+        "keyword": "مجازر إسرائيلية",
+        "count": 1
+    },
+    {
+        "keyword": "محادثات",
+        "count": 5
+    },
+    {
+        "keyword": "ميركافا",
+        "count": 2
+    },
+    {
+        "keyword": "مخيم",
+        "count": 5
+    },
+    {
+        "keyword": "العداون على غزة",
+        "count": 1
+    },
+    {
+        "keyword": "التصعيد في الشمال",
+        "count": 1
+    },
+    {
+        "keyword": "تصعيد",
+        "count": 1
+    },
+    {
+        "keyword": "فلسطيني",
+        "count": 1
+    },
+    {
+        "keyword": "أهل الضفة",
+        "count": 1
+    },
+    {
+        "keyword": "جبهة لبنان",
+        "count": 5
+    },
+    {
+        "keyword": "الشمال",
+        "count": 1
+    },
+    {
+        "keyword": "جبهة الاسناد اللبنانية",
+        "count": 3
+    },
+    {
+        "keyword": "حرب الاستنزاف",
+        "count": 1
+    },
+    {
+        "keyword": "خبراء",
+        "count": 1
+    },
+    {
+        "keyword": "إدارة الحرب",
+        "count": 1
+    },
+    {
+        "keyword": "فوائد",
+        "count": 1
+    },
+    {
+        "keyword": "إسرائيليون",
+        "count": 1
+    },
+    {
+        "keyword": "تبادل الاتهامات",
+        "count": 1
+    },
+    {
+        "keyword": "الجيش الإسرائيلي في الشمال",
+        "count": 1
+    },
+    {
+        "keyword": "الامن القومي الإسرائيلي",
+        "count": 1
+    },
+    {
+        "keyword": "المخطوفين",
+        "count": 1
+    },
+    {
+        "keyword": "إلهان عمر",
+        "count": 1
+    },
+    {
+        "keyword": "رشيدة طليب",
+        "count": 1
+    },
+    {
+        "keyword": "منظمة إيباك",
+        "count": 1
+    },
+    {
+        "keyword": "معبر أدري السوداني",
+        "count": 3
+    },
+    {
+        "keyword": "سوناطراك",
+        "count": 2
+    },
+    {
+        "keyword": "الفيول إلى لبنان",
+        "count": 1
+    },
+    {
+        "keyword": "الفيول الجزائري",
+        "count": 1
+    },
+    {
+        "keyword": "كورونا",
+        "count": 1
+    },
+    {
+        "keyword": "النفط",
+        "count": 1
+    },
+    {
+        "keyword": "بنين",
+        "count": 1
+    },
+    {
+        "keyword": "تصدير النفط",
+        "count": 2
+    },
+    {
+        "keyword": "العقوبات الأميركية",
+        "count": 1
+    },
+    {
+        "keyword": "حلف القدس",
+        "count": 1
+    },
+    {
+        "keyword": "أيرلندا",
+        "count": 1
+    },
+    {
+        "keyword": "الحمض النووي",
+        "count": 1
+    },
+    {
+        "keyword": "خفض التصنيف الائتماني لإسرائيل",
+        "count": 1
+    },
+    {
+        "keyword": "احتجاجات",
+        "count": 2
+    },
+    {
+        "keyword": "انتخابات",
+        "count": 2
+    },
+    {
+        "keyword": "مظاهرات",
+        "count": 1
+    },
+    {
+        "keyword": "نصرة لغزة",
+        "count": 2
+    },
+    {
+        "keyword": "الرئاسة الأميركية",
+        "count": 2
+    },
+    {
+        "keyword": "نائب الرئيس الأميركي",
+        "count": 1
+    },
+    {
+        "keyword": "الجامعات الأمريكية",
+        "count": 1
+    },
+    {
+        "keyword": "مؤتمر",
+        "count": 2
+    },
+    {
+        "keyword": "ترشيح",
+        "count": 4
+    },
+    {
+        "keyword": "تيم والز",
+        "count": 1
+    },
+    {
+        "keyword": "نائب الرئيس",
+        "count": 1
+    },
+    {
+        "keyword": "إنهاء",
+        "count": 1
+    },
+    {
+        "keyword": "رئاسة اميركا",
+        "count": 1
+    },
+    {
+        "keyword": "اعتصامات مفتوحة",
+        "count": 1
+    },
+    {
+        "keyword": "ولاية منيسوتا",
+        "count": 1
+    },
+    {
+        "keyword": "الأطفال",
+        "count": 2
+    },
+    {
+        "keyword": "المدارس",
+        "count": 1
+    },
+    {
+        "keyword": "المثلية الجنسية",
+        "count": 1
+    },
+    {
+        "keyword": "منظمة ”مؤشر الرقابة\"",
+        "count": 1
+    },
+    {
+        "keyword": "كركاس",
+        "count": 1
+    },
+    {
+        "keyword": "حلب",
+        "count": 2
+    },
+    {
+        "keyword": "الازمة السورية",
+        "count": 1
+    },
+    {
+        "keyword": "هيئة تحرير الشام",
+        "count": 5
+    },
+    {
+        "keyword": "الشمال السوري",
+        "count": 3
+    },
+    {
+        "keyword": "ادلب",
+        "count": 1
+    },
+    {
+        "keyword": "الازمة في سوريا",
+        "count": 1
+    },
+    {
+        "keyword": "الجماعات المسلحة",
+        "count": 4
+    },
+    {
+        "keyword": "الاقتصاد السوري",
+        "count": 2
+    },
+    {
+        "keyword": "الجماعات الإرهابية",
+        "count": 2
+    },
+    {
+        "keyword": "المسلحين في سوريا",
+        "count": 2
+    },
+    {
+        "keyword": "مسلحين",
+        "count": 1
+    },
+    {
+        "keyword": "الوضع الاقتصادي",
+        "count": 1
+    },
+    {
+        "keyword": "ابو محمد الجولاني",
+        "count": 2
+    },
+    {
+        "keyword": "مناطق",
+        "count": 1
+    },
+    {
+        "keyword": "مناطق سيطرة المسلحين",
+        "count": 2
+    },
+    {
+        "keyword": "معبر ابو الزندين",
+        "count": 1
+    },
+    {
+        "keyword": "تغطية خاصة",
+        "count": 3
+    },
+    {
+        "keyword": "قوات الأحتلال",
+        "count": 2
+    },
+    {
+        "keyword": "المشهد الميداني",
+        "count": 1
+    },
+    {
+        "keyword": "مدارس",
+        "count": 1
+    },
+    {
+        "keyword": "المدنيين",
+        "count": 2
+    },
+    {
+        "keyword": "مستشفيات",
+        "count": 1
+    },
+    {
+        "keyword": "صواريخ موجهة",
+        "count": 1
+    },
+    {
+        "keyword": "مجازر في غزة",
+        "count": 1
+    },
+    {
+        "keyword": "شمال لبنان",
+        "count": 1
+    },
+    {
+        "keyword": "القبيات",
+        "count": 1
+    },
+    {
+        "keyword": "المهرجانات الصيفية",
+        "count": 1
+    },
+    {
+        "keyword": "سلوى جردات",
+        "count": 1
+    },
+    {
+        "keyword": "التراث",
+        "count": 1
+    },
+    {
+        "keyword": "أنقرة ودمشق",
+        "count": 1
+    },
+    {
+        "keyword": "السبحات",
+        "count": 1
+    },
+    {
+        "keyword": "الهدايا التذكارية",
+        "count": 1
+    },
+    {
+        "keyword": "العصر العثماني",
+        "count": 1
+    },
+    {
+        "keyword": "كريات شمونة",
+        "count": 5
+    },
+    {
+        "keyword": "نشرة الثانية عشر",
+        "count": 1
+    },
+    {
+        "keyword": "اعتقال",
+        "count": 1
+    },
+    {
+        "keyword": "اتفاق",
+        "count": 3
+    },
+    {
+        "keyword": "مجازر اسرائيلية",
+        "count": 2
+    },
+    {
+        "keyword": "عبوات",
+        "count": 3
+    },
+    {
+        "keyword": "موقع برانيت",
+        "count": 1
+    },
+    {
+        "keyword": "العداون على غرة",
+        "count": 2
+    },
+    {
+        "keyword": "مساعدات الأميركية",
+        "count": 1
+    },
+    {
+        "keyword": "ناشطين",
+        "count": 1
+    },
+    {
+        "keyword": "الجولان المحتل",
+        "count": 2
+    },
+    {
+        "keyword": "الضفة الغربية المحتلة",
+        "count": 8
+    },
+    {
+        "keyword": "اشتعال الضفة",
+        "count": 1
+    },
+    {
+        "keyword": "الهجمات الإلكترونية الإيرانية",
+        "count": 1
+    },
+    {
+        "keyword": "محمد عبده",
+        "count": 1
+    },
+    {
+        "keyword": "الصادرات العسكرية الإسرائيلية",
+        "count": 1
+    },
+    {
+        "keyword": "الجولان",
+        "count": 3
+    },
+    {
+        "keyword": "مواجهات",
+        "count": 1
+    },
+    {
+        "keyword": "اجتماع القاهرة",
+        "count": 1
+    },
+    {
+        "keyword": "جنوب",
+        "count": 2
+    },
+    {
+        "keyword": "المساعدات الأميركية",
+        "count": 1
+    },
+    {
+        "keyword": "اجتماع",
+        "count": 1
+    },
+    {
+        "keyword": "موقف",
+        "count": 1
+    },
+    {
+        "keyword": "قاعدة تسنوبار",
+        "count": 2
+    },
+    {
+        "keyword": "نشرة منتصف الليل",
+        "count": 5
+    },
+    {
+        "keyword": "الجرحى في غزة",
+        "count": 1
+    },
+    {
+        "keyword": "المصابين في غزة",
+        "count": 1
+    },
+    {
+        "keyword": "محمود عباس تركيا",
+        "count": 1
+    },
+    {
+        "keyword": "مجلس السيادة الانتقالي السوداني",
+        "count": 1
+    },
+    {
+        "keyword": "مشاورات القاهرة",
+        "count": 1
+    },
+    {
+        "keyword": "حركة الجهاد الإسلامي",
+        "count": 2
+    },
+    {
+        "keyword": "كتيبة طول كرم",
+        "count": 1
+    },
+    {
+        "keyword": "وزير الخارجية القطري",
+        "count": 1
+    },
+    {
+        "keyword": "الخليل",
+        "count": 2
+    },
+    {
+        "keyword": "إسحاق بريك",
+        "count": 3
+    },
+    {
+        "keyword": "رجال الدين",
+        "count": 1
+    },
+    {
+        "keyword": "عملية طوفان الاقصى",
+        "count": 1
+    },
+    {
+        "keyword": "صواريخ المقاومة الفلسطينية",
+        "count": 1
+    },
+    {
+        "keyword": "القصف الإسرائيلي",
+        "count": 3
+    },
+    {
+        "keyword": "نشرة الثامنة صباحاً",
+        "count": 3
+    },
+    {
+        "keyword": "كتائب القسام 2023",
+        "count": 1
+    },
+    {
+        "keyword": "جنود الاحتلال",
+        "count": 4
+    },
+    {
+        "keyword": "غزة الان",
+        "count": 1
+    },
+    {
+        "keyword": "خسائر",
+        "count": 4
+    },
+    {
+        "keyword": "حرب غزة الان",
+        "count": 3
+    },
+    {
+        "keyword": "فصائل",
+        "count": 2
+    },
+    {
+        "keyword": "الهزائم الاسرائيلية",
+        "count": 1
+    },
+    {
+        "keyword": "أمير قطر",
+        "count": 1
+    },
+    {
+        "keyword": "موقف حماس من المفاوضات",
+        "count": 1
+    },
+    {
+        "keyword": "بوتين",
+        "count": 4
+    },
+    {
+        "keyword": "حلف شمال الأطلسي",
+        "count": 2
+    },
+    {
+        "keyword": "قوات",
+        "count": 1
+    },
+    {
+        "keyword": "توتر",
+        "count": 1
+    },
+    {
+        "keyword": "حدود",
+        "count": 3
+    },
+    {
+        "keyword": "تدريبات",
+        "count": 1
+    },
+    {
+        "keyword": "قوات كييف",
+        "count": 1
+    },
+    {
+        "keyword": "روسيا الميادين",
+        "count": 1
+    },
+    {
+        "keyword": "منطقة كورسك",
+        "count": 1
+    },
+    {
+        "keyword": "إفشال هجوم قوات كييف",
+        "count": 1
+    },
+    {
+        "keyword": "هجوم قوات كييف",
+        "count": 1
+    },
+    {
+        "keyword": "هجوم أوكرانيا",
+        "count": 1
+    },
+    {
+        "keyword": "هجوم أوكرانيا على كورسك",
+        "count": 1
+    },
+    {
+        "keyword": "الشيخ نعيم قاسم",
+        "count": 1
+    },
+    {
+        "keyword": "قائد القوات الجوية بمالي",
+        "count": 1
+    },
+    {
+        "keyword": "التعاون مع روسيا",
+        "count": 1
+    },
+    {
+        "keyword": "ألو بوا ديارا",
+        "count": 1
+    },
+    {
+        "keyword": "ذكرى حرب تموز",
+        "count": 1
+    },
+    {
+        "keyword": "ايران",
+        "count": 3
+    },
+    {
+        "keyword": "الصواريخ الإيرانية",
+        "count": 1
+    },
+    {
+        "keyword": "فلسطين المحتل",
+        "count": 1
+    },
+    {
+        "keyword": "الصواريخ الايرانية",
+        "count": 1
+    },
+    {
+        "keyword": "حصار بحري",
+        "count": 1
+    },
+    {
+        "keyword": "حصار بحري على إسرائيل",
+        "count": 1
+    },
+    {
+        "keyword": "الحصار البحري على إسرائيل",
+        "count": 1
+    },
+    {
+        "keyword": "روسيا وأوكرانيا",
+        "count": 2
+    },
+    {
+        "keyword": "عاجل",
+        "count": 1
+    },
+    {
+        "keyword": "مستوطنات",
+        "count": 1
+    },
+    {
+        "keyword": "خسائر الاحتلال",
+        "count": 3
+    },
+    {
+        "keyword": "شمال قطاع غزة",
+        "count": 2
+    },
+    {
+        "keyword": "الشيشان",
+        "count": 2
+    },
+    {
+        "keyword": "الرئيس الشيشاني",
+        "count": 1
+    },
+    {
+        "keyword": "خسائر الاحتلال الإسرائيلي",
+        "count": 1
+    },
+    {
+        "keyword": "جنوبد الاحتلال",
+        "count": 1
+    },
+    {
+        "keyword": "الدعم السريع",
+        "count": 1
+    },
+    {
+        "keyword": "شهداء غزة",
+        "count": 3
+    },
+    {
+        "keyword": "الخارجية السورية",
+        "count": 1
+    },
+    {
+        "keyword": "أوستن تايس",
+        "count": 1
+    },
+    {
+        "keyword": "جولة جديدة من المفاوضات",
+        "count": 2
+    },
+    {
+        "keyword": "موقع مارس العسكري",
+        "count": 2
+    },
+    {
+        "keyword": "الجبهة اليمنية",
+        "count": 1
+    },
+    {
+        "keyword": "الإعلام الحربي اليمني",
+        "count": 1
+    },
+    {
+        "keyword": "الزوارق اليمنية",
+        "count": 1
+    },
+    {
+        "keyword": "زورق يمني",
+        "count": 1
+    },
+    {
+        "keyword": "غارات على قرى لبنانية",
+        "count": 1
+    },
+    {
+        "keyword": "إسرائيل تتآكل",
+        "count": 1
+    },
+    {
+        "keyword": "الدعم الأميركي لأوكرانيا",
+        "count": 1
+    },
+    {
+        "keyword": "كتائب حزب الله العراق",
+        "count": 1
+    },
+    {
+        "keyword": "أبو علي العسكري",
+        "count": 1
+    },
+    {
+        "keyword": "القواعد الأميركية في العراق وسوريا",
+        "count": 1
+    },
+    {
+        "keyword": "حزب الله يستهدف اسرائيل",
+        "count": 1
+    },
+    {
+        "keyword": "المسيرات",
+        "count": 1
+    },
+    {
+        "keyword": "المسيّرات",
+        "count": 1
+    },
+    {
+        "keyword": "مسيّرات حزب الله",
+        "count": 1
+    },
+    {
+        "keyword": "مواقع الاحتلال الإسرائيلي",
+        "count": 3
+    },
+    {
+        "keyword": "المسيرّات",
+        "count": 1
+    },
+    {
+        "keyword": "الانقضاضية",
+        "count": 1
+    },
+    {
+        "keyword": "فولكر تورك",
+        "count": 1
+    },
+    {
+        "keyword": "المفوضية السامية لحقوق الإنسان",
+        "count": 2
+    },
+    {
+        "keyword": "المساعدات الإنسانية",
+        "count": 2
+    },
+    {
+        "keyword": "الشرطة الإسرائيلية",
+        "count": 4
+    },
+    {
+        "keyword": "الشرطة الاسرائيلية",
+        "count": 3
+    },
+    {
+        "keyword": "التجنيد في الجيش الإسرائيلي",
+        "count": 4
+    },
+    {
+        "keyword": "عائلات الأسرى",
+        "count": 2
+    },
+    {
+        "keyword": "التجنيد",
+        "count": 5
+    },
+    {
+        "keyword": "مكتب التجنيد",
+        "count": 3
+    },
+    {
+        "keyword": "بوتين في الشيشان",
+        "count": 2
+    },
+    {
+        "keyword": "التجنيد في الجيش",
+        "count": 2
+    },
+    {
+        "keyword": "حزب لبنان",
+        "count": 2
+    },
+    {
+        "keyword": "بركان",
+        "count": 2
+    },
+    {
+        "keyword": "جنود",
+        "count": 5
+    },
+    {
+        "keyword": "مسيرات انقضاضية",
+        "count": 4
+    },
+    {
+        "keyword": "تخبط إسرائيلي",
+        "count": 3
+    },
+    {
+        "keyword": "جبهة إسناد",
+        "count": 2
+    },
+    {
+        "keyword": "جبهة حزب الله",
+        "count": 2
+    },
+    {
+        "keyword": "دك المواقع",
+        "count": 2
+    },
+    {
+        "keyword": "الاستنزاف",
+        "count": 1
+    },
+    {
+        "keyword": "موقع ‏الراهب",
+        "count": 1
+    },
+    {
+        "keyword": "مستوطنة شتولا",
+        "count": 1
+    },
+    {
+        "keyword": "مربض الزاعورة",
+        "count": 1
+    },
+    {
+        "keyword": "وزارة الدفاع الروسية",
+        "count": 1
+    },
+    {
+        "keyword": "شمالي فلسطين المحتلة",
+        "count": 2
+    },
+    {
+        "keyword": "مستشفيات شمال غزة",
+        "count": 1
+    },
+    {
+        "keyword": "الانتخابات الإيرانية",
+        "count": 1
+    },
+    {
+        "keyword": "البرلمان الإيراني",
+        "count": 1
+    },
+    {
+        "keyword": "الانتخابات الايرانية",
+        "count": 1
+    },
+    {
+        "keyword": "الرئيس الايراني",
+        "count": 1
+    },
+    {
+        "keyword": "حكومة الرئيس مسعود بزشكيان",
+        "count": 1
+    },
+    {
+        "keyword": "الثقة لحكومة الرئيس",
+        "count": 1
+    },
+    {
+        "keyword": "الرئيس مسعود برشكيان",
+        "count": 1
+    },
+    {
+        "keyword": "الرئيس مسعود بزشكيان",
+        "count": 1
+    },
+    {
+        "keyword": "حكومة مسعود بزشكيان",
+        "count": 1
+    },
+    {
+        "keyword": "النازحين",
+        "count": 2
+    },
+    {
+        "keyword": "خيام النازحين",
+        "count": 1
+    },
+    {
+        "keyword": "منطقة الزنة",
+        "count": 1
+    },
+    {
+        "keyword": "النازحين في منطقة الزنة",
+        "count": 1
+    },
+    {
+        "keyword": "الشهيد المقدح",
+        "count": 1
+    },
+    {
+        "keyword": "اغتيال الشهيد المقدح",
+        "count": 1
+    },
+    {
+        "keyword": "اسرائيل تتاكل",
+        "count": 1
+    },
+    {
+        "keyword": "التجنيد الاسرائيلي",
+        "count": 1
+    },
+    {
+        "keyword": "ملف التجنيد",
+        "count": 2
+    },
+    {
+        "keyword": "مواجهات بين الحريديم والشرطة",
+        "count": 1
+    },
+    {
+        "keyword": "ثورة الحريديم",
+        "count": 1
+    },
+    {
+        "keyword": "معادلات الداخل الإسرائيلي",
+        "count": 1
+    },
+    {
+        "keyword": "المتدينيين",
+        "count": 1
+    },
+    {
+        "keyword": "التجنيد الإسرائيلي",
+        "count": 1
+    },
+    {
+        "keyword": "المتدينين والشرطة",
+        "count": 1
+    },
+    {
+        "keyword": "أسدود",
+        "count": 1
+    },
+    {
+        "keyword": "مرفأ إيلات",
+        "count": 1
+    },
+    {
+        "keyword": "مرفأ حيفا",
+        "count": 1
+    },
+    {
+        "keyword": "وثائقي",
+        "count": 1
+    },
+    {
+        "keyword": "شرق طولكرم",
+        "count": 2
+    },
+    {
+        "keyword": "قدرات سرايا القدس",
+        "count": 2
+    },
+    {
+        "keyword": "سرايا القدس كتيبة طولكرم",
+        "count": 2
+    },
+    {
+        "keyword": "سرايا",
+        "count": 2
+    },
+    {
+        "keyword": "ابو شجاع",
+        "count": 3
+    },
+    {
+        "keyword": "ابو شجاع قائد",
+        "count": 2
+    },
+    {
+        "keyword": "أبو شجاع طولكرم",
+        "count": 2
+    },
+    {
+        "keyword": "أبو شجاع قائد",
+        "count": 2
+    },
+    {
+        "keyword": "اغتيال أبو شجاع",
+        "count": 2
+    },
+    {
+        "keyword": "ابو شجاع القائد",
+        "count": 1
+    },
+    {
+        "keyword": "الرئيس الروسي فلاديمير بوتين",
+        "count": 2
+    },
+    {
+        "keyword": "بوتين يزور الشيشان",
+        "count": 1
+    },
+    {
+        "keyword": "التصعيد مع الناتو",
+        "count": 1
+    },
+    {
+        "keyword": "فلاديمير بوتين يزور الشيشان",
+        "count": 1
+    },
+    {
+        "keyword": "إبراهيم رئيسي",
+        "count": 2
+    },
+    {
+        "keyword": "حسين أمير عبد اللهيان",
+        "count": 1
+    },
+    {
+        "keyword": "تحطم مروحية رئيسي",
+        "count": 1
+    },
+    {
+        "keyword": "ممر نتساريم",
+        "count": 1
+    },
+    {
+        "keyword": "المتدينين اليهود والشرطة الإسرائيلية",
+        "count": 1
+    },
+    {
+        "keyword": "المتدينيين اليهود",
+        "count": 1
+    },
+    {
+        "keyword": "كاميرا الميادين في غزة",
+        "count": 2
+    },
+    {
+        "keyword": "أكرم دلول",
+        "count": 1
+    },
+    {
+        "keyword": "اكرم دلول",
+        "count": 1
+    },
+    {
+        "keyword": "نتساريم جنوب قطاع غزة",
+        "count": 1
+    },
+    {
+        "keyword": "كاميرا الميادين من غزة",
+        "count": 1
+    },
+    {
+        "keyword": "أكرم دلول الميادين",
+        "count": 1
+    },
+    {
+        "keyword": "الامارات",
+        "count": 1
+    },
+    {
+        "keyword": "الامم المتحدة",
+        "count": 1
+    },
+    {
+        "keyword": "سويسرا",
+        "count": 1
+    },
+    {
+        "keyword": "المجلس الانتقالي السوداني",
+        "count": 1
+    },
+    {
+        "keyword": "وزارة الصحة",
+        "count": 1
+    },
+    {
+        "keyword": "تظاهرات ضد التطبيع",
+        "count": 1
+    },
+    {
+        "keyword": "تظاهرات ضد إسرائيل",
+        "count": 1
+    },
+    {
+        "keyword": "الانتخابات الرئاسية الإيرانية 2024",
+        "count": 1
+    },
+    {
+        "keyword": "سعيد جليلي",
+        "count": 1
+    },
+    {
+        "keyword": "إيران.. الجمهورية تستمر",
+        "count": 1
+    },
+    {
+        "keyword": "فيول",
+        "count": 1
+    },
+    {
+        "keyword": "نيويورك تايمز",
+        "count": 2
+    },
+    {
+        "keyword": "الكابينت",
+        "count": 1
+    },
+    {
+        "keyword": "هوكستين",
+        "count": 2
+    },
+    {
+        "keyword": "القتال في غزة",
+        "count": 2
+    },
+    {
+        "keyword": "مواقع للاحتلال",
+        "count": 1
+    },
+    {
+        "keyword": "طائرة انتحارية",
+        "count": 1
+    },
+    {
+        "keyword": "اسماعيل هنية",
+        "count": 1
+    },
+    {
+        "keyword": "الأونروا",
+        "count": 1
+    },
+    {
+        "keyword": "النزوح في غزة",
+        "count": 1
+    },
+    {
+        "keyword": "الحرس الثوري الإيراني",
+        "count": 1
+    },
+    {
+        "keyword": "اللواء حسين سلامي",
+        "count": 1
+    },
+    {
+        "keyword": "قوات التحالف الدولي",
+        "count": 1
+    },
+    {
+        "keyword": "اعتقالات",
+        "count": 5
+    },
+    {
+        "keyword": "طوباس",
+        "count": 8
+    },
+    {
+        "keyword": "اشتباكات عنيفة",
+        "count": 2
+    },
+    {
+        "keyword": "شهداء فلسطينيين",
+        "count": 1
+    },
+    {
+        "keyword": "التهويد",
+        "count": 1
+    },
+    {
+        "keyword": "الضفة المحتلة",
+        "count": 2
+    },
+    {
+        "keyword": "آليات الاحتلال",
+        "count": 2
+    },
+    {
+        "keyword": "مستوطنين",
+        "count": 1
+    },
+    {
+        "keyword": "مواجهات عنيفة",
+        "count": 1
+    },
+    {
+        "keyword": "شمال الضفة الغربية",
+        "count": 3
+    },
+    {
+        "keyword": "عمليات الضفة",
+        "count": 1
+    },
+    {
+        "keyword": "مقاومين",
+        "count": 1
+    },
+    {
+        "keyword": "طمون",
+        "count": 1
+    },
+    {
+        "keyword": "الطائرات المسيرة الإسرائيلية",
+        "count": 1
+    },
+    {
+        "keyword": "توسيع الاستيطان",
+        "count": 1
+    },
+    {
+        "keyword": "حواجز الاحتلال",
+        "count": 1
+    },
+    {
+        "keyword": "حملات",
+        "count": 1
+    },
+    {
+        "keyword": "تطورات الضفة الغربية",
+        "count": 1
+    },
+    {
+        "keyword": "عدوان اسرائيلي على الضفة",
+        "count": 1
+    },
+    {
+        "keyword": "السيطرة",
+        "count": 1
+    },
+    {
+        "keyword": "العبوات محلية",
+        "count": 1
+    },
+    {
+        "keyword": "مواقع",
+        "count": 1
+    },
+    {
+        "keyword": "تجمعات",
+        "count": 2
+    },
+    {
+        "keyword": "الانتخابات الرئاسية",
+        "count": 1
+    },
+    {
+        "keyword": "جورجيا",
+        "count": 1
+    },
+    {
+        "keyword": "الرئيس الاميركي",
+        "count": 1
+    },
+    {
+        "keyword": "انتخابات اميركا",
+        "count": 1
+    },
+    {
+        "keyword": "استطلاعات الرأي",
+        "count": 2
+    },
+    {
+        "keyword": "ميشيغان",
+        "count": 1
+    },
+    {
+        "keyword": "السباق الرئاسي الأميركي",
+        "count": 1
+    },
+    {
+        "keyword": "نتائج",
+        "count": 1
+    },
+    {
+        "keyword": "المرشحين",
+        "count": 1
+    },
+    {
+        "keyword": "منافسة",
+        "count": 1
+    },
+    {
+        "keyword": "حملة هاريس",
+        "count": 1
+    },
+    {
+        "keyword": "ملف الاقتصادي",
+        "count": 1
+    },
+    {
+        "keyword": "بيرني ساندرز",
+        "count": 1
+    },
+    {
+        "keyword": "الاعتقالات",
+        "count": 1
+    },
+    {
+        "keyword": "قيادة",
+        "count": 1
+    },
+    {
+        "keyword": "الرئاسة الاميركية",
+        "count": 1
+    },
+    {
+        "keyword": "اعتصامات",
+        "count": 1
+    },
+    {
+        "keyword": "الناخبين الأميركيين",
+        "count": 1
+    },
+    {
+        "keyword": "الديمقراطي",
+        "count": 1
+    },
+    {
+        "keyword": "جيل الشباب",
+        "count": 1
+    },
+    {
+        "keyword": "السيناتور",
+        "count": 1
+    },
+    {
+        "keyword": "شعبية",
+        "count": 1
+    },
+    {
+        "keyword": "الناخبين الشباب",
+        "count": 1
+    },
+    {
+        "keyword": "وقف فوري",
+        "count": 1
+    },
+    {
+        "keyword": "محكمة العدل الدولية",
+        "count": 1
+    },
+    {
+        "keyword": "حرب تموز 2006",
+        "count": 3
+    },
+    {
+        "keyword": "العدو الاسرائيلي",
+        "count": 2
+    },
+    {
+        "keyword": "حرب تموز",
+        "count": 1
+    },
+    {
+        "keyword": "عشرية النار",
+        "count": 1
+    },
+    {
+        "keyword": "تحرير جنوب لبنان 2000",
+        "count": 1
+    },
+    {
+        "keyword": "الكيان الاسرائيلي",
+        "count": 1
+    },
+    {
+        "keyword": "الموساد الاسرائيلي",
+        "count": 1
+    },
+    {
+        "keyword": "حرب لبنان الثانية",
+        "count": 2
+    },
+    {
+        "keyword": "هزيمة إسرائيل",
+        "count": 1
+    },
+    {
+        "keyword": "الحروب الحديثة",
+        "count": 1
+    },
+    {
+        "keyword": "القواعد الاميركية",
+        "count": 2
+    },
+    {
+        "keyword": "انتصار حزب الله",
+        "count": 1
+    },
+    {
+        "keyword": "حروب حزب الله",
+        "count": 1
+    },
+    {
+        "keyword": "مقديشو",
+        "count": 2
+    },
+    {
+        "keyword": "المستوطنات الإسرائيلية",
+        "count": 2
+    },
+    {
+        "keyword": "اليونسكو للتراث العالمي",
+        "count": 1
+    },
+    {
+        "keyword": "قرية بتير",
+        "count": 1
+    },
+    {
+        "keyword": "التوغل البري",
+        "count": 1
+    },
+    {
+        "keyword": "حركة المجاهدين",
+        "count": 2
+    },
+    {
+        "keyword": "السيد خامنئي",
+        "count": 3
+    },
+    {
+        "keyword": "حرب إقليمية",
+        "count": 1
+    },
+    {
+        "keyword": "إسرائيلية",
+        "count": 3
+    },
+    {
+        "keyword": "توسع الحرب",
+        "count": 1
+    },
+    {
+        "keyword": "تضليل",
+        "count": 1
+    },
+    {
+        "keyword": "محاولات",
+        "count": 1
+    },
+    {
+        "keyword": "أميركية",
+        "count": 1
+    },
+    {
+        "keyword": "موقف حماس",
+        "count": 1
+    },
+    {
+        "keyword": "حملة",
+        "count": 1
+    },
+    {
+        "keyword": "التهويل",
+        "count": 1
+    },
+    {
+        "keyword": "ترويج",
+        "count": 1
+    },
+    {
+        "keyword": "تحشيد",
+        "count": 1
+    },
+    {
+        "keyword": "استباق",
+        "count": 1
+    },
+    {
+        "keyword": "الحراك الغربي",
+        "count": 1
+    },
+    {
+        "keyword": "موقف استراتيجي",
+        "count": 1
+    },
+    {
+        "keyword": "خديعة المفاوضات",
+        "count": 1
+    },
+    {
+        "keyword": "البرتغال",
+        "count": 1
+    },
+    {
+        "keyword": "هجرة المستوطنين",
+        "count": 1
+    },
+    {
+        "keyword": "مخيم بلاطة",
+        "count": 2
+    },
+    {
+        "keyword": "الاحتجاجات الطالبية",
+        "count": 3
+    },
+    {
+        "keyword": "قوة إسرائيلية",
+        "count": 1
+    },
+    {
+        "keyword": "جامعة كولومبيا الأميركية",
+        "count": 3
+    },
+    {
+        "keyword": "جبهات اسناد",
+        "count": 1
+    },
+    {
+        "keyword": "مساندة لغزة",
+        "count": 3
+    },
+    {
+        "keyword": "مسؤولين",
+        "count": 1
+    },
+    {
+        "keyword": "غزة القسام",
+        "count": 1
+    },
+    {
+        "keyword": "الجامعات الأميركية",
+        "count": 1
+    },
+    {
+        "keyword": "المجاعة في غزة",
+        "count": 2
+    },
+    {
+        "keyword": "الحراك الطلابي",
+        "count": 1
+    },
+    {
+        "keyword": "المستشفى الإندونيسي",
+        "count": 2
+    },
+    {
+        "keyword": "المبعوث الأميركي",
+        "count": 2
+    },
+    {
+        "keyword": "حكومة اليمن",
+        "count": 4
+    },
+    {
+        "keyword": "مدير CIA",
+        "count": 2
+    },
+    {
+        "keyword": "وادي السيليكون",
+        "count": 1
+    },
+    {
+        "keyword": "القمر",
+        "count": 1
+    },
+    {
+        "keyword": "القمر الأزرق",
+        "count": 1
+    },
+    {
+        "keyword": "إسبانيا",
+        "count": 1
+    },
+    {
+        "keyword": "أكبر معمرة في العالم",
+        "count": 1
+    },
+    {
+        "keyword": "أولوت",
+        "count": 1
+    },
+    {
+        "keyword": "ماريا برانياس موريرا",
+        "count": 1
+    },
+    {
+        "keyword": "العلاقات المصرية الفلسطينية",
+        "count": 1
+    },
+    {
+        "keyword": "هتلر",
+        "count": 1
+    },
+    {
+        "keyword": "مجلس الأمن الروسي",
+        "count": 1
+    },
+    {
+        "keyword": "العدو",
+        "count": 2
+    },
+    {
+        "keyword": "أبيريم",
+        "count": 2
+    },
+    {
+        "keyword": "موقع فوريك",
+        "count": 2
+    },
+    {
+        "keyword": "حماس خارج المفاوضات",
+        "count": 2
+    },
+    {
+        "keyword": "عملبات",
+        "count": 2
+    },
+    {
+        "keyword": "أسراب",
+        "count": 2
+    },
+    {
+        "keyword": "آموس هوكستين",
+        "count": 2
+    },
+    {
+        "keyword": "الفقر",
+        "count": 1
+    },
+    {
+        "keyword": "الجوع",
+        "count": 1
+    },
+    {
+        "keyword": "الفصائل المسلحة",
+        "count": 1
+    },
+    {
+        "keyword": "عودة النازحين",
+        "count": 1
+    },
+    {
+        "keyword": "عودة النازحين السوريين",
+        "count": 1
+    },
+    {
+        "keyword": "المسلحين",
+        "count": 1
+    },
+    {
+        "keyword": "خط الفقر",
+        "count": 1
+    },
+    {
+        "keyword": "تمويل",
+        "count": 1
+    },
+    {
+        "keyword": "المساعدات الدولية",
+        "count": 1
+    },
+    {
+        "keyword": "سيطرة",
+        "count": 1
+    },
+    {
+        "keyword": "معدلات الفقر",
+        "count": 1
+    },
+    {
+        "keyword": "تأمين",
+        "count": 1
+    },
+    {
+        "keyword": "انخفاض",
+        "count": 1
+    },
+    {
+        "keyword": "معابر",
+        "count": 1
+    },
+    {
+        "keyword": "قيادات المسلحين",
+        "count": 1
+    },
+    {
+        "keyword": "إتاوات",
+        "count": 1
+    },
+    {
+        "keyword": "وزير الخارجية الأميركي",
+        "count": 2
+    },
+    {
+        "keyword": "وساطة مصرية",
+        "count": 1
+    },
+    {
+        "keyword": "رد على المفاوضات",
+        "count": 1
+    },
+    {
+        "keyword": "الحكومة اليمنية",
+        "count": 1
+    },
+    {
+        "keyword": "المعارضة البحرينية",
+        "count": 1
+    },
+    {
+        "keyword": "معاداة السامية",
+        "count": 1
+    },
+    {
+        "keyword": "دعم غزة",
+        "count": 1
+    },
+    {
+        "keyword": "دعم فلسطين",
+        "count": 1
+    },
+    {
+        "keyword": "انتهاكات حقوق الإنسان",
+        "count": 1
+    },
+    {
+        "keyword": "اللوبي الصهيوني",
+        "count": 1
+    },
+    {
+        "keyword": "الجمعيات الخيرية",
+        "count": 1
+    },
+    {
+        "keyword": "أصوات",
+        "count": 1
+    },
+    {
+        "keyword": "الرأي العام البريطاني",
+        "count": 1
+    },
+    {
+        "keyword": "صحيفة ذا جويش كرونيكل",
+        "count": 1
+    },
+    {
+        "keyword": "صحيفة جويش كرونيكل",
+        "count": 1
+    },
+    {
+        "keyword": "جمعيات",
+        "count": 1
+    },
+    {
+        "keyword": "المؤيدة لإسرائيل",
+        "count": 1
+    },
+    {
+        "keyword": "التظاهرات المؤيدة لفلسطين",
+        "count": 1
+    },
+    {
+        "keyword": "مؤيدة لإسرائيل",
+        "count": 1
+    },
+    {
+        "keyword": "الجمعيات الخيرية البحرينية",
+        "count": 1
+    },
+    {
+        "keyword": "المفوضية الرسمية",
+        "count": 1
+    },
+    {
+        "keyword": "إسكات",
+        "count": 1
+    },
+    {
+        "keyword": "المؤيدة لفلسطين",
+        "count": 1
+    },
+    {
+        "keyword": "شخصيات بحرينية معارضة",
+        "count": 1
+    },
+    {
+        "keyword": "جويش كرونيكل",
+        "count": 1
+    },
+    {
+        "keyword": "جامعة كولومبيا",
+        "count": 1
+    },
+    {
+        "keyword": "نعمت شفيق",
+        "count": 1
+    },
+    {
+        "keyword": "السنغال",
+        "count": 2
+    },
+    {
+        "keyword": "الرئيس السنغالي",
+        "count": 1
+    },
+    {
+        "keyword": "باسيرو ديوماي فاي",
+        "count": 1
+    },
+    {
+        "keyword": "عقود الغاز الآجلة",
+        "count": 1
+    },
+    {
+        "keyword": "عقود النفط",
+        "count": 1
+    },
+    {
+        "keyword": "شركة \"العال\"",
+        "count": 1
+    },
+    {
+        "keyword": "مطار تل أبيب",
+        "count": 1
+    },
+    {
+        "keyword": "سلواد",
+        "count": 1
+    },
+    {
+        "keyword": "كينيا",
+        "count": 2
+    },
+    {
+        "keyword": "احتجاجات كينيا",
+        "count": 1
+    },
+    {
+        "keyword": "المحكمة العليا الكينية",
+        "count": 1
+    },
+    {
+        "keyword": "جون مبادي",
+        "count": 1
+    },
+    {
+        "keyword": "قانون المالية الكيني",
+        "count": 1
+    },
+    {
+        "keyword": "وزير المالية في كينيا",
+        "count": 1
+    },
+    {
+        "keyword": "المجلس السياسي الأعلى في اليمن",
+        "count": 1
+    },
+    {
+        "keyword": "المسيرات الانقضاضية",
+        "count": 1
+    },
+    {
+        "keyword": "غارة إسرائيلية",
+        "count": 1
+    },
+    {
+        "keyword": "خليل المقدح",
+        "count": 1
+    },
+    {
+        "keyword": "صبدا",
+        "count": 1
+    },
+    {
+        "keyword": "عباس زكي",
+        "count": 1
+    },
+    {
+        "keyword": "مروان عبد العال",
+        "count": 1
+    },
+    {
+        "keyword": "إيلات",
+        "count": 3
+    },
+    {
+        "keyword": "أطفال",
+        "count": 2
+    },
+    {
+        "keyword": "الأراضي الفلسطينية",
+        "count": 2
+    },
+    {
+        "keyword": "الشرطة",
+        "count": 2
+    },
+    {
+        "keyword": "مجزرة",
+        "count": 3
+    },
+    {
+        "keyword": "قتل",
+        "count": 2
+    },
+    {
+        "keyword": "المسافة صفر",
+        "count": 3
+    },
+    {
+        "keyword": "القنصلية الإسرائيلية",
+        "count": 2
+    },
+    {
+        "keyword": "حياة الأسرى",
+        "count": 2
+    },
+    {
+        "keyword": "قصف على البقاع",
+        "count": 2
+    },
+    {
+        "keyword": "ثكنة كتسافيا",
+        "count": 2
+    },
+    {
+        "keyword": "مؤيدين",
+        "count": 2
+    },
+    {
+        "keyword": "الاغتيالات الإسرائيلية",
+        "count": 2
+    },
+    {
+        "keyword": "مصادر دبلوماسية",
+        "count": 1
+    },
+    {
+        "keyword": "إحراق المسجد الأقصى",
+        "count": 1
+    },
+    {
+        "keyword": "الحوثيون",
+        "count": 1
+    },
+    {
+        "keyword": "الشعب اليمني",
+        "count": 2
+    },
+    {
+        "keyword": "قوات حكومة صنعاء",
+        "count": 1
+    },
+    {
+        "keyword": "اخبار اليمن",
+        "count": 1
+    },
+    {
+        "keyword": "تحديات",
+        "count": 2
+    },
+    {
+        "keyword": "الوضع الاقتصادي في اليمن",
+        "count": 1
+    },
+    {
+        "keyword": "انجازات",
+        "count": 2
+    },
+    {
+        "keyword": "حكومة جديدة",
+        "count": 1
+    },
+    {
+        "keyword": "الجمهورية اليمنية",
+        "count": 1
+    },
+    {
+        "keyword": "وزير الإعلام في حكومة صنعاء",
+        "count": 1
+    },
+    {
+        "keyword": "تطورات اليمن",
+        "count": 1
+    },
+    {
+        "keyword": "حكومة التغيير والبناء",
+        "count": 1
+    },
+    {
+        "keyword": "سياسة اليمن",
+        "count": 1
+    },
+    {
+        "keyword": "تشكيل حكومة في اليمن",
+        "count": 1
+    },
+    {
+        "keyword": "هدف",
+        "count": 2
+    },
+    {
+        "keyword": "دبلوماسية",
+        "count": 1
+    },
+    {
+        "keyword": "ضغوط",
+        "count": 2
+    },
+    {
+        "keyword": "مصادر",
+        "count": 1
+    },
+    {
+        "keyword": "دمشق",
+        "count": 2
+    },
+    {
+        "keyword": "الحكومة السورية",
+        "count": 1
+    },
+    {
+        "keyword": "محافظة الحسكة",
+        "count": 1
+    },
+    {
+        "keyword": "قسد سوريا",
+        "count": 2
+    },
+    {
+        "keyword": "التصعيد",
+        "count": 1
+    },
+    {
+        "keyword": "قسد والعشائر",
+        "count": 2
+    },
+    {
+        "keyword": "قسد والعشائر العربية",
+        "count": 2
+    },
+    {
+        "keyword": "قسد دير الزور",
+        "count": 2
+    },
+    {
+        "keyword": "مسلحي",
+        "count": 1
+    },
+    {
+        "keyword": "التهدئة",
+        "count": 1
+    },
+    {
+        "keyword": "الوساطة الروسية",
+        "count": 1
+    },
+    {
+        "keyword": "السلطات الحكومية السورية",
+        "count": 1
+    },
+    {
+        "keyword": "الفيضانات",
+        "count": 1
+    },
+    {
+        "keyword": "وزارة الداخلية السودانية",
+        "count": 1
+    },
+    {
+        "keyword": "نبيه بري",
+        "count": 1
+    },
+    {
+        "keyword": "نجيب ميقاتي",
+        "count": 1
+    },
+    {
+        "keyword": "البرلمان اللبناني",
+        "count": 1
+    },
+    {
+        "keyword": "رئيس",
+        "count": 1
+    },
+    {
+        "keyword": "هوكستين في بيروت",
+        "count": 1
+    },
+    {
+        "keyword": "تفاوض",
+        "count": 1
+    },
+    {
+        "keyword": "الوسيط الاميركي آموس هوكستين",
+        "count": 1
+    },
+    {
+        "keyword": "قائد الجيش اللبناني",
+        "count": 1
+    },
+    {
+        "keyword": "الحكومة في لبنان",
+        "count": 1
+    },
+    {
+        "keyword": "الحل الدبلوماسي",
+        "count": 1
+    },
+    {
+        "keyword": "الكلام اللبناني",
+        "count": 1
+    },
+    {
+        "keyword": "وساطة اميركية",
+        "count": 1
+    },
+    {
+        "keyword": "المبعوث الرئاسي الأميركي",
+        "count": 1
+    },
+    {
+        "keyword": "النواب اللبنانيين",
+        "count": 1
+    },
+    {
+        "keyword": "الحكومة التونسية",
+        "count": 2
+    },
+    {
+        "keyword": "الاقتصاد التونسي",
+        "count": 2
+    },
+    {
+        "keyword": "الحكومة الجزائرية",
+        "count": 1
+    },
+    {
+        "keyword": "اقتصاد تونس",
+        "count": 2
+    },
+    {
+        "keyword": "الحرب في ليبيا",
+        "count": 1
+    },
+    {
+        "keyword": "الازمة الاقتصادية",
+        "count": 1
+    },
+    {
+        "keyword": "الازمة الاقتصادية في تونس",
+        "count": 1
+    },
+    {
+        "keyword": "تجارة",
+        "count": 1
+    },
+    {
+        "keyword": "ازمات اقتصادية",
+        "count": 1
+    },
+    {
+        "keyword": "الاقتصاد الليبي",
+        "count": 1
+    },
+    {
+        "keyword": "دول شمال أفريقيا",
+        "count": 1
+    },
+    {
+        "keyword": "اقتصاد الجزائر",
+        "count": 1
+    },
+    {
+        "keyword": "ازمة ليبيا",
+        "count": 1
+    },
+    {
+        "keyword": "تقارب",
+        "count": 1
+    },
+    {
+        "keyword": "مشاريع اقتصادية",
+        "count": 1
+    },
+    {
+        "keyword": "تجارة عربية",
+        "count": 1
+    },
+    {
+        "keyword": "تقارب اقتصادي",
+        "count": 1
+    },
+    {
+        "keyword": "مشاريع انمائية",
+        "count": 1
+    },
+    {
+        "keyword": "ازمة ليبيا الاقتصادية",
+        "count": 1
+    },
+    {
+        "keyword": "اقتصاد ليبيا",
+        "count": 1
+    },
+    {
+        "keyword": "النيوليبرالية",
+        "count": 1
+    },
+    {
+        "keyword": "العولمة النيوليبرالية",
+        "count": 1
+    },
+    {
+        "keyword": "المرشد خامنئي",
+        "count": 1
+    },
+    {
+        "keyword": "عدوان إسرائيلي",
+        "count": 1
+    },
+    {
+        "keyword": "ميادين",
+        "count": 1
+    },
+    {
+        "keyword": "اقتحام الأقصى",
+        "count": 1
+    },
+    {
+        "keyword": "سياسي",
+        "count": 1
+    },
+    {
+        "keyword": "إعلام",
+        "count": 1
+    },
+    {
+        "keyword": "وزير اسرائيلي",
+        "count": 1
+    },
+    {
+        "keyword": "اقتصادي",
+        "count": 1
+    },
+    {
+        "keyword": "الصفر",
+        "count": 1
+    },
+    {
+        "keyword": "السيد علي خامنئي",
+        "count": 1
+    },
+    {
+        "keyword": "القرن الأفريقي",
+        "count": 3
+    },
+    {
+        "keyword": "القمة المصرية الصومالية",
+        "count": 1
+    },
+    {
+        "keyword": "العشائر العربية",
+        "count": 1
+    },
+    {
+        "keyword": "حصار",
+        "count": 2
+    },
+    {
+        "keyword": "نصر",
+        "count": 1
+    },
+    {
+        "keyword": "تموز",
+        "count": 1
+    },
+    {
+        "keyword": "أمن",
+        "count": 2
+    },
+    {
+        "keyword": "جريح",
+        "count": 1
+    },
+    {
+        "keyword": "التطورات",
+        "count": 1
+    },
+    {
+        "keyword": "الاحتياط",
+        "count": 1
+    },
+    {
+        "keyword": "معادلة ردع",
+        "count": 1
+    },
+    {
+        "keyword": "2006",
+        "count": 1
+    },
+    {
+        "keyword": "وزارة",
+        "count": 1
+    },
+    {
+        "keyword": "العظمى",
+        "count": 1
+    },
+    {
+        "keyword": "اولمرت",
+        "count": 1
+    },
+    {
+        "keyword": "اسلامية",
+        "count": 1
+    },
+    {
+        "keyword": "رئيس رواندا",
+        "count": 1
+    },
+    {
+        "keyword": "تشكيل حكومة جديدة",
+        "count": 1
+    },
+    {
+        "keyword": "العشائر الفلسطينية",
+        "count": 1
+    },
+    {
+        "keyword": "مؤشر المستهلك",
+        "count": 1
+    },
+    {
+        "keyword": "البقاع",
+        "count": 1
+    },
+    {
+        "keyword": "المحكمة الجنائية الدولية",
+        "count": 1
+    },
+    {
+        "keyword": "جرائم ضد الإنسانية",
+        "count": 1
+    },
+    {
+        "keyword": "رضائي",
+        "count": 1
+    },
+    {
+        "keyword": "المقاومة في الضفة",
+        "count": 19
+    },
+    {
+        "keyword": "مؤتمر نداء الأقصى",
+        "count": 5
+    },
+    {
+        "keyword": "فيديل كاسترو",
+        "count": 1
+    },
+    {
+        "keyword": "الخارجية الفنزويلية",
+        "count": 1
+    },
+    {
+        "keyword": "القائد الكوبي فيديل كاسترو",
+        "count": 1
+    },
+    {
+        "keyword": "السفارة الكوبية في كراكاس",
+        "count": 1
+    },
+    {
+        "keyword": "القائد اللاتيني",
+        "count": 1
+    },
+    {
+        "keyword": "أم الرشراش",
+        "count": 1
+    },
+    {
+        "keyword": "الانتخابات الفنزويلية",
+        "count": 2
+    },
+    {
+        "keyword": "جنوبي لبنان",
+        "count": 1
+    },
+    {
+        "keyword": "ثكنة زرعيت",
+        "count": 1
+    },
+    {
+        "keyword": "الاستخبارات الإسرائيلية",
+        "count": 1
+    },
+    {
+        "keyword": "رد إيران",
+        "count": 1
+    },
+    {
+        "keyword": "الشهيد إسماعيل هنية",
+        "count": 1
+    },
+    {
+        "keyword": "الإمارات",
+        "count": 4
+    },
+    {
+        "keyword": "الحرب الأوكرانية",
+        "count": 1
+    },
+    {
+        "keyword": "انتفاضة",
+        "count": 1
+    },
+    {
+        "keyword": "إنهاء الحرب",
+        "count": 1
+    },
+    {
+        "keyword": "جولة",
+        "count": 1
+    },
+    {
+        "keyword": "أمان",
+        "count": 1
+    },
+    {
+        "keyword": "محور",
+        "count": 1
+    },
+    {
+        "keyword": "انتفاضة ثالثة",
+        "count": 1
+    },
+    {
+        "keyword": "مخاوف",
+        "count": 1
+    },
+    {
+        "keyword": "مبادرة بايدن",
+        "count": 1
+    },
+    {
+        "keyword": "الحلول في غزة",
+        "count": 1
+    },
+    {
+        "keyword": "جهاز",
+        "count": 1
+    },
+    {
+        "keyword": "خلاصة",
+        "count": 1
+    },
+    {
+        "keyword": "الأمنية الإسرائيلية",
+        "count": 1
+    },
+    {
+        "keyword": "وزير الخارجية التركي",
+        "count": 1
+    },
+    {
+        "keyword": "هاكان فيدان",
+        "count": 1
+    },
+    {
+        "keyword": "الحرب على",
+        "count": 1
+    },
+    {
+        "keyword": "اوكرانيا",
+        "count": 4
+    },
+    {
+        "keyword": "حرب روسيا وأوكرانيا",
+        "count": 2
+    },
+    {
+        "keyword": "الجولاني",
+        "count": 4
+    },
+    {
+        "keyword": "حرب اوكرانيا",
+        "count": 1
+    },
+    {
+        "keyword": "زعيم هيئة تحرير الشام",
+        "count": 2
+    },
+    {
+        "keyword": "هيئة تحرير الشام سوريا",
+        "count": 1
+    },
+    {
+        "keyword": "تسويق هيئة تحرير الشام",
+        "count": 1
+    },
+    {
+        "keyword": "مسلحي هيئة تحرير الشام",
+        "count": 1
+    },
+    {
+        "keyword": "سجون هيئة تحرير الشام",
+        "count": 2
+    },
+    {
+        "keyword": "معارك هيئة تحرير الشام",
+        "count": 1
+    },
+    {
+        "keyword": "مرتزقة في أوكرانيا",
+        "count": 1
+    },
+    {
+        "keyword": "النفير إلى أوكرانيا",
+        "count": 1
+    },
+    {
+        "keyword": "سوق مرتزقة",
+        "count": 1
+    },
+    {
+        "keyword": "سوري في اوكرانيا",
+        "count": 1
+    },
+    {
+        "keyword": "محاكمة إسرائيل",
+        "count": 1
+    },
+    {
+        "keyword": "الذكاء الاصطناعي",
+        "count": 1
+    },
+    {
+        "keyword": "التطور التكنولوجي",
+        "count": 1
+    },
+    {
+        "keyword": "التكنولوجيا",
+        "count": 1
+    },
+    {
+        "keyword": "التجسس",
+        "count": 1
+    },
+    {
+        "keyword": "التكنولوجيا الحديثة",
+        "count": 1
+    },
+    {
+        "keyword": "شركات التكنولوجيا",
+        "count": 1
+    },
+    {
+        "keyword": "القطاع الخاص",
+        "count": 1
+    },
+    {
+        "keyword": "شركات التكنولوجيا الكبرى",
+        "count": 1
+    },
+    {
+        "keyword": "قوة",
+        "count": 2
+    },
+    {
+        "keyword": "التقدم التكنولوجي",
+        "count": 1
+    },
+    {
+        "keyword": "موارد الطاقة",
+        "count": 1
+    },
+    {
+        "keyword": "قطاع التكنولوجيا",
+        "count": 1
+    },
+    {
+        "keyword": "القوة الاميركية",
+        "count": 2
+    },
+    {
+        "keyword": "التكنولوجيات العسكرية",
+        "count": 1
+    },
+    {
+        "keyword": "قوة اميركا",
+        "count": 1
+    },
+    {
+        "keyword": "التكنولوجيات",
+        "count": 1
+    },
+    {
+        "keyword": "التكنولوجيا الاميركية",
+        "count": 1
+    },
+    {
+        "keyword": "جبهة الضفة",
+        "count": 1
+    },
+    {
+        "keyword": "أجهزة الأمن الإسرائيلية",
+        "count": 1
+    },
+    {
+        "keyword": "المدن",
+        "count": 1
+    },
+    {
+        "keyword": "غليان الضفة",
+        "count": 1
+    },
+    {
+        "keyword": "انتفاضة جديدة",
+        "count": 1
+    },
+    {
+        "keyword": "القرى",
+        "count": 1
+    },
+    {
+        "keyword": "غليان",
+        "count": 1
+    },
+    {
+        "keyword": "مدينة غزة",
+        "count": 2
+    },
+    {
+        "keyword": "حرس الثورة الإسلامية",
+        "count": 2
+    },
+    {
+        "keyword": "ادارة بايدن",
+        "count": 1
+    },
+    {
+        "keyword": "ضربات",
+        "count": 1
+    },
+    {
+        "keyword": "كذب",
+        "count": 2
+    },
+    {
+        "keyword": "حي تل السلطان",
+        "count": 1
+    },
+    {
+        "keyword": "ترخيص",
+        "count": 1
+    },
+    {
+        "keyword": "حي الشابورة",
+        "count": 1
+    },
+    {
+        "keyword": "خداع",
+        "count": 1
+    },
+    {
+        "keyword": "محافظة خان يونس",
+        "count": 1
+    },
+    {
+        "keyword": "قيادية للاحتلال",
+        "count": 1
+    },
+    {
+        "keyword": "رسالة إلى حزب الله",
+        "count": 1
+    },
+    {
+        "keyword": "جرحى الاحتلال",
+        "count": 1
+    },
+    {
+        "keyword": "المجتمع الدولي",
+        "count": 1
+    },
+    {
+        "keyword": "سلوفينيا",
+        "count": 1
+    },
+    {
+        "keyword": "اقتحام المسجد الأقصى",
+        "count": 2
+    },
+    {
+        "keyword": "الأطفال الفلسطينيون",
+        "count": 1
+    },
+    {
+        "keyword": "الهرم السكاني الفلسطيني",
+        "count": 1
+    },
+    {
+        "keyword": "قضية فلسطين",
+        "count": 1
+    },
+    {
+        "keyword": "الجولاني في إدلب",
+        "count": 1
+    },
+    {
+        "keyword": "ازمات",
+        "count": 1
+    },
+    {
+        "keyword": "فورين أفيرز",
+        "count": 1
+    },
+    {
+        "keyword": "ظروف",
+        "count": 1
+    },
+    {
+        "keyword": "جيوسياسية",
+        "count": 1
+    },
+    {
+        "keyword": "داخلية",
+        "count": 1
+    },
+    {
+        "keyword": "ساخن",
+        "count": 1
+    },
+    {
+        "keyword": "صفيح",
+        "count": 1
+    },
+    {
+        "keyword": "القوة الأميركية",
+        "count": 1
+    },
+    {
+        "keyword": "القطاع الصحي في غزة",
+        "count": 1
+    },
+    {
+        "keyword": "نقص الأدوية والوقود",
+        "count": 1
+    },
+    {
+        "keyword": "نشرة السادسة",
+        "count": 1
+    },
+    {
+        "keyword": "رسالة",
+        "count": 1
+    },
+    {
+        "keyword": "المقاومين",
+        "count": 1
+    },
+    {
+        "keyword": "مدرسة مصطفى حافظ",
+        "count": 3
+    },
+    {
+        "keyword": "رسالة إلى المقاومة",
+        "count": 1
+    },
+    {
+        "keyword": "الخداع",
+        "count": 1
+    },
+    {
+        "keyword": "الأمن القومي الإسرائيلي",
+        "count": 1
+    },
+    {
+        "keyword": "الصحافيون الفلسطينيون",
+        "count": 1
+    },
+    {
+        "keyword": "اليمين الفنزويلي",
+        "count": 1
+    },
+    {
+        "keyword": "استشهاد القائد إسماعيل هنية",
+        "count": 1
+    },
+    {
+        "keyword": "البيان الأوروبي الثلاثي",
+        "count": 1
+    },
+    {
+        "keyword": "الرئيس المصري",
+        "count": 1
+    },
+    {
+        "keyword": "النصر",
+        "count": 1
+    },
+    {
+        "keyword": "ازمات الاحتلال",
+        "count": 1
+    },
+    {
+        "keyword": "الرؤية السياسية",
+        "count": 1
+    },
+    {
+        "keyword": "رسائل النار",
+        "count": 1
+    },
+    {
+        "keyword": "أساطيل الغرب",
+        "count": 1
+    },
+    {
+        "keyword": "الأساطيل الاميركية",
+        "count": 1
+    },
+    {
+        "keyword": "بودكاست الميادين",
+        "count": 1
+    },
+    {
+        "keyword": "علي الديري",
+        "count": 2
+    },
+    {
+        "keyword": "بودكاست ورق",
+        "count": 1
+    },
+    {
+        "keyword": "كتب",
+        "count": 1
+    },
+    {
+        "keyword": "مراجعات الكتب",
+        "count": 1
+    },
+    {
+        "keyword": "إدوار سعيد",
+        "count": 1
+    },
+    {
+        "keyword": "جدتي وأمي وأنا",
+        "count": 1
+    },
+    {
+        "keyword": "وُرْق",
+        "count": 1
+    },
+    {
+        "keyword": "رئيس البرلمان الجزائري",
+        "count": 1
+    },
+    {
+        "keyword": "الرئاسة الفلسطينية",
+        "count": 1
+    },
+    {
+        "keyword": "حرس الثورة الإيراني",
+        "count": 1
+    },
+    {
+        "keyword": " تويتر",
+        "count": 1
+    },
+    {
+        "keyword": "مواقع التواصل الإجتماعي",
+        "count": 1
+    },
+    {
+        "keyword": "إيلون ماسك",
+        "count": 2
+    },
+    {
+        "keyword": "فايسبوك",
+        "count": 1
+    },
+    {
+        "keyword": "اليمين المتطرف",
+        "count": 1
+    },
+    {
+        "keyword": "انستغرام",
+        "count": 1
+    },
+    {
+        "keyword": "ايلون ماسك",
+        "count": 1
+    },
+    {
+        "keyword": "واتساب",
+        "count": 1
+    },
+    {
+        "keyword": "الانتخابات الاميركية 2020",
+        "count": 1
+    },
+    {
+        "keyword": "منصات التواصل الاجتماعي",
+        "count": 1
+    },
+    {
+        "keyword": "منصة تويتر",
+        "count": 1
+    },
+    {
+        "keyword": "تطبيقات",
+        "count": 1
+    },
+    {
+        "keyword": "الشيوعية",
+        "count": 1
+    },
+    {
+        "keyword": "السردية الغربية",
+        "count": 1
+    },
+    {
+        "keyword": "شبكة التواصل الاجتماعي",
+        "count": 1
+    },
+    {
+        "keyword": "استغلال",
+        "count": 1
+    },
+    {
+        "keyword": "منصة اكس",
+        "count": 1
+    },
+    {
+        "keyword": "منصة انستغرام",
+        "count": 1
+    },
+    {
+        "keyword": "تاثير",
+        "count": 1
+    },
+    {
+        "keyword": "جورة العقاد",
+        "count": 1
+    },
+    {
+        "keyword": "المؤسسة الأمنية والعسكرية الإسرائيلية",
+        "count": 1
+    },
+    {
+        "keyword": "الرئيس الفلسطيني محمود عباس",
+        "count": 1
+    },
+    {
+        "keyword": "مقاومو الضفة",
+        "count": 1
+    },
+    {
+        "keyword": "الأقصى",
+        "count": 1
+    },
+    {
+        "keyword": "وقف العدوان",
+        "count": 1
+    },
+    {
+        "keyword": "دعم",
+        "count": 1
+    },
+    {
+        "keyword": "مسكاف عام",
+        "count": 1
+    },
+    {
+        "keyword": "البيان الختامي",
+        "count": 1
+    },
+    {
+        "keyword": "نداء الأقصى",
+        "count": 1
+    },
+    {
+        "keyword": "إنجاز",
+        "count": 1
+    },
+    {
+        "keyword": "صاروخين",
+        "count": 1
+    },
+    {
+        "keyword": "السهم الأحمر",
+        "count": 1
+    },
+    {
+        "keyword": "ميتات",
+        "count": 1
+    },
+    {
+        "keyword": "صاروخ القسام",
+        "count": 1
+    },
+    {
+        "keyword": "مفاوضات الخميس",
+        "count": 1
+    },
+    {
+        "keyword": "M90 صاروخ",
+        "count": 1
+    },
+    {
+        "keyword": "أحداث",
+        "count": 1
+    },
+    {
+        "keyword": "الحدود مع فلسطين",
+        "count": 1
+    },
+    {
+        "keyword": "قصف الاحتلال",
+        "count": 1
+    },
+    {
+        "keyword": "دمار",
+        "count": 1
+    },
+    {
+        "keyword": "طيرحرفا",
+        "count": 1
+    },
+    {
+        "keyword": "الحدود",
+        "count": 1
+    },
+    {
+        "keyword": "مقاومة الاحتلال",
+        "count": 1
+    },
+    {
+        "keyword": "المعارك",
+        "count": 1
+    },
+    {
+        "keyword": "حدود لبنان",
+        "count": 1
+    },
+    {
+        "keyword": "عسكرية",
+        "count": 1
+    },
+    {
+        "keyword": "القرى اللبنانية",
+        "count": 1
+    },
+    {
+        "keyword": "آلة الدمار الإسرائيلية",
+        "count": 1
+    },
+    {
+        "keyword": "الجبين",
+        "count": 1
+    },
+    {
+        "keyword": "الشهداء جنوب لبنان",
+        "count": 1
+    },
+    {
+        "keyword": "طيرحرفا الجبين",
+        "count": 1
+    },
+    {
+        "keyword": "بداية",
+        "count": 1
+    },
+    {
+        "keyword": "الرياض",
+        "count": 1
+    },
+    {
+        "keyword": "التدمير في غزة",
+        "count": 1
+    },
+    {
+        "keyword": "فوق الركام",
+        "count": 1
+    },
+    {
+        "keyword": "فرقة راجعين",
+        "count": 1
+    },
+    {
+        "keyword": "الإدارة الذاتية الكردية",
+        "count": 1
+    },
+    {
+        "keyword": "خلافات",
+        "count": 1
+    },
+    {
+        "keyword": "القوى الكردية",
+        "count": 1
+    },
+    {
+        "keyword": "حرب الشمال السوري",
+        "count": 1
+    },
+    {
+        "keyword": "مقاتلي العشائر العربية",
+        "count": 1
+    },
+    {
+        "keyword": "إقليم",
+        "count": 1
+    },
+    {
+        "keyword": "الوضع المعيشي في سوريا",
+        "count": 1
+    },
+    {
+        "keyword": "مشاريع الإدارة الذاتية",
+        "count": 1
+    },
+    {
+        "keyword": "الحسكة والقامشلي",
+        "count": 1
+    },
+    {
+        "keyword": "السوري التركي الإيراني",
+        "count": 1
+    },
+    {
+        "keyword": "الفرات سوريا",
+        "count": 1
+    },
+    {
+        "keyword": "التعاون السوري التركي",
+        "count": 1
+    },
+    {
+        "keyword": "مقاتلي العشائر",
+        "count": 1
+    },
+    {
+        "keyword": "حالة الطوارئ",
+        "count": 1
+    },
+    {
+        "keyword": "جدري القردة",
+        "count": 1
+    },
+    {
+        "keyword": "الجيش الصومالي",
+        "count": 1
+    },
+    {
+        "keyword": "حركة الشب",
+        "count": 1
+    },
+    {
+        "keyword": "قاعدة عسكرية صومالية",
+        "count": 1
+    },
+    {
+        "keyword": "إدلب",
+        "count": 2
+    },
+    {
+        "keyword": "التبادل التجاري",
+        "count": 1
+    },
+    {
+        "keyword": "جمهورية الكونغو الديمقراطية",
+        "count": 1
+    },
+    {
+        "keyword": "فتح الحدود البرية",
+        "count": 1
+    },
+    {
+        "keyword": "هرتسي هاليفي",
+        "count": 2
+    },
+    {
+        "keyword": "المستشفى المعمداني",
+        "count": 1
+    },
+    {
+        "keyword": "حزب الديقراطي",
+        "count": 1
+    },
+    {
+        "keyword": "الإعلام المقاوم",
+        "count": 1
+    },
+    {
+        "keyword": "الإعلام الحربي حزب الله",
+        "count": 1
+    },
+    {
+        "keyword": "وزارة الخارجية الإيرانية",
+        "count": 1
+    },
+    {
+        "keyword": "تقارير الميادين الاخبارية",
+        "count": 1
+    },
+    {
+        "keyword": "المستوطنون الإسرائيليون",
+        "count": 3
+    },
+    {
+        "keyword": "زهراء ديراني",
+        "count": 1
+    },
+    {
+        "keyword": "تراجع",
+        "count": 1
+    },
+    {
+        "keyword": "تجنيد العملاء",
+        "count": 1
+    },
+    {
+        "keyword": "كتيبة",
+        "count": 1
+    },
+    {
+        "keyword": "نيتسح يهودا",
+        "count": 1
+    },
+    {
+        "keyword": "وحدة نيتسح يهودا",
+        "count": 1
+    },
+    {
+        "keyword": "فرق الجيش الاسرائيلي",
+        "count": 1
+    },
+    {
+        "keyword": "سمعة",
+        "count": 1
+    },
+    {
+        "keyword": "كتيبة نيتسح يهودا",
+        "count": 1
+    },
+    {
+        "keyword": "كييف",
+        "count": 5
+    },
+    {
+        "keyword": "روسيا والاطلسي",
+        "count": 1
+    },
+    {
+        "keyword": "الغرب الاطلسي",
+        "count": 1
+    },
+    {
+        "keyword": "القدرات العسكرية الروسية",
+        "count": 1
+    },
+    {
+        "keyword": "الأراضي الروسية",
+        "count": 1
+    },
+    {
+        "keyword": "الدعم الغربي",
+        "count": 1
+    },
+    {
+        "keyword": "طرد القوات الأوكرانية",
+        "count": 1
+    },
+    {
+        "keyword": "قدرات روسيا العسكرية",
+        "count": 1
+    },
+    {
+        "keyword": "المنتدى السنوي",
+        "count": 1
+    },
+    {
+        "keyword": "اسلحة روسيا",
+        "count": 1
+    },
+    {
+        "keyword": "القدرات الروسيا",
+        "count": 1
+    },
+    {
+        "keyword": "مواجهة الأطلسية الروسية",
+        "count": 1
+    },
+    {
+        "keyword": "الأطلسية",
+        "count": 1
+    },
+    {
+        "keyword": "عثمان سونكو",
+        "count": 1
+    },
+    {
+        "keyword": "الكولونيل أسيمي غويتا",
+        "count": 1
+    },
+    {
+        "keyword": "رئيس المجلس العسكري بمالي",
+        "count": 1
+    },
+    {
+        "keyword": "أسامة حماد",
+        "count": 1
+    },
+    {
+        "keyword": "الحكومة المكلفة في ليبيا",
+        "count": 1
+    },
+    {
+        "keyword": "ستيفان دوجاريك",
+        "count": 1
+    },
+    {
+        "keyword": "المتحدث باسم الأمم المتحدة",
+        "count": 1
+    },
+    {
+        "keyword": "الجيش اليمني",
+        "count": 1
+    },
+    {
+        "keyword": "الجيش اليمني واللجان الشعبية",
+        "count": 1
+    },
+    {
+        "keyword": "العدوان السعودي على اليمن",
+        "count": 1
+    },
+    {
+        "keyword": "عبد الملك الحوثي",
+        "count": 1
+    },
+    {
+        "keyword": "محمد علي الحوثي",
+        "count": 1
+    },
+    {
+        "keyword": "يحيى سريع",
+        "count": 1
+    },
+    {
+        "keyword": "أسواق صنعاء القديمة",
+        "count": 1
+    },
+    {
+        "keyword": "سوق الملح في اليمن",
+        "count": 1
+    },
+    {
+        "keyword": "أمريكا",
+        "count": 1
+    },
+    {
+        "keyword": "التظاهرات في أميركا",
+        "count": 1
+    },
+    {
+        "keyword": "الأزمات الإنسانية",
+        "count": 1
+    },
+    {
+        "keyword": "وزير المالية السوداني",
+        "count": 1
+    },
+    {
+        "keyword": "السفير الهندي بالسودان",
+        "count": 1
+    },
+    {
+        "keyword": "وكالة الأونروا",
+        "count": 1
+    },
+    {
+        "keyword": "السابع من أكتوبر",
+        "count": 1
+    },
+    {
+        "keyword": "المنظمات الأممية",
+        "count": 1
+    },
+    {
+        "keyword": "العاملون في المجال الإنساني",
+        "count": 1
+    },
+    {
+        "keyword": "الوكالات الإنسانية",
+        "count": 1
+    },
+    {
+        "keyword": "الاتفاق النووي الإيراني الغربي",
+        "count": 1
+    },
+    {
+        "keyword": "النووي الإيراني",
+        "count": 1
+    },
+    {
+        "keyword": "إيران وإسرائيل",
+        "count": 1
+    },
+    {
+        "keyword": "القنبلة الإيرانية",
+        "count": 1
+    },
+    {
+        "keyword": "الاستراتيجية الإسرائيلية مقابل إيران",
+        "count": 1
+    },
+    {
+        "keyword": "البرازيل",
+        "count": 1
+    },
+    {
+        "keyword": "المكسيك",
+        "count": 1
+    },
+    {
+        "keyword": "إدموندو غونزاليس أوروتيا",
+        "count": 1
+    },
+    {
+        "keyword": "المحافظون الجدد",
+        "count": 1
+    },
+    {
+        "keyword": "كير ستارمر",
+        "count": 1
+    },
+    {
+        "keyword": "أبراج القسطل",
+        "count": 1
+    },
+    {
+        "keyword": "منظمة الهجرة الدولية",
+        "count": 1
+    },
+    {
+        "keyword": "النازحون السودانيون",
+        "count": 1
+    },
+    {
+        "keyword": "الاحتجاجات في الولايات المتحدة",
+        "count": 1
+    },
+    {
+        "keyword": "اتفاقية الموانئ",
+        "count": 1
+    },
+    {
+        "keyword": "اغتيال هن",
+        "count": 1
+    },
+    {
+        "keyword": "هاليفي",
+        "count": 1
+    },
+    {
+        "keyword": "استقالة هاليفي",
+        "count": 1
+    },
+    {
+        "keyword": "علي فدوي",
+        "count": 1
+    },
+    {
+        "keyword": "السفينة المحترقة",
+        "count": 1
+    },
+    {
+        "keyword": "سونيون",
+        "count": 1
+    },
+    {
+        "keyword": "كمائن المقاومة",
+        "count": 3
+    },
+    {
+        "keyword": "المقاومة الفلسطينية في الضفة",
+        "count": 3
+    },
+    {
+        "keyword": "اقتحام الضفة",
+        "count": 3
+    },
+    {
+        "keyword": "الضفة الغربية مباشر",
+        "count": 4
+    },
+    {
+        "keyword": "شهداء الاقصى",
+        "count": 3
+    },
+    {
+        "keyword": "الضفة تواجه العدوان",
+        "count": 3
+    },
+    {
+        "keyword": "عدوان إسرائيلي على الضفة",
+        "count": 3
+    },
+    {
+        "keyword": "العدوان على الضفة",
+        "count": 16
+    },
+    {
+        "keyword": "الشركة الوطنية للنقل بالسكك الحديدية",
+        "count": 1
+    },
+    {
+        "keyword": "رويسات العلم",
+        "count": 1
+    },
+    {
+        "keyword": "حسام بدران",
+        "count": 1
+    },
+    {
+        "keyword": "السفينة سونيون",
+        "count": 1
+    },
+    {
+        "keyword": "كتيبة جنين",
+        "count": 1
+    },
+    {
+        "keyword": "كتيبة طولكرم في سرايا القدس",
+        "count": 1
+    },
+    {
+        "keyword": "مهرجان \"فيزا بور ليماج\"",
+        "count": 1
+    },
+    {
+        "keyword": "بربينيان",
+        "count": 1
+    },
+    {
+        "keyword": "تغطية خاصة الميادين",
+        "count": 1
+    },
+    {
+        "keyword": "عملية يوم الأربعين نجحت",
+        "count": 1
+    },
+    {
+        "keyword": "موثوقة للميادين",
+        "count": 1
+    },
+    {
+        "keyword": "طائرات إف 16",
+        "count": 1
+    },
+    {
+        "keyword": "رعب المخيمات",
+        "count": 3
+    },
+    {
+        "keyword": "استشهاد فؤاد شكر",
+        "count": 1
+    },
+    {
+        "keyword": "مخيم نور شمس",
+        "count": 2
+    },
+    {
+        "keyword": "ثكنة نفح",
+        "count": 2
+    },
+    {
+        "keyword": "حزب الديمقراطيين الإسرائيلي",
+        "count": 2
+    },
+    {
+        "keyword": "إسقاط حكومة بنيامين نتنياهو",
+        "count": 2
+    },
+    {
+        "keyword": "أبو محمد الجولاني",
+        "count": 1
+    },
+    {
+        "keyword": "المسلحون في سوريا",
+        "count": 1
+    },
+    {
+        "keyword": "مدينة إدلب",
+        "count": 1
+    },
+    {
+        "keyword": "تنظيم حراس الدين",
+        "count": 1
+    },
+    {
+        "keyword": "حراس الدين",
+        "count": 1
+    },
+    {
+        "keyword": "تظاهرات إدلب",
+        "count": 1
+    },
+    {
+        "keyword": "المحكمة العسكرية في إدلب",
+        "count": 1
+    },
+    {
+        "keyword": "استخبارات التحالف في إدلب",
+        "count": 1
+    },
+    {
+        "keyword": "جنود الاحتياط الإسرائيلي",
+        "count": 1
+    },
+    {
+        "keyword": "متعدد الأقطاب",
+        "count": 1
+    },
+    {
+        "keyword": "قيس سعيّد",
+        "count": 1
+    },
+    {
+        "keyword": "الشعب التونسي",
+        "count": 1
+    },
+    {
+        "keyword": "الحكومة التونسية الجديدة",
+        "count": 1
+    },
+    {
+        "keyword": "حكومة تونس",
+        "count": 1
+    },
+    {
+        "keyword": "الاستثمارات في تونس",
+        "count": 1
+    },
+    {
+        "keyword": "رئيس تونس",
+        "count": 1
+    },
+    {
+        "keyword": "زيلينسكي",
+        "count": 1
+    },
+    {
+        "keyword": "الصراع الروسي الأطلسي",
+        "count": 1
+    },
+    {
+        "keyword": "القنابل العنقودية",
+        "count": 2
+    },
+    {
+        "keyword": "القنابل العنقودية إلى أوكرانيا",
+        "count": 1
+    },
+    {
+        "keyword": "تسليم السلاح إلى أوكرانيا",
+        "count": 1
+    },
+    {
+        "keyword": "السلاح الى اوكرانيا",
+        "count": 1
+    },
+    {
+        "keyword": "حرب روسيا وأوكرانيا اليوم",
+        "count": 1
+    },
+    {
+        "keyword": "الغرب وأوكرانيا",
+        "count": 1
+    },
+    {
+        "keyword": "تدمير",
+        "count": 1
+    },
+    {
+        "keyword": "منطقة دير البلح",
+        "count": 1
+    },
+    {
+        "keyword": "الدمار الإسرائيلي",
+        "count": 1
+    },
+    {
+        "keyword": "الأحياء السكنية في غزة",
+        "count": 1
+    },
+    {
+        "keyword": "سرايا القدس كتيبة جنين",
+        "count": 1
+    },
+    {
+        "keyword": "اشتباكات في طولكرم",
+        "count": 1
+    },
+    {
+        "keyword": "محمد جابر أبو شجاع",
+        "count": 1
+    },
+    {
+        "keyword": "الجامعة العربية",
+        "count": 1
+    },
+    {
+        "keyword": "الصين الواحدة",
+        "count": 1
+    },
+    {
+        "keyword": "الدعم بالأسلحة",
+        "count": 1
+    },
+    {
+        "keyword": "سوق السقطية",
+        "count": 1
+    },
+    {
+        "keyword": "الأسواق التراثية",
+        "count": 1
+    },
+    {
+        "keyword": "سوق الحبال",
+        "count": 1
+    },
+    {
+        "keyword": "سوق الأحمدية",
+        "count": 1
+    },
+    {
+        "keyword": "سوق الحدادين",
+        "count": 1
+    },
+    {
+        "keyword": "الهلال النفطي الليبي",
+        "count": 1
+    },
+    {
+        "keyword": "توقف إنتاج النفط",
+        "count": 1
+    },
+    {
+        "keyword": "الضفة وغزة",
+        "count": 1
+    },
+    {
+        "keyword": "غزة والضفة",
+        "count": 2
+    },
+    {
+        "keyword": "الشهيد أبو شجاع",
+        "count": 1
+    },
+    {
+        "keyword": "استشهاد أبو شجاع",
+        "count": 1
+    },
+    {
+        "keyword": "المحكمة الإدارية التونسية",
+        "count": 2
+    },
+    {
+        "keyword": "المرشح الرئاسي",
+        "count": 1
+    },
+    {
+        "keyword": "المنذر الزنايدي",
+        "count": 1
+    },
+    {
+        "keyword": "المواجهة الروسية الأطلسية",
+        "count": 1
+    },
+    {
+        "keyword": "تسليح أوكرانيا",
+        "count": 1
+    },
+    {
+        "keyword": "الدعم العسكري لأوكرانيا",
+        "count": 1
+    },
+    {
+        "keyword": "الحكومة الألمانية",
+        "count": 1
+    },
+    {
+        "keyword": "اتفاقية حظر القنابل العنقودية",
+        "count": 1
+    },
+    {
+        "keyword": "فرانك فالتر شتانماير",
+        "count": 1
+    },
+    {
+        "keyword": "القواعد الأميركية في ألمانيا",
+        "count": 1
+    },
+    {
+        "keyword": "لجان المقاومة في فلسطين",
+        "count": 1
+    },
+    {
+        "keyword": "وفد كونغرس أميركي",
+        "count": 1
+    },
+    {
+        "keyword": "جوني إرنست",
+        "count": 1
+    },
+    {
+        "keyword": "العملية البرية في غزة",
+        "count": 3
+    },
+    {
+        "keyword": "جنود الجيش الإسرائيلي",
+        "count": 1
+    },
+    {
+        "keyword": "الأراضي الفلسطينية المحتلة",
+        "count": 1
+    },
+    {
+        "keyword": "الاستيطان في الضفة الغربية",
+        "count": 1
+    },
+    {
+        "keyword": "الاعتداء الإسرائيلي على الضفة",
+        "count": 2
+    },
+    {
+        "keyword": "السيطرة الإسرائيلية على الضفة",
+        "count": 1
+    },
+    {
+        "keyword": "محمد جابر",
+        "count": 1
+    },
+    {
+        "keyword": "الرئيس الأميركي جو بايدن",
+        "count": 1
+    },
+    {
+        "keyword": "القروض",
+        "count": 1
+    },
+    {
+        "keyword": "السجون الإسرائيلية",
+        "count": 1
+    },
+    {
+        "keyword": "هامبورغ",
+        "count": 1
+    },
+    {
+        "keyword": "المساجد في ألمانيا",
+        "count": 1
+    },
+    {
+        "keyword": "جوزيب بوريل",
+        "count": 3
+    },
+    {
+        "keyword": "القرار 1701",
+        "count": 1
+    },
+    {
+        "keyword": "الخط الأزرق",
+        "count": 1
+    },
+    {
+        "keyword": "قوات اليونيفيل في لبنان",
+        "count": 1
+    },
+    {
+        "keyword": "بعثة يونيفيل في جنوب لبنان",
+        "count": 1
+    },
+    {
+        "keyword": "بيتر سيارتو",
+        "count": 1
+    },
+    {
+        "keyword": "وزير الخارجية الهنغاري",
+        "count": 1
+    },
+    {
+        "keyword": "محاربة الإرهاب",
+        "count": 1
+    },
+    {
+        "keyword": "القوات العسكرية المصرية",
+        "count": 1
+    },
+    {
+        "keyword": "الانتخابات الرئاسية في فنزويلا",
+        "count": 1
+    },
+    {
+        "keyword": "الحصار على فنزويلا",
+        "count": 1
+    },
+    {
+        "keyword": "التظاهرات في فنزويلا",
+        "count": 1
+    },
+    {
+        "keyword": "مفاوضات وقف الحرب",
+        "count": 1
+    },
+    {
+        "keyword": "صمود المقاومة",
+        "count": 1
+    },
+    {
+        "keyword": "مفاوضات الدوحة تنهار",
+        "count": 1
+    },
+    {
+        "keyword": "أيمن الصفدي",
+        "count": 1
+    },
+    {
+        "keyword": "عباس عراقجي",
+        "count": 1
+    },
+    {
+        "keyword": "التوترات الإقليمية",
+        "count": 1
+    },
+    {
+        "keyword": "كاراكاس",
+        "count": 1
+    },
+    {
+        "keyword": "انقطاع الكهرباء",
+        "count": 1
+    },
+    {
+        "keyword": "فشل الاحتلال",
+        "count": 1
+    },
+    {
+        "keyword": "الوفد المفاوض",
+        "count": 1
+    },
+    {
+        "keyword": "فشل المفاوضات",
+        "count": 1
+    },
+    {
+        "keyword": "وفود المفاوضات",
+        "count": 1
+    },
+    {
+        "keyword": "وقف المفاوضات",
+        "count": 1
+    },
+    {
+        "keyword": "القتل والتدمير والتهجير",
+        "count": 1
+    },
+    {
+        "keyword": "العدوان الإسرائيلي على الضفة الغربية",
+        "count": 1
+    },
+    {
+        "keyword": "الهيمنة الأميركية",
+        "count": 2
+    },
+    {
+        "keyword": "الهيمنة الغربية",
+        "count": 2
+    },
+    {
+        "keyword": "مجلة فورين بوليسي",
+        "count": 2
+    },
+    {
+        "keyword": "العالم الغربي",
+        "count": 2
+    },
+    {
+        "keyword": "الهيمنة الأميركية الأطلسية",
+        "count": 2
+    },
+    {
+        "keyword": "زعماء العالم الغربي",
+        "count": 2
+    },
+    {
+        "keyword": "عصر الهيمنة الغربية",
+        "count": 2
+    },
+    {
+        "keyword": "سلاح الجو الإسرائيلي",
+        "count": 1
+    },
+    {
+        "keyword": "الأمراض في غزة",
+        "count": 1
+    },
+    {
+        "keyword": "شلل الأطفال في غزة",
+        "count": 1
+    },
+    {
+        "keyword": "مقاتلات إف 16",
+        "count": 1
+    },
+    {
+        "keyword": "الجهاد",
+        "count": 2
+    },
+    {
+        "keyword": "نشرة الاخبار",
+        "count": 2
+    },
+    {
+        "keyword": "مسيرات في اليمن",
+        "count": 2
+    },
+    {
+        "keyword": "حركة أنصار الله",
+        "count": 1
+    },
+    {
+        "keyword": "دعماً لغزة",
+        "count": 1
+    },
+    {
+        "keyword": "اليمن وفلسطين",
+        "count": 1
+    },
+    {
+        "keyword": "العاصمة صنعاء",
+        "count": 2
+    },
+    {
+        "keyword": "التظاهرات في اليمن",
+        "count": 1
+    },
+    {
+        "keyword": "شاهد",
+        "count": 1
+    },
+    {
+        "keyword": "وباء كورونا",
+        "count": 1
+    },
+    {
+        "keyword": "الأمراض",
+        "count": 1
+    },
+    {
+        "keyword": "فيروس",
+        "count": 1
+    },
+    {
+        "keyword": "الأمراض المزمنة",
+        "count": 1
+    },
+    {
+        "keyword": "الأوبئة والفيروسات",
+        "count": 1
+    },
+    {
+        "keyword": "فايروس كورونا",
+        "count": 1
+    },
+    {
+        "keyword": "فحص كورونا",
+        "count": 1
+    },
+    {
+        "keyword": "الوباء",
+        "count": 1
+    },
+    {
+        "keyword": "سارة سعد",
+        "count": 1
+    },
+    {
+        "keyword": "انتشار الأمراض",
+        "count": 1
+    },
+    {
+        "keyword": "الامراض",
+        "count": 1
+    },
+    {
+        "keyword": "الفايروسات",
+        "count": 1
+    },
+    {
+        "keyword": "فايروس",
+        "count": 1
+    },
+    {
+        "keyword": "فايروس قاتل",
+        "count": 1
+    },
+    {
+        "keyword": "عوارض",
+        "count": 1
+    },
+    {
+        "keyword": "الأمراض العالمية",
+        "count": 1
+    },
+    {
+        "keyword": "انتشار الفيروسات",
+        "count": 1
+    },
+    {
+        "keyword": "تقرير علمي",
+        "count": 1
+    },
+    {
+        "keyword": "كيف أعرف أنني مصاب",
+        "count": 1
+    },
+    {
+        "keyword": "تعرف على",
+        "count": 1
+    },
+    {
+        "keyword": "الفيروس الجديد",
+        "count": 1
+    },
+    {
+        "keyword": "عوارض فيروس",
+        "count": 1
+    },
+    {
+        "keyword": "انتشار الامراض",
+        "count": 1
+    },
+    {
+        "keyword": "الاقتصاد اليمني",
+        "count": 1
+    },
+    {
+        "keyword": "صنعاء اليمن",
+        "count": 1
+    },
+    {
+        "keyword": "اقتصاد اليمن",
+        "count": 1
+    },
+    {
+        "keyword": "التجارة في اليمن",
+        "count": 1
+    },
+    {
+        "keyword": "المنتجات الزراعية اليمنية",
+        "count": 1
+    },
+    {
+        "keyword": "خيرات اليمن للفاكهة",
+        "count": 1
+    },
+    {
+        "keyword": "المنتجات اليمنية",
+        "count": 1
+    },
+    {
+        "keyword": "مهرجان خيرات اليمن للفاكهة",
+        "count": 1
+    },
+    {
+        "keyword": "تجارة الفاكهة في اليمن",
+        "count": 1
+    },
+    {
+        "keyword": "الفعاليات في اليمن",
+        "count": 1
+    },
+    {
+        "keyword": "فعاليات في اليمن",
+        "count": 1
+    },
+    {
+        "keyword": "الفاكهة اليمن",
+        "count": 1
+    },
+    {
+        "keyword": "التصدير في اليمن",
+        "count": 1
+    },
+    {
+        "keyword": "الفواكه في اليمن",
+        "count": 1
+    },
+    {
+        "keyword": "تشيلي",
+        "count": 1
+    },
+    {
+        "keyword": "اميركا اللاتينية",
+        "count": 1
+    },
+    {
+        "keyword": "نيكاراغوا",
+        "count": 1
+    },
+    {
+        "keyword": "الهندوراس",
+        "count": 1
+    },
+    {
+        "keyword": "الانقلابات",
+        "count": 1
+    },
+    {
+        "keyword": "القارة الأميركية الجنوبية",
+        "count": 1
+    },
+    {
+        "keyword": "مؤامرات واشنطن",
+        "count": 1
+    },
+    {
+        "keyword": "الكابينت الإسرائيلي",
+        "count": 1
+    },
+    {
+        "keyword": "بنيامنين نتنياهو",
+        "count": 1
+    },
+    {
+        "keyword": "محافظ البنك المركزي",
+        "count": 1
+    },
+    {
+        "keyword": "الإصلاحات الاقتصادية",
+        "count": 1
+    },
+    {
+        "keyword": "البنك المركزي في جنوب أفريقيا",
+        "count": 1
+    },
+    {
+        "keyword": "الانتخابات الرئاسية التونسية",
+        "count": 1
+    },
+    {
+        "keyword": "المرشحون للرئاسة التونسية",
+        "count": 1
+    },
+    {
+        "keyword": "عماد الدايمي",
+        "count": 1
+    },
+    {
+        "keyword": "البنك المركزي الليبي",
+        "count": 1
+    },
+    {
+        "keyword": "العمال الإنسانيين",
+        "count": 1
+    },
+    {
+        "keyword": "حل الدولتين",
+        "count": 1
+    },
+    {
+        "keyword": "كيان الاحتلال الاسرائيلي",
+        "count": 1
+    },
+    {
+        "keyword": "القوات المسلحة العراقية",
+        "count": 1
+    },
+    {
+        "keyword": "صحراء الأنبار",
+        "count": 1
+    },
+    {
+        "keyword": "اتفاقية أمنية بين النيجر ونيجيريا",
+        "count": 1
+    },
+    {
+        "keyword": "الطاقة الكهربائية",
+        "count": 1
+    },
+    {
+        "keyword": "التيار الكهربائي",
+        "count": 1
+    },
+    {
+        "keyword": "الجبهة الجنوبية",
+        "count": 1
+    },
+    {
+        "keyword": "محطات الطاقة",
+        "count": 1
+    },
+    {
+        "keyword": "شبكة الكهرباء",
+        "count": 1
+    },
+    {
+        "keyword": "البنية التحتية في إسرائيل",
+        "count": 1
+    },
+    {
+        "keyword": "نظام الطاقة الإسرائيلي",
+        "count": 1
+    },
+    {
+        "keyword": "الجيش البوركيني",
+        "count": 1
+    },
+    {
+        "keyword": "هندوراس",
+        "count": 1
+    },
+    {
+        "keyword": "الإكوادور",
+        "count": 1
+    },
+    {
+        "keyword": "أميركا الجنوبية",
+        "count": 1
+    },
+    {
+        "keyword": "لينين مورينو",
+        "count": 1
+    },
+    {
+        "keyword": "دانييل نوبوا",
+        "count": 1
+    },
+    {
+        "keyword": "رافاييل كوريا",
+        "count": 1
+    },
+    {
+        "keyword": "ديانا سالازار",
+        "count": 1
+    },
+    {
+        "keyword": "العملية العسكرية في الضفة",
+        "count": 1
+    },
+    {
+        "keyword": "الاعتداءات الإسرائيلية على الضفة",
+        "count": 1
+    },
+    {
+        "keyword": "العدوان الإسرائيلي على قطاع غزة",
+        "count": 1
+    },
+    {
+        "keyword": "الجمهورية الإسلامية في إيران",
+        "count": 1
+    },
+    {
+        "keyword": "مجلس تعاون دول الخليج",
+        "count": 1
+    },
+    {
+        "keyword": "تجارة الأعضاء",
+        "count": 1
+    },
+    {
+        "keyword": "تجارة الأعضاء في أوكرانيا",
+        "count": 1
+    },
+    {
+        "keyword": "الاحتجاجات في إسرائيل",
+        "count": 1
+    },
+    {
+        "keyword": "وزارة الخارجية الروسية",
+        "count": 1
+    },
+    {
+        "keyword": null,
+        "count": 42
+    }
+]

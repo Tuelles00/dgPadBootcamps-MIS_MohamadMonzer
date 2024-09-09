@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Filter Articles by Sentiment</title>
+    <script>
+        function submitForm() {
+            const yearMonth = document.getElementById('year_month').value;
+            if (yearMonth) {
+                document.getElementById('filterForm').submit();
+            }
+        }
+    </script>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/aggregations.css') }}">
+</head>
+<body>
+    <h1>Filter Articles by Sentiment</h1>
+    <form id="filterForm" method="POST">
+        <label for="year_month">Enter Year and Month (YYYY_MM):</label>
+        <input type="text" id="year_month" name="year_month" required>
+        <button type="button" onclick="submitForm()">Submit</button>
+    </form>
+    <hr>
+    <h2>Articles List</h2>
+    <div id="articles_list">
+        <!-- Articles will be loaded here dynamically via AJAX or through server-side rendering -->
+    </div>
+    <a id="backtohome" href="{{ url_for('index') }}">Back to Home</a>
+</body>
+</html>

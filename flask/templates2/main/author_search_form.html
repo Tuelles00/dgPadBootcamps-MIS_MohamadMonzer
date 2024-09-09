@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Articles by Author</title>
+</head>
+<body>
+    <h1>Search Articles by Author</h1>
+    <form method="post" action="{{ url_for('search_by_author') }}">
+        <label for="author_name">Enter Author Name:</label>
+        <input type="text" id="author_name" name="author_name" required>
+        <button type="submit">Search</button>
+    </form>
+</body>
+</html>

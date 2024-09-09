@@ -1,0 +1,11 @@
+.locked {
+    color: gray; /* Change color to indicate it's locked */
+    pointer-events: none; /* Disable clicking */
+    cursor: not-allowed; /* Change cursor to indicate disabled */
+}
+.subscription-label {
+    color: red; /* Change color to indicate a warning */
+    font-weight: bold; /* Make text bold */
+    padding: 10px; /* Add some padding */
+    text-align: center; /* Center the text */
+}

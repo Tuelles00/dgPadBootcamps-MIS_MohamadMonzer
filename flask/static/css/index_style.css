@@ -1,0 +1,158 @@
+
+:root {
+    font-size: 62.5%;
+    --swiper-theme-color: #007aff;
+    --swiper-navigation-size: 44px;
+    --dark-brown: #1f1400;
+    --brown: #362300;
+    --border: #c4c4c4;
+    --cust_shadow: #545454;
+    --borer-light: #ececec;
+    --homewhite: #f8f8f8;
+    --orange: #ff6b00;
+    --link_hover: #ff6b00;
+    --accent: #983200;
+    --dark_blue: #0055b8;
+    --text-blue: #1c3664;
+    --bg_gray: #f3f3f3;
+    --lightgray: #f4f4f4;
+    --text-color: #4a4a4a;
+    --white: #000;
+    --black: #fff;
+    --blue: #0055b8;
+    --cust_yellow: #ffb71b;
+    --dim-text-color: #898989;
+    --dark-text-color: rgb(43, 42, 42);
+    --shadow-text-color: #4a4a4a;
+    --light-dark-text-color: #89898987;
+    --dark-bg-color: #3c423e00;
+    --bg_blue: #2f3841;
+    --dark-border: #4a4a4a;
+    --meta-color: #c1c1c1;
+    font-family: "Readex Pro", sans-serif;
+    box-sizing: border-box;
+    outline: none !important;
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+}
+
+body {
+    font-family: "Readex Pro", sans-serif;
+    background-color: var(--bg_gray);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+}
+
+.highlight {
+    background-color: yellow;  /* Highlight color */
+    padding: 0 2px;
+}
+
+#news-ticker-wrapper {
+margin: 20px 0; /* Adjust top and bottom margins as needed */
+position: relative;
+top: -58px;;
+}
+
+#news-ticker-container {
+display: flex;
+align-items: center;
+overflow: hidden;
+background-color: var(--dark-bg-color);
+color: var(--black);
+padding: 10px 0;
+position: absolute; /* Absolute positioning to move ticker to the right */
+right: 0; /* Align ticker container to the right edge of its parent */
+top: 0; /* Align ticker container to the top of its parent */
+width: 70%; /* Adjust this value to reduce width from the left side */
+max-width: 800px; /* Optional: Set a maximum width if needed */
+box-sizing: border-box; /* Include padding and border in the element's total width and height */
+margin-bottom: 500px;
+}
+
+#news-ticker {
+display: flex;
+animation: scroll 200s linear infinite;
+white-space: nowrap;
+flex-grow: 1; /* Allows ticker to take available space */
+color: red; /* Set ticker text color to red */
+font-size: 1.6rem; /* Adjust font size if necessary */
+}
+
+#news-ticker li {
+list-style: none;
+padding: 0 50px;
+display: inline-block;
+line-height: 1.5; /* Ensures height fits container */
+}
+
+#news-ticker a {
+color: #132a53; /* Set link color to red */
+text-decoration: none;
+font-size:x-large;
+}
+
+#news-ticker a {
+    color: #132a53; /* Set link color to red */
+    text-decoration: none;
+
+}
+
+#news-ticker a:hover {
+    color: var(--link_hover);
+}
+
+.ticker-label {
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    padding: 10px;
+    height: 100%;
+    color: white;
+    background-image: linear-gradient(45deg, red, #b71414);
+    margin-bottom: 0;
+    border-radius: 5px;
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+}
+
+.ticker-label h4 {
+    margin: 0;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+
+.chart-area {
+position: relative;
+width: 100%; /* Make the container take up the full width */
+height: 100%; /* Make the container take up the full height */
+}
+
+#myAreaChart {
+width: 100% !important; /* Make the canvas take up the full width of the parent */
+height: 100% !important; /* Make the canvas take up the full height of the parent */
+}
+
+/* Flex properties for the row to ensure it fills the available width */
+/* .row {
+display: flex;
+flex-wrap: wrap;
+gap: 1rem; /* Adjusts space between cards */
+*/
+
+.card {
+flex: 1 1 auto; /* Allows cards to grow and shrink */
+min-width: 300px; /* Optional: Minimum width for cards on smaller screens */
+max-width: 100%;
+}
+

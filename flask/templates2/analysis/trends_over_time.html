@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trends Over Time</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/aggregations.css') }}">
+</head>
+<body>
+    <h1>Trends Over Time</h1>
+    
+    <h2>Overall Trends by Year</h2>
+    <canvas id="overallTrendChart"></canvas>
+
+    <h2>Trends for Last Year by Month</h2>
+    <canvas id="lastYearTrendChart"></canvas>
+
+    <script>
+        window.trends_all_years = {{ trends_all_years | tojson | safe }};
+        window.trends_last_year = {{ trends_last_year | tojson | safe }};
+    </script>
+    <script src="{{ url_for('static', filename='js/analysis/classifications_by_trends_category.js') }}"></script>
+    
+    <a id="backtohome" href="{{ url_for('index') }}">Back to Home</a>
+</body>
+</html>

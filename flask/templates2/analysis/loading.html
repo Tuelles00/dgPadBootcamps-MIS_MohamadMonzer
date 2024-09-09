@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading Data</title>
+  
+       <link rel="stylesheet" href="{{ url_for('static', filename='css/loading.css') }}">
+    
+</head>
+<body>
+    <div class="spinner"></div>
+    <p class="loading-text">Loading data, please wait...</p>
+
+    <!-- Auto-refresh the page every 5 seconds -->
+    <script>
+        setTimeout(function() {
+            location.reload();
+        }, 5000); // Reload every 5 seconds
+    </script>
+      <a id="backtohome" href="{{ url_for('index') }}">Back to Home</a>
+</body>
+</html>

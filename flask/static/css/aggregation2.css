@@ -1,0 +1,66 @@
+ body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 20px;
+        background-color: #f8f9fa;
+    }
+    h1 {
+        color: #343a40;
+    }
+    a {
+        display: inline-block;
+        margin: 10px;
+        padding: 10px 20px;
+        text-decoration: none;
+        background-color: #007bff;
+        color: white;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+    a:hover {
+        background-color: #0056b3;
+    }
+    .charts-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px; /* Adds space between rows and columns of charts */
+    }
+    .chart-container {
+        flex: 1 1 calc(50% - 20px);
+        max-width: calc(50% - 20px);
+        margin: 30px 0; /* Increased space above and below each chart */
+        position: relative;
+        height: 400px;
+    }
+    .recent-posts-container,
+    .top-posts-container,
+    .top-posts-by-word-count-container {
+        margin: 20px;
+        text-align: left;
+    }
+    .recent-posts-container h2,
+    .top-posts-container h2,
+    .top-posts-by-word-count-container h2 {
+        color: #343a40;
+    }
+    .recent-post,
+    .top-post,
+    .top-post-by-word-count {
+        margin-bottom: 20px;
+        padding: 10px;
+        border: 1px solid #dee2e6;
+        border-radius: 5px;
+        background-color: #ffffff;
+    }
+    .recent-post a,
+    .top-post a,
+    .top-post-by-word-count a {
+        color: #007bff;
+        text-decoration: none;
+    }
+    .recent-post a:hover,
+    .top-post a:hover,
+    .top-post-by-word-count a:hover {
+        text-decoration: underline;
+    }

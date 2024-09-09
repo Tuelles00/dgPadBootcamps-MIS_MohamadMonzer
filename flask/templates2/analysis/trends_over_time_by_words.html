@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trends Over Time by Keywords</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+ 
+            <link rel="stylesheet" href="{{ url_for('static', filename='css/aggregations.css') }}">
+</head>
+<body>
+    <h1>Trends Over Time by Keywords</h1>
+    
+    <h2>Top 10 Keywords Overall</h2>
+    <canvas id="topKeywordsOverallChart"></canvas>
+
+    <h2>Top 10 Keywords for Last Year</h2>
+    <canvas id="topKeywordsLastYearChart"></canvas>
+    <script>
+        window.top_persons = {{ top_persons | tojson | safe }};
+        window.top_locations = {{ top_locations | tojson | safe }};
+        window.top_organizations = {{ top_organizations | tojson | safe }};
+        window.top_persons_last_year = {{ top_persons_last_year | tojson | safe }};
+        window.top_locations_last_year = {{ top_locations_last_year | tojson | safe }};
+        window.top_organizations_last_year = {{ top_organizations_last_year | tojson | safe }};
+    </script>
+    <script src="{{ url_for('static', filename='js/analysis/classifications_by_words.js') }}"></script>
+    <a id="backtohome" href="{{ url_for('index') }}">Back to Home</a>    
+</body>
+</html>

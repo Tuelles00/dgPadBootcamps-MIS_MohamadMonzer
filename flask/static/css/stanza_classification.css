@@ -1,0 +1,64 @@
+/* Styles for header container */
+.header-container {
+    display: flex;
+    justify-content: space-between; /* Space out the title and button */
+    align-items: center; /* Align items vertically in the center */
+    margin-bottom: 20px; /* Space below the header */
+}
+
+#backtohome {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#backtohome:hover {
+    background-color: #0056b3;
+}
+
+/* Styles for form icons */
+.input-container {
+    position: relative;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    max-width: 100%; /* Ensure container does not exceed the viewport width */
+}
+
+.input-container i {
+    margin-right: 10px; /* Space between icon and label */
+    color: #007bff;
+}
+
+.input-container label {
+    margin-right: 10px;
+}
+
+.input-container input {
+    padding: 5px;
+    max-width: 200px; /* Set a maximum width for the inputs */
+    width: auto; /* Allow width to adjust based on content */
+}
+
+/* Styles for the legend */
+.legend {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.legend-color {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}

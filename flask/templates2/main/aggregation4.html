@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aggregation Charts</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/aggregation4.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/aggregations.css') }}">
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+
+    <style>
+        
+
+    </style>
+</head>
+<body>
+    <h1>Aggregation Charts</h1>
+
+    <!-- Chart for articles_in_2024_08_10 -->
+    <div class="chart-container">
+        <div class="chart-title">Articles on 2024-08-10</div>
+        <div id="container1"></div>
+    </div>
+
+    <!-- Table for articles_published_last_hour -->
+    <div class="chart-container">
+        <div class="chart-title">Articles Published in the Last Hour</div>
+        <label for="dateInput">Enter Date (yyyy_mm_dd):</label>
+        <input type="text" id="dateInput" placeholder="2024_08_10">
+        <button onclick="updateCharts()">Update Table</button>
+        <table id="articlesTable">
+            <thead>
+                <tr>
+                    <th>Published Time</th>
+                    <th>Title</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Data will be populated here -->
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Chart for articles_with_more_than_500_and_more_than_600_words -->
+    <div class="chart-container">
+        <div class="chart-title">Articles with More Than 500 and More Than 600 Words</div>
+        <div id="container3"></div>
+        <div id="no-data-msg3" class="no-data" style="display: none;">No data available for articles with more than 500 and 600 words.</div>
+    </div>
+
+    <!-- Chart for count_Israel_hamas_word -->
+    <div class="chart-container">
+        <div class="chart-title">Count of Israel and Hamas Words</div>
+        <div id="container4"></div>
+    </div>
+
+    <!-- Chart for top_10_most_updated_by_title -->
+    <div class="chart-container">
+        <div class="chart-title">Top 10 Most Updated by Title</div>
+        <div id="container5"></div>
+    </div>
+
+    <script>
+        window.articles_in_2024_08_10 = {{ articles_in_2024_08_10|tojson|safe }};
+        window.articles_published_last_hour = {{ articles_published_last_hour|tojson|safe }};
+        window.articles_with_more_than_500_and_more_than_600_words = {{ articles_with_more_than_500_and_more_than_600_words|tojson|safe }};
+        window.count_Israel_hamas_word = {{ count_Israel_hamas_word|tojson|safe }};
+        window.top_10_most_updated_by_title = {{ top_10_most_updated_by_title|tojson|safe }};
+    </script>
+  <script src="{{ url_for('static', filename='js/aggregations/aggregations4.js') }}"></script>
+
+      <a id="backtohome" href="{{ url_for('index') }}">Back to Home</a>
+</body>
+</html>

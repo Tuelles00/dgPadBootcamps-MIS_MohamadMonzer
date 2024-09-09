@@ -1,0 +1,4550 @@
+[
+    {
+        "_id": "66b8cfc8340cdbc4823894ca",
+        "postid": "1660844",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.5544621965622203
+        },
+        "keyword_sentiments": {
+            "الولايات المتحدة الأميركية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الأمن الداخلي الأميركي": {
+                "sentiment": "negative",
+                "score": 0.5447135469108005
+            }
+        }
+    },
+    {
+        "_id": "66b8cfc8340cdbc4823894cb",
+        "postid": "1660783",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.6187682298713353
+        },
+        "keyword_sentiments": {
+            "الميادين GO": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "اميركا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "فيديو الميادين": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الجامعات الأميركية": {
+                "sentiment": "positive",
+                "score": 0.5917846303857185
+            },
+            "روبوتات": {
+                "sentiment": "positive",
+                "score": 0.5917846303857185
+            },
+            "الجامعات": {
+                "sentiment": "positive",
+                "score": 0.5917846303857185
+            },
+            "طلبيات الطعام": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "اخترعات": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "طلبيات": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "توصيل طلبيات الطعام": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "روبوتات مخصصة لتوصيل طلبيات الطعام": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "_id": "66b8cfc8340cdbc4823894cc",
+        "postid": "1660450",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.5533867231997489
+        },
+        "keyword_sentiments": {
+            "الاحتلال الإسرائيلي": {
+                "sentiment": "negative",
+                "score": 0.5107863360324574
+            },
+            "الجيش الاسرائيلي": {
+                "sentiment": "positive",
+                "score": 0.5779183367004768
+            },
+            "خلف الجدار": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الحكومة الاسرائيلية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "ضعف الجيش الاسرائيلي": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "_id": "66b8cfc8340cdbc4823894cd",
+        "postid": "1660653",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.6303902862648615
+        },
+        "keyword_sentiments": {
+            "تونس": {
+                "sentiment": "positive",
+                "score": 0.6212174071255724
+            },
+            "الولايات المتحدة": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "اسرائيل": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "واشنطن": {
+                "sentiment": "positive",
+                "score": 0.5157267505141254
+            },
+            "المسائية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "تل أبيب": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "قيس سعيد": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الرئيس التونسي": {
+                "sentiment": "positive",
+                "score": 0.5157267505141254
+            },
+            "المعارضة التونسية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "العلاقات السورية التركية": {
+                "sentiment": "positive",
+                "score": 0.5937412886526032
+            },
+            "الرئيس التونسي قيس سعيد": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الأزمة في تونس": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الحوار الوطني في تونس": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "العلاقات بين تركيا وسوريا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "أزمة تونس": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "اللقاء الثلاثي في موسكو": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "النقابات في تونس": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "تطبيع العلاقات التركية السورية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "عودة العلاقات السورية التركية": {
+                "sentiment": "positive",
+                "score": 0.5937412886526032
+            }
+        }
+    },
+    {
+        "_id": "66b8cfc8340cdbc4823894ce",
+        "postid": "1660754",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "negative",
+            "score": 0.5323531046497326
+        },
+        "keyword_sentiments": {
+            "الميادين GO": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "Almayadeen Go": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "المانيا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "فيديو الميادين": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "مستشفى": {
+                "sentiment": "negative",
+                "score": 0.6016468798826674
+            },
+            "مسلمو الروهينغا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "عائلة تركية في ألمانيا": {
+                "sentiment": "negative",
+                "score": 0.6016468798826674
+            },
+            "حرق جثمان مسلم": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "مستشفى كلية هانوفر": {
+                "sentiment": "negative",
+                "score": 0.6016468798826674
+            },
+            "حرق جثمان": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "عائلة تركية": {
+                "sentiment": "negative",
+                "score": 0.6016468798826674
+            },
+            "مستشفى ألمانى": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "_id": "66b8cfc8340cdbc4823894cf",
+        "postid": "1660820",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.631508447866441
+        },
+        "keyword_sentiments": {
+            "فلسطين المحتلة": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "سوريا": {
+                "sentiment": "negative",
+                "score": 0.5185807038081132
+            },
+            "لبنان": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "إيران": {
+                "sentiment": "positive",
+                "score": 0.5224449355858142
+            },
+            "قطاع غزة": {
+                "sentiment": "positive",
+                "score": 0.6162013419994741
+            },
+            "حزب الله": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الضفة الغربية": {
+                "sentiment": "positive",
+                "score": 0.5765968503805006
+            },
+            "حركة الجهاد الإسلامي": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "زياد النخالة": {
+                "sentiment": "positive",
+                "score": 0.5386026570956709
+            }
+        }
+    },
+    {
+        "_id": "66b8cfc8340cdbc4823894d0",
+        "postid": "1660829",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.5359923115144652
+        },
+        "keyword_sentiments": {
+            "الولايات المتحدة الأميركية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الصين": {
+                "sentiment": "positive",
+                "score": 0.6307006563708141
+            },
+            "فرنسا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "أوروبا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الهند": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "التضخم": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "آسيا": {
+                "sentiment": "positive",
+                "score": 0.6307006563708141
+            },
+            "التضخم الاقتصادي": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الركود الاقتصادي": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "جيف بيزوس": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "وكالة بلومبرغ": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الركود": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "أغنياء العالم": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "غوتام أداني": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الأزمة الاقتصادية في العالم": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "خسائر ثروات الأغنياء": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "أرنو": {
+                "sentiment": "negative",
+                "score": 0.5762857175649492
+            }
+        }
+    },
+    {
+        "_id": "66b8cfc8340cdbc4823894d1",
+        "postid": "1660876",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.5649088695767076
+        },
+        "keyword_sentiments": {
+            "فلسطين": {
+                "sentiment": "negative",
+                "score": 0.5186193741804205
+            },
+            "الميادين": {
+                "sentiment": "positive",
+                "score": 0.5571594116768657
+            },
+            "حزب الله": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "حركة الجهاد الإسلامي": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "السيد حسن نصر الله": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "زياد النخالة": {
+                "sentiment": "positive",
+                "score": 0.559022134731573
+            },
+            "غسان بن جدو": {
+                "sentiment": "positive",
+                "score": 0.5672845833000069
+            },
+            "تويتر سبايس الميادين": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "_id": "66b8cfc8340cdbc4823894d2",
+        "postid": "1660880",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.6088751262010356
+        },
+        "keyword_sentiments": {
+            "فلسطين المحتلة": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "فلسطين": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "غزة": {
+                "sentiment": "positive",
+                "score": 0.5983197815542672
+            },
+            "قطاع غزة": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الاحتلال الاسرائيلي": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الاحتلال": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "حصار غزة": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الحصار على غزة": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "فصل الشتاء": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "غزة فلسطين": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "فقراء غزة": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "موسم الشتاء": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "موسم الأمطار": {
+                "sentiment": "positive",
+                "score": 0.5983197815542672
+            },
+            "معاناة الفقراء في غزة": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "المساعدات الدولية لفلسطين": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "البيوت في غزة": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "_id": "66b8cfc8340cdbc4823894d3",
+        "postid": "1660875",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.6149726330840242
+        },
+        "keyword_sentiments": {
+            "لبنان": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "التضخم": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الأزمة الاقتصادية في لبنان": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "رياض سلامة": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "التضخم الاقتصادي": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الليرة اللبنانية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "سعر صرف الدولار": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "مصرف لبنان المركزي": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "انهيار الليرة اللبنانية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الموازنة اللبنانية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "عام 2022": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "حصاد العام 2022": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "التضخم في لبنان": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "حاكم المصرف المركزي لبنان": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "حصاد العام الاقتصادي": {
+                "sentiment": "positive",
+                "score": 0.6028969363246567
+            },
+            "المصرف المركزي لبنان": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "العام الاقتصادي اللبناني": {
+                "sentiment": "positive",
+                "score": 0.6028969363246567
+            }
+        }
+    },
+    {
+        "_id": "66b8cfc8340cdbc4823894d4",
+        "postid": "1660828",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.6446777847653895
+        },
+        "keyword_sentiments": {
+            "عيد الميلاد": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "رأس السنة": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "احتفالات رأس السنة": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "قضايا من العالم": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الكنائس": {
+                "sentiment": "positive",
+                "score": 0.580858067913459
+            },
+            "شجرة الميلاد": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "أعياد الميلاد": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "شجرة الحياة": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الكريسماس": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "شجرة عيد الميلاد": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الأشجار المضيئة": {
+                "sentiment": "positive",
+                "score": 0.620445821000252
+            },
+            "الاحتفال بأعياد الميلاد": {
+                "sentiment": "positive",
+                "score": 0.580858067913459
+            },
+            "إلامَ ترمز شجرة الميلاد": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "زينة شجرة العيد": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "_id": "66b8cfc8340cdbc4823894d5",
+        "postid": "1660878",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.5673264933161989
+        },
+        "keyword_sentiments": {
+            "أميركا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الولايات المتحدة": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "امريكا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "عاصفة ثلجية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "ذوبان الثلوج": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "عاصفة القرن": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "العاصفة الثلجية في أميركا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "عاصفة ثلجية نيويورك": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "عاصفة ثلجية في نيويورك": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "Buffalo New York": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الاحتباي الحراري": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "عاصفة ثلجية تجتاح أمريكا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "البنى التحتية الأميركية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الشوارع بعد العاصفه": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "عاصفة الثلوج": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "بوفالو نيويورك": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "_id": "66b8cfc8340cdbc4823894d6",
+        "postid": "1660812",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.6191938400981093
+        },
+        "keyword_sentiments": {
+            "عبد الفتاح السيسي": {
+                "sentiment": "positive",
+                "score": 0.593808710540271
+            },
+            "الرئيس المصري": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "القطاع الخاص": {
+                "sentiment": "positive",
+                "score": 0.6017799352109866
+            },
+            "مصطفى مدبولي": {
+                "sentiment": "positive",
+                "score": 0.5497783493358138
+            },
+            "رئيس الوزراء المصري": {
+                "sentiment": "positive",
+                "score": 0.5497783493358138
+            },
+            "مجلس الوزراء المصري": {
+                "sentiment": "positive",
+                "score": 0.5722104044087403
+            }
+        }
+    },
+    {
+        "_id": "66b8cfc8340cdbc4823894d7",
+        "postid": "1660774",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.6255133770967292
+        },
+        "keyword_sentiments": {
+            "السعودية": {
+                "sentiment": "positive",
+                "score": 0.5795030831272525
+            },
+            "القطاع الخاص": {
+                "sentiment": "negative",
+                "score": 0.511169386586445
+            },
+            "البطالة في السعودية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "_id": "66b8cfc8340cdbc4823894d8",
+        "postid": "1660861",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.5784661388558772
+        },
+        "keyword_sentiments": {
+            "تونس": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "قيس سعيد": {
+                "sentiment": "positive",
+                "score": 0.5425520846906575
+            },
+            "الرئيس التونسي": {
+                "sentiment": "positive",
+                "score": 0.5425520846906575
+            },
+            "المعارضة التونسية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الرئيس التونسي قيس سعيد": {
+                "sentiment": "positive",
+                "score": 0.5425520846906575
+            },
+            "الأزمة في تونس": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "المعارضة في تونس": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الأزمة السياسية في تونس": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "اتحاد الشغل": {
+                "sentiment": "positive",
+                "score": 0.5425520846906575
+            },
+            "أزمة تونس": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "المشهد السياسي التونسي": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "المشهد السياسي في تونس": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "_id": "66b8cfc8340cdbc4823894d9",
+        "postid": "1660871",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.615911367985477
+        },
+        "keyword_sentiments": {
+            "أميركا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الولايات المتحدة": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الحزب الديمقراطي الأميركي": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الحزب الجمهوري الأميركي": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "امريكا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الديمقراطية الأميركية": {
+                "sentiment": "positive",
+                "score": 0.6054587618548979
+            },
+            "الروايات": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الرقابة على الكتب": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "رواية أشياء تتداعى": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الكتب في أميركا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الأعمال الأدبية الأميركية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الرقابة الأدبية في أميركا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "دور النشر في أميركا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الحرب الأيديولوجية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "كتاب بيت المرح": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الرقابة على دور النشر": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "رواية محبوبة": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "أعمال روائية شهيرة": {
+                "sentiment": "positive",
+                "score": 0.6054587618548979
+            }
+        }
+    },
+    {
+        "_id": "66b8cfc8340cdbc4823894da",
+        "postid": "1660817",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.5478600426247625
+        },
+        "keyword_sentiments": {
+            "إيران": {
+                "sentiment": "positive",
+                "score": 0.5037272414377795
+            },
+            "محمد رضا فرزين": {
+                "sentiment": "positive",
+                "score": 0.5728389091497278
+            },
+            "مجلس الوزراء الإيراني": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "علي صالح آبادي": {
+                "sentiment": "positive",
+                "score": 0.6067571504675204
+            }
+        }
+    },
+    {
+        "_id": "66b8cfc8340cdbc4823894db",
+        "postid": "1660851",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.6093598594084525
+        },
+        "keyword_sentiments": {
+            "سوريا": {
+                "sentiment": "positive",
+                "score": 0.5593590442281898
+            },
+            "تركيا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "أميركا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الولايات المتحدة": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "واشنطن": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "بشار الأسد": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الشمال السوري": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "حرب روسيا اوكرانيا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "المواجهة الروسية الأطلسية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "العقوبات على سوريا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "سوريا وتركيا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "العقوبات الأميركية على سوريا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "العرب وسوريا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "حصاد العام 2022": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "التهديدات التركية لسوريا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "سوريا 2022": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "بشار الأسد في الإمارات": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "حصاد العام في سوريا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "القمة العربية في  الجزائر": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "_id": "66b8cfc8340cdbc4823894dc",
+        "postid": "1653914",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.5800422459689796
+        },
+        "keyword_sentiments": {
+            "الميادين": {
+                "sentiment": "positive",
+                "score": 0.5630776529667301
+            },
+            "الميادين GO": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "البرازيل": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "كأس العالم": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "منتخب البرازيل": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "بيليه": {
+                "sentiment": "positive",
+                "score": 0.5630776529667301
+            },
+            "شخصيات": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الاسطورة بيليه": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "أسطورة كرة القدم البرازيلية": {
+                "sentiment": "positive",
+                "score": 0.5630776529667301
+            },
+            "نادي سانتوس": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "موت بيليه": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "pele": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "رياضي القرن": {
+                "sentiment": "positive",
+                "score": 0.5014285714285713
+            },
+            "بيليه في ذمة الله": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "_id": "66b8cfc8340cdbc4823894dd",
+        "postid": "1660755",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.5137976559134219
+        },
+        "keyword_sentiments": {
+            "الاتفاق النووي الايراني": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "حسين أمير عبد اللهيان": {
+                "sentiment": "negative",
+                "score": 0.50988951029534
+            },
+            "عمان": {
+                "sentiment": "negative",
+                "score": 0.5205076098370904
+            },
+            "مفاوضات فيينا النووية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "مسقط": {
+                "sentiment": "negative",
+                "score": 0.5096343492666662
+            }
+        }
+    },
+    {
+        "_id": "66b8cfc8340cdbc4823894de",
+        "postid": "1660809",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.5260148122006589
+        },
+        "keyword_sentiments": {
+            "الولايات المتحدة الأميركية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الجيش الأميركي": {
+                "sentiment": "negative",
+                "score": 0.5391049029223415
+            },
+            "جنود أميركيون": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "_id": "66b8cfc8340cdbc4823894df",
+        "postid": "1660788",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "negative",
+            "score": 0.5175552752797146
+        },
+        "keyword_sentiments": {
+            "روسيا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الولايات المتحدة الأميركية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "تركيا": {
+                "sentiment": "negative",
+                "score": 0.5938218944462954
+            },
+            "واشنطن": {
+                "sentiment": "negative",
+                "score": 0.5693346142635265
+            },
+            "اف 16": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "_id": "66b8cfc8340cdbc4823894e0",
+        "postid": "1660706",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "negative",
+            "score": 0.5650006790863079
+        },
+        "keyword_sentiments": {
+            "الميادين": {
+                "sentiment": "positive",
+                "score": 0.524058360435727
+            },
+            "الميادين GO": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "مصر": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الطاقة الشمسية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الطاقة المتجددة": {
+                "sentiment": "negative",
+                "score": 0.6244046627177684
+            },
+            "استخدام الطاقة الشمسية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "المتحف المصري الكبير": {
+                "sentiment": "negative",
+                "score": 0.5671815978745786
+            },
+            "مسابقة": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الليغو": {
+                "sentiment": "negative",
+                "score": 0.5671815978745786
+            },
+            "مسابقة لتثقيف الأطفال": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "تثقيف الأطفال": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "تثقيف الأطفال المصريين": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الأطفال المصريين": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "_id": "66b8cfc8340cdbc4823894e1",
+        "postid": "1660582",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.5120362673090354
+        },
+        "keyword_sentiments": {
+            "الميادين GO": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الميادين فيديو": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "إسبانيا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "معركة رمي البيض والدقيق": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "يوم الأبرياء المقدس": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "بلدة إيبي الإسبانية": {
+                "sentiment": "negative",
+                "score": 0.504455256515641
+            },
+            "كذبة أبريل العالمي": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "مهرجان  إلس إنفاريناتس": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "_id": "66b8cfc8340cdbc4823894e2",
+        "postid": "1660652",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.5939523810238051
+        },
+        "keyword_sentiments": {
+            "سوريا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "روسيا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "تركيا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "السعودية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "ايران": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الاحتلال الاسرائيلي": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "موسكو": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "نتنياهو": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "نشرة السابعة": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "حكومة نتنياهو": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "روسيا وأوكرانيا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الاستيطان الاسرائيلي": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "حرب روسيا اوكرانيا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "التطبيع مع اسرائيل": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الاستيطان الإسرائيلي": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "اليمين الإسرائيلي": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "مينسك": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "لابيد": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "تشاويش أوغلو": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "اللقاء الثلاثي في موسكو": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "اللقاء الثلاثي": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "صعود اليمين الإسرائيلي": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "_id": "66b8cfc8340cdbc4823894e3",
+        "postid": "1660804",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.5861289311028198
+        },
+        "keyword_sentiments": {
+            "العراق": {
+                "sentiment": "negative",
+                "score": 0.5018135486038674
+            },
+            "تركيا": {
+                "sentiment": "positive",
+                "score": 0.5488819196238941
+            },
+            "رجب طيب إردوغان": {
+                "sentiment": "positive",
+                "score": 0.5759703595175221
+            },
+            "محمد شياع السوداني": {
+                "sentiment": "positive",
+                "score": 0.6174749479239037
+            }
+        }
+    },
+    {
+        "_id": "66b8cfc8340cdbc4823894e4",
+        "postid": "1660797",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.6144602836992963
+        },
+        "keyword_sentiments": {
+            "الولايات المتحدة الأميركية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "أوكرانيا": {
+                "sentiment": "positive",
+                "score": 0.5810071497068761
+            },
+            "جو بايدن": {
+                "sentiment": "positive",
+                "score": 0.5374813768513962
+            },
+            "فولوديمير زيلينسكي": {
+                "sentiment": "positive",
+                "score": 0.5730972018715109
+            }
+        }
+    },
+    {
+        "_id": "66b8cfc8340cdbc4823894e5",
+        "postid": "1660649",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.5939523810238051
+        },
+        "keyword_sentiments": {
+            "حكومة نتنياهو": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "نشرة الظهيرة": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الجيش الإيراني": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "اليمين الدستورية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "لقاء موسكو": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "مناورات مشتركة": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الاقتصاد الالماني": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "مناورات ذو الفقار": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "أمن روسيا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "لقاء روسي سوري تركي": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "لقاء موسكو الثلاثي": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "السعودية الى التطبيع": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "اللقاء السوري التركي": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "تركيا تلبي المطالب السورية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "نقص الإمدادات الروسية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "_id": "66b8cfc8340cdbc4823894e6",
+        "postid": "1660807",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.5636328997819783
+        },
+        "keyword_sentiments": {
+            "الجزائر": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "تلمسان": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "مدينة تلمسان": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "المجوهرات": {
+                "sentiment": "positive",
+                "score": 0.555672436254003
+            },
+            "مدينة تلمسان الجزائرية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "نافذة على تلمسان": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "اللباس التقليدي الجزائري": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الملابس التقليدية الجزائرية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "لباس الشدة التلمساني": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "اللباس التقليدي": {
+                "sentiment": "positive",
+                "score": 0.5367026043232886
+            },
+            "مراحل تلبيس الشدة التلمسانية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "تلمسان الجزائر": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الشدة التلمسانية": {
+                "sentiment": "negative",
+                "score": 0.514214965996936
+            },
+            "تلبيس الشدة التلمسانية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "شدة تلمسانية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "لباس الشدة التلمسانية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "_id": "66b8cfc8340cdbc4823894e7",
+        "postid": "1660738",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.585322146220192
+        },
+        "keyword_sentiments": {
+            "العلاقات التركية السورية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "موقف واشنطن": {
+                "sentiment": "positive",
+                "score": 0.6007922218337656
+            },
+            "اللقاء الثلاثي في موسكو": {
+                "sentiment": "negative",
+                "score": 0.5043800918609858
+            },
+            "لقاء تركي سوري": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "لقاء روسي سوري تركي": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "لقاء وزراء الدفاع السوري والتركي": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "لعلاقات بين تركيا وسوريا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "_id": "66b8cfc8340cdbc4823894e8",
+        "postid": "1660748",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.6271358383953679
+        },
+        "keyword_sentiments": {
+            "روسيا": {
+                "sentiment": "negative",
+                "score": 0.5579732212006928
+            },
+            "الاحتلال الإسرائيلي": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "أوكرانيا": {
+                "sentiment": "positive",
+                "score": 0.5414712450508267
+            },
+            "أميركا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "حلف الناتو": {
+                "sentiment": "positive",
+                "score": 0.5167353363131412
+            },
+            "دونباس": {
+                "sentiment": "positive",
+                "score": 0.5167353363131412
+            }
+        }
+    },
+    {
+        "_id": "66b8cfc8340cdbc4823894e9",
+        "postid": "1660716",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "negative",
+            "score": 0.5181556244821369
+        },
+        "keyword_sentiments": {
+            "الميادين": {
+                "sentiment": "negative",
+                "score": 0.5308651398217313
+            },
+            "الميادين GO": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الميادين فيديو": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "Almayadeen Go": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "ليونيل ميسي": {
+                "sentiment": "negative",
+                "score": 0.5308651398217313
+            },
+            "كأس العالم": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "منتخب الأرجنتين": {
+                "sentiment": "negative",
+                "score": 0.5308651398217313
+            },
+            "فيديو الميادين": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "ميسي": {
+                "sentiment": "negative",
+                "score": 0.5308651398217313
+            },
+            "فنانين": {
+                "sentiment": "negative",
+                "score": 0.5308651398217313
+            },
+            "messi": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "قميص ميسي": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "اكياس البلاستيك": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "قائد المنتخب الأرجنتين": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "قميص عملاق لميسي": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "قميص عملاق": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "قابل للنفخ": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "_id": "66b8cfc8340cdbc4823894ea",
+        "postid": "1660795",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.6263034060998871
+        },
+        "keyword_sentiments": {
+            "أوكرانيا": {
+                "sentiment": "positive",
+                "score": 0.6099515660157513
+            },
+            "بيلاروسيا": {
+                "sentiment": "positive",
+                "score": 0.5959548294532512
+            },
+            "وزارة الدفاع البيلاروسية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "وزارة الخارجية البيلاروسية": {
+                "sentiment": "positive",
+                "score": 0.5793028895589315
+            }
+        }
+    },
+    {
+        "_id": "66b8cfc8340cdbc4823894eb",
+        "postid": "1660785",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.6117206349778442
+        },
+        "keyword_sentiments": {
+            "جايير بولسونارو": {
+                "sentiment": "positive",
+                "score": 0.5669236083868948
+            },
+            "لولا دا سيلفا": {
+                "sentiment": "positive",
+                "score": 0.5926305352370271
+            },
+            "الرئيس البرازيلي": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "أعمال شغب": {
+                "sentiment": "positive",
+                "score": 0.575264898696804
+            },
+            "أعمال عنف": {
+                "sentiment": "positive",
+                "score": 0.5369327487994631
+            },
+            "الشرطة البرازيلية": {
+                "sentiment": "positive",
+                "score": 0.5712710052172824
+            }
+        }
+    },
+    {
+        "_id": "66b8cfc8340cdbc4823894ec",
+        "postid": "1660740",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.5200212848878049
+        },
+        "keyword_sentiments": {
+            "بنيامين نتنياهو": {
+                "sentiment": "positive",
+                "score": 0.5113033184147482
+            },
+            "الكنيست الإسرائيلي": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "رئيس الحكومة الاسرائيلية": {
+                "sentiment": "negative",
+                "score": 0.526557934374004
+            },
+            "الحكومة الاسرائيلية الجديدة": {
+                "sentiment": "negative",
+                "score": 0.526557934374004
+            },
+            "تظاهرات احتجاجية خارج الكنيست": {
+                "sentiment": "negative",
+                "score": 0.526557934374004
+            },
+            "نتنياهو ومعارضيه": {
+                "sentiment": "negative",
+                "score": 0.526557934374004
+            },
+            "صورة الحكومة الإسرائيلية": {
+                "sentiment": "positive",
+                "score": 0.5270017977949559
+            },
+            "جلسة منح الثقة": {
+                "sentiment": "negative",
+                "score": 0.526557934374004
+            },
+            "الأكثر يمينية": {
+                "sentiment": "positive",
+                "score": 0.5270017977949559
+            },
+            "رئاسة بنيامين نتنياهو": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "بنيامين نتنياهو يؤدي اليمين": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "_id": "66b8cfc8340cdbc4823894ed",
+        "postid": "1660793",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.5994803565858461
+        },
+        "keyword_sentiments": {
+            "أوكرانيا": {
+                "sentiment": "positive",
+                "score": 0.5966614367616568
+            },
+            "فرنسا": {
+                "sentiment": "positive",
+                "score": 0.5394314014523365
+            },
+            "تسليح أوكرانيا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الجيش الفرنسي": {
+                "sentiment": "negative",
+                "score": 0.5533648738246438
+            },
+            "الدعم الفرنسي لأوكرانيا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "مخزونات الأسلحة في أوروبا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "_id": "66b8cfc8340cdbc4823894ee",
+        "postid": "1660759",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.616086342877777
+        },
+        "keyword_sentiments": {
+            "الولايات المتحدة الأميركية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الصين": {
+                "sentiment": "positive",
+                "score": 0.5320627353951426
+            },
+            "العولمة": {
+                "sentiment": "positive",
+                "score": 0.5710731722220096
+            }
+        }
+    },
+    {
+        "_id": "66b8cfc8340cdbc4823894ef",
+        "postid": "1660131",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.5465963956518537
+        },
+        "keyword_sentiments": {
+            "إيران": {
+                "sentiment": "positive",
+                "score": 0.5351025862180223
+            },
+            "أميركا": {
+                "sentiment": "positive",
+                "score": 0.6222539844793586
+            },
+            "أوروبا": {
+                "sentiment": "positive",
+                "score": 0.5381395222557582
+            },
+            "الاتفاق النووي": {
+                "sentiment": "negative",
+                "score": 0.6416866025755249
+            },
+            "محمد مرندي": {
+                "sentiment": "negative",
+                "score": 0.5815134296027868
+            }
+        }
+    },
+    {
+        "_id": "66b8cfc8340cdbc4823894f0",
+        "postid": "1660800",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.5673372965589413
+        },
+        "keyword_sentiments": {
+            "روسيا": {
+                "sentiment": "positive",
+                "score": 0.5487262667892083
+            },
+            "أوكرانيا": {
+                "sentiment": "positive",
+                "score": 0.5794476573060486
+            },
+            "أميركا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "روسيا والأطلسي": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "موسكو": {
+                "sentiment": "positive",
+                "score": 0.5533765794954976
+            },
+            "العملية العسكرية الروسية في أوكرانيا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "حلف الناتو": {
+                "sentiment": "positive",
+                "score": 0.5167353363131412
+            },
+            "كييف": {
+                "sentiment": "positive",
+                "score": 0.5643185007732066
+            },
+            "الجيش الروسي": {
+                "sentiment": "positive",
+                "score": 0.540258423818477
+            },
+            "الجيش الأوكراني": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "دونباس": {
+                "sentiment": "positive",
+                "score": 0.5167353363131412
+            }
+        }
+    },
+    {
+        "_id": "66b8cfc8340cdbc4823894f1",
+        "postid": "1660758",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "negative",
+            "score": 0.6117255182541813
+        },
+        "keyword_sentiments": {
+            "روسيا": {
+                "sentiment": "negative",
+                "score": 0.58803392215066
+            },
+            "أوكرانيا": {
+                "sentiment": "positive",
+                "score": 0.5167353363131412
+            },
+            "أميركا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "حلف الناتو": {
+                "sentiment": "positive",
+                "score": 0.5167353363131412
+            },
+            "اليابان": {
+                "sentiment": "negative",
+                "score": 0.651155764040923
+            },
+            "الغاز الروسي": {
+                "sentiment": "negative",
+                "score": 0.6209880280169991
+            },
+            "دونباس": {
+                "sentiment": "positive",
+                "score": 0.5167353363131412
+            },
+            "العقوبات الغربية على روسيا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "_id": "66b8cfc8340cdbc4823894f2",
+        "postid": "1660782",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "negative",
+            "score": 0.5353911210063369
+        },
+        "keyword_sentiments": {
+            "روسيا": {
+                "sentiment": "negative",
+                "score": 0.5080531983910387
+            },
+            "أوكرانيا": {
+                "sentiment": "negative",
+                "score": 0.5062029282230119
+            },
+            "أميركا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "روسيا والأطلسي": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "فلاديمير بوتين": {
+                "sentiment": "positive",
+                "score": 0.5326337017722789
+            },
+            "حلف الناتو": {
+                "sentiment": "positive",
+                "score": 0.5167353363131412
+            },
+            "دونباس": {
+                "sentiment": "positive",
+                "score": 0.5167353363131412
+            }
+        }
+    },
+    {
+        "_id": "66b8cfc8340cdbc4823894f3",
+        "postid": "1660789",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.6457609651973535
+        },
+        "keyword_sentiments": {
+            "أوروبا": {
+                "sentiment": "positive",
+                "score": 0.5663778864749672
+            },
+            "صربيا": {
+                "sentiment": "positive",
+                "score": 0.6486726829649188
+            },
+            "المجر": {
+                "sentiment": "positive",
+                "score": 0.6317705598723371
+            },
+            "الهجرة إلى أوروبا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "أزمة اللاجئين": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "أزمة المهاجرين": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "المهاجرون إلى أوروبا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "تهريب البشر": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "_id": "66b8cfc8340cdbc4823894f4",
+        "postid": "1660584",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.6015190215578103
+        },
+        "keyword_sentiments": {
+            "فلسطين المحتلة": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الاحتلال الإسرائيلي": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الميادين GO": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الضفة الغربية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الميادين فيديو": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "قوات الاحتلال الإسرائيلي": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "زراعة الفراولة": {
+                "sentiment": "positive",
+                "score": 0.5586545552839934
+            },
+            "المهندس الفلسطيني": {
+                "sentiment": "positive",
+                "score": 0.5586545552839934
+            },
+            "الدكتور هشام حجاج": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "تربة الفحم": {
+                "sentiment": "positive",
+                "score": 0.5586545552839934
+            },
+            "زراعة الفراولة في تربة الفحم": {
+                "sentiment": "positive",
+                "score": 0.5586545552839934
+            },
+            "شادي عطاطرة": {
+                "sentiment": "positive",
+                "score": 0.5586545552839934
+            },
+            "المهندس الفلسطيني شادي عطاطرة": {
+                "sentiment": "positive",
+                "score": 0.5586545552839934
+            },
+            "استخدام الفحم كتربة للزراعة": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "نجاح أول تجربة لزراعة الفراولة": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "التهديد بالإخلاء": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "أول تجربة لزراعة الفراولة": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "_id": "66b8cfc8340cdbc4823894f5",
+        "postid": "1660779",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.6210133269847538
+        },
+        "keyword_sentiments": {
+            "أفغانستان": {
+                "sentiment": "positive",
+                "score": 0.5021301850654991
+            },
+            "الشرطة الباكستانية": {
+                "sentiment": "positive",
+                "score": 0.5915052857758933
+            },
+            "كراتشي": {
+                "sentiment": "positive",
+                "score": 0.6321912103469703
+            },
+            "الحدود الأفغانية الباكستانية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "_id": "66b8cfc8340cdbc4823894f6",
+        "postid": "1660650",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.5939523810238051
+        },
+        "keyword_sentiments": {
+            "سوريا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "روسيا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "تركيا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "السعودية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "ايران": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "اسرائيل": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "دمشق": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "بوتين": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "التطبيع": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "أنقرة": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "روسيا وأوكرانيا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "نشرة الخامسة": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "حرب روسيا وأوكرانيا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "يائير لابيد": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "العلاقات السورية التركية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "سوريا وتركيا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "تركيا وسوريا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "العلاقات التركية السورية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "المناورات الايرانية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "أمن روسيا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "اللقاء الثلاثي في موسكو": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "لقاء موسكو الثلاثي": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "_id": "66b8cfc8340cdbc4823894f7",
+        "postid": "1660781",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.6318896693115951
+        },
+        "keyword_sentiments": {
+            "فلسطين المحتلة": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الاحتلال الإسرائيلي": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "فلسطين": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "المسجد الأقصى": {
+                "sentiment": "positive",
+                "score": 0.6081894316485634
+            }
+        }
+    },
+    {
+        "_id": "66b8cfc8340cdbc4823894f8",
+        "postid": "1660753",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.5954542106475073
+        },
+        "keyword_sentiments": {
+            "بريطانيا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الإمارات": {
+                "sentiment": "positive",
+                "score": 0.520614505975081
+            },
+            "الإمارات العربية المتحدة": {
+                "sentiment": "positive",
+                "score": 0.520614505975081
+            },
+            "الدنمارك": {
+                "sentiment": "positive",
+                "score": 0.600769048279733
+            },
+            "دبي": {
+                "sentiment": "positive",
+                "score": 0.5672525432901542
+            },
+            "احتيال ضريبي": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "القضاء الإماراتي": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "تعاون قضائي": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "_id": "66b8cfc8340cdbc4823894f9",
+        "postid": "1660676",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.5446960086940733
+        },
+        "keyword_sentiments": {
+            "الميادين": {
+                "sentiment": "positive",
+                "score": 0.5761866113304066
+            },
+            "الميادين GO": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "نيجيريا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "حادث": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "حشود": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "مهرجان كالابار الشعبي": {
+                "sentiment": "negative",
+                "score": 0.5789528131966187
+            },
+            "كالابار": {
+                "sentiment": "negative",
+                "score": 0.5789528131966187
+            },
+            "سيارة تفتك بحشود في نيجيريا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "مهرجان كالابار شعبي": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "سيارة تفتك بحشود": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "مهرجان كالابار": {
+                "sentiment": "negative",
+                "score": 0.5789528131966187
+            },
+            "اصطدام سيارة بحشد": {
+                "sentiment": "negative",
+                "score": 0.5789528131966187
+            }
+        }
+    },
+    {
+        "_id": "66b8cfc8340cdbc4823894fa",
+        "postid": "1660694",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.5307991772128545
+        },
+        "keyword_sentiments": {
+            "الميادين GO": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الميادين فيديو": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "فيديو الميادين": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "جنوب السودان": {
+                "sentiment": "positive",
+                "score": 0.5198488304971106
+            },
+            "جمهورية الكونغو الديموقراطية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "تدريبات عسكرية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "حفل": {
+                "sentiment": "positive",
+                "score": 0.5198488304971106
+            },
+            "قوات عسكرية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "_id": "66b8cfc8340cdbc4823894fb",
+        "postid": "1660712",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "negative",
+            "score": 0.5229661482735758
+        },
+        "keyword_sentiments": {
+            "الصين": {
+                "sentiment": "negative",
+                "score": 0.5094175253699637
+            },
+            "كورونا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "أسعار الفائدة": {
+                "sentiment": "negative",
+                "score": 0.5056161983568339
+            },
+            "الأسهم الأوروبية": {
+                "sentiment": "negative",
+                "score": 0.5215456676042912
+            }
+        }
+    },
+    {
+        "_id": "66b8cffd340cdbc4823894fc",
+        "postid": "1660727",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.6710115645952808
+        },
+        "keyword_sentiments": {
+            "روسيا": {
+                "sentiment": "positive",
+                "score": 0.5820225943611287
+            },
+            "تركيا": {
+                "sentiment": "positive",
+                "score": 0.5619449600573407
+            },
+            "دمشق": {
+                "sentiment": "positive",
+                "score": 0.6058731332485273
+            },
+            "مباحثات تركيا مع دمشق": {
+                "sentiment": "positive",
+                "score": 0.5619449600573407
+            }
+        }
+    },
+    {
+        "_id": "66b8cffd340cdbc4823894fd",
+        "postid": "1660714",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.5730637187706048
+        },
+        "keyword_sentiments": {
+            "سوريا": {
+                "sentiment": "positive",
+                "score": 0.5294787778504635
+            },
+            "داعش": {
+                "sentiment": "positive",
+                "score": 0.5049087412652675
+            },
+            "الرقة": {
+                "sentiment": "positive",
+                "score": 0.6531561438311335
+            },
+            "التحالف الدولي": {
+                "sentiment": "negative",
+                "score": 0.5553006226321344
+            },
+            "قوات سوريا الديموقراطية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "_id": "66b8cffd340cdbc4823894fe",
+        "postid": "1660746",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.5763497765699094
+        },
+        "keyword_sentiments": {
+            "فلسطين المحتلة": {
+                "sentiment": "positive",
+                "score": 0.5315663371484834
+            },
+            "الاحتلال الإسرائيلي": {
+                "sentiment": "positive",
+                "score": 0.5315663371484834
+            },
+            "القضية الفلسطينية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الاعتداءات الإسرائيلية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "المسيحيون في فلسطين": {
+                "sentiment": "positive",
+                "score": 0.5315663371484834
+            },
+            "مسيحيو فلسطين": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "المسيحيين في فلسطين المحتلة": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "اعتداءات الاحتلال على المسحيين": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "مصادرة الأملاك": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "تهديدات بالقتل": {
+                "sentiment": "positive",
+                "score": 0.5315663371484834
+            },
+            "اعتداءات بالضرب": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "_id": "66b8cffd340cdbc4823894ff",
+        "postid": "1660709",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.5547627904144933
+        },
+        "keyword_sentiments": {
+            "روسيا": {
+                "sentiment": "positive",
+                "score": 0.5167353363131412
+            },
+            "أوكرانيا": {
+                "sentiment": "positive",
+                "score": 0.5392827625338463
+            },
+            "أميركا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "حلف الناتو": {
+                "sentiment": "positive",
+                "score": 0.5167353363131412
+            },
+            "بيلاروسيا": {
+                "sentiment": "positive",
+                "score": 0.541334733135659
+            },
+            "دونباس": {
+                "sentiment": "positive",
+                "score": 0.5167353363131412
+            },
+            "صاروخ": {
+                "sentiment": "negative",
+                "score": 0.5202006069893831
+            },
+            "نظام إس 300": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "_id": "66b8cffd340cdbc482389500",
+        "postid": "1660723",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "negative",
+            "score": 0.590612133537629
+        },
+        "keyword_sentiments": {
+            "الولايات المتحدة الأميركية": {
+                "sentiment": "negative",
+                "score": 0.7063695227000256
+            },
+            "إيران": {
+                "sentiment": "negative",
+                "score": 0.5719695981840897
+            },
+            "الاتفاق النووي الايراني": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "محمد إسلامي": {
+                "sentiment": "negative",
+                "score": 0.5623502262110738
+            },
+            "الطاقة الذرية الايرانية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "_id": "66b8cffd340cdbc482389501",
+        "postid": "1660722",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "negative",
+            "score": 0.52097770077331
+        },
+        "keyword_sentiments": {
+            "الميادين": {
+                "sentiment": "positive",
+                "score": 0.5606198414178075
+            },
+            "الميادين GO": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "نتنياهو": {
+                "sentiment": "negative",
+                "score": 0.6160931949924813
+            },
+            "الكنيست الإسرائيلي": {
+                "sentiment": "negative",
+                "score": 0.6160931949924813
+            },
+            "تشكيل حكومة": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "معارضين": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "هرج ومرج": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "مقاطعات": {
+                "sentiment": "negative",
+                "score": 0.6160931949924813
+            },
+            "جلسة الكنيست": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "حالة صخب": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "_id": "66b8cffd340cdbc482389502",
+        "postid": "1660708",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.5649348284705753
+        },
+        "keyword_sentiments": {
+            "صربيا": {
+                "sentiment": "positive",
+                "score": 0.5338720310085994
+            },
+            "كوسوفو": {
+                "sentiment": "positive",
+                "score": 0.5471457915307362
+            },
+            "صرب كوسوفو": {
+                "sentiment": "positive",
+                "score": 0.5609902229193888
+            },
+            "فتح المعبر الحدودي": {
+                "sentiment": "negative",
+                "score": 0.5384680748343555
+            },
+            "قوّات حفظ السلام": {
+                "sentiment": "positive",
+                "score": 0.5248460633269543
+            }
+        }
+    },
+    {
+        "_id": "66b8cffd340cdbc482389503",
+        "postid": "1660685",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.5409289518947945
+        },
+        "keyword_sentiments": {
+            "السعودية": {
+                "sentiment": "negative",
+                "score": 0.5058794829560795
+            },
+            "التطبيع مع إسرائيل": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "يائير لابيد": {
+                "sentiment": "negative",
+                "score": 0.5182485322296773
+            }
+        }
+    },
+    {
+        "_id": "66b8cffd340cdbc482389504",
+        "postid": "1660683",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.6383430052378347
+        },
+        "keyword_sentiments": {
+            "الجيش الإيراني": {
+                "sentiment": "negative",
+                "score": 0.5243131909910026
+            },
+            "مناورات عسكرية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "حسين سلامي": {
+                "sentiment": "positive",
+                "score": 0.6504393483222906
+            },
+            "علي رضا تنكسيري": {
+                "sentiment": "positive",
+                "score": 0.6941225122895731
+            },
+            "شرق مضيق هرمز": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الأمن المستدام": {
+                "sentiment": "positive",
+                "score": 0.514383516635368
+            },
+            "درع السماء": {
+                "sentiment": "positive",
+                "score": 0.514383516635368
+            },
+            "ذو الفقار 1401": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "منطقة جاسك": {
+                "sentiment": "negative",
+                "score": 0.5776707947703394
+            }
+        }
+    },
+    {
+        "_id": "66b8cffd340cdbc482389505",
+        "postid": "1660700",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.5627868573101216
+        },
+        "keyword_sentiments": {
+            "فلاديمير بوتين": {
+                "sentiment": "positive",
+                "score": 0.5267955325528165
+            },
+            "أذربيجان": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "ناغورنو كاراباخ": {
+                "sentiment": "positive",
+                "score": 0.526729522060942
+            },
+            "الرئيس الصيني شي جين بينغ": {
+                "sentiment": "positive",
+                "score": 0.5267955325528165
+            },
+            "ممر لاتشين": {
+                "sentiment": "negative",
+                "score": 0.5021158250414655
+            },
+            "رئيس الوزراء الأرميني": {
+                "sentiment": "positive",
+                "score": 0.5552613571120786
+            }
+        }
+    },
+    {
+        "_id": "66b8cffd340cdbc482389506",
+        "postid": "1654049",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.6135459358644204
+        },
+        "keyword_sentiments": {
+            "الركض": {
+                "sentiment": "positive",
+                "score": 0.6346856224201566
+            },
+            "متى اخترع الركض": {
+                "sentiment": "positive",
+                "score": 0.5640340714192561
+            }
+        }
+    },
+    {
+        "_id": "66b8cffd340cdbc482389507",
+        "postid": "1660392",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.6240594185033306
+        },
+        "keyword_sentiments": {
+            "اليمن": {
+                "sentiment": "positive",
+                "score": 0.5436186728952335
+            },
+            "حكومة صنعاء": {
+                "sentiment": "negative",
+                "score": 0.5653884360022322
+            },
+            "حركة أنصار الله": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الهدنة في اليمن": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "محمد البخيتي": {
+                "sentiment": "negative",
+                "score": 0.560166074724326
+            },
+            "الوفد العماني في اليمن": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "صرف المرتبات": {
+                "sentiment": "negative",
+                "score": 0.5114831337827843
+            }
+        }
+    },
+    {
+        "_id": "66b8cffd340cdbc482389508",
+        "postid": "1660687",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.576579249278372
+        },
+        "keyword_sentiments": {
+            "روسيا": {
+                "sentiment": "negative",
+                "score": 0.5510340859455349
+            },
+            "إيران": {
+                "sentiment": "positive",
+                "score": 0.5750684710296174
+            },
+            "العراق": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "السعودية": {
+                "sentiment": "positive",
+                "score": 0.6236862367841585
+            },
+            "الأردن": {
+                "sentiment": "negative",
+                "score": 0.5095383824785575
+            },
+            "علي أصغر ناصري": {
+                "sentiment": "negative",
+                "score": 0.5074661024575499
+            }
+        }
+    },
+    {
+        "_id": "66b8cffd340cdbc482389509",
+        "postid": "1660710",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.5937473942639768
+        },
+        "keyword_sentiments": {
+            "السلام الإقليمي": {
+                "sentiment": "positive",
+                "score": 0.6231935750587982
+            },
+            "التحريض على الاضطرابات": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "إثارة الصراعات": {
+                "sentiment": "positive",
+                "score": 0.6231935750587982
+            },
+            "الاستقرار والأمن العالمي": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "_id": "66b8cffd340cdbc48238950a",
+        "postid": "1660711",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "negative",
+            "score": 0.544293078092045
+        },
+        "keyword_sentiments": {
+            "فلسطين المحتلة": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الأسرى الفلسطينيون": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "كسر الجدار": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "ناصر أبو حميد": {
+                "sentiment": "negative",
+                "score": 0.5561863164399191
+            },
+            "سياسة الإهمال الطبي": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "_id": "66b8cffd340cdbc48238950b",
+        "postid": "1660699",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.5883860025674618
+        },
+        "keyword_sentiments": {
+            "سوريا": {
+                "sentiment": "positive",
+                "score": 0.6097704363599232
+            },
+            "روسيا": {
+                "sentiment": "positive",
+                "score": 0.6472970434420571
+            },
+            "إيران": {
+                "sentiment": "positive",
+                "score": 0.6067445709533739
+            },
+            "تركيا": {
+                "sentiment": "positive",
+                "score": 0.6302459763101192
+            },
+            "السعودية": {
+                "sentiment": "negative",
+                "score": 0.5788087321745451
+            },
+            "الأزمة السورية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "أستانة": {
+                "sentiment": "positive",
+                "score": 0.5321785039959408
+            }
+        }
+    },
+    {
+        "_id": "66b8cffd340cdbc48238950c",
+        "postid": "1660647",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "negative",
+            "score": 0.5982792692187059
+        },
+        "keyword_sentiments": {
+            "إيران": {
+                "sentiment": "negative",
+                "score": 0.5803690415038183
+            },
+            "العراق": {
+                "sentiment": "negative",
+                "score": 0.5864801988908962
+            },
+            "الأردن": {
+                "sentiment": "negative",
+                "score": 0.6120362589767537
+            },
+            "قمة عمان": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "قمة دول جوار العراق": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "_id": "66b8cffd340cdbc48238950d",
+        "postid": "1660668",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.5655416289794574
+        },
+        "keyword_sentiments": {
+            "تركيا": {
+                "sentiment": "positive",
+                "score": 0.6392602923987046
+            },
+            "رجب طيب إردوغان": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "عثمان كافالا": {
+                "sentiment": "positive",
+                "score": 0.5388609596946342
+            },
+            "السجن المؤبد": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "_id": "66b8cffd340cdbc48238950e",
+        "postid": "1660553",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.6342635331380353
+        },
+        "keyword_sentiments": {
+            "سوريا": {
+                "sentiment": "positive",
+                "score": 0.6393291196200757
+            },
+            "روسيا": {
+                "sentiment": "positive",
+                "score": 0.5131980215904547
+            },
+            "تركيا": {
+                "sentiment": "positive",
+                "score": 0.5085958361714489
+            },
+            "موسكو": {
+                "sentiment": "positive",
+                "score": 0.560902708575501
+            },
+            "دمشق": {
+                "sentiment": "positive",
+                "score": 0.519996159114366
+            },
+            "أنقرة": {
+                "sentiment": "positive",
+                "score": 0.5458611411089384
+            },
+            "الحرب في سوريا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "_id": "66b8cffd340cdbc48238950f",
+        "postid": "1660688",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.6569235412088711
+        },
+        "keyword_sentiments": {
+            "الميادين بودكاست": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "بودكاست": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "بودكاست الميادين": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "علي الديري": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "بودكاست ورق": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "كتب": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "مراجعات الكتب": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الشيخ عبدالأمير الجمري": {
+                "sentiment": "positive",
+                "score": 0.5092160810398964
+            },
+            "وُرْق": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "_id": "66b8cffd340cdbc482389510",
+        "postid": "1660578",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.6078828465235155
+        },
+        "keyword_sentiments": {
+            "الميادين GO": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الميادين فيديو": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "بوليفيا": {
+                "sentiment": "positive",
+                "score": 0.5932516102839893
+            },
+            "إعصار": {
+                "sentiment": "positive",
+                "score": 0.5932516102839893
+            },
+            "هدم منازل": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "رياح شديدة": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "اعصار عامودي": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "إعصار يضرب بوليفيا": {
+                "sentiment": "positive",
+                "score": 0.5932516102839893
+            }
+        }
+    },
+    {
+        "_id": "66b8cffd340cdbc482389511",
+        "postid": "1660671",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.5380150263830917
+        },
+        "keyword_sentiments": {
+            "الصين": {
+                "sentiment": "positive",
+                "score": 0.5025800390051592
+            },
+            "فيروس كورونا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الخليج": {
+                "sentiment": "positive",
+                "score": 0.5025800390051592
+            },
+            "أبو ظبي": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "دبي": {
+                "sentiment": "negative",
+                "score": 0.5499320384305948
+            },
+            "أسواق الأسهم": {
+                "sentiment": "negative",
+                "score": 0.5240328526218039
+            }
+        }
+    },
+    {
+        "_id": "66b8cffd340cdbc482389512",
+        "postid": "1660666",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "negative",
+            "score": 0.5249550849759927
+        },
+        "keyword_sentiments": {
+            "روسيا": {
+                "sentiment": "negative",
+                "score": 0.5027135134985842
+            },
+            "الدولار": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "وزارة المالية الروسية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "التعاملات التجارية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "_id": "66b8cffd340cdbc482389513",
+        "postid": "1744676",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.5995719882779134
+        },
+        "keyword_sentiments": {
+            "الولايات المتحدة الأميركية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "النفط": {
+                "sentiment": "positive",
+                "score": 0.636562694919594
+            },
+            "الدولار": {
+                "sentiment": "positive",
+                "score": 0.559088853073879
+            },
+            "الذهب": {
+                "sentiment": "positive",
+                "score": 0.5639723938005959
+            },
+            "الفدرالي الأميركي": {
+                "sentiment": "negative",
+                "score": 0.5500879949832291
+            },
+            "سندات الخزانة الاميركية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "_id": "66b8cffd340cdbc482389514",
+        "postid": "1660667",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "negative",
+            "score": 0.5163385581066727
+        },
+        "keyword_sentiments": {
+            "لبنان": {
+                "sentiment": "negative",
+                "score": 0.5531529459068413
+            },
+            "الحكومة اللبنانية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "ايمانويل ماكرون": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "نبيه بري": {
+                "sentiment": "negative",
+                "score": 0.5607944199228205
+            }
+        }
+    },
+    {
+        "_id": "66b8cffd340cdbc482389515",
+        "postid": "1660635",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.5278723931596518
+        },
+        "keyword_sentiments": {
+            "اليمن": {
+                "sentiment": "positive",
+                "score": 0.5482599245366686
+            },
+            "التحالف السعودي": {
+                "sentiment": "positive",
+                "score": 0.5024545118630638
+            },
+            "حكومة صنعاء": {
+                "sentiment": "positive",
+                "score": 0.566119118474663
+            },
+            "علي القحوم": {
+                "sentiment": "positive",
+                "score": 0.5593407761910707
+            },
+            "رفع الحصار عن اليمن": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "_id": "66b8cffd340cdbc482389516",
+        "postid": "1660648",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.5939523810238051
+        },
+        "keyword_sentiments": {
+            "واشنطن": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "موسكو": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "طهران": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "قوات الاحتلال الاسرائيلي": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "قوات الاحتلال": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "نشرة العاشرة صباحاً": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الشرطة الإسرائيلية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "عبد اللهيان": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "محاربة الإرهاب": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "حكومة بنيامين نتنياهو": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "وزارة الدفاع السورية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "وزير الدفاع التركي": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "حل الأزمة السورية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "سفن حربية صينية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "المحادثات النووية الإيرانية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الصرب في شمالي كوسوفو": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "أراضي سوريا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "رئيس حزب الصهيونية الدينية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "شروط زيلنسكي": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "_id": "66b8cffd340cdbc482389517",
+        "postid": "1660637",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.5831609353472543
+        },
+        "keyword_sentiments": {
+            "روسيا": {
+                "sentiment": "negative",
+                "score": 0.5011017363333655
+            },
+            "أوكرانيا": {
+                "sentiment": "positive",
+                "score": 0.5167353363131412
+            },
+            "أميركا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "أوروبا": {
+                "sentiment": "negative",
+                "score": 0.6149113255704963
+            },
+            "حلف الناتو": {
+                "sentiment": "positive",
+                "score": 0.5167353363131412
+            },
+            "التضخم": {
+                "sentiment": "positive",
+                "score": 0.5341032307406873
+            },
+            "دونباس": {
+                "sentiment": "positive",
+                "score": 0.5167353363131412
+            },
+            "عقوبات": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "أزمة الطاقة": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "أسعار الطاقة": {
+                "sentiment": "negative",
+                "score": 0.5516571304633874
+            },
+            "الاقتصاد الأوروبي": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "ركود اقتصادي": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "_id": "66b8cffd340cdbc482389518",
+        "postid": "1660555",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.6064785431976976
+        },
+        "keyword_sentiments": {
+            "سوريا": {
+                "sentiment": "positive",
+                "score": 0.5947430207973898
+            },
+            "الميادين GO": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الميادين فيديو": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الحرب في سوريا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "قانون قيصر": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الزيتون": {
+                "sentiment": "positive",
+                "score": 0.5947430207973898
+            },
+            "زيت الزيتون": {
+                "sentiment": "positive",
+                "score": 0.5947430207973898
+            },
+            "شجرة الزيتون": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "حصار الاقتصادي الأميركي على سوريا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الأشجار المثمرة في سوريا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "إنتاج زيت الزيتون": {
+                "sentiment": "positive",
+                "score": 0.5947430207973898
+            },
+            "قطاع إنتاج زيت الزيتون": {
+                "sentiment": "positive",
+                "score": 0.5947430207973898
+            }
+        }
+    },
+    {
+        "_id": "66b8cffd340cdbc482389519",
+        "postid": "1660634",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.6651472174258927
+        },
+        "keyword_sentiments": {
+            "إيران": {
+                "sentiment": "positive",
+                "score": 0.6028649854944212
+            },
+            "اليمن": {
+                "sentiment": "positive",
+                "score": 0.560697460516633
+            },
+            "أوكرانيا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "أفغانستان": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "عبد اللهيان": {
+                "sentiment": "positive",
+                "score": 0.6035933273472763
+            },
+            "الإتفاق النووي الإيراني": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "_id": "66b8cffd340cdbc48238951a",
+        "postid": "1660624",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.6739879633359783
+        },
+        "keyword_sentiments": {
+            "الولايات المتحدة الأميركية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الجيش الإيراني": {
+                "sentiment": "positive",
+                "score": 0.5327646101353924
+            },
+            "علي رضا تنكسيري": {
+                "sentiment": "positive",
+                "score": 0.6880031761063591
+            },
+            "هيئة الأركان الإيرانية": {
+                "sentiment": "negative",
+                "score": 0.5027042857823104
+            }
+        }
+    },
+    {
+        "_id": "66b8cffd340cdbc48238951b",
+        "postid": "1660636",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.5675171988883131
+        },
+        "keyword_sentiments": {
+            "النمسا": {
+                "sentiment": "positive",
+                "score": 0.5693788363936331
+            },
+            "استفتاء": {
+                "sentiment": "negative",
+                "score": 0.5525455317915479
+            },
+            "العقوبات ضد روسيا": {
+                "sentiment": "negative",
+                "score": 0.6423656491073836
+            },
+            "المعارضة النمساوية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "_id": "66b8cffd340cdbc48238951c",
+        "postid": "1660618",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.6066093938587964
+        },
+        "keyword_sentiments": {
+            "العملية العسكرية الروسية في أوكرانيا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "خيرسون": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "جزيرة القرم": {
+                "sentiment": "positive",
+                "score": 0.5021905297002957
+            },
+            "منظمة الأمن والتعاون في أوروبا": {
+                "sentiment": "positive",
+                "score": 0.5387150633417996
+            },
+            "\"صيغة السلام\"": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "_id": "66b8cffd340cdbc48238951d",
+        "postid": "1660644",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "negative",
+            "score": 0.57228055860913
+        },
+        "keyword_sentiments": {
+            "فلسطين المحتلة": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "نتنياهو": {
+                "sentiment": "negative",
+                "score": 0.500468063360956
+            },
+            "كسر الجدار": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "السلطة الفلسطينية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "المصالحة الفلسطينية": {
+                "sentiment": "negative",
+                "score": 0.5866017848943945
+            },
+            "اتفاق أوسلو": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "زوال إسرائيل": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "_id": "66b8cffd340cdbc48238951e",
+        "postid": "1660525",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.6206955307396008
+        },
+        "keyword_sentiments": {
+            "الولايات المتحدة الأميركية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الميادين GO": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "دونالد ترامب": {
+                "sentiment": "positive",
+                "score": 0.6068602499129703
+            },
+            "واشنطن": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "ترامب": {
+                "sentiment": "positive",
+                "score": 0.6068602499129703
+            },
+            "الانتخابات الرئاسية الأميركية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "جاريد كوشنر": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "اقتحام الكابيتول": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "ايفانكا ترامب": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "_id": "66b8cffd340cdbc48238951f",
+        "postid": "1660603",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.5488060808522361
+        },
+        "keyword_sentiments": {
+            "أوكرانيا": {
+                "sentiment": "positive",
+                "score": 0.5489676982169996
+            },
+            "العملية العسكرية الروسية في أوكرانيا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "كييف": {
+                "sentiment": "positive",
+                "score": 0.544325327438104
+            },
+            "البنتاغون": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "طائرات مسيرة": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "منظومة باتريوت": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الإتفاق النووي الإيراني": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "_id": "66b8cffd340cdbc482389520",
+        "postid": "1660391",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.6163592867166614
+        },
+        "keyword_sentiments": {
+            "إيران": {
+                "sentiment": "positive",
+                "score": 0.6677428603037847
+            },
+            "طهران": {
+                "sentiment": "negative",
+                "score": 0.5142989987689797
+            },
+            "حرس الثورة": {
+                "sentiment": "positive",
+                "score": 0.7385343799802986
+            },
+            "حسين سلامي": {
+                "sentiment": "positive",
+                "score": 0.7385343799802986
+            },
+            "أعمال الشغب": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "_id": "66b8cffd340cdbc482389521",
+        "postid": "1660625",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "negative",
+            "score": 0.5246699572282678
+        },
+        "keyword_sentiments": {
+            "روسيا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الصين": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الولايات المتحدة": {
+                "sentiment": "negative",
+                "score": 0.6208647048391034
+            },
+            "عقوبات اقتصادية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "_id": "66b8cffd340cdbc482389522",
+        "postid": "1660632",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.5529116027200229
+        },
+        "keyword_sentiments": {
+            "الولايات المتحدة الأميركية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "داعش": {
+                "sentiment": "positive",
+                "score": 0.5406352169367137
+            },
+            "وزارة الخارجية الروسية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "القارة السمراء": {
+                "sentiment": "positive",
+                "score": 0.5406352169367137
+            },
+            "داعش في أفريقيا": {
+                "sentiment": "positive",
+                "score": 0.5406352169367137
+            },
+            "دولة الخلافة": {
+                "sentiment": "positive",
+                "score": 0.5406352169367137
+            },
+            "إطلاق دولة الخلافة": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "التحذير الروسي": {
+                "sentiment": "positive",
+                "score": 0.5406352169367137
+            },
+            "تحذير خطير تطلقه موسكو": {
+                "sentiment": "positive",
+                "score": 0.5406352169367137
+            }
+        }
+    },
+    {
+        "_id": "66b8cffd340cdbc482389523",
+        "postid": "1660621",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.5939523810238051
+        },
+        "keyword_sentiments": {
+            "نشرة الثامنة صباحاً": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الدفاع السورية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "سفن حربية صينية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الأركان الإيرانية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "لقاء تركي سوري": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الوسيط الرئيس في المحادثات النووية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "لقاء يجمع وزراء دفاع": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "ترحيب موسكو بالحوار": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "أنظمة بركان المضادة للدبابات": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "وزراء دفاع تركيا وسوريا وروسيا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "أنظمة بركان المضادة للدبابات لتايوان": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الحل في أوكرانيا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "صفقة بيع أنظمة بركان": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "عمان هي الوسيط": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "_id": "66b8cffd340cdbc482389524",
+        "postid": "1660619",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.5939523810238051
+        },
+        "keyword_sentiments": {
+            "الاتفاق النووي الايراني": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "نشرة منتصف الليل": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "وزير الدفاع السوري": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "لقاء تركي سوري": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "حوار روسيا والدول الغربية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "التآمر على تونس": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "وزراء الدفاع الاتراك": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "نافذة التفاوض النووي": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "وزراء الدفاع الروس": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "قيس سعيد يصرح": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "_id": "66b8cffd340cdbc482389525",
+        "postid": "1660629",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.5276925364848541
+        },
+        "keyword_sentiments": {
+            "الاحتلال الإسرائيلي": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "المقاومة الفلسطينية": {
+                "sentiment": "negative",
+                "score": 0.6026825978641668
+            },
+            "قطاع غزة": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "العدوان الإسرائيلي على غزة": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الفصائل الفلسطينية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "فصائل المقاومة الفلسطينية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الغرفة المشتركة لفصائل المقاومة": {
+                "sentiment": "negative",
+                "score": 0.6026825978641668
+            },
+            "مناورة الركن الشديد": {
+                "sentiment": "negative",
+                "score": 0.6026825978641668
+            },
+            "قوات المقاومة الفلسطينية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "مناورة الركن الشديد ثلاثة": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "التصدي لأي عدوان": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "_id": "66b8cffd340cdbc482389526",
+        "postid": "1660614",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.6862054626638832
+        },
+        "keyword_sentiments": {
+            "سوريا": {
+                "sentiment": "positive",
+                "score": 0.6602748860008925
+            },
+            "روسيا": {
+                "sentiment": "positive",
+                "score": 0.5911799610329482
+            },
+            "تركيا": {
+                "sentiment": "positive",
+                "score": 0.5425338984285699
+            },
+            "محاربة الإرهاب": {
+                "sentiment": "positive",
+                "score": 0.7231583859741549
+            },
+            "خلوصي أكار": {
+                "sentiment": "positive",
+                "score": 0.7145260769706528
+            }
+        }
+    },
+    {
+        "_id": "66b8cffd340cdbc482389527",
+        "postid": "1660606",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.6166200496401446
+        },
+        "keyword_sentiments": {
+            "فلسطين المحتلة": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "جنين": {
+                "sentiment": "positive",
+                "score": 0.5714995433689903
+            },
+            "قوات الاحتلال الإسرائيلي": {
+                "sentiment": "positive",
+                "score": 0.5382354385577036
+            },
+            "الضفة الغربية المحتلة": {
+                "sentiment": "positive",
+                "score": 0.5767060342731717
+            },
+            "حاجز الجلمة": {
+                "sentiment": "positive",
+                "score": 0.5583893331690407
+            }
+        }
+    },
+    {
+        "_id": "66b8cffd340cdbc482389528",
+        "postid": "1660597",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.6025662363231432
+        },
+        "keyword_sentiments": {
+            "الولايات المتحدة الأميركية": {
+                "sentiment": "positive",
+                "score": 0.5283608187274992
+            },
+            "أوكرانيا": {
+                "sentiment": "positive",
+                "score": 0.5701132057474614
+            },
+            "الصين": {
+                "sentiment": "positive",
+                "score": 0.6527216812232591
+            },
+            "جو بايدن": {
+                "sentiment": "positive",
+                "score": 0.5084831697216187
+            },
+            "الكونغرس الأميركي": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "تايوان": {
+                "sentiment": "positive",
+                "score": 0.6017369158432391
+            },
+            "الأسلحة الأميركية": {
+                "sentiment": "positive",
+                "score": 0.6245321709856951
+            }
+        }
+    },
+    {
+        "_id": "66b8cffd340cdbc482389529",
+        "postid": "1660575",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.618603439828697
+        },
+        "keyword_sentiments": {
+            "روسيا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "تركيا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "موسكو": {
+                "sentiment": "positive",
+                "score": 0.5830952814169562
+            },
+            "بوتين": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "وزارة الدفاع الروسية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "حزب العدالة والتنمية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "اردوغان": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الحرب في سوريا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "بشار الاسد": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "العلاقات السورية التركية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "سوريا وتركيا": {
+                "sentiment": "positive",
+                "score": 0.5830952814169562
+            },
+            "وزارة الدفاع السورية": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "وزير الدفاع التركي": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "وزير الدفاع السوري": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "العلاقات بين تركيا وسوريا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "اجتماع ثلاثي": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "اجتماع ثلاثي في موسكو": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "اجتماع روسي تركي سوري": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "أجهزة  الاستخبارات": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "_id": "66b8cffd340cdbc48238952a",
+        "postid": "1660570",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.5954852325582167
+        },
+        "keyword_sentiments": {
+            "روسيا": {
+                "sentiment": "positive",
+                "score": 0.5030656226369284
+            },
+            "أوكرانيا": {
+                "sentiment": "positive",
+                "score": 0.5828567662330034
+            },
+            "أميركا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "روسيا والأطلسي": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "ألمانيا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "حلف الناتو": {
+                "sentiment": "positive",
+                "score": 0.5167353363131412
+            },
+            "الحرب في أوكرانيا": {
+                "sentiment": "positive",
+                "score": 0.5813517702803663
+            },
+            "دونباس": {
+                "sentiment": "positive",
+                "score": 0.5167353363131412
+            },
+            "التجسس": {
+                "sentiment": "negative",
+                "score": 0.558097054759958
+            },
+            "الجاسوس الروسي": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "الضابط الألماني": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    },
+    {
+        "_id": "66b8cffd340cdbc48238952b",
+        "postid": "1660594",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.6475168271665573
+        },
+        "keyword_sentiments": {
+            "صربيا وكوسوفو": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "كوسوفو وميتوهيا": {
+                "sentiment": "positive",
+                "score": 0.5989388194873141
+            },
+            "فوتشيتش": {
+                "sentiment": "positive",
+                "score": 0.7331192474083247
+            },
+            "1244": {
+                "sentiment": "positive",
+                "score": 0.5133588622957629
+            }
+        }
+    },
+    {
+        "_id": "66b8cffd340cdbc48238952c",
+        "postid": "1660305",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.5545696744598783
+        },
+        "keyword_sentiments": {
+            "روسيا": {
+                "sentiment": "positive",
+                "score": 0.5310412185621107
+            },
+            "أوكرانيا": {
+                "sentiment": "positive",
+                "score": 0.5096362966608443
+            },
+            "أميركا": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "جو بايدن": {
+                "sentiment": "negative",
+                "score": 0.5635375764579331
+            },
+            "الولايات المتحدة": {
+                "sentiment": "positive",
+                "score": 0.5118348438341633
+            },
+            "روسيا والأطلسي": {
+                "sentiment": "positive",
+                "score": 0.5291931985062188
+            },
+            "فلاديمير بوتين": {
+                "sentiment": "positive",
+                "score": 0.5003921328443336
+            },
+            "أوروبا": {
+                "sentiment": "positive",
+                "score": 0.5195851429300052
+            },
+            "حلف الناتو": {
+                "sentiment": "positive",
+                "score": 0.5167353363131412
+            },
+            "لوغانسك": {
+                "sentiment": "positive",
+                "score": 0.5271301646049988
+            },
+            "دونباس": {
+                "sentiment": "positive",
+                "score": 0.5167353363131412
+            },
+            "خيرسون": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "العقوبات الغربية على روسيا": {
+                "sentiment": "positive",
+                "score": 0.5397372257250591
+            },
+            "زاباروجيا": {
+                "sentiment": "positive",
+                "score": 0.5484862882913356
+            },
+            "دونتيسك": {
+                "sentiment": "positive",
+                "score": 0.6231940654442608
+            }
+        }
+    },
+    {
+        "_id": "66b8cffd340cdbc48238952d",
+        "postid": "1660539",
+        "filename": "articles_2022_12",
+        "overall_sentiment": {
+            "sentiment": "positive",
+            "score": 0.5691884372566146
+        },
+        "keyword_sentiments": {
+            "الصين": {
+                "sentiment": "positive",
+                "score": 0.649445234196063
+            },
+            "الولايات المتحدة": {
+                "sentiment": "positive",
+                "score": 0.5791093894144066
+            },
+            "تايوان": {
+                "sentiment": "positive",
+                "score": 0.6069998658969582
+            },
+            "الجيش الأميركي": {
+                "sentiment": "positive",
+                "score": 0.5799486907699964
+            },
+            "البحرية الأميركية": {
+                "sentiment": "positive",
+                "score": 0.5432412486081794
+            },
+            "المحيط الهندي": {
+                "sentiment": "neutral",
+                "score": 0.0
+            },
+            "البحرية الصينية": {
+                "sentiment": "negative",
+                "score": 0.5065493007871272
+            },
+            "المحيط الهادىء": {
+                "sentiment": "neutral",
+                "score": 0.0
+            }
+        }
+    }
+]

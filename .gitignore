@@ -1,0 +1,7 @@
+allfolders/
+.venv/
+
+flask/templates/
+flask/app1.py
+
+NewEntities_inMongo/libaries_analyse_arabic_negative_positive/Arabic-Sentiment-Analysis/

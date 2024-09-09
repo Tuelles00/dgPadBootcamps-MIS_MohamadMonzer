@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysis of Articles Published Last 24 Hours</title>
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- amCharts -->
+    <script src="https://cdn.amcharts.com/lib/4/core.js"></script>
+    <script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
+    <script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
+    <!-- Styles -->
+  
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/analysis_category_count.css') }}">
+</head>
+<body>
+    <h1>Analysis of Articles Published in the Last 24 Hours</h1>
+
+    <h2>Sentiment Analysis</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Published Time</th>
+                <th>Title</th>
+                <th>Sentiment Label</th>
+                <th>Sentiment Score</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for article in articles %}
+            <tr>
+                <td>{{ article.published_time }}</td>
+                <td>{{ article.title }}</td>
+                <td>{{ article.sentiment.label }}</td>
+                <td>{{ article.sentiment.score }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <h2>Sentiment Scores Over Time</h2>
+    <canvas id="sentimentChart"></canvas>
+    
+    <h2>Category Analysis</h2>
+    <canvas id="categoryChart"></canvas>
+    <script src="{{ url_for('static', filename='js/analysis/analysis_category_count.js') }}"></script>
+    <script>
+        window.articles = {{ articles | tojson | safe }};
+        window.categories = {{ categories | tojson | safe }};
+    </script>
+    
+      <a id="backtohome" href="{{ url_for('index') }}">Back to Home</a>
+</body>
+</html>

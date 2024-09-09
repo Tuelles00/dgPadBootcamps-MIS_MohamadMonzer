@@ -1,0 +1,2 @@
+*.largefileextension filter=lfs diff=lfs merge=lfs -text
+mongoDB/articles_db.articles.json filter=lfs diff=lfs merge=lfs -text

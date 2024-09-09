@@ -1,0 +1,15 @@
+   #chartdiv, #chartdiv2, #chartdiv3, #chartdiv4, #chartdiv5 {
+            width: 48%;
+            height: 500px;
+            display: inline-block;
+            vertical-align: top;
+            margin: 1%;
+        }
+        .chart-container {
+            margin-bottom: 40px; /* Space between charts */
+        }
+        .chart-title {
+            text-align: center;
+            font-weight: bold;
+            margin-top: 10px; /* Margin top for chart title */
+        }

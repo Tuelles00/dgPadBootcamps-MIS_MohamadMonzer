@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment and Topic Analysis of Articles Published Last 24 Hours</title>
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <!-- amCharts -->
+    <script src="https://cdn.amcharts.com/lib/4/core.js"></script>
+    <script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
+    <script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
+    
+    <!-- Styles -->
+ 
+<link rel="stylesheet" href="{{ url_for('static', filename='css/analysis_articles_last_hour.css') }}">
+</head>
+<body>
+    <!-- Loading Visualization -->
+    <div class="spinner" id="loadingSpinner"></div>
+    <p class="loading-text" id="loadingText">Loading data, please wait...</p>
+
+    <!-- Main Content -->
+    <div id="mainContent" style="display: none;">
+        <h1>Sentiment and Topic Analysis of Articles Published in the Last 24 Hours</h1>
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Published Time</th>
+                    <th>Title</th>
+                    <th>Sentiment Label</th>
+                    <th>Sentiment Score</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for article in articles %}
+                <tr>
+                    <td>{{ article.published_time }}</td>
+                    <td>{{ article.title }}</td>
+                    <td>{{ article.sentiment.label }}</td>
+                    <td>{{ article.sentiment.score }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+        <!-- Chart.js -->
+        <canvas id="sentimentChart"></canvas>
+
+        <!-- Display topics -->
+        <h2>Topics Identified:( LDA model )</h2>
+        <ul>
+            {% for topic in topics %}
+                <li>{{ topic }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <!-- Chart.js Script -->
+    <script src="{{ url_for('static', filename='js/analysis/analysis_articles_last_hour.js') }}"></script>
+    <script>
+        // Pass data to the external script
+        window.articles = {{ articles|tojson|safe }};
+    </script>
+           <a id="backtohome" href="{{ url_for('index') }}">Back to Home</a>
+</body>
+</html>

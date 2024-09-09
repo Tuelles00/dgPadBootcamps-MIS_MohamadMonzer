@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>BootCamp - Dashboard</title>
+    <link href="{{ url_for('static', filename='vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/sb-admin-2.min.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/index_style.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/locked.css') }}" rel="stylesheet">
+    
+    
+
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Dashboard</h1>
+        <!-- <a href="{{ url_for('articles_published_last_hour') }}">Articles Published Last Hour</a> -->
+    </div>
+
+    
+    
+  
+    
+</body>
+
+<body id="page-top">
+
+    
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+            <li class="nav-item">
+                <a href="#" class="nav-link sidebar-link">
+                    Restricted Page
+                </a>
+            </li>
+          
+
+            <!-- Sidebar - Brand -->
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+                <div class="sidebar-brand-icon rotate-n-15">
+                    <i class="fas fa-laugh-wink"></i>
+                </div>
+                <div class="sidebar-brand-text mx-3">Menu <sup>2</sup></div>
+            </a>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+
+            <!-- Nav Item - Dashboard -->
+
+
+            <li class="nav-item active">
+
+              </li>
+              
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+
+            <!-- Heading -->
+            <div class="sidebar-heading">
+                Interface
+            </div>
+
+            <!-- Nav Item - Pages Collapse Menu -->
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
+                    aria-expanded="true" aria-controls="collapseTwo">
+                    <i class="fas fa-fw fa-cog"></i>
+                    <span>Aggregations<a href="{{ url_for('aggregation') }}"></a></span>
+                </a>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Custom Components:</h6>
+                        <a class="collapse-item" href="{{ url_for('aggregation') }}">aggregation1</a>
+                        <a class="collapse-item" href="{{ url_for('aggregation2') }}">aggregation2</a>
+                        <a class="collapse-item" href="{{ url_for('aggregation3') }}">aggregation3</a>
+                        <a class="collapse-item" href="{{ url_for('aggregation4') }}">aggregation4</a>
+                    </div>
+                </div>
+            </li>
+             <!-- Divider -->
+             <hr class="sidebar-divider">
+            <div class="sidebar-heading">
+                Custom Analysis
+            </div>
+
+            <!-- Nav Item - Utilities Collapse Menu -->
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
+                    aria-expanded="true" aria-controls="collapseUtilities">
+                    <i class="fas fa-fw fa-wrench"></i>
+                    <span>Utilities</span>
+                </a>
+                <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
+                    data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Custom Analysis</h6>
+                        <a class="collapse-item" href="{{ url_for('analysis_articles_published_last_hour') }}">
+                            Sentiment Last 24 Hours
+                        </a>
+                        <a class="collapse-item" href="{{ url_for('analysis_category_count') }}">
+                            
+                            Category Count
+                            
+                        </a>
+
+                        <a class="collapse-item" href="articles_published_last_hour">
+                            
+                            Articles Published Last Hour
+                            
+                        </a>
+
+                    </div>
+                </div>
+            </li>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+
+            <!-- Heading -->
+            <div class="sidebar-heading">
+                Addons
+            </div>
+
+            <!-- Nav Item - Pages Collapse Menu -->
+            <li class="nav-item">
+                
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
+                    aria-expanded="true" aria-controls="collapsePages">
+                    <i class="fas fa-fw fa-folder"></i>
+                    <span>Analysis</span>
+                </a>
+                <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Setiment Analysis:</h6>
+                        <a class="collapse-item" href="{{ url_for('articles_by_sentiment') }}">
+                            Khaled Analysis<br>
+                            
+                        
+                        </a>
+                        <h6 class="collapse-header">Classification:</h6>
+                        <a class="collapse-item" href="{{ url_for('stanza_classification') }}">
+                            Stanza Classification<br>
+                            
+                        
+                        </a>
+                        <a class="collapse-item" href="{{ url_for('trends_over_time') }}">
+                            Trends By Category<br>
+                            
+                        
+                        </a>
+                        <a class="collapse-item" href="{{ url_for('trends_over_time_by_words') }}">
+                            Trends By 10 keys<br>
+                            
+                        
+                        </a>
+
+                    </div>
+                </div>
+            </li>
+
+
+
+ <!-- Divider -->
+ <hr class="sidebar-divider">
+ <!-- Heading -->
+ <div class="sidebar-heading">
+    Search
+</div>
+
+            <li class="nav-item">
+                
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseSearch"
+                    aria-expanded="true" aria-controls="collapseSearch">
+                    <i class="fas fa-fw fa-folder"></i>
+                    <span>SEARCH</span>
+                </a>
+                <div id="collapseSearch" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <!-- <h6 class="collapse-header">Setiment Analysis:</h6> -->
+                        <a class="collapse-item" href="{{ url_for('search_articles') }}">
+                            Search Keyword<br>
+                            
+                        
+                        </a>
+                        <!-- <h6 class="collapse-header">Classification:</h6> -->
+                        <a class="collapse-item" href="{{ url_for('search_by_author') }}">
+                            Search Author<br>
+                            
+                        
+                    </div>
+                </div>
+            </li>
+
+   
+
+            <!-- Divider -->
+            <hr class="sidebar-divider d-none d-md-block">
+
+            <!-- Sidebar Toggler (Sidebar) -->
+            <div class="text-center d-none d-md-inline">
+                <button class="rounded-circle border-0" id="sidebarToggle"></button>
+            </div>
+
+            <!-- Sidebar Message -->
+             <!-- #### target -->
+             <div class="sidebar-card d-none d-lg-flex">
+                <img class="sidebar-card-illustration mb-2" src="{{ url_for('static', filename='img/undraw_rocket.svg') }}" alt="Profile Image">
+                <p class="text-center mb-2">Keep your MongoDB data up-to-date and ensure the latest visualizations with just a click!</p>
+                
+                <!-- Wrap the button in a form to perform a POST request -->
+                <form action="{{ url_for('run_script') }}" method="post" style="display: inline-block;">
+                    <button type="submit" class="btn btn-success btn-sm">Update Data Now!</button>
+                </form>
+            </div>
+            
+            
+
+            <div class="subscription-label">
+                {% if username != 'root' %}
+                    <p>You should subscribe to get full access.</p>
+                {% endif %}
+            </div>
+        </ul>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                var username = '{{ username }}'; // Passed from Flask
+                var sidebarLinks = document.querySelectorAll('#accordionSidebar .nav-link, #accordionSidebar .collapse-item');
+    
+                sidebarLinks.forEach(function(link) {
+                    if (username !== 'root') {
+                        link.classList.add('locked');
+    
+                        link.addEventListener('mouseover', function(e) {
+                            alert('Access Denied: You do not have the necessary privileges to access this page.');
+                        });
+                    }
+                });
+            });
+        </script>
+        
+        
+        <!-- End of Sidebar -->
+
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+                <!-- Topbar -->
+                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+                    <!-- Sidebar Toggle (Topbar) -->
+                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                        <i class="fa fa-bars"></i>
+                    </button>
+
+                    <!-- Topbar Search -->
+                    <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search" onsubmit="return searchInPage();">
+                        <div class="input-group">
+                            <input id="searchInput" type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2" spellcheck="false">
+                            <div class="input-group-append">
+                                <button class="btn btn-primary" type="submit">
+                                    <i class="fas fa-search fa-sm"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+
+
+
+
+
+
+                    <!-- Topbar Navbar -->
+                    <ul class="navbar-nav ml-auto">
+
+                       
+                        <li class="nav-item dropdown no-arrow d-sm-none">
+                            <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-search fa-fw"></i>
+                            </a>
+                       
+                            <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in"
+                                aria-labelledby="searchDropdown">
+                                <form class="form-inline mr-auto w-100 navbar-search">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control bg-light border-0 small"
+                                            placeholder="Search for..." aria-label="Search"
+                                            aria-describedby="basic-addon2">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-primary" type="button">
+                                                <i class="fas fa-search fa-sm"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </li>
+
+                        <!-- Nav Item - Alerts -->
+                        <li class="nav-item dropdown no-arrow mx-1">
+
+                            <!-- Dropdown - Alerts -->
+                            <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                                aria-labelledby="alertsDropdown">
+                                <h6 class="dropdown-header">
+                                    Alerts Center
+                                </h6>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <div class="mr-3">
+                                        <div class="icon-circle bg-primary">
+                                            <i class="fas fa-file-alt text-white"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="small text-gray-500">December 12, 2019</div>
+                                        <span class="font-weight-bold">A new monthly report is ready to download!</span>
+                                    </div>
+                                </a>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <div class="mr-3">
+                                        <div class="icon-circle bg-success">
+                                            <i class="fas fa-donate text-white"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="small text-gray-500">December 7, 2019</div>
+                                        $290.29 has been deposited into your account!
+                                    </div>
+                                </a>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <div class="mr-3">
+                                        <div class="icon-circle bg-warning">
+                                            <i class="fas fa-exclamation-triangle text-white"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="small text-gray-500">December 2, 2019</div>
+                                        Spending Alert: We've noticed unusually high spending for your account.
+                                    </div>
+                                </a>
+                                <a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
+                            </div>
+                        </li>
+
+                        <!-- Nav Item - Messages -->
+                        <li class="nav-item dropdown no-arrow mx-1">
+                            <a class="nav-link" href="mailto:tuelles00@gmail.com?subject=Support%20Request&body=Please%20describe%20your%20issue." target="_blank" title="Contact Us">
+                                <i class="fas fa-envelope fa-fw"></i>
+                                <!-- <span class="badge badge-danger badge-counter">7</span> -->
+                            </a>
+                            <li><div>
+                                <div class="text-truncate">  Am a web scraper </div>
+                                <div class="small text-gray-500">Mohamad Monzer</div>
+                            </div></li>
+                            
+                            
+                            
+                            <!-- Dropdown - Messages -->
+                            <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                                aria-labelledby="messagesDropdown">
+                                <h6 class="dropdown-header">
+                                    Message Center
+                                </h6>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <div class="dropdown-list-image mr-3">
+                                        <img class="rounded-circle" src="{{ url_for('static', filename='img/undraw_profile_1.svg') }}" alt="Profile Image">
+                                        <div class="status-indicator bg-success"></div>
+                                    </div>
+                                </a>
+                                
+                                    <div class="font-weight-bold">
+                                        <div class="text-truncate">Hi there! I am wondering if you can help me with a
+                                            problem I've been having.</div>
+                                        <div class="small text-gray-500">Emily Fowler · 58m</div>
+                                    </div>
+                                </a>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <div class="dropdown-list-image mr-3">
+                                        <img class="rounded-circle" src="{{ url_for('static', filename='img/undraw_profile_2.svg') }}" alt="Profile Image">
+                                        <div class="status-indicator bg-success"></div>
+                                    </div>
+                                </a>
+                                
+                                    <div>
+                                        <div class="text-truncate">I have the photos that you ordered last month, how
+                                            would you like them sent to you?</div>
+                                        <div class="small text-gray-500">Jae Chun · 1d</div>
+                                    </div>
+                                </a>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <div class="dropdown-list-image mr-3">
+                                        <img class="rounded-circle" src="{{ url_for('static', filename='img/undraw_profile_3.svg') }}" alt="Profile Image">
+                                        <div class="status-indicator bg-warning"></div>
+                                    </div>
+                                    <!-- You might want to add some text or content here -->
+                                </a>
+                                
+                                        <div class="text-truncate">Last month's report looks great, I am very happy with
+                                            the progress so far, keep up the good work!</div>
+                                        <div class="small text-gray-500">Morgan Alvarez · 2d</div>
+                                    </div>
+                                </a>
+                               
+                                <!-- <a class="dropdown-item text-center small text-gray-500" href="#">Read More Messages</a> -->
+                            </div>
+                        </li>
+
+                        <div class="topbar-divider d-none d-sm-block"></div>
+
+                        <!-- Nav Item - User Information -->
+                        <!-- <li class="nav-item dropdown no-arrow"> -->
+                            <a class="nav-link" href="#">
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Al Mayadin</span>
+                                <img class="img-profile rounded-circle" src="{{ url_for('static', filename='img/Al_Mayadeen_logo.png') }}" alt="Profile Image" style="width: 30px; height: 30px;">
+                            </a>
+                             </li>
+                        </li>
+
+                    </ul>
+
+                </nav>
+                <!-- End of Topbar -->
+                <div id="news-ticker-wrapper">
+                    <div id="news-ticker-container">
+                        <ul id="news-ticker">
+                            <!-- News items will be populated here -->
+                        </ul>
+                        <div class="ticker-label">
+                            <a href="/shortnews">
+                                <h4>أخبار عاجلة</h4>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+
+                    <!-- Page Heading -->
+                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                        <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
+                        <!-- <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
+                                class="fas fa-download fa-sm text-white-50"></i> Generate Report</a> -->
+
+                                
+                    </div>
+
+                    <!-- Content Row -->
+                    <div class="row">
+
+                        <!-- Earnings (Monthly) Card Example -->
+                        <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card border-left-primary shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                                                Language Used in Al Mayadin
+                                            </div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">
+                                                {% for item in language_counts %}
+                                                    <p>{{ item._id }}: {{ item.count }}</p>
+                                                {% else %}
+                                                    <p>No language data available</p>
+                                                {% endfor %}
+                                            </div>
+                                        </div>
+                                        <div class="col-auto">
+                                            <i class="fas fa-calendar fa-2x text-gray-300"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Earnings (Monthly) Card Example -->
+                        <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card border-left-success shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                                                Video with duration</div>
+                                                <div class="h5 mb-0 font-weight-bold text-gray-800">{{ video_duration_count }}</div>
+                                        </div>
+                                        <div class="col-auto">
+                                            <i class="fas fa-video fa-2x text-gray-300"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Earnings (Monthly) Card Example -->
+                        <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card border-left-info shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Tasks
+                                            </div>
+                                            <div class="row no-gutters align-items-center">
+                                                <div class="col-auto">
+                                                    <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">Articles with Thumbnail: {{ thumbnail_count }}</div>
+                                                </div>
+                                                <div class="col">
+                                                    <div class="progress progress-sm mr-2">
+                                                        <div class="progress-bar bg-info" role="progressbar"
+                                                            style="width: 50%" aria-valuenow="50" aria-valuemin="0"
+                                                            aria-valuemax="100"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-auto">
+                                            <i class="fas fa-clipboard-list fa-2x text-gray-300"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Pending Requests Card Example -->
+                        <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card border-left-warning shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">
+                                                Pending Requests</div>
+                                                <div class="h5 mb-0 font-weight-bold text-gray-800">
+                                                    Updated After Published: {{ updated_after_publication_count }}
+                                                </div>
+                                        </div>
+                                        <div class="col-auto">
+                                            <i class="fas fa-comments fa-2x text-gray-300"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Content Row -->
+
+                    <div class="row">
+
+                        <!-- Area Chart -->
+                        <div class="col-xl-8 col-lg-7">
+                            <div class="card shadow mb-4">
+                                <!-- Card Header - Dropdown -->
+                                <div
+                                    class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                    <h6 class="m-0 font-weight-bold text-primary">Earnings Overview</h6>
+                                    <div class="dropdown no-arrow">
+                                        <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                                        </a>
+                                        <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in"
+                                            aria-labelledby="dropdownMenuLink">
+                                            <div class="dropdown-header">Dropdown Header:</div>
+                                            <a class="dropdown-item" href="#">Action</a>
+                                            <a class="dropdown-item" href="#">Another action</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="#">Something else here</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Card Body -->
+                                <div class="card-body">
+                                    <div class="chart-area">
+                                        <canvas id="myAreaChart" style="display: block; box-sizing: border-box;"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Pie Chart -->
+                        <div class="col-xl-4 col-lg-5">
+                            <div class="card shadow mb-4">
+                                <!-- Card Header - Dropdown -->
+                                <div
+                                    class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                    <h6 class="m-0 font-weight-bold text-primary">articles_by_count_range_min_max</h6>
+                                    <div class="dropdown no-arrow">
+                                        <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                                        </a>
+                                        <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in"
+                                            aria-labelledby="dropdownMenuLink">
+                                            <div class="dropdown-header">Dropdown Header:</div>
+                                            <a class="dropdown-item" href="#">Action</a>
+                                            <a class="dropdown-item" href="#">Another action</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="#">Something else here</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Card Body -->
+                                <div class="card-body">
+                                    <div class="chart-pie pt-4 pb-2">
+                                        <canvas id="myPieChart" style="width: 100%; height: 300px;"></canvas> <!-- Unique ID and inline styles -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Content Row -->
+                    <div class="row">
+
+                        <!-- Content Column -->
+                        <div class="col-lg-6 mb-4">
+
+                            <div class="container mt-4">
+                                <!-- Existing content -->
+                        
+                                <!-- Progress Bars Section -->
+                                <div class="row">
+                                    <div class="col-xl-12">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Progress Overview</h4>
+                        
+                                                {% for category in progress_data %}
+                                                    <h4 class="small font-weight-bold">
+                                                        {{ category.category if category.category is not none else 'Uncategorized' }} 
+                                                        <span class="float-right">{{ category.count }}</span>
+                                                    </h4>
+                                                    <div class="progress mb-4">
+                                                        <div class="progress-bar {{ 'bg-info' if category.category is none else 'bg-success' }}" role="progressbar" style="width: {{ category.count }}%" aria-valuenow="{{ category.count }}" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                {% endfor %}
+                        
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        
+                        
+                        
+                            </div>
+
+                            
+                            <br>
+                            <br>
+                            <div class="row gx-3">
+                                {% set colors = [
+                                    {'bg': 'primary', 'text': 'text-white'},
+                                    {'bg': 'success', 'text': 'text-white'},
+                                    {'bg': 'info', 'text': 'text-white'},
+                                    {'bg': 'warning', 'text': 'text-dark'},
+                                    {'bg': 'danger', 'text': 'text-white'},
+                                    {'bg': 'secondary', 'text': 'text-white'},
+                                    {'bg': 'light', 'text': 'text-dark'},
+                                    {'bg': 'dark', 'text': 'text-white'}
+                                ] %}
+                                {% for data in counts_by_year_month %}
+                                {% set idx = loop.index0 %}
+                                <div class="col-lg-6 col-md-12 mb-4">
+                                    <div class="card bg-{{ colors[idx % colors|length]['bg'] }} {{ colors[idx % colors|length]['text'] }} shadow h-100">
+                                        <div class="card-body">
+                                            <strong>Articles by Month Counter</strong>
+                                            <div>{{ data['year'] }}-{{ '%02d' % data['month'] }}: {{ data['count'] }} Articles</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                {% endfor %}
+                            </div>
+                            
+                            
+                            
+                            
+                            
+                            
+
+                        </div>
+
+                        <div class="col-lg-6 mb-4">
+
+                            <!-- Illustrations -->
+                            <div class="card shadow mb-4">
+                                <div class="card-header py-3">
+                                    <h6 class="m-0 font-weight-bold text-primary">Illustrations</h6>
+                                </div>
+                                <div class="card-body">
+                                    <div class="text-center">
+                                        <img class="img-profile rounded-circle" src="{{ url_for('static', filename='img/Al_Mayadeen_logo.png') }}" alt="Profile Image" style="width: 60px; height: 60px;">
+
+                                    </div>
+                                </div>
+                                
+                                    <p>Al Mayadeen is a Lebanese news network that provides comprehensive coverage of regional and international news, with a focus on Middle Eastern affairs. Known for its in-depth analysis and diverse perspectives, it aims to present an alternative viewpoint to mainstream media in the Arab world.</p>
+                                    <a target="_blank" rel="nofollow" href="https://english.almayadeen.net/">english-sitemaps
+                                         &rarr;</a>
+                                </div>
+                            </div>
+
+                            <!-- Approach -->
+                            <div class="card shadow mb-4">
+                                <div class="card-header py-3">
+                                    <h6 class="m-0 font-weight-bold text-primary">Development Approach</h6>
+                                </div>
+                                <div class="card-body">
+                                    <p>Visualizing news data is crucial for enhancing understanding and engagement in a rapidly evolving information landscape. In a world inundated with vast amounts of information, data visualizations such as graphs, charts, and interactive maps help distill complex news stories into clear, accessible formats, making it easier for audiences to grasp trends, patterns, and correlations at a glance. Visualization aids in highlighting key insights, uncovering hidden connections, and presenting data in an unbiased manner, enabling readers to make more informed decisions. Additionally, compelling visuals attract and retain reader attention, making the news more engaging and memorable. By transforming raw data into meaningful graphics, news organizations can communicate their stories more effectively, fostering transparency and trust with their audience.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <!-- /.container-fluid -->
+
+            </div>
+            <!-- End of Main Content -->
+          
+
+            <!-- Footer -->
+            <footer class="sticky-footer bg-white">
+                <div class="container my-auto">
+                    <div class="copyright text-center my-auto">
+                        <span>Copyright &copy; https://github.com/Tuelles00/dgPadBootcamps-MIS_MohamadMonzer</span>
+                    </div>
+                </div>
+            </footer>
+            <!-- End of Footer -->
+
+        </div>
+        <!-- End of Content Wrapper -->
+
+    </div>
+    <!-- End of Page Wrapper -->
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Logout Modal-->
+    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                    <a class="btn btn-primary" href="login.html">Logout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap core JavaScript-->
+    <script src="{{ url_for('static', filename='vendor/jquery/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="{{ url_for('static', filename='vendor/jquery-easing/jquery.easing.min.js') }}"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="{{ url_for('static', filename='js/sb-admin-2.min.js') }}"></script>
+
+    <!-- Page level plugins -->
+    <script src="{{ url_for('static', filename='vendor/chart.js/Chart.min.js') }}"></script>
+   
+   
+   
+    <!-- Page level custom scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@1.2.1/dist/chartjs-plugin-zoom.min.js"></script>
+     <!-- <script src="{{ url_for('static', filename='js/demo/chart-area-demo.js') }}"></script> -->
+      
+
+     
+      <script src="{{ url_for('static', filename='js/demo/date_count.js') }}"></script> 
+      <!-- // bar chart logic -->
+      <script id="dateCountsData" type="application/json">
+        {{ date_counts|tojson }}
+    </script>  
+    <!-- //inline json data -->
+    <script src="{{ url_for('static', filename='js/demo/chart-pie-demo.js') }}"></script>
+   
+
+
+
+    <!-- articles_by_count_range_min_max  for : class="chart-pie pt-4 pb-2"-->
+    <!-- Include the script block to pass the data -->
+<script>
+    // Pass data from Flask to JavaScript
+    var wordCountDistribution = {{ word_count_distribution | tojson }};
+</script>
+     <script src="{{ url_for('static', filename='js/demo/pie_chart.js') }}"></script>
+
+     <!-- articles_by_count_range_min_max ... end-->
+
+     <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+     <script src="{{ url_for('static', filename='js/bootstrap.bundle.min.js') }}"></script>
+
+     
+                <!-- fetch_news.js اخبار عاجلة -->
+                <script src="{{ url_for('static', filename='js/fetch_news.js') }}"></script>
+
+<!-- Include the external JavaScript file -->
+<script src="{{ url_for('static', filename='js/search.js') }}"></script>
+
+</body>
+
+</html>
+
+

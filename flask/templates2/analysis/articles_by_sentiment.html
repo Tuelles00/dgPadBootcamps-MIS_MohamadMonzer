@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Articles Sentiment Analysis</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+      <link rel="stylesheet" href="{{ url_for('static', filename='css/articles_by_sentiment.css') }}">
+</head>
+<body>
+    <h1>Articles Sentiment Analysis</h1>
+    <canvas id="sentimentChart" width="800" height="400"></canvas>
+    <table id="details-table">
+        <caption>Keyword Sentiment Scores</caption>
+        <thead>
+            <tr>
+                <th>Post ID</th>
+                <th>Filename</th>
+                <th>Overall Sentiment</th>
+                <th>Keyword</th>
+                <th>Sentiment</th>
+                <th>Score</th>
+            </tr>
+        </thead>
+        <tbody id="details-body"></tbody>
+    </table>
+
+
+    <script>
+        window.articles = {{ articles | tojson | safe }};
+    </script>
+    <script src="{{ url_for('static', filename='js/analysis/articles_by_sentiments.js') }}"></script>
+    
+<a id="backtohome" href="{{ url_for('index') }}">Back to Home</a>
+</body>
+</html>

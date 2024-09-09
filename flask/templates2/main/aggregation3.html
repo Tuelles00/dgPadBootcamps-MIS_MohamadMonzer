@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aggregation</title>
+    
+    <script src="//cdn.amcharts.com/lib/4/core.js"></script>
+    <script src="//cdn.amcharts.com/lib/4/charts.js"></script>
+    <script src="//cdn.amcharts.com/lib/4/maps.js"></script>
+    <script src="//cdn.amcharts.com/lib/4/themes/Animated.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/aggregations.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/aggregation3.css') }}">
+</head>
+<body>
+    <h1>Aggregation Charts</h1>
+
+    <div class="chart-container">
+        <div class="chart-title">Articles with Word Count 100 and 200</div>
+        <div id="chartdiv"></div>
+    </div>
+
+    <div class="chart-container">
+        <div class="chart-title">Articles Count by Range</div>
+        <div id="chartdiv2"></div>
+    </div>
+
+    <div class="chart-container">
+        <div class="chart-title">Articles by Length of Titles</div>
+        <div id="chartdiv3"></div>
+    </div>
+
+    <div class="chart-container">
+        <div class="chart-title">Articles by Month</div>
+        <div id="chartdiv4"></div>
+    </div>
+
+    <div class="chart-container">
+        <div class="chart-title">Articles Grouped by Coverage</div>
+        <div id="chartdiv5"></div>
+    </div>
+    <script>
+        // Pass data from Flask to JavaScript
+        var chartData1 = {{ articles_100_200_specific|tojson|safe }};
+        var chartData2 = {{ articles_by_count_range_min_max|tojson|safe }};
+        var chartData3 = {{ articles_by_length_of_titles|tojson|safe }};
+        var chartData4 = {{ articles_by_month|tojson|safe }};
+        var chartData5 = {{ articles_grouped_by_Coverage|tojson|safe }};
+    </script>
+    <script src="{{ url_for('static', filename='js/aggregations/aggregations3.js') }}"></script>
+          <a id="backtohome" href="{{ url_for('index') }}">Back to Home</a>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aggregation Results 2</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/aggregations.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/aggregation2.css') }}">
+    <!-- Include Highcharts library -->
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <style>
+        
+#backtohome {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#backtohome:hover {
+    background-color: #0056b3;
+}
+    </style>
+</head>
+<body>
+    <h1>Aggregation Results 2</h1>
+    <p>Here you can view various charts summarizing the data (Second Set of Tasks).</p>
+
+    <div class="charts-container">
+        <div class="chart-container">
+            <h2>Article Coverage</h2>
+            <div id="coverageChart"></div>
+        </div>
+        <div class="chart-container">
+            <h2>Thumbnail Presence</h2>
+            <div id="thumbnailChart"></div>
+        </div>
+        <div class="chart-container">
+            <h2>Popular Keywords (Last 7 Days)</h2>
+            <div id="popularKeywordsChart"></div>
+        </div>
+        <div class="chart-container">
+            <h2>Word Count Range</h2>
+            <div id="wordCountRangeChart"></div>
+        </div>
+        <div class="chart-container">
+            <h2>Articles Updated After Publication</h2>
+            <div id="updatedAfterPublicationChart"></div>
+        </div>
+        <div class="chart-container">
+            <h2>Article Count by Year</h2>
+            <div id="articleCountByYearChart"></div>
+        </div>
+    </div>
+
+    <div class="recent-posts-container">
+        <h2>Recent Posts</h2>
+        <div id="recentPosts"></div>
+    </div>
+
+    <div class="top-posts-container">
+        <h2>Top 10 Posts by Lowest Word Count</h2>
+        <div id="topPosts"></div>
+    </div>
+
+    <div class="top-posts-by-word-count-container">
+        <h2>Top 10 Posts by Highest Word Count</h2>
+        <div id="topPostsByWordCount"></div>
+    </div>
+
+    <!-- <a href="{{ url_for('index') }}">Back to Home</a> -->
+    <script src="{{ url_for('static', filename='js/aggregations/aggregations2.js') }}"></script>
+    <script>
+        window.articlesByCoverage = {{ articles_by_coverage | tojson | safe }};
+        window.articlesByThumbnailPresence = {{ articles_grouped_by_thumbnail_presence | tojson | safe }};
+        window.mostPopularKeywordsLast7Days = {{ most_popular_keywords_last_7_days | tojson | safe }};
+        window.articlesGroupedByWordCount = {{ articles_grouped_by_word_count | tojson | safe }};
+        window.articlesUpdatedAfterPublication = {{ articles_updated_after_publication | tojson | safe }};
+        window.articleCountByYear = {{ article_count_by_year | tojson | safe }};
+        window.recentPostData = {{ recent_post_data | tojson | safe }};
+        window.top10PostIdsByLowestWordCount = {{ top_10_post_ids_by_lowest_word_count | tojson | safe }};
+        window.top10PostIdsByWordCount = {{ top_10_post_ids_by_word_count | tojson | safe }};
+    </script>
+    <a id="backtohome" href="{{ url_for('index') }}">Back to Home</a>
+
+</body>
+</html>
