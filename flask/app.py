@@ -1,4 +1,5 @@
 from werkzeug.security import check_password_hash
+from werkzeug.security import generate_password_hash 
 from bson import ObjectId
 from datetime import datetime  
 from transformers import pipeline
@@ -932,25 +933,6 @@ def signup():
 from functools import wraps
 
 
-def requires_privilege(required_user):
-    def decorator(f):
-        @wraps(f)
-        def decorated_function(*args, **kwargs):
-            if 'username' not in session or session['username'] != required_user:
-                return redirect(url_for('access_denied'))
-            return f(*args, **kwargs)
-        return decorated_function
-    return decorator
-
-
-@app.route('/restricted_page')
-@requires_privilege('root')
-def restricted_page():
-    return render_template('auth/restricted_page.html')
-
-@app.route('/access_denied')
-def access_denied():
-    return 'Access Denied: You do not have the necessary privileges to access this page.'
 
 
 

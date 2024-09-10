@@ -36,11 +36,11 @@
         <!-- Sidebar -->
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                 <a href="#" class="nav-link sidebar-link">
                     Restricted Page
                 </a>
-            </li>
+            </li> -->
           
 
             <!-- Sidebar - Brand -->
@@ -231,6 +231,10 @@
             </div>
         </ul>
         <script>
+            var username = "{{ username }}"; // Embed the username in a JavaScript variable
+        </script>
+        <script src="{{ url_for('static', filename='js/auth/not_root.js') }}"></script>
+        <!-- <script>
             document.addEventListener('DOMContentLoaded', function() {
                 var username = '{{ username }}'; // Passed from Flask
                 var sidebarLinks = document.querySelectorAll('#accordionSidebar .nav-link, #accordionSidebar .collapse-item');
@@ -244,8 +248,9 @@
                         });
                     }
                 });
+
             });
-        </script>
+        </script> -->
         
         
         <!-- End of Sidebar -->

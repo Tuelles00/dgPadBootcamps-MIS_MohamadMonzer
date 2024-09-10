@@ -1,12 +1,25 @@
-Here's an updated version of your README with the additional information:
-
 ---
 
 # Article Scraper
 
 This Python project is designed to scrape articles from a website, parse their content, and store the data in a MongoDB database. It uses several libraries for web scraping, data processing, and concurrency.
 
+## Setup Instructions
 
+### Instructions to Download and Import MongoDB Data
+
+1. **Download MongoDB Data:**
+   - Visit the following link to download the MongoDB data files:  
+     [MongoDB Data Download](https://drive.google.com/drive/folders/1a358PmOs79fVJGcU9VNN05YmB0cnEwK0?usp=sharing)
+   - Download all the files from the link to your local machine.
+
+2. **Import Data into MongoDB:**
+   - Ensure you have MongoDB installed and running on your machine.
+   - Open your terminal or command prompt and navigate to the directory where you downloaded the MongoDB data files.
+   - Run the following command to import the data into a MongoDB database named `articles_db`:
+
+   ```sh
+   mongorestore --db articles_db /path/to/downloaded/files
 
 
 ## Features
