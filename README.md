@@ -218,11 +218,14 @@ This setup allows for efficient data management, balancing the need for real-tim
 ![Detailed View Screenshot](screenshots/screenshot31.png)
 *screenshot31*
 
-# Video Example
+# Video Example google drive
 
 Click on the image below to download the video:
 
 [![Video Thumbnail](https://blog.sucuri.net/wp-content/uploads/2022/02/BlogPost_FeatureImage_1490x700_What-do-hackers-get-by-hacking-any-website-.jpg)](https://drive.google.com/file/d/124v_v-DGkYFO_jD5XCeouFyC2V4x_uG-/view?usp=sharing)
 
+# Video Example YouTube
 
+Click on the image below to download the video:
 
+[![Watch the video](https://img.youtube.com/vi/_FGsKGiMJUI/0.jpg)](https://youtu.be/_FGsKGiMJUI)
